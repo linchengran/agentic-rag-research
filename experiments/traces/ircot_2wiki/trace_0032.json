@@ -1,0 +1,23 @@
+{
+  "question": "Which film has the director born later, Bhoomiyude Avakashikal or The Majesty Of The Law?",
+  "answer": "The Majesty Of The Law",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Retrieving the birth years of directors for both films.",
+      "action_name": "ircot_search",
+      "action_input": "Retrieving the birth years of directors for both films.",
+      "observation": "[Search] Results for 'Retrieving the birth years of directors for both films.':\n[Doc 1] Year of the Horse: It offers a different track list than the film.\n\n[Doc 2] Óskar Jónasson: His film \"Remote Control\" was screened in the Un Certain Regard section at the 1993 Cannes Film Festival.\n\n[Doc 3] A Quiet Place Part II: By August 2018, Krasinski was writing the film and he was hired in February 2019 to direct.\n\n[Doc 4] Óskar Jónasson: His most recent film \"Reykjavík-Rotterdam\" won four Edda Awards including Director of the Year and Best Screenplay.\n\n[Doc 5] Giorgi Shengelaia: His 1985 film\" The Journey of a Young Composer\" was entered into the 36th Berlin International Film Festival where he won the Silver Bear for Best Director.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 46.61277389526367,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

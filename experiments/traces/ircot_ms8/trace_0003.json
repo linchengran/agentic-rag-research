@@ -1,0 +1,23 @@
+{
+  "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation 3: Levent neighborhood and Çiftlikhisa neighborhood are different neighborhoods of Istanbul.",
+      "action_name": "ircot_search",
+      "action_input": "Observation 3: Levent neighborhood and Çiftlikhisa neighborhood are different neighborhoods of Istanbul.",
+      "observation": "[Search] Results for 'Observation 3: Levent neighborhood and Çiftlikhisa neighborhood are different neighborhoods of Istanbul.':\n[Doc 1] Three are Three:  In three separate segments it parodies different film genres.\n\n[Doc 2] Esma Sultan Mansion: The Esma Sultan Mansion (Turkish: \"Esma Sultan Yalısı\" ), a historical yalı (English: waterside mansion ) located at Bosphorus in Ortaköy neighborhood of Istanbul, Turkey and named after its original owner Esma Sultan, is used today as a cultural center after being redeveloped.\n\n[Doc 3] Parkridge, Saskatoon:  Development of the subdivision (initially called \"Fairhaven II\" after the neighbouring community to the east, began in the early 1980s.\n\n[Doc 4] Power of Three (Charmed):  The \"Power of Three\" originally included the Halliwell sisters Prue (Shannen Doherty), Piper (Holly Marie Combs) and Phoebe (Alyssa Milano).\n\n[Doc 5] Whirligig: A whirligig is an object that spins or whirls, or has at least one part that spins or whirls.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 72.12834620475769,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

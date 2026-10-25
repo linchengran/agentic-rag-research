@@ -1,0 +1,23 @@
+{
+  "question": "Are Simonds Catholic College and Saginaw High School (Texas) both located in the same country?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Observation 2: Saginaw High School is located in the United States)",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 2: Saginaw High School is located in the United States)",
+      "observation": "[Search] Results for '(Observation 2: Saginaw High School is located in the United States)':\n[Doc 1] Saginaw High School: Saginaw High School( part of the Saginaw City School District) is located in Saginaw, Michigan, USA.\n\n[Doc 2] Saginaw High School (Texas): It is a 5- A school located in Saginaw, Texas, United States.\n\n[Doc 3] Saginaw High School: The school's mission statement is\" Saginaw High is committed to ensuring a safe and academic environment where the students will become academically proficient, life long learners, and productive citizens.\"\n\n[Doc 4] Saginaw High School (Texas): Saginaw High School opened in 2005 as the second high school serving the Eagle Mountain- Saginaw Independent School District( EMS- ISD).\n\n[Doc 5] Saginaw High School (Texas): The principal is Karen Pressley.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 86.07658505439758,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

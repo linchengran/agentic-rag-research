@@ -1,0 +1,47 @@
+{
+  "question": "Which of Tara Strong major voice role in animated series is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\"?",
+  "answer": "no",
+  "n_steps": 4,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about Tara Strong's major voice role in animated series based on Teen Titans.",
+      "action_name": "search",
+      "action_input": "Tara Strong teen titans animated series",
+      "observation": "[Search] Results for 'Tara Strong teen titans animated series':\n[Doc 1] Tara Strong:  Many of her major voice roles include animated series such as \"Rugrats\", \"The Powerpuff Girls\", \"The Fairly OddParents\", \"Drawn Together\", \"Teen Titans\" and the spin-off series \"Teen Titans Go!\n\n[Doc 2] Tara Strong filmography:  Many of her major voice roles include animated series such as \"Rugrats\", \"The Powerpuff Girls\", \"The Fairly OddParents\", \"Drawn Together\", \"Teen Titans\" and the spin-off series \"Teen Titans Go!\n\n[Doc 3] Teen Titans (season 4):  It stars Scott Menville, Hynden Walch, Khary Payton, Tara Strong, and Greg Cipes as the main characters.\n\n[Doc 4] Teen Titans Go! (TV series):  is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\".\n\n[Doc 5] Teen Titans (season 1):  It stars Scott Menville, Hynden Walch, Khary Payton, Tara Strong, and Greg Cipes as the voices of the main characters.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Lookup in the search results to find which Teen Titans episode Tara Strong was in.",
+      "action_name": "lookup",
+      "action_input": "Tara Strong teen titans animated series",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "action_name": "parse_error",
+      "action_input": "Finish:no",
+      "observation": "[Error] Unknown action: parse_error",
+      "error": "unknown_action"
+    },
+    {
+      "step": 4,
+      "thought": "",
+      "action_name": "finish",
+      "action_input": "no",
+      "observation": "[Finish] Answer: no",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 77.51606678962708,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

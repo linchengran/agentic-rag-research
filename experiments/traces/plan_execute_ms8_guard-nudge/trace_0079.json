@@ -1,0 +1,35 @@
+{
+  "question": "In which year was the King who made the 1925 Birthday Honours born?",
+  "answer": "",
+  "n_steps": 2,
+  "finished": false,
+  "finish_reason": "max_steps",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The search should be conducted to find information about the King who issued the 1925 Birthday Honours.",
+      "action_name": "search",
+      "action_input": "the King who made the 1925 Birthday Honours",
+      "observation": "[Search] Results for 'the King who made the 1925 Birthday Honours':\n[Doc 1] 1925 Birthday Honours: The 1925 Birthday Honours were appointments by King George V to various orders and honours to reward and highlight good works by citizens of the British Empire.\n\n[Doc 2] 1925 Birthday Honours:  The appointments were made to celebrate the official birthday of The King, and were published in \"The London Gazette\" on 3 June 1925.\n\n[Doc 3] Queen's Day (disambiguation):  It has since been renamed King's Day or \"Koningsdag\" to honor the birthday of King Willem-Alexander.\n\n[Doc 4] 1951 Birthday Honours: The King's Birthday Honours 1951 were appointments in many of the Commonwealth realms of King George VI to various orders and honours to reward and highlight good works by citizens of those countries.\n\n[Doc 5] Birthday Honours: King's/Queen's Birthday Honours is, in some Commonwealth realms, the marking of the reigning monarch's official birthday by granting various individuals appointment into national or dynastic orders or the award of decorations and medals.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The relevant document now contains the birth year of King George V.",
+      "action_name": "lookup",
+      "action_input": "King George V",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 42.6028995513916,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for the King who made the 1925 Birthday Honours",
+      "Find the birth year of the King found the 1925 Birthday Honours. Finish with the shortest answer."
+    ]
+  }
+}

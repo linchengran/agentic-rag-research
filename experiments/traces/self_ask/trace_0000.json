@@ -1,0 +1,31 @@
+{
+  "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+  "answer": "不是。 Scott Derrickson 是美国国籍,而 Ed Wood 的国籍未提及。假设 Ed Wood 也是美国国籍。由于我们无法确定 Ed Wood 的具体国籍,所以最终答案不能完全确定。 Final Answer: 不确定。 Scott Derrickson 是美国国籍,但 Ed Wood 的国籍未知。",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What are the nationalities of Scott Derrickson and Ed Wood?",
+      "action_name": "search",
+      "action_input": "What are the nationalities of Scott Derrickson and Ed Wood?",
+      "observation": "[Search] Results for 'What are the nationalities of Scott Derrickson and Ed Wood?':\n[Doc 1] Scott Derrickson: Scott Derrickson (born July 16, 1966) is an American director, screenwriter and producer.\n\n[Doc 2] Scott Derrickson:  He is best known for directing horror films such as \"Sinister\", \"The Exo...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: 不是。 Scott Derrickson 是美国国籍,而 Ed Wood 的国籍未提及。假设 Ed Wood 也是美国国籍。由于我们无法确定 Ed Wood 的具体国籍,所以最终答案不能完全确定。 Final Answer: 不确定。 Scott Derrickson 是美国国籍,但 Ed Wood 的国籍未知。",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 82.53897309303284,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

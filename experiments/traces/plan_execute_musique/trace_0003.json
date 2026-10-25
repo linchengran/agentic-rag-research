@@ -1,0 +1,44 @@
+{
+  "question": "Where is Ulrich Walter's employer headquartered?",
+  "answer": "",
+  "n_steps": 3,
+  "finished": false,
+  "finish_reason": "max_steps",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The search should be conducted to find information about Ulrich Walter's current employment status.",
+      "action_name": "search",
+      "action_input": "current employment details of Ulrich Walter",
+      "observation": "[Search] Results for 'current employment details of Ulrich Walter':\n[Doc 1] Ulrich Walter: After two post-doc positions at the Argonne National Laboratory, Chicago, Illinois, and the University of California at Berkeley, California, he was selected in 1987 to join the German astronaut team. From 1988 to 1990, he completed basic training at the German Aerospace Center, and was then nominated to be in the prime crew for the second German Spacelab mission.\n\n[Doc 2] Full-time: Full - time employment is employment in which a person works a minimum number of hours defined as such by his / her employer. Full - time employment often comes with benefits that are not typically offered to part - time, temporary, or flexible workers, such as annual leave, sickleave, and health insurance. Part - time jobs are mistakenly thought by some to not be careers. However, legislation exists to stop employers from discriminating against part - time workers so this should not be a factor when making decisions on career advancement. They generally pay more than part - time jobs per hour, and this is similarly discriminatory if the pay decision is based on part - time status as a primary factor. The Fair Labor Standards Act (FLSA) does not define full - time employment or part - time employment. This is a matter generally to be determined by the employer (US Department of Labor). The definition by employer can vary and is generally published in a company's Employee Handbook. Companies commonly require...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "action_name": "lookup",
+      "action_input": "German Aerospace Center",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The relevant information is likely contained in the first document, so I need to look up the specific location of the German Aerospace Center mentioned in the first result.",
+      "action_name": "lookup",
+      "action_input": "German Aerospace Center",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 82.92625427246094,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for Ulrich Walter's current employment details",
+      "Find the location of his employer",
+      "Finish with the shortest answer."
+    ]
+  }
+}

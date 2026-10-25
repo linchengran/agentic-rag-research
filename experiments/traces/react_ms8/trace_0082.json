@@ -1,0 +1,31 @@
+{
+  "question": "Rostker v. Goldberg held that the practice of what way of filling armed forces vacancies was consitutional?",
+  "answer": "yes",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search the term \"Rostker v. Goldberg\" for relevant information.",
+      "action_name": "search",
+      "action_input": "Rostker v. Goldberg",
+      "observation": "[Search] Results for 'Rostker v. Goldberg':\n[Doc 1] Rostker v. Goldberg: Rostker v. Goldberg, 453 U.S. 57 (1981) , was a decision of the United States Supreme Court holding that the practice of requiring only men to register for the draft was constitutional.\n\n[Doc 2] Rostker v. Goldberg:  (The named defendant is Bernard D. Rostker, Director of the Selective Service System.)\n\n[Doc 3] Rostker v. Goldberg:  After extensive hearings, floor debate and committee sessions on the matter, the United States Congress enacted the law, as it had previously been, to apply to men only.\n\n[Doc 4] Rostker v. Goldberg:  Several attorneys, including Robert L. Goldberg, subsequently challenged the gender distinction as unconstitutional.\n\n[Doc 5] Rostker v. Goldberg:  In a 6-3 decision, the Supreme Court held that this gender distinction was not a violation of the equal protection component of the due process clause, and that the Act would stand as passed.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The case involved Goldberg was decided that the practice of requiring only men to register for the draft was constitutional.",
+      "action_name": "finish",
+      "action_input": "yes",
+      "observation": "[Finish] Answer: yes",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 8.11932373046875,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

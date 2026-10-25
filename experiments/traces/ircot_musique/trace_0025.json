@@ -1,0 +1,23 @@
+{
+  "question": "What record label did the person who is part of The Bruce Lee Band start?",
+  "answer": "no record label",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Observation 1: Bob Deno)",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 1: Bob Deno)",
+      "observation": "[Search] Results for '(Observation 1: Bob Deno)':\n[Doc 1] Jason Momoa: Joseph Jason Namakaeha Momoa (born August 1, 1979) is an American actor. He played Aquaman in the DC Extended Universe, beginning with the 2016 superhero film Batman v Superman: Dawn of Justice, and in the 2017 ensemble Justice League and his 2018 solo film Aquaman. In Baywatch Hawaii, he portrayed Lifeguard Jason Ioane. On television, he played Ronon Dex on the military science fiction television series Stargate Atlantis (2004–2009), Khal Drogo in the HBO fantasy television series Game of Thrones (2011–2019), and Declan Harp in the CBC series Frontier (2016–present).\n\n[Doc 2] Dennis Haysbert: Dennis Dexter Haysbert (born June 2, 1954) is an American actor. In the U.S. he is best known for his appearances in commercials for Allstate Insurance. He portrayed baseball player Pedro Cerrano in the Major League film trilogy, Secret Service Agent Tim Collin in the 1997 political thriller film Absolute Power, and Sergeant Major Jonas Blane on the drama series The Unit. He is also known for playing U.S. Senator (later President) David Palmer on the first 5 seasons of 24 and has appeared in the films Love Field, Heat, Far from Heaven and the science fiction series Incorporated.\n\n[Doc 3] Patrick Modiano: Jean Patrick Modiano (; born 30 July 1945), generally known as Patrick Modiano, is a French novelist and recipient of the 2014 Nobel Prize in Literature. He previously won the 2012 Austrian State Prize for European L...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 11.105841398239136,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "plan_execute": {
+    "n_questions": 100,
+    "curve": {
+      "1": {
+        "n_questions_reached": 100,
+        "repeat_queries": 0,
+        "repeat_rate": 0.0,
+        "zero_new_gain_rate": 0.13,
+        "marginal_hits_per_question": 0.98,
+        "marginal_recovery_rate": 0.5
+      },
+      "2": {
+        "n_questions_reached": 34,
+        "repeat_queries": 6,
+        "repeat_rate": 0.17647058823529413,
+        "zero_new_gain_rate": 0.7352941176470589,
+        "marginal_hits_per_question": 0.2647058823529412,
+        "marginal_recovery_rate": 0.21951219512195122
+      },
+      "3": {
+        "n_questions_reached": 14,
+        "repeat_queries": 7,
+        "repeat_rate": 0.5,
+        "zero_new_gain_rate": 0.8571428571428571,
+        "marginal_hits_per_question": 0.14285714285714285,
+        "marginal_recovery_rate": 0.11764705882352941
+      }
+    },
+    "total_queries": 148,
+    "repeat_queries_total": 13
+  }
+}

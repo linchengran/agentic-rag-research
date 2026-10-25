@@ -1,0 +1,23 @@
+{
+  "question": "Which film has the director who died earlier, Il Seduttore or The Trial Of Joan Of Arc?",
+  "answer": "no.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Retrieving the release year of Il Seduttore.",
+      "action_name": "ircot_search",
+      "action_input": "Retrieving the release year of Il Seduttore.",
+      "observation": "[Search] Results for 'Retrieving the release year of Il Seduttore.':\n[Doc 1] Il seduttore: Il seduttore( translation:\" The Seducer\") is a 1954 Italian comedy film directed by Franco Rossi.\n\n[Doc 2] Il seduttore: It was adapted from the play by Diego Fabbri.\n\n[Doc 3] Björk: Björk's ninth studio album, \"Utopia\", was released in November 2017 through One Little Indian Records.\n\n[Doc 4] Dirty Dancing: A made- for- TV remake was also released in 2017.\n\n[Doc 5] Empties: It was released first in the Czech Republic in March 2007.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 22.835646629333496,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

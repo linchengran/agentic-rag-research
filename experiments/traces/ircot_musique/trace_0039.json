@@ -1,0 +1,23 @@
+{
+  "question": "Who is the child of the person who followed Tihomir of Serbia?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Who followed Tihomir of Serbia?",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Who followed Tihomir of Serbia?",
+      "observation": "[Search] Results for 'Thought 2: Who followed Tihomir of Serbia?':\n[Doc 1] Stracimir Zavidović: In 1166 Stefan Nemanja overthrew Tihomir in a coup and had him and his brothers, Stracimir and Miroslav, expelled to Byzantium in 1167/1168. Stefan Nemanja defeated Tihomir and his Byzantine army. Tihomir drowned in a river and the other brothers were stripped of their titles, with Nemanja becoming ruler of All Serbia. He pardoned his brothers and Stracimir continued to rule his lands. When Stefan Nemanja besieged and retook control of Duklja in the 1180s, Stracimir and Miroslav attacked the forces of Doclean ruler and kinsman Mihailo.\n\n[Doc 2] Boris Tadić: Boris Tadić (, ; born 15 January 1958) is a Serbian politician who served as President of Serbia from 2004 to 2012. He was elected to his first term on 27 June 2004, when Serbia was part of Serbia and Montenegro, and re-elected for a second term on 3 February 2008, this time as president of independent Serbia. He resigned on 5 April 2012 in order to trigger an early election. Prior to his presidency, Tadić served as the last Minister of Telecommunications of the Federal Republic of Yugoslavia and as the first Minister of Defence of Serbia and Montenegro. He is a psychologist by profession.\n\n[Doc 3] Gintaisi: With his death, the independent existence of the Yehe tribe came to an end and the last of the Jurchen tribes under the Hūlun (alliance) were brought under the control of Nurhaci, but many of its members, including his desce...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 2.872772693634033,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

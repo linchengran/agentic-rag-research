@@ -1,0 +1,23 @@
+{
+  "question": "Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: Melbourne.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: Melbourne.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: Melbourne.':\n[Doc 1] Doehling–Heselton Memorial Trophy:  The game is the 14th oldest college football rivalry in the nation.\n\n[Doc 2] James Gunn:  2\" (2017).\n\n[Doc 3] Shrek Forever After (video game):  It is the fourth and final video game based on the movie series of \"Shrek\".\n\n[Doc 4] Battle of Norfolk:  It was the final battle of the war before the unilateral ceasefire took effect.\n\n[Doc 5] Charmed:  However, following Prue's death in the third-season finale, their long-lost half sister Paige Matthews (Rose McGowan) assumes her place within the \"Power of Three\" from season four onwards.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 1.4989116191864014,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

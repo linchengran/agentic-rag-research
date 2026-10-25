@@ -1,0 +1,23 @@
+{
+  "question": "What event caused the founder of Australia's liberal party to become Prime Minister?",
+  "answer": "A crippling coal strike by the Australian Communist Party.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Was there a significant political event that led to the Liberal Party's rise to power?",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Was there a significant political event that led to the Liberal Party's rise to power?",
+      "observation": "[Search] Results for \"Thought 2: Was there a significant political event that led to the Liberal Party's rise to power?\":\n[Doc 1] History of Australia: Politically, Robert Menzies and the Liberal Party of Australia dominated much of the immediate post war era, defeating the Labor government of Ben Chifley in 1949, in part over a Labor proposal to nationalise banks and following a crippling coal strike led by the Australian Communist Party. Menzies became the country's longest-serving Prime Minister and the Liberal party, in coalition with the rural based Country Party, won every federal election until 1972.\n\n[Doc 2] Liberal Party of Australia: The contemporary Liberal Party generally advocates economic liberalism (see New Right). Historically, the party has supported a higher degree of economic protectionism and interventionism than it has in recent decades. However, from its foundation the party has identified itself as anti-socialist. Strong opposition to socialism and communism in Australia and abroad was one of its founding principles. The party's founder and longest-serving leader Robert Menzies envisaged that Australia's middle class would form its main constituency.\n\n[Doc 3] Political party: Political parties, still called factions by some, especially those in the governmental apparatus, are lobbied vigorously by organizations, businesses and special interest groups such as trade unions. Money and gifts-in-kind to a party, or its leading members, may be offered as ince...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 72.38984394073486,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

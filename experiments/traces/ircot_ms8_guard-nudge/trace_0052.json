@@ -1,0 +1,23 @@
+{
+  "question": "What race track in the midwest hosts a 500 mile race eavery May?",
+  "answer": "Darlington Raceway",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Is the Brickyard 400 held every May at Darlington Raceway?",
+      "action_name": "ircot_search",
+      "action_input": "Is the Brickyard 400 held every May at Darlington Raceway?",
+      "observation": "[Search] Results for 'Is the Brickyard 400 held every May at Darlington Raceway?':\n[Doc 1] Carolina Dodge Dealers 400:  In 2005, as part of the settlement of the Ferko lawsuit and as part of a schedule realignment, Darlington was forced to contract to one race date, with the 500 mile race (the famous Southern 500) moving to Mother's Day weekend.\n\n[Doc 2] Subway 400:  From 1966 to 1995, a 500-mile (805-km) race was held; the race was known as the Peach Blossom 500 (1966), the Carolina 500 (1967–1985), and the Goodwrench 500 (1986–1995).\n\n[Doc 3] Subway 400:  In 1996, the race was shortened to its current distance of 400 miles; the 400 mile race was called the Goodwrench Service 400 (1996–1997), the GM Goodwrench Service Plus 400 (1998), the Dura Lube/Big K 400 (1999), the Dura Lube/Kmart 400 (2000), the Dura Lube 400 (2001), and the Subway 400 (2002–2004).\n\n[Doc 4] Carolina Dodge Dealers 400: The Carolina Dodge Dealers 400 was the annual spring NASCAR Sprint Cup race held at Darlington Raceway in Darlington, South Carolina, USA.\n\n[Doc 5] Johnny Rutherford:  He is one of ten drivers to win the prestigious Indianapolis 500 mile race at least three times, winning in 1974, 1976, and 1980.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 18.87135601043701,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

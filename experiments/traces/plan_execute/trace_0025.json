@@ -1,0 +1,12 @@
+{
+  "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+  "answer": "",
+  "n_steps": 0,
+  "finished": false,
+  "finish_reason": "plan_error",
+  "steps": [],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 2.295868158340454,
+  "metadata": {}
+}

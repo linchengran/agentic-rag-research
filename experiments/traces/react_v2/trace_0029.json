@@ -1,0 +1,39 @@
+{
+  "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+  "answer": "Adventure Not Directly Mentioned",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about adventure games designed by Ken St. Andre.",
+      "action_name": "search",
+      "action_input": "What is the name of the adventure game designed by Ken St. Andre?",
+      "observation": "[Search] Results for 'What is the name of the adventure game designed by Ken St. Andre?':\n[Doc 1] Ken St. Andre: Kenneth Eugene St. Andre (born on April 28, 1947 in Ogden, Utah) is an American fantasy author and game designer, best known for his work with \"Tunnels & Trolls\" and \"Wasteland\".\n\n[Doc 2]...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The given documents mention that Ken St. Andre designed \"Tunnels & Trolls\", but don't directly state the name of the adventure.",
+      "action_name": "lookup",
+      "action_input": "Tunnels &amp; Trolls adventure",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The given documents about \"Tunnels & Trolls\" by Ken St. Andre do not directly state the name of the adventure.",
+      "action_name": "finish",
+      "action_input": "Adventure Not Directly Mentioned",
+      "observation": "[Finish] Answer: Adventure Not Directly Mentioned",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 96.82247161865234,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

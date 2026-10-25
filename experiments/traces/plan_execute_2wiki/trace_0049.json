@@ -1,0 +1,44 @@
+{
+  "question": "Who is Blanche Of Portugal (1259–1321)'s paternal grandmother?",
+  "answer": "Marie of Hohenstaufen's parents are unknown based on the given information.",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "I need to search for information about Blanche of Portugal and her parents.",
+      "action_name": "search",
+      "action_input": "Blanche Of Portugal's parents",
+      "observation": "[Search] Results for \"Blanche Of Portugal's parents\":\n[Doc 1] Blanche of Portugal (1259–1321): Blanche of Portugal (25 February 1259 in Santarém, – 17 April 1321 in Burgos; Branca in Portuguese and Blanca in Spanish), was an \"infanta\", the firstborn child of King Afonso III of Portugal and his second wife Beatrice of Castile.\n\n[Doc 2] Blanche of Portugal (1259–1321): Named after her great-aunt Blanche of Castile, queen of France, Blanche was the Lady of Las Huelgas, Montemor-o-Velho, Alcocer and Briviesca, the city which she founded.\n\n[Doc 3] Blanche of Brittany: Through her mother she was the granddaughter of King Henry III of England and Eleanor of Provence.\n\n[Doc 4] Ferdinand of Portugal, Duke of Guarda: Ferdinand of Portugal, Duke of Guarda, (5 June 1507 – 7 November 1534) was a Portuguese \"infante\" (prince), the son of King Manuel I of Portugal and his second wife, Maria of Aragon.\n\n[Doc 5] Maria of Aragon, Queen of Portugal: Maria of Aragon (29 June 1482 – 7 March 1517) was a Spanish infanta, and queen consort of Portugal as the second spouse of Portuguese King Manuel I.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "From the search results, Blanche of Portugal's parents were King Afonso III of Portugal and Beatrice of Castile. I need to search for Beatrice of Castile's parents to find Blanche's paternal grandmother.",
+      "action_name": "search",
+      "action_input": "Beatrice of Castile's parents",
+      "observation": "[Search] Results for \"Beatrice of Castile's parents\":\n[Doc 1] Beatrice of Brabant: She was the daughter of Henry II, Duke of Brabant, and Marie of Hohenstaufen.\n\n[Doc 2] Beatrice of Luxembourg: She was the youngest child of Henry VII, Holy Roman Emperor and his wife, Margaret of Brabant.\n\n[Doc 3] Beatrice of Provence: She was the fourth and youngest daughter of Ramon Berenguer IV, Count of Provence and Forcalquier by his wife Beatrice, in turn daughter of Count Thomas I of Savoy and Margaret of Geneva.\n\n[Doc 4] Eleanor de Clare: She was born in 1292 at Caerphilly Castle in Glamorgan, Wales and was the eldest daughter of Gilbert de Clare, 6th Earl of Hertford, 7th Earl of Gloucester, 5th Lord of Glamorgan and Princess Joan of Acre.\n\n[Doc 5] Eleanor de Clare: With her sisters, Elizabeth de Clare and Margaret de Clare, she inherited her father's estates after the death of her brother, Gilbert de Clare, 8th Earl of Gloucester, 7th Earl of Hereford at the Battle of Bannockburn in 1314.",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "From the search results, Beatrice of Castile's parents were Henry II, Duke of Brabant, and Marie of Hohenstaufen. I need to search for Marie of Hohenstaufen's parents to find Beatrice's paternal grandmother.",
+      "action_name": "search",
+      "action_input": "Marie of Hohenstaufen's parents",
+      "observation": "[Search] Results for \"Marie of Hohenstaufen's parents\":\n[Doc 1] Marie Henriette of Austria: Marie Henriette was a cousin of Emperor Ferdinand I of Austria, and granddaughter of Leopold II, Holy Roman Emperor, through her father.\n\n[Doc 2] Queen Hogu: She was the granddaughter of Cho Kuang, who was an attendant of Heo Hwang- ok for her marriage from India.\n\n[Doc 3] Margaret de Stafford: She was the first wife of Ralph Neville, 1st Earl of Westmorland, and the grandmother of the 2nd Earl.\n\n[Doc 4] Marie Colvin: Her family also established the Marie Colvin Memorial Fund through the Long Island Community Foundation, which strives to give donations in Marie's name in honor of her humanitarianism.\n\n[Doc 5] Marie Henriette of Austria: Marie Henriette was one of five children from the marriage of Archduke Joseph, Palatine of Hungary, and Duchess Maria Dorothea of Württemberg.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 127.26428604125977,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for Blanche Of Portugal's parents",
+      "Search for parents' parents to find Blanche's paternal grandmother",
+      "Finish with the shortest answer."
+    ]
+  }
+}

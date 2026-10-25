@@ -1,0 +1,31 @@
+{
+  "question": "Who is Arthur Gore, 2Nd Earl Of Arran's paternal grandfather?",
+  "answer": "no further information provided",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about 2nd Earl of Arran.",
+      "action_name": "search",
+      "action_input": "2nd Earl of Arran paternal grandfather Arthur Gore",
+      "observation": "[Search] Results for '2nd Earl of Arran paternal grandfather Arthur Gore':\n[Doc 1] Arthur Gore, 2nd Earl of Arran: Arran was the eldest son of Arthur Gore, 1st Earl of Arran, and Jane Saunders.\n\n[Doc 2] Sir Arthur Gore, 2nd Baronet: Gore was succeeded in the baronetcy by his eldest son Arthur, who later was raised to the Peerage of Ireland as 1st Earl of Arran.\n\n[Doc 3] Philip Gore, 4th Earl of Arran: Born at Dublin Castle, Arran was the eldest son of Colonel the Hon. William John Gore, second son of Arthur Gore, 2nd Earl of Arran, and his wife Caroline, daughter of Sir Thomas Hales, 4th Baronet.\n\n[Doc 4] Paul Annesley Gore: He was the second son of Sir Arthur Gore, 2nd Baronet and Elizabeth Annesley, and younger brother of Arthur Gore, 1st Earl of Arran.\n\n[Doc 5] Arthur Gore, 1st Earl of Arran: Arran was the son of Sir Arthur Gore, 2nd Baronet, and Elizabeth Annesley, and was educated at Trinity College, Dublin.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The information provided shows that Arthur Gore, 1st Earl of Arran, was the son of Sir Arthur Gore, 2nd Baronet, which means Sir Arthur Gore was his father.",
+      "action_name": "finish",
+      "action_input": "no further information provided",
+      "observation": "[Finish] Answer: no further information provided",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 15.481300354003906,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

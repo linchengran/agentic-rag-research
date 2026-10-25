@@ -1,0 +1,23 @@
+{
+  "question": "Are both Kaufland and Otrag located in the same country?",
+  "answer": "No.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Are there any countries where both Kaufland and Otag are located?",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Are there any countries where both Kaufland and Otag are located?",
+      "observation": "[Search] Results for 'Thought 2: Are there any countries where both Kaufland and Otag are located?':\n[Doc 1] Kaufland: The chain operates over 1,200 stores in Germany, the Czech Republic, Slovakia, Poland, Romania, Bulgaria, Croatia and Moldova.\n\n[Doc 2] Kaufland: Kaufland is a German hypermarket chain, part of the Schwarz Gruppe which also owns Lidl and Handelshof.\n\n[Doc 3] Khufu: All other reliefs and statues were found in fragments, and many buildings of Khufu are lost.\n\n[Doc 4] Shu Yu of Tang: Then the Duke of Zhou replied,\" A sovereign must not joke about the things he says and do as what he has said.\"\n\n[Doc 5] Nathan Lord: These views and his opposition to the Civil War, which he blamed on abolitionists,brought a storm of controversy, earning him the enmity of several members of the Dartmouth Board of Trustees, including Amos Tuck (1835), a founding member of the Republican Party and close friend of Abraham Lincoln.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 75.46198725700378,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

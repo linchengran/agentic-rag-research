@@ -1,0 +1,23 @@
+{
+  "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+  "answer": "Lancaster.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: Lancaster.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: Lancaster.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: Lancaster.':\n[Doc 1] Lance Krall:  He became well known after his portrayal as \"Kip\" in the role in faux-reality show \"The Joe Schmo Show\".\n\n[Doc 2] Shrek Forever After (video game):  It is the fourth and final video game based on the movie series of \"Shrek\".\n\n[Doc 3] Shrek Forever After (video game): Shrek Forever After (also known as Shrek 4, and Shrek Forever After: The Final Chapter) is an action-adventure video game based on the film of the same name.\n\n[Doc 4] Kill Kill (song):  Grant is widely known now as Lana Del Rey.\n\n[Doc 5] 2017 Australian Open – Men's singles final:  He also trailed Nadal 3–1 in the final set but won 5 games in a row to win the title.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 14.818991899490356,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

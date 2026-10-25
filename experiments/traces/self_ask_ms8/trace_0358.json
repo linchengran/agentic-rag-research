@@ -1,0 +1,39 @@
+{
+  "question": "What city did the characters from Gargoyles the Movie: The Heroes Awaken wake up in after being in an enchantedly petrified state for a thousand years?",
+  "answer": "New York City",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: In which movie are the characters from Gargoyles the Movie: The Heroes Awaken? \n\nObservation: Gargoyles the Movie: The Heroes Awaken is a direct sequel to the original Gargoyles TV series.",
+      "action_name": "search",
+      "action_input": "In which movie are the characters from Gargoyles the Movie: The Heroes Awaken?",
+      "observation": "[Search] Results for 'In which movie are the characters from Gargoyles the Movie: The Heroes Awaken?':\n[Doc 1] Gargoyles the Movie: The Heroes Awaken: Gargoyles the Movie: The Heroes Awaken is a direct-to-video animated film from The Walt Disney Company.\n\n[Doc 2] Gargoyles the Movie: The Heroes Awaken:  The film is actually the five-episode pilot (\"Awakening\") of the animated television series \"Gargoyles\" edited into one long feature film, approximately 100 minutes in length.\n\n[Doc 3] Gargoyles (TV series):  After spending a thousand years in an enchantedly petrified state, the gargoyles (who have been transported from medieval Scotland) are reawakened in modern-day New York City, and take on roles as the city's secret night-time protectors.\n\n[Doc 4] Gargoyles the Movie: The Heroes Awaken:  In addition, a number of scenes were also moved around and some dialogues were changed.\n\n[Doc 5] Gargoyles the Movie: The Heroes Awaken:  The episodes were produced and aired in 1994, and the film was released to laserdisc and VHS in February 1995 and featured an interactive VHS/LD board game.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Intermediate Question: Where do the gargoyles wake up after being in an enchantedly petrified state for a thousand years in Gargoyles the Movie: The Heroes Awaken?",
+      "action_name": "search",
+      "action_input": "Where do the gargoyles wake up after being in an enchantedly petrified state for a thousand years in Gargoyles the Movie: The Heroes Awaken?",
+      "observation": "[Search] Results for 'Where do the gargoyles wake up after being in an enchantedly petrified state for a thousand years in Gargoyles the Movie: The Heroes Awaken?':\n[Doc 1] Gargoyles (TV series):  After spending a thousand years in an enchantedly petrified state, the gargoyles (who have been transported from medieval Scotland) are reawakened in modern-day New York City, and take on roles as the city's secret night-time protectors.\n\n[Doc 2] Gargoyles (TV series):  The series features a species of nocturnal creatures known as gargoyles that turn to stone during the day.\n\n[Doc 3] Gargoyles the Movie: The Heroes Awaken: Gargoyles the Movie: The Heroes Awaken is a direct-to-video animated film from The Walt Disney Company.\n\n[Doc 4] Gargoyles the Movie: The Heroes Awaken:  The film is actually the five-episode pilot (\"Awakening\") of the animated television series \"Gargoyles\" edited into one long feature film, approximately 100 minutes in length.\n\n[Doc 5] Gargoyles the Movie: The Heroes Awaken:  In addition, a number of scenes were also moved around and some dialogues were changed.",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Final Answer: New York City",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 9.622953414916992,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

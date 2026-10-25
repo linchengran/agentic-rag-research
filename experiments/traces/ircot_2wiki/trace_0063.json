@@ -1,0 +1,23 @@
+{
+  "question": "Which film has the director who died earlier, Toen 'T Licht Verdween or Boum Sur Paris?",
+  "answer": "Boum Sur Paris",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Retrieving the year of release for the film \"Toen 'T Licht Verdween\"",
+      "action_name": "ircot_search",
+      "action_input": "Retrieving the year of release for the film \"Toen 'T Licht Verdween\"",
+      "observation": "[Search] Results for 'Retrieving the year of release for the film \"Toen \\'T Licht Verdween\"':\n[Doc 1] Toen 't licht verdween: Toen't licht verdween is a 1918 Dutch silent drama film directed by Maurits Binger.\n\n[Doc 2] Marius (1931 film): The restored film was also given a limited re-release in the United States by Janus Films on 4 January 2017, first premiering at Film Forum.\n\n[Doc 3] The Parts You Lose: Films released the film commercially in the United States on October 4, 2019.\n\n[Doc 4] When You're Strange: The film also includes the first public release of material from Morrison's 1969 film.\n\n[Doc 5] Slim Carter: The film was released on October 2, 1957, by Universal Pictures.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 49.13298559188843,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "The Move Ya Body song's band is named after who?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation 1: The Move Ya Body song's band is named after Snoop Dogg.",
+      "action_name": "ircot_search",
+      "action_input": "Observation 1: The Move Ya Body song's band is named after Snoop Dogg.",
+      "observation": "[Search] Results for \"Observation 1: The Move Ya Body song's band is named after Snoop Dogg.\":\n[Doc 1] Move Ya Body: \"Move Ya Body\" is a song recorded by American duo Nina Sky. It was released in April 2004 as the lead single from their debut album, \"Nina Sky\". The song features rapper Jabba. There is a remix to the song with Jamaican deejay Vybz Kartel. The song became the duo's only solo single to reach the top 40 of the \"Billboard\" Hot 100, as such Nina Sky is often regarded as a one hit wonder, though they did appear on N.O.R.E.s \"Oye Mi Canto\", which made it to number 12 on the Hot 100. The song ranked at number 250 on \"Blender\"s 500 Greatest Songs Since You Were Born. It was also featured as soundtrack in the 2012 film \"Zero Dark Thirty\".\n\n[Doc 2] Tip of My Tongue: \"Tip of My Tongue\" is a single by Tommy Quickly backed by The Remo Four. Written by Paul McCartney and attributed to the songwriting partnership of Lennon–McCartney, it was one of their relatively few songs that were never officially released by the Beatles. Several takes of this song were apparently recorded on 26 November 1962 at EMI Studios, although George Martin was dissatisfied with the results. This session has yet to emerge on any of the Beatles bootlegs.\n\n[Doc 3] The Devil Went Down to Georgia: The song is written in the key of D minor. Vassar Clements originally wrote the basic melody an octave lower, in a tune called ``Lonesome Fiddle Blues ''released on Clements' self - titled 1975 album on which ...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 65.53144264221191,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "question": "In what era was the company known as the manufacturer of Agni-V founded?",
+  "answer": "Modern Era",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Ask what era Agni-V was manufactured in?",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Modern Era",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 1.2156710624694824,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

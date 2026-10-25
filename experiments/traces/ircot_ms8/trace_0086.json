@@ -1,0 +1,23 @@
+{
+  "question": "In what year was the novel that Lourenço Mutarelli based \"Nina\" on based first published?",
+  "answer": "1994",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "What year was the novel \"Nina\" based on first published?",
+      "action_name": "ircot_search",
+      "action_input": "What year was the novel \"Nina\" based on first published?",
+      "observation": "[Search] Results for 'What year was the novel \"Nina\" based on first published?':\n[Doc 1] Third and Indiana:  Published in 1994, it was Lopez's first novel.\n\n[Doc 2] The Best of Roald Dahl:  The first edition was published in 1978.\n\n[Doc 3] The Assault on Truth:  \"The Assault on Truth\" was first published in 1984, and several revised editions have since been published.\n\n[Doc 4] Please Twins!:  The series was later adapted into a light novel in 2004, which spanned a total of two volumes and, soon after, into a short one-\"tankōbon\" manga version (authored by Akikan), which was serialized in MediaWorks's \"Dengeki Daioh\" magazine in September 2005.\n\n[Doc 5] Moments of Being:  The second edition was published in 1985.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 8.014076232910156,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

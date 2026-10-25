@@ -1,0 +1,23 @@
+{
+  "question": "What is the award that the performer of song Sunday Papers earned?",
+  "answer": "Academy Awards. Award.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: Grammy Award.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: Grammy Award.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: Grammy Award.':\n[Doc 1] Because the Internet: The album received a Grammy nomination for Best Rap Album.\n\n[Doc 2] American Sniper: At the 87th Academy Awards,\" American Sniper\" received six nominations, including Best Picture, Best Adapted Screenplay, and Best Actor for Cooper, ultimately winning one award for Best Sound Editing.\n\n[Doc 3] Björk: She has also won five BRIT Awards and has been nominated for 15 Grammy Awards.\n\n[Doc 4] Leona Lewis: She is also a six-time Brit Award and three-time Grammy Award nominee.\n\n[Doc 5] I Never Sang for My Father: It was nominated for Academy Awards for Best Actor in a Leading Role( Melvyn Douglas), Best Actor in a Supporting Role( Gene Hackman), and Best Writing, Screenplay Based on Material from Another Medium( Robert Anderson).",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 75.37054109573364,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

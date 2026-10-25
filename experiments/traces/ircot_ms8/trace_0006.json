@@ -1,0 +1,23 @@
+{
+  "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+  "answer": "Method Man.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "[Stage name Aladin]",
+      "action_name": "ircot_search",
+      "action_input": "[Stage name Aladin]",
+      "observation": "[Search] Results for '[Stage name Aladin]':\n[Doc 1] Method Man:  He took his stage name from the 1979 film \"Method Man\".\n\n[Doc 2] Armie Hammer:  He played the role of Illya Kuryakin in \"The Man from U.N.C.L.E.\" (2015), and stars as Oliver in the 2017 romance drama \"Call Me by Your Name\".\n\n[Doc 3] Damon Dark:  He has also been the focus of a one actor stage drama.\n\n[Doc 4] Café (musician): Café is the stage name of Edson Aparecido da Silva, sometimes credited as Edson da Silva or Café da Silva, a percussionist, singer, composer, and music producer born in Villa Maria, São Paulo, Brazil.\n\n[Doc 5] WWE One Night Stand:  The event's name refers to its original format, that being a one night reunion show for former Extreme Championship Wrestling alumni.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 26.38272476196289,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

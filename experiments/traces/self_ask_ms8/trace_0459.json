@@ -1,0 +1,39 @@
+{
+  "question": "William Pery served as Captain of the Yeomen of the Guard under the lord who served in what position from 1865 to 1868?",
+  "answer": "Lord Salisbury",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: Who was William Pery?\n\nObservation: William Pery was a British Army officer and politician. He served William Pery's military rank from 1865 to 1868?",
+      "action_name": "search",
+      "action_input": "Who was William Pery?",
+      "observation": "[Search] Results for 'Who was William Pery?':\n[Doc 1] William Pery, 3rd Earl of Limerick: William Hale John Charles Pery, 3rd Earl of Limerick KP, PC, DL, JP (17 January 1840 – 8 August 1896), styled Viscount Glentworth until 1866, was an Irish peer and Conservative politician.\n\n[Doc 2] William Pery, 3rd Earl of Limerick:  He served as Captain of the Yeomen of the Guard under Lord Salisbury between 1889 and 1892 and again between 1895 and his death in 1896.\n\n[Doc 3] William Pery, 3rd Earl of Limerick:  In 1892 he was made a Knight of the Order of St Patrick.\n\n[Doc 4] William D. Russell (director):  His directorial career ended shortly before his death in April 1968.\n\n[Doc 5] William Flynn Martin:  He was President of the Council of the University for Peace, appointed to the Council by Secretary General of the United Nations Kofi Annan and served as the Executive Director of the Republican Platform Committee during the re-election bid of George H.W. Bush.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation: William Pery, 3rd Earl of Limerick was Captain of the Yeomen of the Guard under Lord Salisbury between 1889 and 1892 and again between 1895 and his death in 1896.\n\nIntermediate Question: What position did William Pery hold as Captain of the Yeomen of the Guard under Lord Salisbury?",
+      "action_name": "search",
+      "action_input": "What position did William Pery hold as Captain of the Yeomen of the Guard under Lord Salisbury?",
+      "observation": "[Search] Results for 'What position did William Pery hold as Captain of the Yeomen of the Guard under Lord Salisbury?':\n[Doc 1] William Pery, 3rd Earl of Limerick:  He served as Captain of the Yeomen of the Guard under Lord Salisbury between 1889 and 1892 and again between 1895 and his death in 1896.\n\n[Doc 2] Yeomen of the Guard:  However, the role of the Captain of the Queen's Body Guard of the Yeomen of the Guard is a political appointment — the captain is always the government Deputy Chief Whip in the House of Lords.\n\n[Doc 3] Yeomen of the Guard:  The oldest British military corps still in existence, it was created by King Henry VII in 1485 at the Battle of Bosworth.\n\n[Doc 4] Baron Berkeley of Stratton:  He was also a politician and held office as Captain of the Yeomen of the Guard and Captain of the Honourable Corps of Gentlemen-Pensioners.\n\n[Doc 5] Yeomen of the Guard: The Queen's Body Guard of the Yeomen of the Guard are a bodyguard of the British Monarch.",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Final Answer: Lord Salisbury",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 12.476417303085327,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

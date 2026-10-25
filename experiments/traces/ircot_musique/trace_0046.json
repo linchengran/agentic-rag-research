@@ -1,0 +1,31 @@
+{
+  "question": "Who was the sibling of Nannina de' Medici?",
+  "answer": "Lorenzo de' Medici",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Was Nannina de' Medici married?",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Was Nannina de' Medici married?",
+      "observation": "[Search] Results for \"Thought 2: Was Nannina de' Medici married?\":\n[Doc 1] Nannina de' Medici: Nannina de' Medici (14 February 1448 – 14 May 1493), born Lucrezia de' Medici, was the second daughter of Piero di Cosimo de' Medici and Lucrezia Tornabuoni. She was thus the elder sister of Lorenzo de' Medici. She married Bernardo Rucellai. Her father's name was Piero, so she is sometimes known as Lucrezia di Piero de' Medici.\n\n[Doc 2] The Official Story: The film deals with the story of an upper middle class couple who lives in Buenos Aires with an illegally adopted child. The mother comes to realize that her daughter may be the child of a desaparecido, a victim of the forced disappearances that occurred during Argentina's last military dictatorship (1976 - 1983), which was marred by widespread human rights violations and a genocide.\n\n[Doc 3] Maria Maddalena de' Medici: Maria Maddalena de' Medici (29 June 1600 – 28 December 1633) was a Tuscan princess, the eighth daughter of Ferdinando I and Christina of Lorraine, making her the sister of Cosimo II.\n\n[Doc 4] Margherita de' Medici: Margherita de' Medici (31 May 1612 – 6 February 1679) was Duchess of Parma and Piacenza by her marriage to Odoardo Farnese, Duke of Parma. Margherita was regent of Piacenza in 1635, and regent of the entire duchy from 1646 until 1648 during the minority of her son.\n\n[Doc 5] Pietro de' Medici: Don Pietro de' Medici (3 June 1554 – 25 April 1604) was the youngest son of Cosimo I de' Medici, Grand Duke of Tu...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Who was the sibling of Nannina de' Medici?",
+      "action_name": "ircot_search",
+      "action_input": "Who was the sibling of Nannina de' Medici?",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 41.48567748069763,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

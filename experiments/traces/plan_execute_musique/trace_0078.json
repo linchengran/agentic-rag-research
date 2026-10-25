@@ -1,0 +1,44 @@
+{
+  "question": "The city which contains Broadhurst Park shares a border with what town?",
+  "answer": "Chadderton",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for Broadhurst Park location will provide information about its location.",
+      "action_name": "search",
+      "action_input": "The city which contains Broadhurst Park shares a border with what town",
+      "observation": "[Search] Results for 'The city which contains Broadhurst Park shares a border with what town':\n[Doc 1] Broadhurst Park: Broadhurst Park is a football ground in Moston, Manchester, England. It is the home of F.C. United of Manchester and Moston Juniors F.C. The ground was known by its project name, Moston Community Stadium, before being changed at a members' meeting in 2014.\n\n[Doc 2] Mount Bosworth: Mount Bosworth is located in the Canadian Rockies on the border of Alberta and British Columbia. The mountain is situated immediately northwest of Kicking Horse Pass and straddles the shared border of Banff National Park with Yoho National Park. It was named in 1903 after George Morris Bosworth, an executive and long-time employee of the Canadian Pacific Railway.\n\n[Doc 3] Greengate, Greater Manchester: It is located in the south west of Chadderton, close to the town's common borders with Middleton to the west and Moston in the City of Manchester which lies to the south.\n\n[Doc 4] Cascade City: Cascade City or Cascade was a Canadian Pacific Railway construction era boom town in the Boundary Country of the West Kootenay region of British Columbia, Canada. Because of its location near the Canada–United States border, it was also called the \"Gateway to the Boundary Country\".\n\n[Doc 5] Archi, Kunduz Province: The town of Archi (also: Chichkeh) is the center of the Archi District in Kunduz Province, Afghanistan. It is situated in a river valley very close to the border with Tajikistan.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The town that shares a border with Moston is Chadderton.",
+      "action_name": "lookup",
+      "action_input": "Mount Bosworth",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The town that shares a border with Moston is Chadderton.",
+      "action_name": "finish",
+      "action_input": "Chadderton",
+      "observation": "[Finish] Answer: Chadderton",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 45.87958216667175,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for Broadhurst Park location",
+      "Find the town it borders",
+      "Finish with the shortest answer."
+    ]
+  }
+}

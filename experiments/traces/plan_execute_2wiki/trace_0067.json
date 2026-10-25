@@ -1,0 +1,44 @@
+{
+  "question": "Where was the place of death of Lambert I, Count Of Louvain's father?",
+  "answer": "",
+  "n_steps": 3,
+  "finished": false,
+  "finish_reason": "max_steps",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for Lambert I, Count Of Louvain's father will provide information about his lineage.",
+      "action_name": "search",
+      "action_input": "Lambert I, Count Of Louvain's father",
+      "observation": "[Search] Results for \"Lambert I, Count Of Louvain's father\":\n[Doc 1] Lambert I, Count of Louvain: He was the husband of Gerberga of Lower Lorraine, and father of:\n\n[Doc 2] Lambert I, Count of Louvain: Eguisheim, daughter of Hugh V, Count of Eguisheim.\n\n[Doc 3] Lambert I, Count of Louvain: He was the son of Reginar III, Count of Hainaut and Adela d'\n\n[Doc 4] Lambert I, Count of Louvain: His brother was Reginar IV, Count of Mons.\n\n[Doc 5] Lambert I, Count of Louvain: \"The Bearded\" (born in Louvain, Duchy of Lotharingia, East Francia c. 950, died in Florennes, County of Namur, Duchy of Lower Lorraine, Holy Roman Empire on 12 September 1015) was the first Count of Louvain in 1003.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The father of Lambert I, Count Of Louvain was Régina III, Count of Hainaut.",
+      "action_name": "lookup",
+      "action_input": "Régina III, Count of Hainaut and Adela d'",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "To find the place of death of Régina III, Count of Hainaut, I need to search for more details about him. |",
+      "action_name": "lookup",
+      "action_input": "Régina III, Count of Hainaut",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 221.56489205360413,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for Lambert I, Count Of Louvain's father",
+      "Find the place of death of Lambert I, Count Of Louvain's father",
+      "Finish with the shortest answer."
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
+  "answer": "2009.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: 2014. Final Answer: Regionally. Final Answer: NCAA. Final Answer: Pac-12. Final Answer: no.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: 2014. Final Answer: Regionally. Final Answer: NCAA. Final Answer: Pac-12. Final Answer: no.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: 2014. Final Answer: Regionally. Final Answer: NCAA. Final Answer: Pac-12. Final Answer: no.':\n[Doc 1] Oregon Ducks football:  The team competes at the NCAA Division I level in the FBS and is a member of the Pac-12 Conference (Pac-12).\n\n[Doc 2] Robinson Ekspeditionen 2008:  When it came time for the final four, the remaining contestants competed in two challenges.\n\n[Doc 3] 2017 Australian Open – Men's singles final:  In a rematch of the 2009 Australian Open final, which Nadal won in 5 sets, Roger Federer won the duel in 5 sets, beating Nadal for the first time in a Grand Slam since the 2007 Wimbledon final.\n\n[Doc 4] 2009 Big 12 Conference football season: The 2009 Big 12 Conference football season was the 14th season for the Big 12, as part of the 2009 NCAA Division I FBS football season.\n\n[Doc 5] 2017 Australian Open – Men's singles final:  It was contested between Roger Federer and Rafael Nadal, ranked 17th and 9th in the world respectively.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 100.92722630500793,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

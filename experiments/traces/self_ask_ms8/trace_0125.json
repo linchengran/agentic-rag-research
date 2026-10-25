@@ -1,0 +1,31 @@
+{
+  "question": "Mummulgum is a stop on the Bruxner Highway before reaching the town on the banks of which river?",
+  "answer": "Bruxner Highway",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What is the name of the highway that runs near the town on the banks of the river?\n\nObservation: The Bruxner Highway runs near towns on the banks of rivers.",
+      "action_name": "search",
+      "action_input": "What is the name of the highway that runs near the town on the banks of the river?",
+      "observation": "[Search] Results for 'What is the name of the highway that runs near the town on the banks of the river?':\n[Doc 1] Casino, New South Wales:  It lies on the banks of the Richmond River and is situated at the junction of the Bruxner Highway and the Summerland Way.\n\n[Doc 2] Hudson River Valley Greenway: The Hudson River Valley Greenway is a system of parks, trails, kayak/canoe routes, etc. along New York's Hudson River, and the organization that serves to promote and preserve them.\n\n[Doc 3] South Ferriby:  It is situated on the south bank of the Humber Estuary and 3 mi west from the Humber Bridge.\n\n[Doc 4] Pearl River (China): The Pearl River, also known by its Chinese name Zhujiang and formerly often known as the Canton River , is an extensive river system in southern China.\n\n[Doc 5] Bull Hill:  It is part of the river-straddling range known as the Hudson Highlands.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Bruxner Highway",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 4.345825910568237,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

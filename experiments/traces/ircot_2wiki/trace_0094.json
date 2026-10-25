@@ -1,0 +1,23 @@
+{
+  "question": "What is the place of birth of Clara Novello's father?",
+  "answer": "Italy.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: Italy.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: Italy.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: Italy.':\n[Doc 1] The Beginning or the End: The film received generally mixed reviews, and was a box office disappointment.\n\n[Doc 2] The Working Class Goes to Heaven: In Italy, it also won the David di Donatello for Best Film.\n\n[Doc 3] David Lloyd George: He was the final Liberal to hold the post.\n\n[Doc 4] Selim II: , I believe, I believe in English and initiative.\n\n[Doc 5] The Last Company: It is also known by the alternative title Thirteen Men and a Girl.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 13.812508583068848,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

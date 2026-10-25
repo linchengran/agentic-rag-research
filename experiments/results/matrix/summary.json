@@ -1,0 +1,78 @@
+[
+  {
+    "paradigm": "baseline_v2",
+    "n": 500,
+    "em": 0.212,
+    "em_hits": 106,
+    "answer_f1": 0.29956612478896527,
+    "avg_steps": 1.0,
+    "min_steps": 1,
+    "max_steps": 1,
+    "dont_know_rate": 0.13,
+    "finish_reasons": {
+      "single_retrieval": 500
+    }
+  },
+  {
+    "paradigm": "react",
+    "n": 30,
+    "em": 0.06666666666666667,
+    "em_hits": 2,
+    "answer_f1": 0.08,
+    "avg_steps": 3.2,
+    "min_steps": 2,
+    "max_steps": 4,
+    "dont_know_rate": 0.0,
+    "finish_reasons": {
+      "finish_action": 25,
+      "max_steps": 5
+    },
+    "note": "v2 English prompt + zero-retrieval guard + fallback fix (2026-09-25), max_steps=4; old Chinese-prompt smoke (EM 10%) obsolete"
+  },
+  {
+    "paradigm": "plan_execute",
+    "n": 30,
+    "em": 0.13333333333333333,
+    "em_hits": 4,
+    "answer_f1": 0.17682539682539683,
+    "avg_steps": 2.7666666666666666,
+    "min_steps": 2,
+    "max_steps": 3,
+    "dont_know_rate": 0.0,
+    "finish_reasons": {
+      "finish_action": 29,
+      "max_steps": 1
+    },
+    "note": "v2 split plan/exec prompts + Finish-step plan + wrap-up turn (2026-09-25), max_steps=4; 0%->13.3% vs old smoke"
+  },
+  {
+    "paradigm": "self_ask",
+    "n": 30,
+    "em": 0.16666666666666666,
+    "em_hits": 5,
+    "answer_f1": 0.18730158730158727,
+    "avg_steps": 2.433333333333333,
+    "min_steps": 2,
+    "max_steps": 4,
+    "dont_know_rate": 0.0,
+    "finish_reasons": {
+      "final_answer": 30
+    },
+    "note": "v3 English prompt + anti-shortcut guard (2026-09-24), max_steps=4; EM 50%(n=4 smoke) was lucky"
+  },
+  {
+    "paradigm": "ircot",
+    "n": 30,
+    "em": 0.1,
+    "em_hits": 3,
+    "answer_f1": 0.13833333333333334,
+    "avg_steps": 1.1,
+    "min_steps": 1,
+    "max_steps": 2,
+    "dont_know_rate": 0.0,
+    "finish_reasons": {
+      "final_answer": 30
+    },
+    "note": "v2 English prompt + parse fix (2026-09-25), max_steps=4; answers after ~1 retrieval round"
+  }
+]

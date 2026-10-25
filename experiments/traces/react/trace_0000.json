@@ -1,0 +1,31 @@
+{
+  "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+  "answer": "Scott Derrickson 和 Ed Wood 都是美国国籍。",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "需要搜索 Scott Derrickson 和 Ed Wood 的国籍信息。",
+      "action_name": "search",
+      "action_input": "Scott Derrickson 国籍 以及 Ed Wood 国籍",
+      "observation": "[Search] Results for 'Scott Derrickson 国籍 以及 Ed Wood 国籍':\n[Doc 1] Scott Derrickson: Scott Derrickson (born July 16, 1966) is an American director, screenwriter and producer.\n\n[Doc 2] Ed Wood: Edward Davis Wood Jr. (October 10, 1924 – December 10, 1978) was an American filmmaker, actor, writer, produ...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "根据搜索结果,Scott Derrickson 是美国导演、编剧和制片人,而 Ed Wood 则是美国电影制作人、演员、作家、制片人和导演。",
+      "action_name": "finish",
+      "action_input": "Scott Derrickson 和 Ed Wood 都是美国国籍。",
+      "observation": "[Finish] Answer: Scott Derrickson 和 Ed Wood 都是美国国籍。",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 313.8863437175751,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

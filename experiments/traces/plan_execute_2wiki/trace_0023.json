@@ -1,0 +1,44 @@
+{
+  "question": "Which film whose director is younger, Heads I Win, Tails You Lose or The Incredible Sarah?",
+  "answer": "Richard Switzer",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for the age of the director of Heads I Win",
+      "action_name": "search",
+      "action_input": "Heads I Win director age",
+      "observation": "[Search] Results for 'Heads I Win director age':\n[Doc 1] Heads I Win, Tails You Lose: Heads I Win, Tails You Lose( also known as\" Heads or Tails\") is a 1982 Italian comedy film written and directed by Nanni Loy.\n\n[Doc 2] Heads I Win, Tails You Lose: The film consists in two back- to- back stories that deals with two\" taboo\" themes, the celibacy of the clergy in the episode of Renato Pozzetto and the homosexuality in the one with Nino Manfredi.\n\n[Doc 3] Richard Switzer: He was profiled on Entertainment Tonight at the age of 18 for being the youngest producer in history.\n\n[Doc 4] Nina Companeez: In April 2015, she died at the age of 77.\n\n[Doc 5] Young and Dangerous 4: 4( Literal Title\" 97 Wise Guys: No War Can not Be Won\") is a 1997 Hong Kong triad film directed by Andrew Lau.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The director's age needs to be found in the documents. |",
+      "action_name": "lookup",
+      "action_input": "director",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "Search for the age of the director of Tails You Lose |",
+      "action_name": "search",
+      "action_input": "Tails You Lose director age",
+      "observation": "[Search] Results for 'Tails You Lose director age':\n[Doc 1] Heads I Win, Tails You Lose: Heads I Win, Tails You Lose( also known as\" Heads or Tails\") is a 1982 Italian comedy film written and directed by Nanni Loy.\n\n[Doc 2] Heads I Win, Tails You Lose: The film consists in two back- to- back stories that deals with two\" taboo\" themes, the celibacy of the clergy in the episode of Renato Pozzetto and the homosexuality in the one with Nino Manfredi.\n\n[Doc 3] Richard Switzer: He was profiled on Entertainment Tonight at the age of 18 for being the youngest producer in history.\n\n[Doc 4] Lance Comfort: In a career spanning over 25 years he became one of the most prolific film directors in Britain, though he never gained critical attention and remained on the fringes of the film industry, creating mostly B movies.\n\n[Doc 5] Nina Companeez: In April 2015, she died at the age of 77.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 250.73074507713318,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for the age of the director of Heads I Win",
+      "Search for the age of the director of Tails You Lose",
+      "Finish with the shortest answer."
+    ]
+  }
+}

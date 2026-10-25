@@ -1,0 +1,23 @@
+{
+  "question": "What is the place of birth of the person who submitted the first version of the equal rights amendment to congress in 1923?",
+  "answer": "unknown.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: unknown.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: unknown.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: unknown.':\n[Doc 1] Finale (Smallville): \"Finale\" is the title of the two-episode series finale of the superhero television series \"Smallville\". The episodes are the 21st and 22nd of the 10th season, and the 216th and 217th episodes overall. The finale originally aired on The CW in the United States on May 13, 2011. The first half was written by Al Septien and Turi Meyer, and directed by Kevin G. Fair, and the second half was written by Kelly Souders and Brian Peterson, and directed by Greg Beeman.\n\n[Doc 2] Shrek 2: Shrek 2 is a 2004 American computer - animated fantasy film produced by DreamWorks Animation and directed by Andrew Adamson, Kelly Asbury and Conrad Vernon. It is the sequel to 2001's Shrek, with Mike Myers, Eddie Murphy and Cameron Diaz reprising their respective voice roles of Shrek, Donkey, and Fiona from the first film, joined by Antonio Banderas, Julie Andrews, John Cleese, Rupert Everett, and Jennifer Saunders. Sometime after the first film, Shrek, Donkey and Fiona go to visit Fiona's parents (voiced by Andrews and Cleese), while Shrek and Donkey discover that a greedy Fairy God Mother (voiced by Saunders) is plotting to destroy Shrek and Fiona's marriage so Fiona can marry her son, Prince Charming (voiced by Everett). Shrek and Donkey team up with a swashbuckling cat named Puss in Boots (voiced by Banderas) to stop her.\n\n[Doc 3] True Blood (season 7): The seventh and final season of the HBO supernatural drama se...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 3.293645143508911,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

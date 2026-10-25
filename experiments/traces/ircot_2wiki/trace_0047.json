@@ -1,0 +1,31 @@
+{
+  "question": "Which film has the director born earlier, The House By The Cemetery or Charlie Chan In Honolulu?",
+  "answer": "no",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Observation 1: )",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 1: )",
+      "observation": "[Search] Results for '(Observation 1: )':\n[Doc 1] Björk: \"\n\n[Doc 2] Damn, dis-moi: Both versions were released on 17 May 2018.\n\n[Doc 3] Second Motion Records: Second Motion\n\n[Doc 4] Bon, Amur Oblast: There is 1 street.\n\n[Doc 5] 'Adud al-Dawla: An observatory was built by his orders in Isfahan where Azophi worked.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "action_name": "ircot_search",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 85.82857966423035,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

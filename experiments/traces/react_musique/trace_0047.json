@@ -1,0 +1,39 @@
+{
+  "question": "What county is the NRHEG High School located in?",
+  "answer": "New Richland, Minnesota",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The school's location needs to be found out.",
+      "action_name": "search",
+      "action_input": "NRHEG High School location",
+      "observation": "[Search] Results for 'NRHEG High School location':\n[Doc 1] NRHEG High School: NRHEG High School is located in New Richland, Minnesota. NRHEG stands for New Richland, Hartland, Ellendale, Geneva, which are the towns that the school district covers.\n\n[Doc 2] Carleton North High School: Carleton North High School is a high school located in Florenceville-Bristol, New Brunswick. Carleton North High School is in the Anglophone West School District and one of the last schools in New Brunswick that participated in the New Brunswick Potato Picking Week.\n\n[Doc 3] Risdon Park High School: Risdon Park High School was located on Senate Rd, between Hannan St, Creasy St, and Ferme St in the suburb of Risdon Park in Port Pirie. The site is now the Risdon Grove Housing Estate.\n\n[Doc 4] Indian River Charter High School: Founded in 1998, Indian River Charter High School enrolls 750 students in grades 9 through 12. Located next door to Indian River State College’s Mueller Campus, students are encouraged to participate in dual enrollment. IRCHS has regularly rated an “A” or “B” school by Florida’s School Rating System and has been the highest rated high school in Indian River County for the past ten years. Students shoulder a great deal of responsibility within the school environment, from the open campus, to Homebase expectations, and participation in community projects such as cultural events, government meetings, and volunteer activities. Each student is expected to follow a seven point behav...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The location information is needed.",
+      "action_name": "lookup",
+      "action_input": "New Richland, Minnesota",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The location information in the search result is needed.",
+      "action_name": "finish",
+      "action_input": "New Richland, Minnesota",
+      "observation": "[Finish] Answer: New Richland, Minnesota",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 54.27209973335266,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

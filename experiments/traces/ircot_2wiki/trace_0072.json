@@ -1,0 +1,23 @@
+{
+  "question": "Are both Nikolsk Airport and Svobodny Airport located in the same country?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Are Nikolsk Airport and SvobodnAirport located in the same country?",
+      "action_name": "ircot_search",
+      "action_input": "Are Nikolsk Airport and SvobodnAirport located in the same country?",
+      "observation": "[Search] Results for 'Are Nikolsk Airport and SvobodnAirport located in the same country?':\n[Doc 1] Nikolsk Airport: Nikolsk( also listed as Nikolsk South) is an airport in Russia located 5 km southeast of Nikolsk in Vologda Oblast.\n\n[Doc 2] Nikolsk Airport: It is a small paved civilian airfield with parking area and administration buildings.\n\n[Doc 3] Svobodny Airport: It is a small general aviation airport.\n\n[Doc 4] Svobodny Airport: Svobodny is an airport in Amur Oblast, Russia located 11 km north of Svobodny.\n\n[Doc 5] Dorado Airport: Later on, the United States military, during World War II, paved the runway.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 17.48545503616333,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

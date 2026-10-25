@@ -1,0 +1,31 @@
+{
+  "question": "What is the county seat of the county where East Lempster, New Hampshire is located?",
+  "answer": "Newport",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about East Lempster, New Hampshire.",
+      "action_name": "search",
+      "action_input": "What is the county seat of the county where East Lempster, New Hampshire is located?",
+      "observation": "[Search] Results for 'What is the county seat of the county where East Lempster, New Hampshire is located?':\n[Doc 1] East Lempster, New Hampshire: East Lempster is an unincorporated community in the town of Lempster in Sullivan County, New Hampshire, United States.\n\n[Doc 2] Sullivan County, New Hampshire:  Its county seat is Newport.\n\n[Doc 3] Lempster, New Hampshire:  Settlements include the town center (Lempster village) and the village of East Lempster.\n\n[Doc 4] Carroll County, New Hampshire:  Its county seat is Ossipee.\n\n[Doc 5] Lempster, New Hampshire: Lempster is a town in Sullivan County, New Hampshire, United States.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The county where East Lempster, New Hampshire is located is Sullivan County.",
+      "action_name": "finish",
+      "action_input": "Newport",
+      "observation": "[Finish] Answer: Newport",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 78.71992325782776,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

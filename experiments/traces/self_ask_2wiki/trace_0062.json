@@ -1,0 +1,55 @@
+{
+  "question": "Where was the father of Alexandre Gaydamak born?",
+  "answer": "Moscow, USSR",
+  "n_steps": 5,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: Who is Alexandre Gaydamak?\n\nObservation: Alexandre Gaydamak was a Ukrainian-French filmmaker.",
+      "action_name": "search",
+      "action_input": "Who is Alexandre Gaydamak?",
+      "observation": "[Search] Results for 'Who is Alexandre Gaydamak?':\n[Doc 1] Alexandre Gaydamak: Alexandre \"Sacha\" Gaydamak (born May 1976 in France) is a French and Israeli businessman.\n\n[Doc 2] Alexandre Gaydamak: A member of the wealthy Gaydamak family, he is the only son of Arcadi Gaydamak.\n\n[Doc 3] Alexandre Gaydamak: Gaydamak owns a Luxembourg-based company, Belvia SARL and a British Virgin Islands company, Devondale Investments, which owned Portsmouth F.C.\n\n[Doc 4] Arcadi Gaydamak: In Israel he has been a generous philanthropist.\n\n[Doc 5] Alexandre Gaydamak: In July 2006 Alexandre Gaydamak became the sole owner of Portsmouth, although Mandarić remained at the club as non-executive chairman until later that year.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation: [Search] Results for 'Who is Alexandre Gaydamak?':\n[Doc 1] Alexandre Gaydamak: Alexandre \"Sacha\" Gaydamak (born May 1976 in France) is a French and Israeli businessman.\n\nIntermediate Question: What is the father's name of Alexandre Gaydamak?",
+      "action_name": "search",
+      "action_input": "What is the father's name of Alexandre Gaydamak?",
+      "observation": "[Search] Results for \"What is the father's name of Alexandre Gaydamak?\":\n[Doc 1] Alexandre Gaydamak: A member of the wealthy Gaydamak family, he is the only son of Arcadi Gaydamak.\n\n[Doc 2] Alexandre Gaydamak: In January 2006 he announced that he was following his father into association football club ownership by becoming co-owner of English Premier League club Portsmouth F.C. with Milan Mandarić.\n\n[Doc 3] Alexandre Gaydamak: His father was the owner of Israeli side Beitar Jerusalem.\n\n[Doc 4] Alexandre Gaydamak: Alexandre \"Sacha\" Gaydamak (born May 1976 in France) is a French and Israeli businessman.\n\n[Doc 5] Alexandre Gaydamak: On 21 July 2009, Gaydamak agreed to sell Portsmouth F.C. to Sulaiman Al Fahim in principle, and therefore stepped down from the board.",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Intermediate Question: Where was Arcadi Gaydamak born?",
+      "action_name": "search",
+      "action_input": "Where was Arcadi Gaydamak born?",
+      "observation": "[Search] Results for 'Where was Arcadi Gaydamak born?':\n[Doc 1] Arcadi Gaydamak: Arcadi Aleksandrovich Gaydamak (born 8 April 1952 in Moscow, USSR) is a Russian-born French-Israeli businessman, philanthropist, and President of the Congress of Jewish Religious Communities and Organizations of Russia (KEROOR).\n\n[Doc 2] Alexandre Gaydamak: Alexandre \"Sacha\" Gaydamak (born May 1976 in France) is a French and Israeli businessman.\n\n[Doc 3] Arcadi Gaydamak: In Israel he has been a generous philanthropist.\n\n[Doc 4] Arcadi Gaydamak: He emigrated to Israel at the age of 20 and lived on a kibbutz, then moved to France and opened a translation bureau.\n\n[Doc 5] Arcadi Gaydamak: In the early 21st century, Gaydamak returned to Israel, where he founded Social Justice, a movement that became a political party.",
+      "error": ""
+    },
+    {
+      "step": 4,
+      "thought": "Intermediate Question: Where was Arcadi Gaydamak born?",
+      "action_name": "search",
+      "action_input": "Where was Arcadi Gaydamak born?",
+      "observation": "[Search] Results for 'Where was Arcadi Gaydamak born?':\n[Doc 1] Arcadi Gaydamak: Arcadi Aleksandrovich Gaydamak (born 8 April 1952 in Moscow, USSR) is a Russian-born French-Israeli businessman, philanthropist, and President of the Congress of Jewish Religious Communities and Organizations of Russia (KEROOR).\n\n[Doc 2] Alexandre Gaydamak: Alexandre \"Sacha\" Gaydamak (born May 1976 in France) is a French and Israeli businessman.\n\n[Doc 3] Arcadi Gaydamak: In Israel he has been a generous philanthropist.\n\n[Doc 4] Arcadi Gaydamak: He emigrated to Israel at the age of 20 and lived on a kibbutz, then moved to France and opened a translation bureau.\n\n[Doc 5] Arcadi Gaydamak: In the early 21st century, Gaydamak returned to Israel, where he founded Social Justice, a movement that became a political party.",
+      "error": ""
+    },
+    {
+      "step": 5,
+      "thought": "Final Answer: Moscow, USSR",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 23.924986362457275,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

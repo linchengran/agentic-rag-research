@@ -1,0 +1,23 @@
+{
+  "question": "Who is Catherine Of Pomerania, Countess Palatine Of Neumarkt's father-in-law?",
+  "answer": "Rupert III",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find Catherine Of Pomerania, Countess Palatine Of Neumarkt's father-in-law.",
+      "action_name": "ircot_search",
+      "action_input": "Find Catherine Of Pomerania, Countess Palatine Of Neumarkt's father-in-law.",
+      "observation": "[Search] Results for \"Find Catherine Of Pomerania, Countess Palatine Of Neumarkt's father-in-law.\":\n[Doc 1] Catherine of Pomerania, Countess Palatine of Neumarkt: Katharina von Pommern\"; c. 1390 - 4 March 1426), was a Pomeranian princess and Countess Palatine of Neumarkt.\n\n[Doc 2] Catherine of Pomerania, Countess Palatine of Neumarkt: She was the wife of John, Count Palatine of Neumarkt and the mother of Christopher of Bavaria, who would rule over Denmark, Sweden, and Norway as king of the Kalmar Union.\n\n[Doc 3] Catherine of Pomerania, Countess Palatine of Neumarkt: Catherine of Pomerania\n\n[Doc 4] John, Count Palatine of Neumarkt: The son of Rupert III of the Palatinate, he married Catherine of Pomerania in 1407.\n\n[Doc 5] Catherine of Pomerania, Countess Palatine of Neumarkt: (German: \"",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 34.15490221977234,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

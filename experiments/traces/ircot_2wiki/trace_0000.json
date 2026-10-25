@@ -1,0 +1,31 @@
+{
+  "question": "Who is the mother of the director of film Polish-Russian War (Film)?",
+  "answer": "Dorota Masłowska",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for the director of the film Polish-Russian War",
+      "action_name": "ircot_search",
+      "action_input": "Search for the director of the film Polish-Russian War",
+      "observation": "[Search] Results for 'Search for the director of the film Polish-Russian War':\n[Doc 1] Polish-Russian War (film): (Wojna polsko-ruska) is a 2009 Polish film directed by Xawery Żuławski based on the novel Polish-Russian War under the white-red flag by Dorota Masłowska.\n\n[Doc 2] Polish-Russian War (film): Polish-Russian War\n\n[Doc 3] Invasion from Inner Earth: The film, also known as Hell Fire and They, was inspired by the British film\" The Strange World of Planet X\"( 1957), and filmed in the style of thrillers directed by Alfred Hitchcock.\n\n[Doc 4] Revenge of the Barbarians: This film was written by Gastone Ramazzotti and directed by Giuseppe Vari.\n\n[Doc 5] Terror in the Aisles: The film is directed by Andrew J. Kuehn, and hosted by Donald Pleasence and Nancy Allen.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Search for Xawery Żuławski",
+      "action_name": "ircot_search",
+      "action_input": "Search for Xawery Żuławski",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 177.18023896217346,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

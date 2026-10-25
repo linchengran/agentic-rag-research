@@ -1,0 +1,31 @@
+{
+  "question": "How large is the shopping mall where KGOT radio station has its studios ?",
+  "answer": "no",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "How big is the shopping mall where KGOT radio station has its studios?\n\nObservation: The location of KGOT's radio station studios is not specified in the given information.",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: no",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 3.102938413619995,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

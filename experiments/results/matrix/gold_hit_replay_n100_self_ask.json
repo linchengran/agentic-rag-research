@@ -1,0 +1,1718 @@
+{
+  "n": 100,
+  "agent": {
+    "gold_hit_full": 0.18,
+    "gold_hit_partial": 0.56,
+    "gold_coverage": 0.37,
+    "first_query_coverage": 0.32,
+    "avg_queries": 1.09
+  },
+  "baseline_single_query": {
+    "gold_hit_full": 0.37,
+    "gold_hit_partial": 0.93,
+    "gold_coverage": 0.65
+  },
+  "per_question": [
+    {
+      "id": "5a8b57f25542995d1e6f1371",
+      "n_queries": 5,
+      "queries": [
+        "Are Scott Derrickson and Ed Wood still alive?",
+        "Is Scott Derrickson still alive?",
+        "Is Ed Wood still alive?",
+        "What is the nationality of Scott Derrickson?",
+        "What is the nationality of Ed Wood?"
+      ],
+      "gold_titles": [
+        "Ed Wood",
+        "Scott Derrickson"
+      ],
+      "hit_titles": [
+        "Ed Wood",
+        "Scott Derrickson"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a8c7595554299585d9e36b6",
+      "n_queries": 3,
+      "queries": [
+        "Who played Corliss Archer in Kiss and Tell?",
+        "Who played Corliss Archer in the film Kiss and Tell?",
+        "Who starred Corliss Archer in the film Kiss and Tell?"
+      ],
+      "gold_titles": [
+        "Kiss and Tell (1945 film)",
+        "Shirley Temple"
+      ],
+      "hit_titles": [
+        "Kiss and Tell (1945 film)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a85ea095542994775f606a8",
+      "n_queries": 2,
+      "queries": [
+        "What is the title of the science fantasy young adult series that has companion books?",
+        "What is the title of the science fantasy young adult book series?"
+      ],
+      "gold_titles": [
+        "Animorphs",
+        "The Hork-Bajir Chronicles"
+      ],
+      "hit_titles": [
+        "Animorphs"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5adbf0a255429947ff17385a",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Esma Sultan Mansion",
+        "Laleli Mosque"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5a8e3ea95542995a26add48d",
+      "n_queries": 3,
+      "queries": [
+        "Is there any specific New York City associated with the director of the romantic comedy \"Big Stone Gap\"?",
+        "What is the director of the romantic comedy \"Big Stone Gap\"?",
+        "Is the director of the romantic comedy \"Big Stone Gap\" based in New York City?"
+      ],
+      "gold_titles": [
+        "Adriana Trigiani",
+        "Big Stone Gap (film)"
+      ],
+      "hit_titles": [
+        "Big Stone Gap (film)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5abd94525542992ac4f382d2",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "2014 S/S",
+        "Winner (band)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a85b2d95542997b5ce40028",
+      "n_queries": 1,
+      "queries": [
+        "What is the stage name Aladin?"
+      ],
+      "gold_titles": [
+        "Eenasul Fateh",
+        "Management consulting"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a87ab905542996e4f3088c1",
+      "n_queries": 1,
+      "queries": [
+        "What is the capacity of the Walter C. Baker Memorial Arena? Observation: The Walter C. Baker Memorial Arena has a seating capacity of 3,100 people."
+      ],
+      "gold_titles": [
+        "Androscoggin Bank Colisée",
+        "Lewiston Maineiacs"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a7bbb64554299042af8f7cc",
+      "n_queries": 2,
+      "queries": [
+        "How old are Annie Morton and Terry Richardson?",
+        "Who is older between Annie Morton and Terry Richardson?"
+      ],
+      "gold_titles": [
+        "Annie Morton",
+        "Terry Richardson"
+      ],
+      "hit_titles": [
+        "Annie Morton",
+        "Terry Richardson"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5a8db19d5542994ba4e3dd00",
+      "n_queries": 1,
+      "queries": [
+        "Are Local H and For Against both American films?"
+      ],
+      "gold_titles": [
+        "For Against",
+        "Local H"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a7166395542994082a3e814",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Kansas Song",
+        "University of Kansas"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a877e5d5542993e715abf7d",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "David Weissman",
+        "The Family Man"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab3b0bf5542992ade7c6e39",
+      "n_queries": 1,
+      "queries": [
+        "Was there a movie in 1991 starring Mel Gibson as a former New York Police detective?"
+      ],
+      "gold_titles": [
+        "End of Days (film)",
+        "Oh My God (Guns N' Roses song)"
+      ],
+      "hit_titles": [
+        "End of Days (film)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab56e32554299637185c594",
+      "n_queries": 1,
+      "queries": [
+        "Are there real estate properties called Random House Tower and 888 7th Avenue?"
+      ],
+      "gold_titles": [
+        "888 7th Avenue",
+        "Random House Tower"
+      ],
+      "hit_titles": [
+        "888 7th Avenue",
+        "Random House Tower"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5ab6d09255429954757d337d",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "1995–96 Manchester United F.C. season",
+        "Alex Ferguson"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a75e05c55429976ec32bc5f",
+      "n_queries": 2,
+      "queries": [
+        "What is the country where Brown State Fishing Lake is located?",
+        "What is the population of the country where Brown State Fishing Lake is located?"
+      ],
+      "gold_titles": [
+        "Brown County, Kansas",
+        "Brown State Fishing Lake"
+      ],
+      "hit_titles": [
+        "Brown State Fishing Lake"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab3e45655429976abd1bcd4",
+      "n_queries": 2,
+      "queries": [
+        "What conferences did the Vermont Catamounts men's soccer team compete in during the years 1988 to 1996?",
+        "What was the name of the conference from 1988 to 1996?"
+      ],
+      "gold_titles": [
+        "America East Conference",
+        "Vermont Catamounts men's soccer"
+      ],
+      "hit_titles": [
+        "America East Conference",
+        "Vermont Catamounts men's soccer"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab29c24554299449642c932",
+      "n_queries": 2,
+      "queries": [
+        "Is Ambroise Thomas an opera composer ?",
+        "Is Giuseppe Verdi an opera composer ?"
+      ],
+      "gold_titles": [
+        "Ambroise Thomas",
+        "Giuseppe Verdi"
+      ],
+      "hit_titles": [
+        "Ambroise Thomas",
+        "Giuseppe Verdi"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ae0d4c9554299603e418468",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Richard Nixon",
+        "Roger O. Egeberg"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a8133725542995ce29dcbdb",
+      "n_queries": 2,
+      "queries": [
+        "Who was the writer Henry Roth?",
+        "Was Henry Roth an American writer?"
+      ],
+      "gold_titles": [
+        "Henry Roth",
+        "Robert Erskine Childers"
+      ],
+      "hit_titles": [
+        "Henry Roth"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ae7a8175542993210983ed8",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Formula One drivers from Mexico",
+        "Sergio Pérez"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ae6050f55429929b0807a5e",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "A Rather Blustery Day",
+        "Jim Cummings"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5adddccd5542997dc7907069",
+      "n_queries": 2,
+      "queries": [
+        "What devices typically use Apple Remote technology?",
+        "What devices are mentioned in the results for 'What devices typically use Apple Remote technology'?"
+      ],
+      "gold_titles": [
+        "Apple Remote",
+        "Front Row (software)"
+      ],
+      "hit_titles": [
+        "Apple Remote"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae2070a5542994d89d5b313",
+      "n_queries": 1,
+      "queries": [
+        "What is the instrument to person ratio for Badly Drawn Boy?"
+      ],
+      "gold_titles": [
+        "Badly Drawn Boy",
+        "Wolf Alice"
+      ],
+      "hit_titles": [
+        "Badly Drawn Boy"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5ae22b8d554299234fd0440f",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Kasper Schmeichel",
+        "Peter Schmeichel"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a722b8655429971e9dc9329",
+      "n_queries": 1,
+      "queries": [
+        "What year did These Boots Are Made for Walkin' come out?"
+      ],
+      "gold_titles": [
+        "Lee Hazlewood",
+        "These Boots Are Made for Walkin'"
+      ],
+      "hit_titles": [
+        "These Boots Are Made for Walkin'"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5adf37a95542995ec70e8f97",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "2011–12 VCU Rams men's basketball team",
+        "Virginia Commonwealth University"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5abd259d55429924427fcf1a",
+      "n_queries": 1,
+      "queries": [
+        "What are the names of the genera mentioned?"
+      ],
+      "gold_titles": [
+        "Dictyosperma",
+        "Huernia"
+      ],
+      "hit_titles": [
+        "Dictyosperma"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a828c8355429966c78a6a50",
+      "n_queries": 4,
+      "queries": [
+        "Who founded Kaiser Ventures corporation?",
+        "When was Henry J. Kaiser founded Kaiser Ventures corporation?",
+        "When was Henry J. Kaiser born?",
+        "What year was Henry J. Kaiser born?"
+      ],
+      "gold_titles": [
+        "Henry J. Kaiser",
+        "Kaiser Ventures"
+      ],
+      "hit_titles": [
+        "Henry J. Kaiser",
+        "Kaiser Ventures"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a8a3e745542996c9b8d5e70",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Arena of Khazan",
+        "Tunnels &amp; Trolls"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ac23ff0554299636651994d",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Poison (American band)",
+        "Shut Up, Make Love"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ae4a3265542995ad6573de5",
+      "n_queries": 1,
+      "queries": [
+        "What is the origin of the musical group Buck-Tick?"
+      ],
+      "gold_titles": [
+        "Buck-Tick",
+        "Hayden (musician)"
+      ],
+      "hit_titles": [
+        "Buck-Tick"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5ae0361155429925eb1afc2c",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Charles Nungesser",
+        "L'Oiseau Blanc"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5abc0a5d5542993f40c73c64",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Freakonomics (film)",
+        "In the Realm of the Hackers"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5a7cc50e554299452d57ba3e",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Letters to Cleo",
+        "Screaming Trees"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5abf63f15542997ec76fd3ea",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Russian Civil War",
+        "Socialist Revolutionary Party"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a8ef2a75542995a26add583",
+      "n_queries": 2,
+      "queries": [
+        "What is the nationality of the author of Seven Brief Lessons on Physics?",
+        "When did the author of Seven Brief Lessons on Physics, Carlo Rovelli, start working in France?"
+      ],
+      "gold_titles": [
+        "Carlo Rovelli",
+        "Seven Brief Lessons on Physics"
+      ],
+      "hit_titles": [
+        "Carlo Rovelli",
+        "Seven Brief Lessons on Physics"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5a80721b554299485f5985ef",
+      "n_queries": 1,
+      "queries": [
+        "What war had over 60 million casualties?"
+      ],
+      "gold_titles": [
+        "Livesey Hall War Memorial",
+        "World War II casualties"
+      ],
+      "hit_titles": [
+        "World War II casualties"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5ab51dae5542991779162d82",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Elko Regional Airport",
+        "Gerald R. Ford International Airport"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5a7571135542992d0ec05f98",
+      "n_queries": 2,
+      "queries": [
+        "Which university does Ralph Hefferline teach at?",
+        "Which city is Columbia University located in?"
+      ],
+      "gold_titles": [
+        "Columbia University",
+        "Ralph Hefferline"
+      ],
+      "hit_titles": [
+        "Columbia University",
+        "Ralph Hefferline"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5a7a0e1e5542990783324e1a",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Manchester Terrier",
+        "Scotch Collie"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a74106b55429979e288289e",
+      "n_queries": 1,
+      "queries": [
+        "Who founded the company that Sachin Warrier worked for as a software engineer?"
+      ],
+      "gold_titles": [
+        "Sachin Warrier",
+        "Tata Consultancy Services"
+      ],
+      "hit_titles": [
+        "Sachin Warrier"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5a79311755429970f5fffe67",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "I&quot;s",
+        "Masakazu Katsura"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab2d3df554299194fa9352c",
+      "n_queries": 1,
+      "queries": [
+        "What significant battle during World War II involved Giuseppe Arimondi?"
+      ],
+      "gold_titles": [
+        "Battle of Adwa",
+        "Giuseppe Arimondi"
+      ],
+      "hit_titles": [
+        "Giuseppe Arimondi"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a760ab65542994ccc918697",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Alfred Balk",
+        "Nelson Rockefeller"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a7d54165542995f4f402256",
+      "n_queries": 1,
+      "queries": [
+        "What geographical feature borders on the south side of the coastal area in East Lothian, Scotland?"
+      ],
+      "gold_titles": [
+        "Dirleton Castle",
+        "Yellowcraigs"
+      ],
+      "hit_titles": [
+        "Yellowcraigs"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ab859a955429934fafe6d7b",
+      "n_queries": 1,
+      "queries": [
+        "What is the title of the song inspired by words on a tombstone and was the first track on the box set Back to Mono?"
+      ],
+      "gold_titles": [
+        "Back to Mono (1958–1969)",
+        "To Know Him Is to Love Him"
+      ],
+      "hit_titles": [
+        "Back to Mono (1958–1969)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5add61d65542995b365fab21",
+      "n_queries": 1,
+      "queries": [
+        "Which former Soviet statesman initiated the Gleneagles Forum?"
+      ],
+      "gold_titles": [
+        "Mikhail Gorbachev",
+        "World Summit of Nobel Peace Laureates"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a8e068b5542995085b37384",
+      "n_queries": 1,
+      "queries": [
+        "What are Ferocactus and Silene?"
+      ],
+      "gold_titles": [
+        "Ferocactus",
+        "Silene"
+      ],
+      "hit_titles": [
+        "Ferocactus",
+        "Silene"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5abbf698554299114383a0b5",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "English Electric Canberra",
+        "No. 2 Squadron RAAF"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a8e1027554299653c1aa15f",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "2009 Big 12 Conference football season",
+        "2009 Colorado Buffaloes football team"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab84bf555429916710eb01f",
+      "n_queries": 2,
+      "queries": [
+        "What was the chain that bought Euromarché in 1991?",
+        "Was Selver a hypermarket at the end of 2016?"
+      ],
+      "gold_titles": [
+        "Carrefour",
+        "Euromarché"
+      ],
+      "hit_titles": [
+        "Carrefour"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a77724455429972597f153e",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "1957 Indianapolis 500",
+        "Indianapolis Motor Speedway"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a87c13f5542996e4f30890c",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Franco Corelli",
+        "Tosca (1956 film)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ab96ab755429970cfb8eacd",
+      "n_queries": 1,
+      "queries": [
+        "What was the title of Ellie Goulding's third studio album, Delirium?"
+      ],
+      "gold_titles": [
+        "Delirium (Ellie Goulding album)",
+        "On My Mind (Ellie Goulding song)"
+      ],
+      "hit_titles": [
+        "Delirium (Ellie Goulding album)",
+        "On My Mind (Ellie Goulding song)"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a8a43eb5542996c9b8d5e82",
+      "n_queries": 1,
+      "queries": [
+        "What is the name of the boarding school in Adelaide, Australia?"
+      ],
+      "gold_titles": [
+        "Marion, South Australia",
+        "Westminster School, Adelaide"
+      ],
+      "hit_titles": [
+        "Westminster School, Adelaide"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae73acb5542991e8301cc07",
+      "n_queries": 2,
+      "queries": [
+        "What oversteering technique is commonly associated with D1NZ?",
+        "What oversteering technique is commonly associated with a Bukkehorn?"
+      ],
+      "gold_titles": [
+        "D1NZ",
+        "Drifting (motorsport)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a7320565542991f9a20c61d",
+      "n_queries": 2,
+      "queries": [
+        "Who is the current CEO of Bank of America, Keith Bostic or Jerry Glanville?",
+        "When was Keith Bostic born?"
+      ],
+      "gold_titles": [
+        "Jerry Glanville",
+        "Keith Bostic (American football)"
+      ],
+      "hit_titles": [
+        "Jerry Glanville",
+        "Keith Bostic (American football)"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5ae32e125542991a06ce9946",
+      "n_queries": 1,
+      "queries": [
+        "In which country is Kirton End located? Observation: Kirton End is in England. Intermediate Question: What is the population of England according to the 2001 census? Observation: The 2001 UK census population of England was 46.98 million. Final Answer: 46.98 million."
+      ],
+      "gold_titles": [
+        "Boston, Lincolnshire",
+        "Kirton End"
+      ],
+      "hit_titles": [
+        "Kirton End"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "5adc53f75542996e6852530a",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Ajuga",
+        "Cypress"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5a8b20335542996c9b8d5fb3",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "1992–93 Charlotte Hornets season",
+        "Muggsy Bogues"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a85fb085542994775f606de",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Alien (film)",
+        "Alien (soundtrack)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a7be2595542997c3ec972ac",
+      "n_queries": 2,
+      "queries": [
+        "When was Emma Bull born?",
+        "When was Virginia Woolf born?"
+      ],
+      "gold_titles": [
+        "Emma Bull",
+        "Virginia Woolf"
+      ],
+      "hit_titles": [
+        "Emma Bull",
+        "Virginia Woolf"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a77152355429966f1a36c2e",
+      "n_queries": 1,
+      "queries": [
+        "What is the Roud Folk Song Index?"
+      ],
+      "gold_titles": [
+        "What Are Little Boys Made Of?",
+        "What Are Little Girls Made Of?"
+      ],
+      "hit_titles": [
+        "What Are Little Boys Made Of?"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.0,
+      "em": 1.0
+    },
+    {
+      "id": "5a8f4c8d554299458435d5a3",
+      "n_queries": 1,
+      "queries": [
+        "What are the names of the two corporations that Scott Parkin has been a vocal critic of ExxonMobil ?"
+      ],
+      "gold_titles": [
+        "Halliburton",
+        "Scott Parkin"
+      ],
+      "hit_titles": [
+        "Scott Parkin"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a80840f554299485f59863b",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Jawbreaker (film)",
+        "Rose McGowan"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a8361b65542992ef85e22a0",
+      "n_queries": 2,
+      "queries": [
+        "What larger Hall of Fame is associated with boxing titles?",
+        "Is the National Italian American Sports Hall of Fame the largest Hall of Fame associated with boxing titles?"
+      ],
+      "gold_titles": [
+        "International Boxing Federation",
+        "Vince Phillips"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae7ba7a5542993210983f12",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "I Don't Wanna Know",
+        "Yeah! (Usher song)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ac2acff55429921a00ab02b",
+      "n_queries": 1,
+      "queries": [
+        "Who are the guests stars in The Hard Easier episode?"
+      ],
+      "gold_titles": [
+        "Brian Doyle-Murray",
+        "The Hard Easy (Adventure Time)"
+      ],
+      "hit_titles": [
+        "The Hard Easy (Adventure Time)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5aba7cfe554299232ef4a2fd",
+      "n_queries": 1,
+      "queries": [
+        "What is the name of the sponsor for the 2017-18 Wigan Athletic F.C. season?"
+      ],
+      "gold_titles": [
+        "2017–18 Wigan Athletic F.C. season",
+        "EFL Cup"
+      ],
+      "hit_titles": [
+        "2017–18 Wigan Athletic F.C. season"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae5aba0554299546bf82f17",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Tara Strong",
+        "Teen Titans Go! (TV series)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ae1f4cb554299234fd0436d",
+      "n_queries": 1,
+      "queries": [
+        "In 122nd SS-Standarte was princely formed the princely in princely locate princely where was princely was princely  princely  princely  princely was formed in ndx: princelyndx  Intermediate Question: When was 122nd SS-Standarte formed? Observation: 122nd SS-Standarte was formed in 1943."
+      ],
+      "gold_titles": [
+        "122nd SS-Standarte",
+        "Strasbourg"
+      ],
+      "hit_titles": [
+        "122nd SS-Standarte"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae7e1fc55429952e35ea9cc",
+      "n_queries": 4,
+      "queries": [
+        "What is Oranjegekte and what does it celebrate?",
+        "What does Oranjegekte involve during Koningsdag celebrations?",
+        "What color clothing do people wear during Oranjegekte celebrations?",
+        "What is the traditional color associated with Oranjegekte?"
+      ],
+      "gold_titles": [
+        "Koningsdag",
+        "Oranjegekte"
+      ],
+      "hit_titles": [
+        "Koningsdag",
+        "Oranjegekte"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5ae37c765542992f92d822d4",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "James Gunn",
+        "Tromeo and Juliet"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ae33c4d5542992f92d82262",
+      "n_queries": 1,
+      "queries": [
+        "Under which Governor of Arkansas was Robert Suettinger the national intelligence officer?"
+      ],
+      "gold_titles": [
+        "Bill Clinton",
+        "Robert Suettinger"
+      ],
+      "hit_titles": [
+        "Robert Suettinger"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a77cb335542997042120b3a",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "John John Florence",
+        "MEO Rip Curl Pro Portugal"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a8979f4554299669944a52e",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Bobbi Bacha",
+        "Sela Ward"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a713ea95542994082a3e6e4",
+      "n_queries": 4,
+      "queries": [
+        "What country does Alvaro Mexia represent?",
+        "Where is St Augustine located?",
+        "What country is St Augustine located in?",
+        "What country is the United Kingdom located in?"
+      ],
+      "gold_titles": [
+        "Alvaro Mexia",
+        "Indigenous peoples of Florida"
+      ],
+      "hit_titles": [
+        "Alvaro Mexia"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a78bd9b554299078472774a",
+      "n_queries": 2,
+      "queries": [
+        "Who was Alfred Gell?",
+        "What nationality was Alfred Gell?"
+      ],
+      "gold_titles": [
+        "Alfred Gell",
+        "Edmund Leach"
+      ],
+      "hit_titles": [
+        "Alfred Gell"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5a7625e8554299109176e66a",
+      "n_queries": 1,
+      "queries": [
+        "When was George V of the United Kingdom born?"
+      ],
+      "gold_titles": [
+        "1925 Birthday Honours",
+        "George V"
+      ],
+      "hit_titles": [
+        "George V"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5ae2dd2055429928c423950d",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "East Lempster, New Hampshire",
+        "Sullivan County, New Hampshire"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5abdf12255429976d4830a2f",
+      "n_queries": 2,
+      "queries": [
+        "When was Robert Seger born?",
+        "What was the Rock singer's stage name?"
+      ],
+      "gold_titles": [
+        "Against the Wind (album)",
+        "Bob Seger"
+      ],
+      "hit_titles": [
+        "Bob Seger"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5a88658955429938390d3f47",
+      "n_queries": 2,
+      "queries": [
+        "What case is known as Rostker v. Goldberg?",
+        "What practice did Rostker v. Goldberg hold was constitutional?"
+      ],
+      "gold_titles": [
+        "Conscription in the United States",
+        "Rostker v. Goldberg"
+      ],
+      "hit_titles": [
+        "Rostker v. Goldberg"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a86ebac55429960ec39b6d6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Handi-Snacks",
+        "Mondelez International"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5aba5d2e55429901930fa799",
+      "n_queries": 1,
+      "queries": [
+        "What is the title of the book \"Their Lives: The Women Targeted by the Clinton Machine\"?"
+      ],
+      "gold_titles": [
+        "Monica Lewinsky",
+        "Their Lives"
+      ],
+      "hit_titles": [
+        "Their Lives"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae5736e5542990ba0bbb2b3",
+      "n_queries": 1,
+      "queries": [
+        "Who was a senior member of the presidential campaign of Donald Trump?"
+      ],
+      "gold_titles": [
+        "Paul Manafort",
+        "Trump campaign–Russian meeting"
+      ],
+      "hit_titles": [
+        "Trump campaign–Russian meeting"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae005b555429942ec259bec",
+      "n_queries": 2,
+      "queries": [
+        "What year was the novel \"Nina\" based on?",
+        "What year was the novel \"Crime and Punishment\" based on?"
+      ],
+      "gold_titles": [
+        "Crime and Punishment",
+        "Lourenço Mutarelli"
+      ],
+      "hit_titles": [
+        "Crime and Punishment",
+        "Lourenço Mutarelli"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5a7759fc5542993569682d60",
+      "n_queries": 1,
+      "queries": [
+        "Which country in Europe contains Teide National Park and Garajonay National Park?"
+      ],
+      "gold_titles": [
+        "Garajonay National Park",
+        "Teide National Park"
+      ],
+      "hit_titles": [
+        "Garajonay National Park",
+        "Teide National Park"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a835478554299123d8c20ed",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Mrs. Bixby and the Colonel's Coat",
+        "Roald Dahl"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5aba749055429901930fa7d8",
+      "n_queries": 1,
+      "queries": [
+        "Are Chris Menges and Aram Avakian from the same country?"
+      ],
+      "gold_titles": [
+        "Aram Avakian",
+        "Chris Menges"
+      ],
+      "hit_titles": [
+        "Aram Avakian",
+        "Chris Menges"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5abfb3425542990832d3a1c0",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Andrew Jaspan",
+        "The Conversation (website)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ac3165c5542995ef918c10a",
+      "n_queries": 1,
+      "queries": [
+        "What were the names of the winners of the 18th Independent Spirit Awards in 2002?"
+      ],
+      "gold_titles": [
+        "18th Independent Spirit Awards",
+        "John Waters"
+      ],
+      "hit_titles": [
+        "18th Independent Spirit Awards"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5ae53b545542990ba0bbb23c",
+      "n_queries": 2,
+      "queries": [
+        "What is the name of the hotel and casino where Bill Cosby's third album was recorded?",
+        "Where is the nightclub The Bitter End located?"
+      ],
+      "gold_titles": [
+        "Flamingo Las Vegas",
+        "Why Is There Air?"
+      ],
+      "hit_titles": [
+        "Why Is There Air?"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae224da554299234fd043ee",
+      "n_queries": 6,
+      "queries": [
+        "Are Gibson and Zurracapote alcoholic beverages?",
+        "Is Gibson an alcoholic beverage?",
+        "Is Zurracapote an alcoholic beverage?",
+        "What alcohol is used in Gibson?",
+        "What alcohol is used in Zurracapote?",
+        "Is gin an alcoholic beverage?"
+      ],
+      "gold_titles": [
+        "Gibson (cocktail)",
+        "Zurracapote"
+      ],
+      "hit_titles": [
+        "Gibson (cocktail)",
+        "Zurracapote"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5ae2b770554299495565db0f",
+      "n_queries": 3,
+      "queries": [
+        "Is there any documentary film festival associated with the British Journal of Literary Essays?",
+        "Is the London International Documentary Festival associated with the British Journal of Literary Essays?",
+        "What month does the London International Documentary Festival take place?"
+      ],
+      "gold_titles": [
+        "London International Documentary Festival",
+        "London Review of Books"
+      ],
+      "hit_titles": [
+        "London International Documentary Festival"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5a80b3a9554299485f5986cc",
+      "n_queries": 2,
+      "queries": [
+        "What county does Northern Virginia cover?",
+        "In which county is Tysons Galleria located?"
+      ],
+      "gold_titles": [
+        "McLean, Virginia",
+        "Tysons Galleria"
+      ],
+      "hit_titles": [
+        "McLean, Virginia",
+        "Tysons Galleria"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5a8e0a005542995085b373a1",
+      "n_queries": 2,
+      "queries": [
+        "What is Bordan Tkachuk's current position?",
+        "What company was Bordan Tkachuk the former CEO of?"
+      ],
+      "gold_titles": [
+        "Bordan Tkachuk",
+        "Viglen"
+      ],
+      "hit_titles": [
+        "Bordan Tkachuk"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ac1b8ee5542994d76dccedc",
+      "n_queries": 2,
+      "queries": [
+        "Is Lev Yilmaz known for animation?",
+        "Was Lev Yilmaz known for animation based on the provided information?"
+      ],
+      "gold_titles": [
+        "Lev Yilmaz",
+        "Pamela B. Green"
+      ],
+      "hit_titles": [
+        "Lev Yilmaz"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5adccd795542990d50227d2c",
+      "n_queries": 2,
+      "queries": [
+        "To which country does Rabat-Salé-Kénitra administrative region belong?",
+        "What is the capital city of Morocco?"
+      ],
+      "gold_titles": [
+        "Moroccan Ambassador to China",
+        "Rabat"
+      ],
+      "hit_titles": [
+        "Rabat"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a84c4135542994c784dda31",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Fuding",
+        "Yingkou"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    }
+  ]
+}

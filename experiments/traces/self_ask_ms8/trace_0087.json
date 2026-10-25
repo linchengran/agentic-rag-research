@@ -1,0 +1,39 @@
+{
+  "question": "Where are Teide National Park and Garajonay National Park located?",
+  "answer": "Spain.",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation: Teide National Park and Garajonay National Park are both located in Spain.\nIntermediate Question: Which country in Europe contains Teide National Park and Garajonay National Park?",
+      "action_name": "search",
+      "action_input": "Which country in Europe contains Teide National Park and Garajonay National Park?",
+      "observation": "[Search] Results for 'Which country in Europe contains Teide National Park and Garajonay National Park?':\n[Doc 1] Teide National Park: Teide National Park (Spanish: \"Parque nacional del Teide\" , ] ) is a national park located in Tenerife (Canary Islands, Spain).\n\n[Doc 2] Garajonay National Park: Garajonay National Park (Spanish: \"Parque nacional de Garajonay\" , ] ) is located in the center and north of the island of La Gomera, one of the Canary Islands (Spain).\n\n[Doc 3] Garajonay National Park:  It occupies 40 km (15 sq mi) and it extends into each of the six municipalities on the island.\n\n[Doc 4] Garajonay National Park:  It was declared a national park in 1981 and a World Heritage Site by UNESCO in 1986.\n\n[Doc 5] Hermigua:  The Garajonay National Park covers the southern part of the municipality.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation: Teide National Park is located in the Spanish Canary Islands.\n\nFinal Question: In which country are Teide National Park and Garajonay National Park located?\nObservation: Teide National Park is located in the Spanish Canary Islands. Garajonay National Park is also located in the Spanish Canary Islands.",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 3,
+      "thought": "Final Question: What country contains Teide National Park and Garajonay National Park?\n\nObservation: Teide National Park is located in the Spanish Canary Islands, and Garajonay National Park is located in the Spanish island of La Gomera. Both are in Spain. \n\nFinal Answer: Spain.",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 9.854429244995117,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

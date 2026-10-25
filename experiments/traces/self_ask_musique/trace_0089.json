@@ -1,0 +1,31 @@
+{
+  "question": "Where is Assomada located?",
+  "answer": "Brazil",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation: What country does Assomada belong to? \nIntermediate Question: In which country is Assomada located?",
+      "action_name": "search",
+      "action_input": "In which country is Assomada located?",
+      "observation": "[Search] Results for 'In which country is Assomada located?':\n[Doc 1] Constitution of Bavaria: The Constitution of the free State of Bavaria regulates the independence of the free State (Republic) as a land of the Federal Republic of (Germany). On 26 October 1946, it was decided by the National Assembly. After a statement of the Council of Ministers of 4 December, she joined with its publication in the bavarian law-paper on 8 December 1946 in force.\n\n[Doc 2] Río Frío de Juárez: Río Frío de Juárez, originally Río Frío (Cold River), a Mexican populated place, is located in the municipality of Ixtapaluca in the State of Mexico. Río Frío de Juárez is located at the highest point on the highway between Mexico City to Puebla de Zaragoza being located at the top of the pass on the historic road between the two cities.\n\n[Doc 3] José Antunes Sobrinho: The city has a unique status in Brazil, as it is an administrative division rather than a legal municipality like other cities in Brazil. The name 'Brasília' is commonly used as a synonym for the Federal District through synecdoche; However, the Federal District is composed of 31 administrative regions, only one of which is Brasília proper, with a population of 209,926 in a 2011 survey; Demographic publications generally do not make this distinction and list the population of Brasília as synonymous with the population of the Federal District, considering the whole of it as its metropolitan area. The city was one of the main host cities o...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Brazil",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 3.4944088459014893,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

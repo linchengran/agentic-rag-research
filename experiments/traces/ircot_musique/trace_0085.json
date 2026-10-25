@@ -1,0 +1,23 @@
+{
+  "question": "In which state is Póvoa de Santa Iria's municipality located?",
+  "answer": "Rio Grande do Sul.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Observations 1: [Observations from previous thoughts] Final Answer: Rio Grande do Sul.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Observations 1: [Observations from previous thoughts] Final Answer: Rio Grande do Sul.",
+      "observation": "[Search] Results for 'Thought 2: Observations 1: [Observations from previous thoughts] Final Answer: Rio Grande do Sul.':\n[Doc 1] Dominance (genetics): The concept of dominance was introduced by Gregor Johann Mendel. Though Mendel, ``The Father of Genetics '', first used the term in the 1860s, it was not widely known until the early twentieth century. Mendel observed that, for a variety of traits of garden peas having to do with the appearance of seeds, seed pods, and plants, there were two discrete phenotypes, such as round versus wrinkled seeds, yellow versus green seeds, red versus white flowers or tall versus short plants. When bred separately, the plants always produced the same phenotypes, generation after generation. However, when lines with different phenotypes were crossed (interbred), one and only one of the parental phenotypes showed up in the offspring (green, or round, or red, or tall). However, when these hybrid plants were crossed, the offspring plants showed the two original phenotypes, in a characteristic 3: 1 ratio, the more common phenotype being that of the parental hybrid plants. Mendel reasoned that each parent in the first cross was a homozygote for different alleles (one parent AA and the other parent aa), that each contributed one allele to the offspring, with the result that all of these hybrids were heterozygotes (Aa), and that one of the two alleles in the hybrid cross dominated expression of the other: A masked a. The final cross between two heter...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 7.503088474273682,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "question": "Which film has the director died earlier, Condemned Women or Faces In The Dark?",
+  "answer": "",
+  "n_steps": 3,
+  "finished": false,
+  "finish_reason": "max_steps",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about the director of Condemned Women.",
+      "action_name": "search",
+      "action_input": "directors of Condemned Women",
+      "observation": "[Search] Results for 'directors of Condemned Women':\n[Doc 1] Condemned Women: Condemned Women is a 1938 American drama film directed by Lew Landers and written by Lionel Houser.\n\n[Doc 2] Condemned Women: The film stars Sally Eilers, Louis Hayward, Anne Shirley, Esther Dale and Lee Patrick.\n\n[Doc 3] Condemned Women: The film was released on March 18, 1938.\n\n[Doc 4] Happiness of Three Women: The film stars House Peters, Sr., Myrtle Stedman, Larry Steers, Daisy Jefferson, William Hutchinson and Lucille Ward.\n\n[Doc 5] Indira Vizha: The movie revolves around sexual harassment at work.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "action_name": "lookup",
+      "action_input": "Condemned Women",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "To find the director's birth year, I need to search for the director of \"Condemned Women\".",
+      "action_name": "lookup",
+      "action_input": "Condemn",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 227.52009987831116,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for directors of Condemned Women and Faces in the Dark",
+      "Find the birth years of both directors",
+      "Finish with the shortest answer."
+    ]
+  }
+}

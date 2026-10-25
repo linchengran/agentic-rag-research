@@ -1,0 +1,31 @@
+{
+  "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and Téa Leoni?",
+  "answer": "Eric Ambler",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Screenwriters who have worked on \"Evolution\"",
+      "action_name": "ircot_search",
+      "action_input": "Screenwriters who have worked on \"Evolution\"",
+      "observation": "[Search] Results for 'Screenwriters who have worked on \"Evolution\"':\n[Doc 1] Eric Ambler:  He also worked as a screenwriter.\n\n[Doc 2] Dexter (TV series):  It was adapted for television by screenwriter James Manos, Jr., who wrote the first episode.\n\n[Doc 3] Stormbreaker (film):  The screenplay by Ant...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Screenwriters for \"Evolution\" that starred Nicolas Cage and Téa Leoni starred film.",
+      "action_name": "ircot_search",
+      "action_input": "Screenwriters for \"Evolution\" that starred Nicolas Cage and Téa Leoni starred film.",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 41.989741563797,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

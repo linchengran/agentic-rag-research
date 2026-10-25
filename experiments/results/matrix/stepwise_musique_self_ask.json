@@ -1,0 +1,73 @@
+{
+  "self_ask": {
+    "n_questions": 100,
+    "curve": {
+      "1": {
+        "n_questions_reached": 84,
+        "repeat_queries": 0,
+        "repeat_rate": 0.0,
+        "zero_new_gain_rate": 0.2619047619047619,
+        "marginal_hits_per_question": 0.8214285714285714,
+        "marginal_recovery_rate": 0.42073170731707316
+      },
+      "2": {
+        "n_questions_reached": 25,
+        "repeat_queries": 9,
+        "repeat_rate": 0.36,
+        "zero_new_gain_rate": 0.84,
+        "marginal_hits_per_question": 0.16,
+        "marginal_recovery_rate": 0.14814814814814814
+      },
+      "3": {
+        "n_questions_reached": 15,
+        "repeat_queries": 5,
+        "repeat_rate": 0.3333333333333333,
+        "zero_new_gain_rate": 0.9333333333333333,
+        "marginal_hits_per_question": 0.06666666666666667,
+        "marginal_recovery_rate": 0.07692307692307693
+      },
+      "4": {
+        "n_questions_reached": 11,
+        "repeat_queries": 8,
+        "repeat_rate": 0.7272727272727273,
+        "zero_new_gain_rate": 0.9090909090909091,
+        "marginal_hits_per_question": 0.09090909090909091,
+        "marginal_recovery_rate": 0.1
+      },
+      "5": {
+        "n_questions_reached": 6,
+        "repeat_queries": 5,
+        "repeat_rate": 0.8333333333333334,
+        "zero_new_gain_rate": 1.0,
+        "marginal_hits_per_question": 0.0,
+        "marginal_recovery_rate": 0.0
+      },
+      "6": {
+        "n_questions_reached": 2,
+        "repeat_queries": 2,
+        "repeat_rate": 1.0,
+        "zero_new_gain_rate": 1.0,
+        "marginal_hits_per_question": 0.0,
+        "marginal_recovery_rate": 0.0
+      },
+      "7": {
+        "n_questions_reached": 2,
+        "repeat_queries": 2,
+        "repeat_rate": 1.0,
+        "zero_new_gain_rate": 1.0,
+        "marginal_hits_per_question": 0.0,
+        "marginal_recovery_rate": 0.0
+      },
+      "8": {
+        "n_questions_reached": 2,
+        "repeat_queries": 1,
+        "repeat_rate": 0.5,
+        "zero_new_gain_rate": 1.0,
+        "marginal_hits_per_question": 0.0,
+        "marginal_recovery_rate": 0.0
+      }
+    },
+    "total_queries": 147,
+    "repeat_queries_total": 32
+  }
+}

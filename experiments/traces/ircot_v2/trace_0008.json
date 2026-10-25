@@ -1,0 +1,23 @@
+{
+  "question": "Who is older, Annie Morton or Terry Richardson?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Observation 1: )",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 1: )",
+      "observation": "[Search] Results for '(Observation 1: )':\n[Doc 1] Participant observation: Participant observation is one type of data collection method typically used in qualitative research.\n\n[Doc 2] VMAQT-1:  Its motto is “Tairngreacht Bas,” Gaelic for “Death Foretold.”\n\n[Doc 3] The Five Obstructions: The Five O...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 1.916971206665039,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

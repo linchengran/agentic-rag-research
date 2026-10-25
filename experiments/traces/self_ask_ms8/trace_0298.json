@@ -1,0 +1,31 @@
+{
+  "question": "The mass killing that took place at Oakland, California on April 2, 2012 was less deadly than the one that took place on October 1, 2015 in which state?",
+  "answer": "Colorado",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Which state hosted the October 1, 2015 mass killing?",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Colorado",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 2.775303602218628,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

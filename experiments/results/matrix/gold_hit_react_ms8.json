@@ -1,0 +1,380 @@
+{
+  "n": 30,
+  "gold_hit_full": 0.43333333333333335,
+  "gold_hit_partial": 0.9666666666666667,
+  "gold_coverage": 0.7,
+  "baseline_reference_recall_at_5": 0.918,
+  "per_question": [
+    {
+      "id": "5a8b57f25542995d1e6f1371",
+      "gold_titles": [
+        "Ed Wood",
+        "Scott Derrickson"
+      ],
+      "hit_titles": [
+        "Ed Wood",
+        "Scott Derrickson"
+      ],
+      "coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a8c7595554299585d9e36b6",
+      "gold_titles": [
+        "Kiss and Tell (1945 film)",
+        "Shirley Temple"
+      ],
+      "hit_titles": [
+        "Kiss and Tell (1945 film)"
+      ],
+      "coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a85ea095542994775f606a8",
+      "gold_titles": [
+        "Animorphs",
+        "The Hork-Bajir Chronicles"
+      ],
+      "hit_titles": [
+        "Animorphs"
+      ],
+      "coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5adbf0a255429947ff17385a",
+      "gold_titles": [
+        "Esma Sultan Mansion",
+        "Laleli Mosque"
+      ],
+      "hit_titles": [
+        "Esma Sultan Mansion",
+        "Laleli Mosque"
+      ],
+      "coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5a8e3ea95542995a26add48d",
+      "gold_titles": [
+        "Adriana Trigiani",
+        "Big Stone Gap (film)"
+      ],
+      "hit_titles": [
+        "Big Stone Gap (film)"
+      ],
+      "coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5abd94525542992ac4f382d2",
+      "gold_titles": [
+        "2014 S/S",
+        "Winner (band)"
+      ],
+      "hit_titles": [
+        "2014 S/S"
+      ],
+      "coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a85b2d95542997b5ce40028",
+      "gold_titles": [
+        "Eenasul Fateh",
+        "Management consulting"
+      ],
+      "hit_titles": [
+        "Eenasul Fateh"
+      ],
+      "coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a87ab905542996e4f3088c1",
+      "gold_titles": [
+        "Androscoggin Bank Colisée",
+        "Lewiston Maineiacs"
+      ],
+      "hit_titles": [
+        "Androscoggin Bank Colisée",
+        "Lewiston Maineiacs"
+      ],
+      "coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a7bbb64554299042af8f7cc",
+      "gold_titles": [
+        "Annie Morton",
+        "Terry Richardson"
+      ],
+      "hit_titles": [
+        "Annie Morton",
+        "Terry Richardson"
+      ],
+      "coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a8db19d5542994ba4e3dd00",
+      "gold_titles": [
+        "For Against",
+        "Local H"
+      ],
+      "hit_titles": [
+        "Local H"
+      ],
+      "coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a7166395542994082a3e814",
+      "gold_titles": [
+        "Kansas Song",
+        "University of Kansas"
+      ],
+      "hit_titles": [
+        "Kansas Song",
+        "University of Kansas"
+      ],
+      "coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a877e5d5542993e715abf7d",
+      "gold_titles": [
+        "David Weissman",
+        "The Family Man"
+      ],
+      "hit_titles": [
+        "The Family Man"
+      ],
+      "coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab3b0bf5542992ade7c6e39",
+      "gold_titles": [
+        "End of Days (film)",
+        "Oh My God (Guns N' Roses song)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ab56e32554299637185c594",
+      "gold_titles": [
+        "888 7th Avenue",
+        "Random House Tower"
+      ],
+      "hit_titles": [
+        "888 7th Avenue",
+        "Random House Tower"
+      ],
+      "coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5ab6d09255429954757d337d",
+      "gold_titles": [
+        "1995–96 Manchester United F.C. season",
+        "Alex Ferguson"
+      ],
+      "hit_titles": [
+        "1995–96 Manchester United F.C. season",
+        "Alex Ferguson"
+      ],
+      "coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a75e05c55429976ec32bc5f",
+      "gold_titles": [
+        "Brown County, Kansas",
+        "Brown State Fishing Lake"
+      ],
+      "hit_titles": [
+        "Brown State Fishing Lake"
+      ],
+      "coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab3e45655429976abd1bcd4",
+      "gold_titles": [
+        "America East Conference",
+        "Vermont Catamounts men's soccer"
+      ],
+      "hit_titles": [
+        "Vermont Catamounts men's soccer"
+      ],
+      "coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab29c24554299449642c932",
+      "gold_titles": [
+        "Ambroise Thomas",
+        "Giuseppe Verdi"
+      ],
+      "hit_titles": [
+        "Ambroise Thomas",
+        "Giuseppe Verdi"
+      ],
+      "coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ae0d4c9554299603e418468",
+      "gold_titles": [
+        "Richard Nixon",
+        "Roger O. Egeberg"
+      ],
+      "hit_titles": [
+        "Roger O. Egeberg"
+      ],
+      "coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a8133725542995ce29dcbdb",
+      "gold_titles": [
+        "Henry Roth",
+        "Robert Erskine Childers"
+      ],
+      "hit_titles": [
+        "Henry Roth",
+        "Robert Erskine Childers"
+      ],
+      "coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ae7a8175542993210983ed8",
+      "gold_titles": [
+        "Formula One drivers from Mexico",
+        "Sergio Pérez"
+      ],
+      "hit_titles": [
+        "Formula One drivers from Mexico"
+      ],
+      "coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae6050f55429929b0807a5e",
+      "gold_titles": [
+        "A Rather Blustery Day",
+        "Jim Cummings"
+      ],
+      "hit_titles": [
+        "A Rather Blustery Day"
+      ],
+      "coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5adddccd5542997dc7907069",
+      "gold_titles": [
+        "Apple Remote",
+        "Front Row (software)"
+      ],
+      "hit_titles": [
+        "Apple Remote"
+      ],
+      "coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae2070a5542994d89d5b313",
+      "gold_titles": [
+        "Badly Drawn Boy",
+        "Wolf Alice"
+      ],
+      "hit_titles": [
+        "Badly Drawn Boy"
+      ],
+      "coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae22b8d554299234fd0440f",
+      "gold_titles": [
+        "Kasper Schmeichel",
+        "Peter Schmeichel"
+      ],
+      "hit_titles": [
+        "Kasper Schmeichel",
+        "Peter Schmeichel"
+      ],
+      "coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a722b8655429971e9dc9329",
+      "gold_titles": [
+        "Lee Hazlewood",
+        "These Boots Are Made for Walkin'"
+      ],
+      "hit_titles": [
+        "These Boots Are Made for Walkin'"
+      ],
+      "coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5adf37a95542995ec70e8f97",
+      "gold_titles": [
+        "2011–12 VCU Rams men's basketball team",
+        "Virginia Commonwealth University"
+      ],
+      "hit_titles": [
+        "2011–12 VCU Rams men's basketball team"
+      ],
+      "coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5abd259d55429924427fcf1a",
+      "gold_titles": [
+        "Dictyosperma",
+        "Huernia"
+      ],
+      "hit_titles": [
+        "Dictyosperma",
+        "Huernia"
+      ],
+      "coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a828c8355429966c78a6a50",
+      "gold_titles": [
+        "Henry J. Kaiser",
+        "Kaiser Ventures"
+      ],
+      "hit_titles": [
+        "Henry J. Kaiser",
+        "Kaiser Ventures"
+      ],
+      "coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a8a3e745542996c9b8d5e70",
+      "gold_titles": [
+        "Arena of Khazan",
+        "Tunnels &amp; Trolls"
+      ],
+      "hit_titles": [
+        "Arena of Khazan",
+        "Tunnels &amp; Trolls"
+      ],
+      "coverage": 1.0,
+      "em": 0.0
+    }
+  ]
+}

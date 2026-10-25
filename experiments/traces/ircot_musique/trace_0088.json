@@ -1,0 +1,23 @@
+{
+  "question": "Where is the country with ISO code ISO 3166-2:CV located?",
+  "answer": "Cabo Verde",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Which country uses ISO 3166-2:CV?",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Which country uses ISO 3166-2:CV?",
+      "observation": "[Search] Results for 'Thought 2: Which country uses ISO 3166-2:CV?':\n[Doc 1] ISO 3166-2:CV: ISO 3166-2:CV is the entry for Cabo Verde in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which defines codes for the names of the principal subdivisions (e.g., provinces or states) of all countries coded in ISO 3166-1.\n\n[Doc 2] ISO 3166-2:JM: ISO 3166-2:JM is the entry for Jamaica in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which defines codes for the names of the principal subdivisions (e.g., provinces or states) of all countries coded in ISO 3166-1.\n\n[Doc 3] ISO 3166-2:JP: ISO 3166-2:JP is the entry for Japan in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which defines codes for the names of the principal subdivisions (e.g.provinces or states) of all countries coded in ISO 3166-1.\n\n[Doc 4] ISO 3166-2:BR: ISO 3166-2:BR is the entry for Brazil in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which defines codes for the names of the principal subdivisions (e.g. provinces or states) of all countries coded in ISO 3166-1.\n\n[Doc 5] ISO 3166-2:BT: ISO 3166-2:BT is the entry for Bhutan in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which defines codes f...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 4.577626466751099,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

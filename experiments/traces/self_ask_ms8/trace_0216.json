@@ -1,0 +1,39 @@
+{
+  "question": "Ernest Foot was the best friend of the fighter pilot who had how many victories?",
+  "answer": "102",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: How many victories did the most successful fighter pilot have?\n\nObservation: The most successful fighter pilot had over 100 victories.",
+      "action_name": "search",
+      "action_input": "How many victories did the most successful fighter pilot have?",
+      "observation": "[Search] Results for 'How many victories did the most successful fighter pilot have?':\n[Doc 1] Lydia Litvyak:  With twelve solo victories and four shared kills over a total of 66 combat missions, over about two years of missions, she was the first female fighter pilot to shoot down an enemy plane, the first of two female fighter pilots who have earned the title of fighter ace, and the holder of the record for the greatest number of kills by a female fighter pilot.\n\n[Doc 2] Egon Mayer:  Mayer was the first fighter pilot to score 100 victories entirely on the Western Front.\n\n[Doc 3] Fighter Pilot: Operation Red Flag: Fighter Pilot: Operation Red Flag is an IMAX film centered on the experiences of a USAF F-15 Eagle fighter pilot, then-Captain John Stratton, who wants to be professionally successful as a fighter pilot.\n\n[Doc 4] Pilot (Rick and Morty):  The pilot had a mixed to positive reception and was seen by about 1.1 million viewers when airing.\n\n[Doc 5] Pilot (Will &amp; Grace):  It was written by David Kohan and Max Mutchnick, and directed by James Burrows.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation: The most successful fighter pilot had 100 victories entirely on the Western Front.\n\nIntermediate Question: How many victories did Egon Mayer have?\nObservation: Egon Mayer was the first fighter pilot to score 100 victories entirely on the Western Front.",
+      "action_name": "search",
+      "action_input": "How many victories did Egon Mayer have?",
+      "observation": "[Search] Results for 'How many victories did Egon Mayer have?':\n[Doc 1] Egon Mayer:  Mayer was the first fighter pilot to score 100 victories entirely on the Western Front.\n\n[Doc 2] Egon Mayer: Egon Mayer (19 August 1917 – 2 March 1944) was a German fighter pilot during World War II.\n\n[Doc 3] Egon Mayer:  He was credited with 102 enemy aircraft shot down in over 353 combat missions.\n\n[Doc 4] Egon Mayer:  His victories were all claimed over the Western Front.\n\n[Doc 5] Heisman curse:  Additionally, the Heisman curse asserts that in most cases a Heisman winner will have either a poor career in the National Football League (NFL), or in fact not even see such a football career at all.",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Intermediate Question: How many victories did the most successful fighter pilot have?\nOutput the next step: Final Answer: 102",
+      "action_name": "self_ask_query",
+      "action_input": "How many victories did the most successful fighter pilot have?",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 16.795305967330933,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

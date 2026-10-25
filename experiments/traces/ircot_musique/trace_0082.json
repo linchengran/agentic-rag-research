@@ -1,0 +1,23 @@
+{
+  "question": "What pantheon is the God of the underworld in ancient Egypt a part of?",
+  "answer": "Egyptian Pantheon.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: Egyptian Pantheon.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: Egyptian Pantheon.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: Egyptian Pantheon.':\n[Doc 1] Finale (Smallville): \"Finale\" is the title of the two-episode series finale of the superhero television series \"Smallville\". The episodes are the 21st and 22nd of the 10th season, and the 216th and 217th episodes overall. The finale originally aired on The CW in the United States on May 13, 2011. The first half was written by Al Septien and Turi Meyer, and directed by Kevin G. Fair, and the second half was written by Kelly Souders and Brian Peterson, and directed by Greg Beeman.\n\n[Doc 2] American Psycho 2: American Psycho 2 (also known as American Psycho II: All American Girl) is a 2002 American black comedy horror film and a stand-alone sequel to Mary Harron's 2000 film adaptation of \"American Psycho\". It is directed by Morgan J. Freeman and stars Mila Kunis as Rachael Newman, a driven criminology student who is drawn to murder. The film also features William Shatner as her professor.\n\n[Doc 3] The Final Testament of the Holy Bible: The Final Testament of the Holy Bible is a novel written by James Frey, published by Gagosian Gallery in 2011. The book is published in the UK by John Murray with the shortened title \"The Final Testament\".\n\n[Doc 4] The Finale (Seinfeld): ``The Finale ''is the two - part series finale of the American sitcom Seinfeld. They are the 179th and 180th episodes of the show and the 23rd and 24th episodes of the ninth season. It aired on NBC May 14, 1998 to an audience of 76 million...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 2.470536708831787,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

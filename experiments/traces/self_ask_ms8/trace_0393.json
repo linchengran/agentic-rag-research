@@ -1,0 +1,31 @@
+{
+  "question": "In which county is the English king Harold Godwinson buried?",
+  "answer": "Suffolk.",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation: Harold Godwinson was an English king. \n\nIntermediate Question: Which English king is known to be buried somewhere?",
+      "action_name": "search",
+      "action_input": "Which English king is known to be buried somewhere?",
+      "observation": "[Search] Results for 'Which English king is known to be buried somewhere?':\n[Doc 1] The Last English King:  It revolves around Walt Edwinson, a housecarl of Harold Godwinson, the last Anglo-Saxon king of England.\n\n[Doc 2] The Last English King:  The story starts with Walt returning to his home at Iwerne in Dorset four years after the Battle of Hastings.\n\n[Doc 3] The Last English King:  The story of his journey from Constantinople via Nicomedia and Nicaea to Side is then recounted in parallel with his recollections of the time before the battle, such as his accompanying Harold to William of Normandy's attack on Dinan.\n\n[Doc 4] Greene King:  It is based in Bury St Edmunds, Suffolk, England.\n\n[Doc 5] King's College London:  King's was established in 1829 by King George IV and the Duke of Wellington, when it received its first royal charter (as a college), and claims to be the fourth oldest university in England.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Intermediate Question: What county is Bury St Edmunds, Suffolk, England located in?\nObservation: Bury St Edmunds, Suffolk, England is located in the county of Suffolk. \n\nFinal Answer: Suffolk.",
+      "action_name": "self_ask_query",
+      "action_input": "What county is Bury St Edmunds, Suffolk, England located in?",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 6.431060314178467,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

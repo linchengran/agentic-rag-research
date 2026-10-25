@@ -1,0 +1,581 @@
+{
+  "n": 30,
+  "agent": {
+    "gold_hit_full": 0.43333333333333335,
+    "gold_hit_partial": 0.9666666666666667,
+    "gold_coverage": 0.7,
+    "first_query_coverage": 0.65,
+    "avg_queries": 1.4333333333333333
+  },
+  "baseline_single_query": {
+    "gold_hit_full": 0.36666666666666664,
+    "gold_hit_partial": 1.0,
+    "gold_coverage": 0.6833333333333333
+  },
+  "per_question": [
+    {
+      "id": "5a8b57f25542995d1e6f1371",
+      "n_queries": 1,
+      "queries": [
+        "Scott Derrickson and Ed Wood nationality"
+      ],
+      "gold_titles": [
+        "Ed Wood",
+        "Scott Derrickson"
+      ],
+      "hit_titles": [
+        "Scott Derrickson"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a8c7595554299585d9e36b6",
+      "n_queries": 1,
+      "queries": [
+        "the woman who portrayed Corliss Archer in Kiss and Tell film"
+      ],
+      "gold_titles": [
+        "Kiss and Tell (1945 film)",
+        "Shirley Temple"
+      ],
+      "hit_titles": [
+        "Kiss and Tell (1945 film)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a85ea095542994775f606a8",
+      "n_queries": 4,
+      "queries": [
+        "science fantasy young adult series companion enslaved worlds alien species",
+        "young adult science fantasy companion enslaved worlds alien species",
+        "young adult science fantasy companion enslaved worlds alien species companion",
+        "young adult science fantasy companion enslaved worlds alien species companion story"
+      ],
+      "gold_titles": [
+        "Animorphs",
+        "The Hork-Bajir Chronicles"
+      ],
+      "hit_titles": [
+        "Animorphs"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5adbf0a255429947ff17385a",
+      "n_queries": 3,
+      "queries": [
+        "Laleli Mosque and Esma Sultan Mansion neighborhood",
+        "Laleli Mosque Ortaköy neighborhood",
+        "Esma Sultan Mansion Ortaköy neighborhood"
+      ],
+      "gold_titles": [
+        "Esma Sultan Mansion",
+        "Laleli Mosque"
+      ],
+      "hit_titles": [
+        "Esma Sultan Mansion",
+        "Laleli Mosque"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a8e3ea95542995a26add48d",
+      "n_queries": 1,
+      "queries": [
+        "director of Big Stone Gap romantic comedy movie"
+      ],
+      "gold_titles": [
+        "Adriana Trigiani",
+        "Big Stone Gap (film)"
+      ],
+      "hit_titles": [
+        "Big Stone Gap (film)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5abd94525542992ac4f382d2",
+      "n_queries": 3,
+      "queries": [
+        "debut albums of South Korean boy groups formed who formed them",
+        "debut albums of South Korean boy groups formed who formed them in 2014",
+        "debut albums of South Korean boy groups in 2014"
+      ],
+      "gold_titles": [
+        "2014 S/S",
+        "Winner (band)"
+      ],
+      "hit_titles": [
+        "2014 S/S",
+        "Winner (band)"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a85b2d95542997b5ce40028",
+      "n_queries": 1,
+      "queries": [
+        "performer known by stage name Aladdin and performance improvement organizations"
+      ],
+      "gold_titles": [
+        "Eenasul Fateh",
+        "Management consulting"
+      ],
+      "hit_titles": [
+        "Eenasul Fateh"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a87ab905542996e4f3088c1",
+      "n_queries": 2,
+      "queries": [
+        "home stadium of Lewiston Maineiacs",
+        "Androscoggin Bank Colisée seating capacity"
+      ],
+      "gold_titles": [
+        "Androscoggin Bank Colisée",
+        "Lewiston Maineiacs"
+      ],
+      "hit_titles": [
+        "Androscoggin Bank Colisée",
+        "Lewiston Maineiacs"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a7bbb64554299042af8f7cc",
+      "n_queries": 1,
+      "queries": [
+        "Terry Richardson and Annie Morton age"
+      ],
+      "gold_titles": [
+        "Annie Morton",
+        "Terry Richardson"
+      ],
+      "hit_titles": [
+        "Annie Morton",
+        "Terry Richardson"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a8db19d5542994ba4e3dd00",
+      "n_queries": 1,
+      "queries": [
+        "Are Local H and For Against both from the United States?"
+      ],
+      "gold_titles": [
+        "For Against",
+        "Local H"
+      ],
+      "hit_titles": [
+        "Local H"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a7166395542994082a3e814",
+      "n_queries": 1,
+      "queries": [
+        "Lawrence, Kansas university fight song"
+      ],
+      "gold_titles": [
+        "Kansas Song",
+        "University of Kansas"
+      ],
+      "hit_titles": [
+        "Kansas Song",
+        "University of Kansas"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a877e5d5542993e715abf7d",
+      "n_queries": 2,
+      "queries": [
+        "nick cage tea leoni filmography",
+        "film screenwriter nick cage tea leoni"
+      ],
+      "gold_titles": [
+        "David Weissman",
+        "The Family Man"
+      ],
+      "hit_titles": [
+        "The Family Man"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab3b0bf5542992ade7c6e39",
+      "n_queries": 1,
+      "queries": [
+        "Guns N' Roses promo for a movie starring Arnold Schwarzenegger"
+      ],
+      "gold_titles": [
+        "End of Days (film)",
+        "Oh My God (Guns N' Roses song)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab56e32554299637185c594",
+      "n_queries": 1,
+      "queries": [
+        "Are Random House Tower and 888 7th Avenue both used for real estate?"
+      ],
+      "gold_titles": [
+        "888 7th Avenue",
+        "Random House Tower"
+      ],
+      "hit_titles": [
+        "888 7th Avenue",
+        "Random House Tower"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5ab6d09255429954757d337d",
+      "n_queries": 1,
+      "queries": [
+        "football managers of Manchester United during David Beckham's tenure"
+      ],
+      "gold_titles": [
+        "1995–96 Manchester United F.C. season",
+        "Alex Ferguson"
+      ],
+      "hit_titles": [
+        "1995–96 Manchester United F.C. season",
+        "Alex Ferguson"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a75e05c55429976ec32bc5f",
+      "n_queries": 1,
+      "queries": [
+        "Brown State Fishing Lake population"
+      ],
+      "gold_titles": [
+        "Brown County, Kansas",
+        "Brown State Fishing Lake"
+      ],
+      "hit_titles": [
+        "Brown State Fishing Lake"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab3e45655429976abd1bcd4",
+      "n_queries": 1,
+      "queries": [
+        "conference history of Vermont Catamounts men's soccer team"
+      ],
+      "gold_titles": [
+        "America East Conference",
+        "Vermont Catamounts men's soccer"
+      ],
+      "hit_titles": [
+        "Vermont Catamounts men's soccer"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab29c24554299449642c932",
+      "n_queries": 1,
+      "queries": [
+        "Are Giuseppe Verdi and Ambroise Thomas both opera composers?"
+      ],
+      "gold_titles": [
+        "Ambroise Thomas",
+        "Giuseppe Verdi"
+      ],
+      "hit_titles": [
+        "Ambroise Thomas",
+        "Giuseppe Verdi"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ae0d4c9554299603e418468",
+      "n_queries": 1,
+      "queries": [
+        "years of president serving during Roger O. Egeberg's tenure as Assistant Secretary for Health and Scientific Affairs"
+      ],
+      "gold_titles": [
+        "Richard Nixon",
+        "Roger O. Egeberg"
+      ],
+      "hit_titles": [
+        "Roger O. Egeberg"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a8133725542995ce29dcbdb",
+      "n_queries": 2,
+      "queries": [
+        "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+        "Who was the writer from England, Henry Roth or Robert Erskine Childers?"
+      ],
+      "gold_titles": [
+        "Henry Roth",
+        "Robert Erskine Childers"
+      ],
+      "hit_titles": [
+        "Henry Roth",
+        "Robert Erskine Childers"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ae7a8175542993210983ed8",
+      "n_queries": 1,
+      "queries": [
+        "Formula One race car drivers born in 1990"
+      ],
+      "gold_titles": [
+        "Formula One drivers from Mexico",
+        "Sergio Pérez"
+      ],
+      "hit_titles": [
+        "Formula One drivers from Mexico"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ae6050f55429929b0807a5e",
+      "n_queries": 1,
+      "queries": [
+        "voice actor of A Rather Blustery Day and hedgehog"
+      ],
+      "gold_titles": [
+        "A Rather Blustery Day",
+        "Jim Cummings"
+      ],
+      "hit_titles": [
+        "A Rather Blustery Day"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5adddccd5542997dc7907069",
+      "n_queries": 1,
+      "queries": [
+        "other devices that can control programs similar to apple remote"
+      ],
+      "gold_titles": [
+        "Apple Remote",
+        "Front Row (software)"
+      ],
+      "hit_titles": [
+        "Apple Remote"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae2070a5542994d89d5b313",
+      "n_queries": 1,
+      "queries": [
+        "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?"
+      ],
+      "gold_titles": [
+        "Badly Drawn Boy",
+        "Wolf Alice"
+      ],
+      "hit_titles": [
+        "Badly Drawn Boy"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae22b8d554299234fd0440f",
+      "n_queries": 1,
+      "queries": [
+        "Kasper Schmeichel IFFHS father 1992"
+      ],
+      "gold_titles": [
+        "Kasper Schmeichel",
+        "Peter Schmeichel"
+      ],
+      "hit_titles": [
+        "Kasper Schmeichel",
+        "Peter Schmeichel"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a722b8655429971e9dc9329",
+      "n_queries": 3,
+      "queries": [
+        "writer of \"These Boots Are Made for Walking\"",
+        "information about a person in 2007",
+        "information about Gary Cherone in 2007"
+      ],
+      "gold_titles": [
+        "Lee Hazlewood",
+        "These Boots Are Made for Walkin'"
+      ],
+      "hit_titles": [
+        "These Boots Are Made for Walkin'"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5adf37a95542995ec70e8f97",
+      "n_queries": 2,
+      "queries": [
+        "VCU founding year",
+        "Virginia Commonwealth University founding year"
+      ],
+      "gold_titles": [
+        "2011–12 VCU Rams men's basketball team",
+        "Virginia Commonwealth University"
+      ],
+      "hit_titles": [
+        "2011–12 VCU Rams men's basketball team",
+        "Virginia Commonwealth University"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5abd259d55429924427fcf1a",
+      "n_queries": 1,
+      "queries": [
+        "Are both Dictyosperma and Huernia described as a genus?"
+      ],
+      "gold_titles": [
+        "Dictyosperma",
+        "Huernia"
+      ],
+      "hit_titles": [
+        "Dictyosperma",
+        "Huernia"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a828c8355429966c78a6a50",
+      "n_queries": 1,
+      "queries": [
+        "an American industrialist known as the father of modern American shipbuilding founded Kaiser Ventures corporation"
+      ],
+      "gold_titles": [
+        "Henry J. Kaiser",
+        "Kaiser Ventures"
+      ],
+      "hit_titles": [
+        "Henry J. Kaiser",
+        "Kaiser Ventures"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a8a3e745542996c9b8d5e70",
+      "n_queries": 1,
+      "queries": [
+        "What is the name of the adventure game designed by Ken St. Andre?"
+      ],
+      "gold_titles": [
+        "Arena of Khazan",
+        "Tunnels &amp; Trolls"
+      ],
+      "hit_titles": [
+        "Tunnels &amp; Trolls"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    }
+  ]
+}

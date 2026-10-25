@@ -1,0 +1,39 @@
+{
+  "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+  "answer": "World War II",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What war had over 60 million casualties?\n\nObservation: World War II had over 60 million casualties.",
+      "action_name": "search",
+      "action_input": "What war had over 60 million casualties?",
+      "observation": "[Search] Results for 'What war had over 60 million casualties?':\n[Doc 1] World War II casualties:  Over 60 million people were killed, which was about 3% of the 1940 world population (est. 2.3 billion).\n\n[Doc 2] World War II casualties: World War II was the deadliest military conflict in history in absolute terms of total casualties.\n\n[Doc 3] World War II casualties:  The tables below give a detailed country-by-country count of human losses.\n\n[Doc 4] Draining and development of the Everglades:  During the Second Seminole War beginning in 1836, the United States military's mission was to seek out Seminole people in the Everglades and capture or kill them.\n\n[Doc 5] World War II casualties:  World War II fatality statistics vary, with estimates of total deaths ranging from 50 million to more than 80 million.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation: [Search] Results for 'What war had over 60 million casualties?'\n[Doc 1] World War II casualties: Over 60 million people were killed, which was about 3% of the 1940 world population (est. 2.3 billion).\n\nIntermediate Question: What war had over 60 million casualties?",
+      "action_name": "search",
+      "action_input": "What war had over 60 million casualties?",
+      "observation": "[Search] Results for 'What war had over 60 million casualties?':\n[Doc 1] World War II casualties:  Over 60 million people were killed, which was about 3% of the 1940 world population (est. 2.3 billion).\n\n[Doc 2] World War II casualties: World War II was the deadliest military conflict in history in absolute terms of total casualties.\n\n[Doc 3] World War II casualties:  The tables below give a detailed country-by-country count of human losses.\n\n[Doc 4] Draining and development of the Everglades:  During the Second Seminole War beginning in 1836, the United States military's mission was to seek out Seminole people in the Everglades and capture or kill them.\n\n[Doc 5] World War II casualties:  World War II fatality statistics vary, with estimates of total deaths ranging from 50 million to more than 80 million.",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Intermediate Question: What was the deadliest military conflict in history in absolute terms of total casualties?\n\nObservation: [Search] Results for 'What war had over 60 million casualties?':\n[Doc 1] World War II casualties: Over 60 million people were killed, which was about 3% of the 1940 world population (est. 2.3 billion).\n\n[Doc 2] World War II casualties: World War II was the deadliest military conflict in history in absolute terms of total casualties.\n\n[Doc 3] World War II casualties: The tables below give a detailed country-by-country count of human losses.\n\n[Doc 4] Draining and development of the Everglades: During the Second Seminole War beginning in 1836, the United States military's mission was to seek out Seminole people in the Everglades and capture or kill them.\n\n[Doc 5] World War II casualties: World War II fatality statistics vary, with estimates of total deaths ranging from 50 million to more than 80 million. \n\nFinal Question: What war had over 60 million casualties? \n\nObservation: [Search] Results for 'What war had over 60 million casualties?':\n[Doc 1] World War II casualties: Over 60 million people were killed, which was about 3% of the 1940 world population (est. 2.3 billion).\n\n[Doc 2] World War II casualties: World War II was the deadliest military conflict in history in absolute terms of total casualties.\n\n[Doc 3] World War II casualties: The tables below give a detailed country-by-country count of human losses.\n\n[Doc 4] Draining and development of the Everglades: During the Second Seminole War beginning in 1836, the United States military's mission was to seek out Seminole people in the Everglades and capture or kill them.\n\n[Doc 5] World War II casualties: World War II fatality statistics vary, with estimates of total deaths ranging from 50 million to more than 80 million. \n\nFinal Answer: World War II",
+      "action_name": "self_ask_query",
+      "action_input": "What was the deadliest military conflict in history in absolute terms of total casualties?",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 42.70101976394653,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

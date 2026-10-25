@@ -1,0 +1,23 @@
+{
+  "question": "Which film has the director who died earlier, Captain Kidd And The Slave Girl or Relax Freddie?",
+  "answer": "Captain Kidd and the Slave Girl",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Retrieving the director of Captain Kidd And The Slave Girl.",
+      "action_name": "ircot_search",
+      "action_input": "Retrieving the director of Captain Kidd And The Slave Girl.",
+      "observation": "[Search] Results for 'Retrieving the director of Captain Kidd And The Slave Girl.':\n[Doc 1] Captain Kidd and the Slave Girl: The film was directed by Lew Landers, and stars Anthony Dexter, Eva Gabor, and Alan Hale Jr..\n\n[Doc 2] Captain Kidd and the Slave Girl: Captain Kidd and the Slave Girl is a 1954 Action- adventure film about a woman who disguises herself as a slave girl in order to try to gain information from Captain Kidd about his hidden treasure.\n\n[Doc 3] The Warrior and the Slave Girl: The Warrior and the Slave Girl is a 1958 Italian- Spanish- French adventure film in Supercinescope and Eastman Color directed by Vittorio Cottafavi.\n\n[Doc 4] The Great Adventures of Captain Kidd: It is based in the historical figure of Captain William Kidd.\n\n[Doc 5] The Pirate and the Slave Girl: The Pirate and the Slave Girl( also known as\" The Pirate's Captive\") is a 1959 Italian adventure film written and directed by Piero Pierotti and starring Lex Barker.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 47.453006744384766,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+  "answer": "The Pit.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: The Pit.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: The Pit.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: The Pit.':\n[Doc 1] Pilot (Rick and Morty):  It is written by series creators Dan Harmon and Justin Roiland, and directed by Roiland.\n\n[Doc 2] Shrek Forever After (video game):  It is the fourth and final video game based on the movie series of \"Shrek\".\n\n[Doc 3] Snatch (TV series):  The show has been renewed for a second season.\n\n[Doc 4] The Hunger Games: Mockingjay – Part 2:  Hoffman died in February 2014, making \"Mockingjay – Part 2\" his final film role.\n\n[Doc 5] Struggle for Rome (board game):  It is the second game in the \"Catan Histories\" series of board games.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 10.933614492416382,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

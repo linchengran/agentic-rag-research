@@ -1,0 +1,44 @@
+{
+  "question": "What district is the headquarter of Julia's House located?",
+  "answer": "Corset",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about Julia's House to find its location.",
+      "action_name": "search",
+      "action_input": "Julia's House headquarters location",
+      "observation": "[Search] Results for \"Julia's House headquarters location\":\n[Doc 1] Julia's House: Julia's House is a children's hospice located in Corfe Mullen, Dorset, England. It is a hospice in Dorset for children with life-limiting conditions. The majority of the children who are cared for by Julia's House are unlikely to live beyond the age of 18. The hospice costs £1.9 million to be maintained. Only 3% of this cost is provided by the government.\n\n[Doc 2] The Crucifixion of St Julia: The Crucifixion of St Julia is a triptych by the Dutch painter Hieronymus Bosch. Like many Bosch paintings, the date of this work was long disputed, until dendochronologic analysis assigned it to around 1497. It is housed at the Palazzo Ducale in Venice.\n\n[Doc 3] Scottish Parliament: Since September 2004, the official home of the Scottish Parliament has been a new Scottish Parliament Building, in the Holyrood area of Edinburgh. The Scottish Parliament building was designed by Spanish architect Enric Miralles in partnership with local Edinburgh Architecture firm RMJM which was led by Design Principal Tony Kettle. Some of the principal features of the complex include leaf-shaped buildings, a grass-roofed branch merging into adjacent parkland and gabion walls formed from the stones of previous buildings. Throughout the building there are many repeated motifs, such as shapes based on Raeburn's Skating Minister. Crow-stepped gables and the upturned boat skylights of the Garden Lobby, complete the unique archite...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "action_name": "lookup",
+      "action_input": "Corfe Mullen",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "action_name": "lookup",
+      "action_input": "Corfe Mullen",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 75.34149146080017,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for Julia's House locations",
+      "Find the district where Julia's House is located",
+      "Finish with the shortest answer."
+    ]
+  }
+}

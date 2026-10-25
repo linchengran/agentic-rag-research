@@ -1,0 +1,12 @@
+{
+  "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+  "answer": "",
+  "n_steps": 0,
+  "finished": false,
+  "finish_reason": "plan_error",
+  "steps": [],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 5.069259881973267,
+  "metadata": {}
+}

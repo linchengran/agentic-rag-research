@@ -1,0 +1,47 @@
+{
+  "question": "What group was the performer of Be the One a member of?",
+  "answer": "Jackie Jackson",
+  "n_steps": 4,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The performer of \"Be the One\" needs to be found in the history.",
+      "action_name": "search",
+      "action_input": "performer of Be the One",
+      "observation": "[Search] Results for 'performer of Be the One':\n[Doc 1] Be the One (album): Be the One is the second studio album by Jackie Jackson, released on September 9, 1989. The musicians included Paul Jackson, Jr., Jeff Lorber, Robert Brookins and Gerald Albright.\n\n[Doc 2] American Idol: David Archuleta's performance of John Lennon's \"Imagine\" was considered by many as one of the best of the season. Jennifer Lopez, who was brought in as a judge in season ten, called it a beautiful song-moment that she will never forget. Jason Castro's semi-final performance of \"Hallelujah\" also received considerable attention, and it propelled Jeff Buckley's version of the song to the top of the Billboard digital song chart. This was the first season in which contestants' recordings were released onto iTunes after their performances, and although sales information was not released so as not to prejudice the contest, leaked information indicated that contestants' songs frequently reached the top of iTunes sales charts.\n\n[Doc 3] Don't Worry, Be Happy: ``Do n't Worry, Be Happy ''is a popular worldwide hit song by musician Bobby McFerrin. Released in September 1988, it became the first a cappella song to reach number one on the Billboard Hot 100 chart, a position it held for two weeks. The song's title is taken from a famous quotation by Meher Baba. The`` instruments'' in the a cappella song are entirely overdubbed voice parts and other sounds made by McFerrin, using no instruments at all; McFerrin also s...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "action_name": "parse_error",
+      "action_input": "Output the next Thought and Action.",
+      "observation": "[Error] Unknown action: parse_error",
+      "error": "unknown_action"
+    },
+    {
+      "step": 3,
+      "thought": "The performer of \"Be the One\" needs to be found in the history.",
+      "action_name": "lookup",
+      "action_input": "performer of Be the One",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 4,
+      "thought": "",
+      "action_name": "finish",
+      "action_input": "Jackie Jackson",
+      "observation": "[Finish] Answer: Jackie Jackson",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 112.25974798202515,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

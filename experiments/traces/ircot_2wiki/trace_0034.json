@@ -1,0 +1,31 @@
+{
+  "question": "Why did John Middleton Murry's wife die?",
+  "answer": "[Search] Results for \"Search for the cause of death for John Middleton Murry's wife.\":",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for the cause of death for John Middleton Murry's wife.",
+      "action_name": "ircot_search",
+      "action_input": "Search for the cause of death for John Middleton Murry's wife.",
+      "observation": "[Search] Results for \"Search for the cause of death for John Middleton Murry's wife.\":\n[Doc 1] John Middleton Murry: A prominent critic, Murry is best remembered for his association with Katherine Mansfield, whom he married in 1918 as her second husband, for his friendship with D. H. Lawrence and T. S. Eliot, and for his friendship (and brief affair) with Frieda Lawrence.\n\n[Doc 2] John Middleton Murry Jr.: John Middleton Murry Jr. (9 May 1926 – 31 March 2002) was an English writer who used the names Colin Murry and Richard Cowper.\n\n[Doc 3] John Middleton Murry: Following Mansfield's death, Murry edited her work.\n\n[Doc 4] John Middleton Murry: John Middleton Murry (6 August 1889 – 12 March 1957) was an English writer.\n\n[Doc 5] John Middleton Murry: He was a prolific author, producing more than 60 books and thousands of essays and reviews on literature, social issues, politics, and religion during his lifetime.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation 10: [Doc 1] John Middleton Murry: A prominent critic, Murry is best remembered for his association with Katherine Mansfield, whom he married in 1918 as her second husband",
+      "action_name": "ircot_search",
+      "action_input": "Observation 10: [Doc 1] John Middleton Murry: A prominent critic, Murry is best remembered for his association with Katherine Mansfield, whom he married in 1918 as her second husband",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 180.43934059143066,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

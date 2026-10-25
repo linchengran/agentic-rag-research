@@ -1,0 +1,31 @@
+{
+  "question": "Who is Maria Luisa Of Savoy's father-in-law?",
+  "answer": "no information about Maria Luisa Of Savoy father-in-law found",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about Maria Luisa Of Savoy's family.",
+      "action_name": "search",
+      "action_input": "Maria Luisa Of Savoy father-in-law",
+      "observation": "[Search] Results for 'Maria Luisa Of Savoy father-in-law':\n[Doc 1] Maria Luisa of Savoy: Maria Luisa of Savoy (Maria Luisa Gabriella; 17 September 1688 – 14 February 1714) was a queen consort of Spain by marriage to Philip V of Spain.\n\n[Doc 2] Maria Luisa, Duchess of Lucca: The Spanish court was deeply divided and a month after her arrival the country was thrown into unrest when a popular uprising, known as the Mutiny of Aranjuez, forced Maria Luisa's father to abdicate in favor of her brother Ferdinand VII.\n\n[Doc 3] Maria Luisa of Savoy: She acted as Regent of Spain during the absence of her spouse from 1702 until 1703, and had great influence over him as his adviser, while she was herself in turn influenced by the Princesse des Ursins.\n\n[Doc 4] Maria Luisa, Duchess of Lucca: She spent the first years of her married life at the Spanish court where their first child, Charles, was born.\n\n[Doc 5] Maria Luisa, Duchess of Lucca: After her secret plan to escape was discovered, Maria Luisa was separated from her son and placed with her daughter as prisoners in a Roman convent.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "From the search results, Maria Luisa's father was Ferdinand VII of Spain.",
+      "action_name": "finish",
+      "action_input": "no information about Maria Luisa Of Savoy father-in-law found",
+      "observation": "[Finish] Answer: no information about Maria Luisa Of Savoy father-in-law found",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 11.152217149734497,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

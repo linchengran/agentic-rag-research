@@ -1,0 +1,23 @@
+{
+  "question": "Who is the spouse of Young Man Luther's author?",
+  "answer": "Elisabeth Luther",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Observation 1: Martin Luther was a German theologian and priest who wrote the Ninety-five Theses.)",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 1: Martin Luther was a German theologian and priest who wrote the Ninety-five Theses.)",
+      "observation": "[Search] Results for '(Observation 1: Martin Luther was a German theologian and priest who wrote the Ninety-five Theses.)':\n[Doc 1] Elisabeth Luther: Elisabeth Luther () was the first daughter and second child born to German priest and iconic figure of the Protestant Reformation, Martin Luther and his wife, Katharina von Bora. She did not survive infancy.\n\n[Doc 2] Joseph Smith: Joseph Smith Jr. (December 23, 1805 -- June 27, 1844) was an American religious leader and founder of Mormonism and the Latter Day Saint movement. When he was twenty - four, Smith published the Book of Mormon. By the time of his death fourteen years later, he had attracted tens of thousands of followers and founded a religious culture that continues to the present.\n\n[Doc 3] Johannes Tauler: Johannes Tauler OP (c. 1300 – 16 June 1361) was a German mystic, a Catholic preacher and a theologian. A disciple of Meister Eckhart, he belonged to the Dominican order. Tauler was known as one of the most important Rhineland mystics. He promoted a certain neo-platonist dimension in the Dominican spirituality of his time.\n\n[Doc 4] Young Man Luther: Young Man Luther: A Study in Psychoanalysis and History is a 1958 book by psychologist Erik Erikson. It was one of the first psychobiographies of a famous historical figure. Erikson found in Martin Luther a good model of his discovery of \"the identity crisis\". Erikson was sure he could explain Luther's spontaneous eruption, during a monastery choir practice, \"I am not!\"\n\n...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 11.902863025665283,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

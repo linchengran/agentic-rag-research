@@ -1,0 +1,33 @@
+{
+  "ircot": {
+    "n_questions": 100,
+    "curve": {
+      "1": {
+        "n_questions_reached": 100,
+        "repeat_queries": 0,
+        "repeat_rate": 0.0,
+        "zero_new_gain_rate": 0.54,
+        "marginal_hits_per_question": 0.58,
+        "marginal_recovery_rate": 0.2396694214876033
+      },
+      "2": {
+        "n_questions_reached": 7,
+        "repeat_queries": 0,
+        "repeat_rate": 0.0,
+        "zero_new_gain_rate": 1.0,
+        "marginal_hits_per_question": 0.0,
+        "marginal_recovery_rate": 0.0
+      },
+      "3": {
+        "n_questions_reached": 1,
+        "repeat_queries": 0,
+        "repeat_rate": 0.0,
+        "zero_new_gain_rate": 1.0,
+        "marginal_hits_per_question": 0.0,
+        "marginal_recovery_rate": 0.0
+      }
+    },
+    "total_queries": 108,
+    "repeat_queries_total": 0
+  }
+}

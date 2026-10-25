@@ -1,0 +1,79 @@
+{
+  "config": {
+    "n": 30,
+    "max_steps": 8,
+    "note": "observation truncation fix (500/300 -> 1500) applied to all 4 paradigms; same 30 questions as v2 matrix",
+    "date": "2026-09-25"
+  },
+  "paradigms": {
+    "self_ask": {
+      "em": 0.167,
+      "f1": 0.231,
+      "avg_steps": 2.9,
+      "finish": {
+        "final_answer": 30
+      },
+      "gold_coverage": 0.367,
+      "gold_full": 0.2
+    },
+    "plan_execute": {
+      "em": 0.133,
+      "f1": 0.147,
+      "avg_steps": 2.63,
+      "finish": {
+        "finish_action": 27,
+        "max_steps": 3
+      },
+      "gold_coverage": 0.583,
+      "gold_full": 0.233
+    },
+    "react": {
+      "em": 0.1,
+      "f1": 0.136,
+      "avg_steps": 3.47,
+      "finish": {
+        "finish_action": 27,
+        "max_steps": 3
+      },
+      "gold_coverage": 0.7,
+      "gold_full": 0.433
+    },
+    "ircot": {
+      "em": 0.1,
+      "f1": 0.113,
+      "avg_steps": 1.07,
+      "finish": {
+        "final_answer": 30
+      },
+      "gold_coverage": 0.317,
+      "gold_full": 0.167
+    }
+  },
+  "baseline_v2_reference": {
+    "em": 0.212,
+    "f1": 0.3,
+    "gold_coverage_single_query": 0.683
+  },
+  "vs_v2_ms4": {
+    "react": {
+      "em": 0.067,
+      "f1": 0.08,
+      "avg_steps": 3.2
+    },
+    "plan_execute": {
+      "em": 0.133,
+      "f1": 0.177,
+      "avg_steps": 2.77
+    },
+    "self_ask": {
+      "em": 0.167,
+      "f1": 0.187,
+      "avg_steps": 2.43
+    },
+    "ircot": {
+      "em": 0.1,
+      "f1": 0.138,
+      "avg_steps": 1.1
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "question": "In which county did Snappy Tomato Pizza form?",
+  "answer": "no",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The question is asking for the county where Snappy Tomato Pizza formed.",
+      "action_name": "search",
+      "action_input": "Snappy Tomato Pizza county",
+      "observation": "[Search] Results for 'Snappy Tomato Pizza county':\n[Doc 1] Snappy Tomato Pizza: Snappy Tomato Pizza is a pizza chain that started in Fort Mitchell, Kentucky, and has over 60 locations nationwide. Its headquarters are in Burlington, Kentucky. The chain specializes in pizza, but also serves calzones, hoagies, salads, pasta, dessert and appetizers.\n\n[Doc 2] Delta, Colorado: The City of Delta is the Home Rule Municipality that is the county seat and the most populous municipality of Delta County, Colorado, United States. The population was 8,915 at the 2010 census, up from 6,400 at the 2000 census. The United States Forest Service headquarters of the Grand Mesa, Gunnison, and Uncompahgre National Forests are located in Delta.\n\n[Doc 3] Cedar Springs, Texas: Cedar Springs is an unincorporated community in west Falls County, Texas, United States. It is located on Farm-to-market road #2027.\n\n[Doc 4] Elephant Butte, New Mexico: Elephant Butte is a city in Sierra County, New Mexico, United States, near Elephant Butte Reservoir and State Park. The population was 1,390 at the 2000 census.\n\n[Doc 5] Troy Independent School District: Located in Bell County, the district extends into a small portion of Falls County. In addition to Troy, the district also serves the unincorporated communities of Pendleton, Belfalls, and Oenaville.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The search results indicate that Snappy Tomato Pizza headquarters are in Burlington, Kentucky.",
+      "action_name": "finish",
+      "action_input": "no",
+      "observation": "[Finish] Answer: no",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 12.882344722747803,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

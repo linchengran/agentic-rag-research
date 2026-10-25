@@ -1,0 +1,23 @@
+{
+  "question": "Which film has the director died first, Crimen A Las Tres or The Working Class Goes To Heaven?",
+  "answer": "The Working Class Goes to Heaven",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Is Crimen A Las Tres older than The Working Class Goes To Heaven?",
+      "action_name": "ircot_search",
+      "action_input": "Is Crimen A Las Tres older than The Working Class Goes To Heaven?",
+      "observation": "[Search] Results for 'Is Crimen A Las Tres older than The Working Class Goes To Heaven?':\n[Doc 1] The Working Class Goes to Heaven: The film competed at the 1972 Cannes Film Festival, where it tied with\" The Mattei Affair\" for the Grand Prix International du Festival, the festival's highest honour.\n\n[Doc 2] The Working Class Goes to Heaven: The Working Class Goes to Heaven( released in the US as Lulu the Tool) is a 1971 political drama film directed by Elio Petri.\n\n[Doc 3] The Working Class Goes to Heaven: In Italy, it also won the David di Donatello for Best Film.\n\n[Doc 4] Crimen a las tres: Crimen a las tres is a Argentine crime film directed and written by Luis Saslavsky.\n\n[Doc 5] Ruth Frow: She co-founded the Working Class Movement Library in Salford, a collection of material associated with labour and working class history.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 104.74263882637024,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

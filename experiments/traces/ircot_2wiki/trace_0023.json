@@ -1,0 +1,23 @@
+{
+  "question": "Which film whose director is younger, Heads I Win, Tails You Lose or The Incredible Sarah?",
+  "answer": "Sarah Hirsh",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find the age of the director for \"Heads I Win\".",
+      "action_name": "ircot_search",
+      "action_input": "Find the age of the director for \"Heads I Win\".",
+      "observation": "[Search] Results for 'Find the age of the director for \"Heads I Win\".':\n[Doc 1] Heads I Win, Tails You Lose: Heads I Win, Tails You Lose( also known as\" Heads or Tails\") is a 1982 Italian comedy film written and directed by Nanni Loy.\n\n[Doc 2] Richard Switzer: He was profiled on Entertainment Tonight at the age of 18 for being the youngest producer in history.\n\n[Doc 3] Heads I Win, Tails You Lose: The film consists in two back- to- back stories that deals with two\" taboo\" themes, the celibacy of the clergy in the episode of Renato Pozzetto and the homosexuality in the one with Nino Manfredi.\n\n[Doc 4] Now Where Did the 7th Company Get to?: Now Where Did the 7th Company Get To? is a 1973 French- Italian comedy war film directed by Robert Lamoureux.\n\n[Doc 5] Miss Seventeen: The TV screen would then display the names of the girls who would be staying in the house, written in cursive form.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 24.21875262260437,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

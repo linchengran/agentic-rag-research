@@ -1,0 +1,39 @@
+{
+  "question": "Where is the country with ISO code ISO 3166-2:CV located?",
+  "answer": "Cabo Verde",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: Which country corresponds to the ISO code ISO 3166-2:CV?",
+      "action_name": "search",
+      "action_input": "Which country corresponds to the ISO code ISO 3166-2:CV?",
+      "observation": "[Search] Results for 'Which country corresponds to the ISO code ISO 3166-2:CV?':\n[Doc 1] ISO 3166-2:CV: ISO 3166-2:CV is the entry for Cabo Verde in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which defines codes for the names of the principal subdivisions (e.g., provinces or states) of all countries coded in ISO 3166-1.\n\n[Doc 2] ISO 3166-2:JP: ISO 3166-2:JP is the entry for Japan in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which defines codes for the names of the principal subdivisions (e.g.provinces or states) of all countries coded in ISO 3166-1.\n\n[Doc 3] ISO 3166-2:CH: ISO 3166-2:CH is the entry for Switzerland in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which defines codes for the names of the principal subdivisions (e.g., provinces or states) of all countries coded in ISO 3166-1.\n\n[Doc 4] ISO 3166-2:BR: ISO 3166-2:BR is the entry for Brazil in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which defines codes for the names of the principal subdivisions (e.g. provinces or states) of all countries coded in ISO 3166-1.\n\n[Doc 5] ISO 3166-2:IN: ISO 3166-2:IN is the entry for India in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which ...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation: [Search] Results for 'Which country corresponds to the ISO code ISO 3166-2:CV' indicate that Cabo Verde is associated with the ISO code ISO 3166-2:CV.\n\nIntermediate Question: What country is associated with the ISO code ISO 3166-2:CV?",
+      "action_name": "search",
+      "action_input": "What country is associated with the ISO code ISO 3166-2:CV?",
+      "observation": "[Search] Results for 'What country is associated with the ISO code ISO 3166-2:CV?':\n[Doc 1] ISO 3166-2:CV: ISO 3166-2:CV is the entry for Cabo Verde in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which defines codes for the names of the principal subdivisions (e.g., provinces or states) of all countries coded in ISO 3166-1.\n\n[Doc 2] ISO 3166-2:JP: ISO 3166-2:JP is the entry for Japan in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which defines codes for the names of the principal subdivisions (e.g.provinces or states) of all countries coded in ISO 3166-1.\n\n[Doc 3] ISO 3166-2:BE: ISO 3166-2:BE is the entry for Belgium in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which defines codes for the names of the principal subdivisions (e.g. provinces or states) of all countries coded in ISO 3166-1.\n\n[Doc 4] ISO 3166-2:BR: ISO 3166-2:BR is the entry for Brazil in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which defines codes for the names of the principal subdivisions (e.g. provinces or states) of all countries coded in ISO 3166-1.\n\n[Doc 5] ISO 3166-2:CH: ISO 3166-2:CH is the entry for Switzerland in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), wh...",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Final Answer: Cabo Verde",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 9.173882961273193,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "question": "Hate Them is the ninth album by a band likened to who?",
+  "answer": "Darkthrone",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What is the ninth album by a band likened to?\n\nObservation: The ninth album by a band likened to is Hate Them.",
+      "action_name": "search",
+      "action_input": "What is the ninth album by a band likened to?",
+      "observation": "[Search] Results for 'What is the ninth album by a band likened to?':\n[Doc 1] Hate Them: Hate Them is the ninth album by Norwegian black metal band, Darkthrone.\n\n[Doc 2] Free (Bonfire album): Free is the ninth album by German band Bonfire.\n\n[Doc 3] Something for the Rest of Us: Something for the Rest of Us is the ninth studio album by American rock band Goo Goo Dolls.\n\n[Doc 4] Free (Bonfire album):  The band was highly criticized by their loyal fans as well as several critics for the material.\n\n[Doc 5] All Join Hands: \"All Join Hands\" is a song by the British rock band Slade, released in 1984 as the lead single from the band's twelfth studio album \"Rogues Gallery\".",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Darkthrone",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 3.4628937244415283,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "What is the competition the 1972 Federation Cup is part of named after?",
+  "answer": "Fed Cup",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The year 1972 and the tournament name Federation Cup are given.",
+      "action_name": "ircot_search",
+      "action_input": "The year 1972 and the tournament name Federation Cup are given.",
+      "observation": "[Search] Results for 'The year 1972 and the tournament name Federation Cup are given.':\n[Doc 1] 1972 Federation Cup (tennis): The 1972 Federation Cup was the tenth edition of the most important competition between national teams in women's tennis. 31 nations participated in the tournament, which was held at Ellis Park in Johannesburg, South Africa from 20–25 March. South Africa defeated Great Britain in the final, in what was the first final not featuring United States or Australia, giving South Africa their first title. South Africa became the first team other than United States or Australia to win the Fed Cup.\n\n[Doc 2] Michèle Gurdal: Michèle Gurdal (born 30 November 1952) is a Belgian professional tennis player who was most prominent in the 1970s. She represented Belgium in the Federation Cup every year between 1972 and 1980. Gurdal won one singles title on the WTA Tour, the 1976 Swiss Open.\n\n[Doc 3] Fed Cup: Fed Cup is the premier international team competition in women's tennis, launched in 1963 to celebrate the 50th anniversary of the International Tennis Federation (ITF). The competition was known as the Federation Cup until 1995. The Fed Cup is the world's largest annual women's international team sports competition in terms of the number of nations that compete. The current Fed Cup Chairperson is Katrina Adams.\n\n[Doc 4] 1965 Federation Cup (tennis): The 1965 Federation Cup was the third edition of what is now known as the Fed Cup. Eleven nations participated in the t...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 15.903464078903198,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

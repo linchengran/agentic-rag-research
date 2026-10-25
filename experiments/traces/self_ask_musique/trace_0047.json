@@ -1,0 +1,31 @@
+{
+  "question": "What county is the NRHEG High School located in?",
+  "answer": "New Richland, Minnesota.",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation: What is the address of NRHEG High School?\n\nIntermediate Question: What is the address of NRHEG High School?",
+      "action_name": "search",
+      "action_input": "What is the address of NRHEG High School?",
+      "observation": "[Search] Results for 'What is the address of NRHEG High School?':\n[Doc 1] NRHEG High School: NRHEG High School is located in New Richland, Minnesota. NRHEG stands for New Richland, Hartland, Ellendale, Geneva, which are the towns that the school district covers.\n\n[Doc 2] University of Kansas: The University of Kansas School of Law was the top law school in the state of Kansas, and 68th nationally, according to the 2014 U.S. News & World Report \"Best Graduate Schools\" edition. Classes are held in Green Hall at W 15th St and Burdick Dr, which is named after former dean James Green.\n\n[Doc 3] Mount View High School (Maine): Mount View High School is a public high school located in Thorndike, Maine, United States. The school is a part of Maine School Administrative District 3, and serves students from the towns of Brooks, Freedom, Jackson, Knox, Liberty, Monroe, Montville, Thorndike, Troy, Unity and Waldo.\n\n[Doc 4] Comprehensive school: In 1970 Margaret Thatcher became Secretary of State for Education of the new Conservative government. She ended the compulsion on local authorities to convert, however, many local authorities were so far down the path that it would have been prohibitively expensive to attempt to reverse the process, and more comprehensive schools were established under Mrs Thatcher than any other education secretary.\n\n[Doc 5] North Dakota School for the Deaf: The North Dakota School for the Deaf (NDSD) is a state-funded residential school located in Devils Lake, No...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: New Richland, Minnesota.",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 4.035014629364014,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "What is the ruler of the underworld in ancient Egypt a part of?",
+  "answer": "pharaohs",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "In ancient Egypt, the underworld was called the Per Ankh, which was ruled by the priests.)",
+      "action_name": "ircot_search",
+      "action_input": "In ancient Egypt, the underworld was called the Per Ankh, which was ruled by the priests.)",
+      "observation": "[Search] Results for 'In ancient Egypt, the underworld was called the Per Ankh, which was ruled by the priests.)':\n[Doc 1] Egypt: Egypt has one of the longest histories of any modern country, arising in the tenth millennium BC as one of the world's first nation states. Considered a cradle of civilisation, Ancient Egypt experienced some of the earliest developments of writing, agriculture, urbanisation, organised religion and central government. Iconic monuments such as the Giza Necropolis and its Great Sphinx, as well the ruins of Memphis, Thebes, Karnak, and the Valley of the Kings, reflect this legacy and remain a significant focus of archaeological study and popular interest worldwide. Egypt's rich cultural heritage is an integral part of its national identity, having endured, and at times assimilated, various foreign influences, including Greek, Persian, Roman, Arab, Ottoman, and European. Although Christianised in the first century of the Common Era, it was subsequently Islamised due to the Islamic conquests of the seventh century.\n\n[Doc 2] Upper and Lower Egypt: The two kingdoms of Upper and Lower Egypt were united c. 3000 BC, but each maintained its own regalia: the hedjet or White Crown for Upper Egypt and the deshret or Red Crown for Lower Egypt. Thus, the pharaohs were known as the rulers of the Two Lands, and wore the pschent, a double crown, each half representing sovereignty of one of the kingdoms. Ancient Egyptian tradition credited Menes, now believed to be the...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 17.447986364364624,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

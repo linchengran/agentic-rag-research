@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "8813f87c0bdd11eba7f7acde48001122",
+    "question": "Who is the mother of the director of film Polish-Russian War (Film)?",
+    "gold_answer": "Małgorzata Braunek",
+    "pred_answer": "Dorota Masłowska",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.25,
+    "n_retrieved": 5
+  },
+  {
+    "id": "61a46987092f11ebbdaeac1f6bf848b6",
+    "question": "Which film came out first, Blind Shaft or The Mask Of Fu Manchu?",
+    "gold_answer": "The Mask Of Fu Manchu",
+    "pred_answer": "1932 for TheMaskt Shaft and 1965 for The Mask of Fu Manchu, hence The Mask of Fu Manchu came out first. \n\nA: TheMaskoffuManchu Came Out First",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.29629629629629634,
+    "n_retrieved": 5
+  },
+  {
+    "id": "e2a3bf2a0bdd11eba7f7acde48001122",
+    "question": "When did John V, Prince Of Anhalt-Zerbst's father die?",
+    "gold_answer": "12 June 1516",
+    "pred_answer": "4 February 1551",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "0cd3bdea0bde11eba7f7acde48001122",
+    "question": "What is the award that the director of film Wearing Velvet Slippers Under A Golden Umbrella won?",
+    "gold_answer": "Myanmar Motion Picture Academy Awards",
+    "pred_answer": "Golden Lion award for lifetime achievement",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "f9dcb4a60bda11eba7f7acde48001122",
+    "question": "Where was the director of film Ronnie Rocket born?",
+    "gold_answer": "Missoula, Montana",
+    "pred_answer": "New York City",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "8981e1ce0bb011ebab90acde48001122",
+    "question": "Who is Charles Bretagne Marie De La Trémoille's paternal grandfather?",
+    "gold_answer": "Charles Armand René de La Trémoille",
+    "pred_answer": "Jean Bretagne Charles de La Trémoille",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.7058823529411765,
+    "n_retrieved": 5
+  },
+  {
+    "id": "019bed300bde11eba7f7acde48001122",
+    "question": "Where was the father of Ștefan I. Nenițescu born?",
+    "gold_answer": "Galați",
+    "pred_answer": "I don't know",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.3333333333333333,
+    "n_retrieved": 5
+  },
+  {
+    "id": "a7b9672009c311ebbdb0ac1f6bf848b6",
+    "question": "Are North Marion High School (Oregon) and Seoul High School both located in the same country?",
+    "gold_answer": "no",
+    "pred_answer": "no",
+    "em": 1.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 1.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "298f23b8088a11ebbd6eac1f6bf848b6",
+    "question": "Which film has the director who was born later, El Extraño Viaje or Love In Pawn?",
+    "gold_answer": "El Extraño Viaje",
+    "pred_answer": "1920 for A Lover in Pawn and 1964 for El extraño viaje. Therefore, A Lover in Pawn was released. I don't know the birth years for both directors. So we can only compare the release years. Since 1920 is earlier than 1964, A Lover in Pawn was released.",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.19999999999999998,
+    "n_retrieved": 5
+  },
+  {
+    "id": "2ec440560bb011ebab90acde48001122",
+    "question": "Who is the maternal grandfather of Antiochus X Eusebes?",
+    "gold_answer": "Ptolemy IX Lathyros",
+    "pred_answer": "I A: Antiochus IX and perhaps his Egyptian wife Cleopatra IV. Therefore, the maternal grandfather of Antiochus X Eusebes would be the father of Antiochus IX and Cleopatra IV. There is no further information provided about Cleopatra IV's father in the given documents. A: Antiochus IX. Therefore, the maternal grandfather of Antiochus X Eusebes would be Antiochus IX. However, without more specific information about Cleopatra IV's parentage, we cannot definitively state the exact identity of her father. Given the available data, the closest answer is that the maternal grandfather of Antiochus X Eusebes is Antiochus IX. So, based on the provided information, the answer is:\n\nA: Antiochus IX.",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.020408163265306124,
+    "n_retrieved": 5
+  },
+  {
+    "id": "05f8a691087b11ebbd67ac1f6bf848b6",
+    "question": "Which film has the director died first, Crimen A Las Tres or The Working Class Goes To Heaven?",
+    "gold_answer": "The Working Class Goes To Heaven",
+    "pred_answer": "Crimen A Las Tres The Working Class Goes to Heaven Querelle Le Masque de la Méduse The Brides of Fu Manchu I don't know",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.3571428571428571,
+    "n_retrieved": 5
+  },
+  {
+    "id": "645c9a5a08c311ebbd8dac1f6bf848b6",
+    "question": "Which film has the director born first, Once A Gentleman or The Girl In White?",
+    "gold_answer": "Once A Gentleman",
+    "pred_answer": "1930 was earlier than 1952, so Once a Gentleman was born earlier than The Girl in White.\n\nAnswer: Once A Gentleman",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.19999999999999998,
+    "n_retrieved": 5
+  },
+  {
+    "id": "5bec3cd408a711ebbd7fac1f6bf848b6",
+    "question": "Which film has the director who died earlier, Il Seduttore or The Trial Of Joan Of Arc?",
+    "gold_answer": "The Trial Of Joan Of Arc",
+    "pred_answer": "The Trial of Joan of Arc",
+    "em": 1.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 1.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "464cfa460bd911eba7f7acde48001122",
+    "question": "Where was the director of film Thomas Jefferson (Film) born?",
+    "gold_answer": "Brooklyn",
+    "pred_answer": "Ken Burns",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "c05e16a40bdd11eba7f7acde48001122",
+    "question": "Why did Grand Duke Kirill Vladimirovich Of Russia's wife die?",
+    "gold_answer": "stroke",
+    "pred_answer": "yes",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "2935f1640bda11eba7f7acde48001122",
+    "question": "Where was the place of death of the director of film Beat Girl?",
+    "gold_answer": "Nice",
+    "pred_answer": "United States",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "ada1b358085211ebbd58ac1f6bf848b6",
+    "question": "Who died first, Fleetwood Sheppard or George William Whitaker?",
+    "gold_answer": "Fleetwood Sheppard",
+    "pred_answer": "I don't know",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "3f857208086c11ebbd61ac1f6bf848b6",
+    "question": "Which film has the director born first, The Raven'S Dance or Keïta! L'Héritage Du Griot?",
+    "gold_answer": "The Raven'S Dance",
+    "pred_answer": "1980 for The Raven's Dance and 1995 for Keïta! l'Héritage du griot. Therefore, The Raven's Dance was directed was born first. Ans: 1980.",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.14814814814814814,
+    "n_retrieved": 5
+  },
+  {
+    "id": "dfe93efe0bdd11eba7f7acde48001122",
+    "question": "When did Jean Martin (Singer)'s husband die?",
+    "gold_answer": "1983",
+    "pred_answer": "July 24, 2014",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "1d890623088711ebbd6dac1f6bf848b6",
+    "question": "Which film has the director who died earlier, Tangled Destinies or The Daltons' Women?",
+    "gold_answer": "Tangled Destinies",
+    "pred_answer": "1950\nTangled Destinies was made before 1932. Therefore, The Daltons' Women was directed earlier. Hence, The Daltons' Women had the director who was earlier than Tangled Destinies.",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.15384615384615385,
+    "n_retrieved": 5
+  },
+  {
+    "id": "d8c36503097411ebbdb0ac1f6bf848b6",
+    "question": "Which film was released earlier, Moment Of Danger or The Ballad Of Josie?",
+    "gold_answer": "Moment Of Danger",
+    "pred_answer": "MomentOf Danger earlier than The Ballad of Josie.",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.4,
+    "n_retrieved": 5
+  },
+  {
+    "id": "2207e9060bda11eba7f7acde48001122",
+    "question": "What nationality is the director of film World And Time Enough?",
+    "gold_answer": "United States",
+    "pred_answer": "Francis Lawrence",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "7abc1e3008d511ebbd98ac1f6bf848b6",
+    "question": "Which film has the director died earlier, Poker In Bed or The Machine To Kill Bad People?",
+    "gold_answer": "The Machine To Kill Bad People",
+    "pred_answer": "1952 for The Machine to Kill Bad People and 1982 for Poker in Bed. Therefore, The Machine to Kill Bad People had the directorial earlier.",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.37037037037037035,
+    "n_retrieved": 5
+  },
+  {
+    "id": "ae331827088b11ebbd6fac1f6bf848b6",
+    "question": "Which film whose director is younger, Heads I Win, Tails You Lose or The Incredible Sarah?",
+    "gold_answer": "Heads I Win, Tails You Lose",
+    "pred_answer": "1976\n\nThe director of The Incredible Sarah, Richard Fleischer, is younger than the directors of Heads I Win, Tails You Lose (Nanni Loy) and The Parts You Lose (Christopher Cantwell). Therefore, The Incredible Sarah was made by a director younger than the directors of the other two films.",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.2608695652173913,
+    "n_retrieved": 5
+  },
+  {
+    "id": "2002bf0c0bb011ebab90acde48001122",
+    "question": "Who is Catherine Of Pomerania, Countess Palatine Of Neumarkt's father-in-law?",
+    "gold_answer": "Rupert",
+    "pred_answer": "Rupert III of the Palatinate",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.4,
+    "n_retrieved": 5
+  },
+  {
+    "id": "c531e7560baf11ebab90acde48001122",
+    "question": "Who is Marie Zéphyrine Of France's paternal grandmother?",
+    "gold_answer": "Marie Leszczyńska",
+    "pred_answer": "Marie Isabelle de Rohan",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.25,
+    "n_retrieved": 5
+  },
+  {
+    "id": "4d982dc308c111ebbd8bac1f6bf848b6",
+    "question": "Which film has the director died earlier, Condemned Women or Faces In The Dark?",
+    "gold_answer": "Condemned Women",
+    "pred_answer": "1938 Condemned Women 1960 Faces in the Dark",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.4444444444444445,
+    "n_retrieved": 5
+  },
+  {
+    "id": "a9cc5f240bdb11eba7f7acde48001122",
+    "question": "Who is the spouse of the director of film Eden And After?",
+    "gold_answer": "Catherine Robbe-Grillet",
+    "pred_answer": "I don't know",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "6ebe05740bde11eba7f7acde48001122",
+    "question": "Where was the place of death of Anastasia Of Serbia's husband?",
+    "gold_answer": "Hilandar",
+    "pred_answer": "I don't know",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "a0065fe9085f11ebbd5dac1f6bf848b6",
+    "question": "Are Fire In Hell and The Tiger: An Old Hunter'S Tale from the same country?",
+    "gold_answer": "yes",
+    "pred_answer": "no",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "7c490349090311ebbdadac1f6bf848b6",
+    "question": "Which film was released more recently, Lo Zappatore or Placer Sangriento?",
+    "gold_answer": "Placer Sangriento",
+    "pred_answer": "Placer Sangriento",
+    "em": 1.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 1.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "8d2382e0085811ebbd5aac1f6bf848b6",
+    "question": "Was Şemsettin Baş or Gwenc'Hlan Le Scouëzec born first?",
+    "gold_answer": "Gwenc'Hlan Le Scouëzec",
+    "pred_answer": "no",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "1a114c5e088f11ebbd71ac1f6bf848b6",
+    "question": "Which film has the director born later, Bhoomiyude Avakashikal or The Majesty Of The Law?",
+    "gold_answer": "Bhoomiyude Avakashikal",
+    "pred_answer": "The Majesty Of The Law",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "7a1d9d7c0bb011ebab90acde48001122",
+    "question": "Who is Cornelia (Wife Of Caesar)'s child-in-law?",
+    "gold_answer": "Pompey",
+    "pred_answer": "Julia",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "0bedb7e80bdc11eba7f7acde48001122",
+    "question": "Why did John Middleton Murry's wife die?",
+    "gold_answer": "tuberculosis",
+    "pred_answer": "Yes",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "1869092c0bb011ebab90acde48001122",
+    "question": "Who is the paternal grandfather of Taj Al-Dawla?",
+    "gold_answer": "Rukn al-Dawla",
+    "pred_answer": "Izz al-Dawla",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.5,
+    "n_retrieved": 5
+  },
+  {
+    "id": "9980b1ed089d11ebbd78ac1f6bf848b6",
+    "question": "Do both films Payment On Demand and My Cousin From Warsaw have the directors from the same country?",
+    "gold_answer": "yes",
+    "pred_answer": "no",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "c19b72520bdb11eba7f7acde48001122",
+    "question": "What is the place of birth of the director of film And The Spring Comes?",
+    "gold_answer": "Xi'an",
+    "pred_answer": "I don't know",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "3a84baaf088311ebbd6dac1f6bf848b6",
+    "question": "Who died first, Madame Pasca or James A. Donohoe?",
+    "gold_answer": "Madame Pasca",
+    "pred_answer": "I don't know",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "633132f008b711ebbd88ac1f6bf848b6",
+    "question": "Who was born later, D'Arcy Coulson or Thomas William Adams?",
+    "gold_answer": "D'Arcy Coulson",
+    "pred_answer": "24 June 1842 > 1872",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "9aee006a09c211ebbdb0ac1f6bf848b6",
+    "question": "Are Simonds Catholic College and Saginaw High School (Texas) both located in the same country?",
+    "gold_answer": "no",
+    "pred_answer": "no",
+    "em": 1.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 1.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "b3110a5e0bda11eba7f7acde48001122",
+    "question": "Which country Prince Nikolaus Wilhelm Of Nassau's mother is from?",
+    "gold_answer": "German",
+    "pred_answer": "Princess Henriette of Nassau-Weilburg",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "5b6b8c02089711ebbd77ac1f6bf848b6",
+    "question": "Which film whose director was born first, 45 Fathers or The Intended?",
+    "gold_answer": "45 Fathers",
+    "pred_answer": "1937 yes",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "3705552a0bb011ebab90acde48001122",
+    "question": "Who is the paternal grandfather of Alexandre Berthier, 3Rd Prince Of Wagram?",
+    "gold_answer": "Louis-Alexandre Berthier",
+    "pred_answer": "Louis Alexandre Berthier",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.4,
+    "n_retrieved": 5
+  },
+  {
+    "id": "07e964920bde11eba7f7acde48001122",
+    "question": "Where was the husband of Caterina Visconti born?",
+    "gold_answer": "Pavia",
+    "pred_answer": "I don't know",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "f7c4fdf2087611ebbd67ac1f6bf848b6",
+    "question": "Which film has the director who was born later, A Quiet Place In The Country or When Were You Born?",
+    "gold_answer": "A Quiet Place In The Country",
+    "pred_answer": "1938\nI don't know",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "db19bf4c086e11ebbd62ac1f6bf848b6",
+    "question": "Who was born first, John Beach or Gordon Persons?",
+    "gold_answer": "John Beach",
+    "pred_answer": "John Beach was born first. John Beach lived 1812 while Gordon Persons was born after 1812. However, the exact birth year of Gordon Persons is not specified in the given documents. So we can only compare their birth years based on the available information.",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.09302325581395349,
+    "n_retrieved": 5
+  },
+  {
+    "id": "9e6d7bdc08a111ebbd79ac1f6bf848b6",
+    "question": "Which film has the director born earlier, The House By The Cemetery or Charlie Chan In Honolulu?",
+    "gold_answer": "Charlie Chan In Honolulu",
+    "pred_answer": "1939\nCharlie Chan in Honolulu has a director born earlier than The House by the Cemetery, which was directed by Lucio Fulci in 1988.",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.32,
+    "n_retrieved": 5
+  },
+  {
+    "id": "c3c94d0a0bdc11eba7f7acde48001122",
+    "question": "Who is the child of the director of film La Leona (Film)?",
+    "gold_answer": "Víctor Bó",
+    "pred_answer": "Leopoldo Torre Nilsson",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "96fb4aee0baf11ebab90acde48001122",
+    "question": "Who is Blanche Of Portugal (1259–1321)'s paternal grandmother?",
+    "gold_answer": "Urraca of Castile",
+    "pred_answer": "Maria of Aragon",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.3333333333333333,
+    "n_retrieved": 5
+  },
+  {
+    "id": "e618b2c608c911ebbd92ac1f6bf848b6",
+    "question": "Who lived longer, Giuseppe Cesari or Nicos Poulantzas?",
+    "gold_answer": "Giuseppe Cesari",
+    "pred_answer": "Nicos Poulantzas",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "d71f453b085811ebbd5bac1f6bf848b6",
+    "question": "Are director of film Nights On The Road and director of film Swann In Love (Film) from the same country?",
+    "gold_answer": "yes",
+    "pred_answer": "no",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "f7eb7e31088c11ebbd70ac1f6bf848b6",
+    "question": "Who is older, Aryeh Ben-Eliezer or Jason Pociask?",
+    "gold_answer": "Aryeh Ben-Eliezer",
+    "pred_answer": "I don't know",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "e41c14820bd911eba7f7acde48001122",
+    "question": "Where does the director of film Man At Bath work at?",
+    "gold_answer": "Cahiers du cinéma",
+    "pred_answer": "Andrej Andrejew",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "27e835ee0bb011ebab90acde48001122",
+    "question": "Who is Arthur Gore, 2Nd Earl Of Arran's paternal grandfather?",
+    "gold_answer": "Sir Arthur Gore, 2nd Baronet",
+    "pred_answer": "Sir Arthur Gore, 2nd Baronet",
+    "em": 1.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 1.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "3f635554096511ebbdafac1f6bf848b6",
+    "question": "Are both Kaufland and Otrag located in the same country?",
+    "gold_answer": "yes",
+    "pred_answer": "no",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "b69ad95c08ad11ebbd83ac1f6bf848b6",
+    "question": "Which film came out earlier, Aanaval Mothiram or Heroes Of The Street?",
+    "gold_answer": "Heroes Of The Street",
+    "pred_answer": "1922 yes",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "931a85420bdd11eba7f7acde48001122",
+    "question": "Where was the father of Lord Patrick Crichton-Stuart born?",
+    "gold_answer": "London",
+    "pred_answer": "Dumfries",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "0bbded440bda11eba7f7acde48001122",
+    "question": "Which country the director of film Daadagiri is from?",
+    "gold_answer": "Pakistan",
+    "pred_answer": "Bollywood",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "258867240bdd11eba7f7acde48001122",
+    "question": "Where was the wife of Douglas Leiterman born?",
+    "gold_answer": "Winnipeg, Manitoba",
+    "pred_answer": "South Porcupine, Ontario.",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "3cbd107e0bde11eba7f7acde48001122",
+    "question": "What is the place of birth of the performer of song Who...?",
+    "gold_answer": "Fukuoka",
+    "pred_answer": "I don't know",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "5e8240ea0bdd11eba7f7acde48001122",
+    "question": "Where was the place of death of the director of film Mole Men Against The Son Of Hercules?",
+    "gold_answer": "Roma",
+    "pred_answer": "I don't know",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "6638110e0bdb11eba7f7acde48001122",
+    "question": "Where was the father of Alexandre Gaydamak born?",
+    "gold_answer": "Moscow, USSR",
+    "pred_answer": "Be'er Sheva, Israel",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "7de9188c088b11ebbd6fac1f6bf848b6",
+    "question": "Which film has the director who died earlier, Toen 'T Licht Verdween or Boum Sur Paris?",
+    "gold_answer": "Toen 'T Licht Verdween",
+    "pred_answer": "Toen 't licht verdween\n\nBoum sur Paris\n\nNo. The director of Toen 't licht verdween, Maurits Binger, died earlier than the director of Boum sur Paris, Maurice de Canonge.",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.25806451612903225,
+    "n_retrieved": 5
+  },
+  {
+    "id": "3972d2b60baf11ebab90acde48001122",
+    "question": "Who is Gaston, Duke Of Orléans's paternal grandmother?",
+    "gold_answer": "Jeanne d'Albret",
+    "pred_answer": "Marie de' Medici",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "a8cbc4c40bdc11eba7f7acde48001122",
+    "question": "Where was the director of film The Half-Way Girl born?",
+    "gold_answer": "New York",
+    "pred_answer": "Jersey Shore",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "32e50df00bb011ebab90acde48001122",
+    "question": "Who is the father-in-law of Sophia Of Wittelsbach?",
+    "gold_answer": "Louis II",
+    "pred_answer": "Otto I Wittelsbach",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "deb907f80bdd11eba7f7acde48001122",
+    "question": "Where was the place of death of Lambert I, Count Of Louvain's father?",
+    "gold_answer": "Bohemia",
+    "pred_answer": "Hainaut",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "b81fbe620bdc11eba7f7acde48001122",
+    "question": "Where was the director of film Highway Dragnet born?",
+    "gold_answer": "Gura Humorului",
+    "pred_answer": "I don't know",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "3717c0600bde11eba7f7acde48001122",
+    "question": "Where did Prince Gustav Of Thurn And Taxis (1848–1914)'s mother die?",
+    "gold_answer": "Meran",
+    "pred_answer": "Regensburg, Kingdom of Bavaria",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "0f1ac1a00bdb11eba7f7acde48001122",
+    "question": "What is the award that the performer of song Sunday Papers earned?",
+    "gold_answer": "Grammy",
+    "pred_answer": "Waylon Jennings: Posthumously awarded the Cliffie Stone Pioneer Award by the Academy of Country Music in 2007.",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "f420d4a008a311ebbd7cac1f6bf848b6",
+    "question": "Which film has the director born first, Antonieta or Dodging The Dole?",
+    "gold_answer": "Dodging The Dole",
+    "pred_answer": "1936 for Dodging the Dole and 1956 for The Man Who Knew Too Much, so Antonieta was born first. However, without specific birth years for both directors, we can only compare the release years given. Based on the information, Dodging the Dole was released in 1936 while The Man Who Knew Too Much was also released in 1956. Since the question asks which film has the director born first, and we cannot determine their exact birth years, we cannot definitively say which director was born earlier based solely on the release years provided. Therefore, I don't know.",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.044444444444444446,
+    "n_retrieved": 5
+  },
+  {
+    "id": "6638a0f0084e11ebbd56ac1f6bf848b6",
+    "question": "Are both Nikolsk Airport and Svobodny Airport located in the same country?",
+    "gold_answer": "yes",
+    "pred_answer": "no",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "07388c7c0bb011ebab90acde48001122",
+    "question": "Who is the maternal grandfather of Amadeus Vii, Count Of Savoy?",
+    "gold_answer": "Peter I",
+    "pred_answer": "Bonne of Berry",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "83ff07cd096711ebbdafac1f6bf848b6",
+    "question": "Are both businesses, Telus and Ztr Control Systems, located in the same country?",
+    "gold_answer": "yes",
+    "pred_answer": "no",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "7a57c5d2089111ebbd73ac1f6bf848b6",
+    "question": "Do both films, Dial M For Murder and Marius (1931 Film), have the directors who are from the same country?",
+    "gold_answer": "yes",
+    "pred_answer": "no",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "42f6d3b208b911ebbd88ac1f6bf848b6",
+    "question": "Who is older, Dyson Parody or Gene Watson?",
+    "gold_answer": "Gene Watson",
+    "pred_answer": "Gene Watson is older.",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.6666666666666666,
+    "n_retrieved": 5
+  },
+  {
+    "id": "f1ff478c089011ebbd72ac1f6bf848b6",
+    "question": "Are both directors of films The Princess Bride (Film) and I Never Sang For My Father from the same country?",
+    "gold_answer": "yes",
+    "pred_answer": "no",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "6b55ac320bdb11eba7f7acde48001122",
+    "question": "When did Prince John Konstantinovich Of Russia's mother die?",
+    "gold_answer": "24 March 1927",
+    "pred_answer": "1818",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "424d56700bde11eba7f7acde48001122",
+    "question": "Which country Audofleda's husband is from?",
+    "gold_answer": "Ostrogothic Kingdom",
+    "pred_answer": "Theoderic the Great",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "5c0c69f80bdd11eba7f7acde48001122",
+    "question": "What is the place of birth of the director of film Letter To The King?",
+    "gold_answer": "Kurdish",
+    "pred_answer": "Hisham Zaman",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "ac786909087411ebbd67ac1f6bf848b6",
+    "question": "Are both bands, Snowman (Band) and Jessamine (Band), from the same country?",
+    "gold_answer": "no",
+    "pred_answer": "no",
+    "em": 1.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 1.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "29427eea0bdd11eba7f7acde48001122",
+    "question": "Where was the performer of song God (John Lennon Song) born?",
+    "gold_answer": "Liverpool",
+    "pred_answer": "Liverpool, England",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.6666666666666666,
+    "n_retrieved": 5
+  },
+  {
+    "id": "d370f0b0085711ebbd5aac1f6bf848b6",
+    "question": "Which film has the director who died earlier, Captain Kidd And The Slave Girl or Relax Freddie?",
+    "gold_answer": "Captain Kidd And The Slave Girl",
+    "pred_answer": "1954\n\nCaptain Kidd and the Slave Girl was released earlier than Relax Freddie, which is not mentioned to have a known director date. Captain Kidd and the Slave Girl is described as a 1954 film, while Relax Freddie's connection to a director is not provided. Therefore, Captain Kidd and the Slave Girl, being from 1954, was made earlier. However, it's not specified to be definitively stated whether Relax Freddie has a director or when the film was released.",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.13333333333333333,
+    "n_retrieved": 5
+  },
+  {
+    "id": "a9f9985a09a211ebbdb0ac1f6bf848b6",
+    "question": "Which song was released more recently, Go Ahead And Break My Heart or Knee Deep In My Heart?",
+    "gold_answer": "Go Ahead And Break My Heart",
+    "pred_answer": "2016 yes 2013",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "53ab316c08b911ebbd88ac1f6bf848b6",
+    "question": "Which film has the director who died later, The Fatal Mistake or The Devil'S Hairpin?",
+    "gold_answer": "The Devil'S Hairpin",
+    "pred_answer": "The Devil's Hairpin\n\nDirty Dancing\n\nThe director of The Devil's Hairpin (Cornel Wilde) died later than the director of Dirty Dancing (I don't know). However, since the exact dates of death for both directors are not provided, we cannot definitively compare them. But based on the given information, The Devil's Hairpin was made later than Dirty Dancing. So the answer is:\n\nThe Devil's Hairpin\n\nDirty Dancing",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.06779661016949151,
+    "n_retrieved": 5
+  },
+  {
+    "id": "bc633e2c0baf11ebab90acde48001122",
+    "question": "Who is Maria Luisa Of Savoy's father-in-law?",
+    "gold_answer": "Louis, Grand Dauphin",
+    "pred_answer": "I don't know",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "2b4bd5020baf11ebab90acde48001122",
+    "question": "Who is the paternal grandfather of Kujō Yoritsugu?",
+    "gold_answer": "Kujō Michiie",
+    "pred_answer": "I don't know",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "3647118c0bdd11eba7f7acde48001122",
+    "question": "What is the place of birth of the director of film Marianela (1940 Film)?",
+    "gold_answer": "Madrid",
+    "pred_answer": "ferences Toth to to to of birth of the director of film Marianela (1940 Film) I don't know",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "d6074911090011ebbdadac1f6bf848b6",
+    "question": "Which film came out first, Repeated Absences or She Wore A Yellow Ribbon?",
+    "gold_answer": "She Wore A Yellow Ribbon",
+    "pred_answer": "1949 for She Wore a Yellow Ribbon and 1950 for Repeated Absences. Therefore, She Wore a Yellow Ribbon came out first.",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.34782608695652173,
+    "n_retrieved": 5
+  },
+  {
+    "id": "146b7443086611ebbd5eac1f6bf848b6",
+    "question": "Who lived longer, Edward Dearle or Michael Doeberl?",
+    "gold_answer": "Edward Dearle",
+    "pred_answer": "Edward Dearle lived endDate: 20 March 1891\nMichael Doeberl: 24 March 1928\n\nMichael Doeberl lived longer.",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.2222222222222222,
+    "n_retrieved": 5
+  },
+  {
+    "id": "ea1fc06c0bda11eba7f7acde48001122",
+    "question": "Where does Karin Stoltenberg's husband work at?",
+    "gold_answer": "United Nations",
+    "pred_answer": "I don't know",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "00c75ffc0bde11eba7f7acde48001122",
+    "question": "Where was the director of film Lettre Ouverte born?",
+    "gold_answer": "Paris",
+    "pred_answer": "Vietnam",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "94198d580bb011ebab90acde48001122",
+    "question": "Who is William Ii, Count Of Flanders's paternal grandmother?",
+    "gold_answer": "Mathilde of Bourbon",
+    "pred_answer": "Margaret II of Flanders",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.28571428571428575,
+    "n_retrieved": 5
+  },
+  {
+    "id": "71d8e20e0bdb11eba7f7acde48001122",
+    "question": "What is the place of birth of Clara Novello's father?",
+    "gold_answer": "London",
+    "pred_answer": "Vincent Novello",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "0323cdea090d11ebbdadac1f6bf848b6",
+    "question": "Which film came out earlier, Emmy Of Stork'S Nest or Indira Vizha?",
+    "gold_answer": "Emmy Of Stork'S Nest",
+    "pred_answer": "1915 yes",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "f7c153ce092e11ebbdaeac1f6bf848b6",
+    "question": "Which film came out first, Celine: Through The Eyes Of The World or Dilan 1991?",
+    "gold_answer": "Celine: Through The Eyes Of The World",
+    "pred_answer": "2019 for Celine: Through the Eyes Of The World and 1991 for Dilan 1991 makes no direct comparison based on the given information. Dilan 1991 is from the Dilan novel series, while Celine: Through the Eyes Of The World is a film released a documentary-concert film. So we can only compare their release years, not the actual release dates. Answer: 2019.",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.17543859649122806,
+    "n_retrieved": 5
+  },
+  {
+    "id": "0f44750808e411ebbda4ac1f6bf848b6",
+    "question": "Who was born earlier, Silas Hardy or Lee Mantle?",
+    "gold_answer": "Lee Mantle",
+    "pred_answer": "December 13, 1851 > November 18, 1934\n\nLee Mantle was born earlier than Silas Hardy.",
+    "em": 0.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 0.25,
+    "n_retrieved": 5
+  },
+  {
+    "id": "e701105e0bdd11eba7f7acde48001122",
+    "question": "Where was the place of burial of Albert Frederick, Duke Of Prussia's mother?",
+    "gold_answer": "Königsberg",
+    "pred_answer": "Germany",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  },
+  {
+    "id": "b5e9ef2c0bdd11eba7f7acde48001122",
+    "question": "Where was the place of death of Juan Carlos Gumucio's wife?",
+    "gold_answer": "Homs",
+    "pred_answer": "I don't know",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "n_retrieved": 5
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "question": "What administrative territorial entity is the owner of Ciudad Deportiva located?",
+  "answer": "Nuevo Laredo, Mexico.",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: Where is Ciudad Deportiva located?\nObservation: Ciudad Deportiva is located in Spain.",
+      "action_name": "search",
+      "action_input": "Where is Ciudad Deportiva located?",
+      "observation": "[Search] Results for 'Where is Ciudad Deportiva located?':\n[Doc 1] Ciudad Deportiva (Nuevo Laredo): The Ciudad Deportiva (\"Sports City\") is a sports complex in Nuevo Laredo, Mexico. It is home to the Tecolotes de Nuevo Laredo Mexican Baseball League team and the Toros de Nuevo Laredo Mexican professional basketball team from the Liga Nacional de Baloncesto Profesional. The Ciudad Deportiva's Estadio Nuevo Laredo (baseball park) can seat up to 12,000 fans at a baseball game and the Nuevo Laredo Multidisciplinary Gymnasium can seat 4,000 fans at a basketball game.\n\n[Doc 2] El Granada, California: El Granada is a census-designated place (CDP) in the coastal area of northern San Mateo County, California, United States. The population was 5,467 at the 2010 census.\n\n[Doc 3] Río Frío de Juárez: Río Frío de Juárez, originally Río Frío (Cold River), a Mexican populated place, is located in the municipality of Ixtapaluca in the State of Mexico. Río Frío de Juárez is located at the highest point on the highway between Mexico City to Puebla de Zaragoza being located at the top of the pass on the historic road between the two cities.\n\n[Doc 4] Solana de los Barros: Solana de los Barros is a municipality in the province of Badajoz, Extremadura, Spain. It has a population of 2,657 and an area of 65.09 km².\n\n[Doc 5] Casa de los Pinelo: The Casa de los Pinelo is a Renaissance building located in the centre of Seville in Spain. It houses both the Real Academia Sevillana de Buenas Letras and the...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Nuevo Laredo, Mexico.",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 3.414604902267456,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "question": "In which borough was Callum McManaman born?",
+  "answer": "Whiston, Merseyside",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Observation 1: McManaman was born in East End of London)",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 1: McManaman was born in East End of London)",
+      "observation": "[Search] Results for '(Observation 1: McManaman was born in East End of London)':\n[Doc 1] Callum McManaman: Born in Whiston, Merseyside, lived and brought up in Rainhill, Merseyside, McManaman began his youth career at Everton before being released in 2007 and joining Wigan Athletic. He made his first team debut in 2009, and was the man of the match as they won the FA Cup in 2013. In January 2015, he joined West Bromwich Albion for £4.75 million.\n\n[Doc 2] Edward VIII: Edward was born on 23 June 1894 at White Lodge, Richmond Park, on the outskirts of London during the reign of his great-grandmother Queen Victoria. He was the eldest son of the Duke and Duchess of York (later King George V and Queen Mary). His father was the son of the Prince and Princess of Wales (later King Edward VII and Queen Alexandra). His mother was the eldest daughter of the Duke and Duchess of Teck (Francis and Mary Adelaide). At the time of his birth, he was third in the line of succession to the throne, behind his grandfather and father.\n\n[Doc 3] Thomas Nabbes: He was born in humble circumstances in Worcestershire, and educated at Exeter College, Oxford in 1621. He left the university without taking a degree, and in about 1630 began a career in London as a dramatist. He was employed at some point in the household of a nobleman near Worcester, and seems to have been of a convivial disposition. He had at least two children, Bridget and William, both of whom died within two years of his death, and were b...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "(Observation 2: McManaman was not born in East End of London)",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 2: McManaman was not born in East End of London)",
+      "observation": "[Search] Results for '(Observation 2: McManaman was not born in East End of London)':\n[Doc 1] Callum McManaman: Born in Whiston, Merseyside, lived and brought up in Rainhill, Merseyside, McManaman began his youth career at Everton before being released in 2007 and joining Wigan Athletic. He made his first team debut in 2009, and was the man of the match as they won the FA Cup in 2013. In January 2015, he joined West Bromwich Albion for £4.75 million.\n\n[Doc 2] Edward VIII: Edward was born on 23 June 1894 at White Lodge, Richmond Park, on the outskirts of London during the reign of his great-grandmother Queen Victoria. He was the eldest son of the Duke and Duchess of York (later King George V and Queen Mary). His father was the son of the Prince and Princess of Wales (later King Edward VII and Queen Alexandra). His mother was the eldest daughter of the Duke and Duchess of Teck (Francis and Mary Adelaide). At the time of his birth, he was third in the line of succession to the throne, behind his grandfather and father.\n\n[Doc 3] Battle of Maserfield: The Battle of Maserfield (or Maserfeld, \"marsh (border) field\"; Welsh: \"Maes Cogwy\"), was fought on 5 August 641 or 642, between the Anglo-Saxon kings Oswald of Northumbria and Penda of Mercia, ending in Oswald's defeat, death, and dismemberment. The battle was also known as \"Cogwy\" to the Welsh, with their countrymen from Pengwern participating in the battle (according to the probably ninth-century \"Canu Heledd\"), probably as allies...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 70.75489783287048,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

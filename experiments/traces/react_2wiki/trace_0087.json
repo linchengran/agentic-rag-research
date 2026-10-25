@@ -1,0 +1,55 @@
+{
+  "question": "Who is the paternal grandfather of Kujō Yoritsugu?",
+  "answer": "no previous retrieval context.",
+  "n_steps": 5,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about Kujō Yoritsugu's family lineage.",
+      "action_name": "search",
+      "action_input": "Kujō Yoritsugu paternal grandfather",
+      "observation": "[Search] Results for 'Kujō Yoritsugu paternal grandfather':\n[Doc 1] Kujō Yoritsune: His father was \"kanpaku\" Kujō Michiie and his grandmother was a niece of Minamoto\n\n[Doc 2] Kujō Yoritsune: His wife was a granddaughter of Minamoto no Yoritomo and daughter of Minamoto\n\n[Doc 3] Kujō Yoritsugu: His father was the 4th Kamakura \"shōgun\", Kujō Yoritsune.\n\n[Doc 4] Kujō Yoritsugu: The Kujō family was one of the five branches of the historically powerful Fujiwara clan of courtiers.\n\n[Doc 5] Guy I of Montlhéry: Thibaud may instead have been his grandfather.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Based on the search results, Kujō Yoritsugu's father was Kujō Yoritsune.",
+      "action_name": "lookup",
+      "action_input": "Kujō Yoritsune paternal grandfather",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The paternal grandfather of Kujō Yoritsune is needed.",
+      "action_name": "lookup",
+      "action_input": "Kujō Yoritsune paternal grandfather",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 4,
+      "thought": "Based on the previous search results, Kujō Yoritsune's father was Kujō Yoritsune.",
+      "action_name": "lookup",
+      "action_input": "Kujō Yoritsune paternal grandfather",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 5,
+      "thought": "",
+      "action_name": "finish",
+      "action_input": "no previous retrieval context.",
+      "observation": "[Finish] Answer: no previous retrieval context.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 119.38115882873535,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

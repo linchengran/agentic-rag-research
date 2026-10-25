@@ -1,0 +1,31 @@
+{
+  "question": "Where was the spouse of Frances Tupper born?",
+  "answer": "March 14, 1826",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation: What is the spouse's name of Frances Tupper?\n\nIntermediate Question: Who is the spouse of Frances Tupper?",
+      "action_name": "search",
+      "action_input": "Who is the spouse of Frances Tupper?",
+      "observation": "[Search] Results for 'Who is the spouse of Frances Tupper?':\n[Doc 1] Frances Tupper: Frances Amélia Tupper, Lady Tupper (née Morse; March 14, 1826 – May 11, 1912) was the wife of Sir Charles Tupper, the sixth Prime Minister of Canada. They had six children together, three boys and three girls.\n\n[Doc 2] Et tu, Brute?: Et tu, Brute? (pronounced (ɛt ˈtuː ˈbruːtɛ)) is a Latin phrase meaning ``even you, Brutus? ''It is notable for its occurrence in William Shakespeare's play Julius Caesar, where it is spoken by the Roman dictator Julius Caesar to his friend Marcus Junius Brutus at the moment of Caesar's assassination. The first known occurrences of the phrase are said to be in two earlier Elizabethan plays; Henry VI, Part 3 by Shakespeare, and an even earlier play, Caesar Interfectus, by Richard Eedes. The phrase is often used apart from the plays to signify an unexpected betrayal by a friend.\n\n[Doc 3] Louis Dubrau: The daughter of Catherine Desmedt, a native of Belgium, and She was born in Brussels. Her father, a native of the Lorraine region of France, committed suicide when she was two years old. She was educated at the Sorbonne and the Collège de France in Paris. She published her first poem in 1934 in the literary magazine \"Le Thyrse\" under the name Louis Dubrau. She wrote under a masculine name to avoid any bias of the critics towards women; Dubrau was the name of her father's mother. In 1935, she married Fernand Janson.\n\n[Doc 4] Frances Ingram: Elizabeth Frances Ingram (5 N...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: March 14, 1826",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 5.1819117069244385,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

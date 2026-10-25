@@ -1,0 +1,23 @@
+{
+  "question": "Tysons Galleria is located in what county?",
+  "answer": "Fairfax County",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation 1: Tysons Corner Regional Center is located in Fairfax County, Virginia.",
+      "action_name": "ircot_search",
+      "action_input": "Observation 1: Tysons Corner Regional Center is located in Fairfax County, Virginia.",
+      "observation": "[Search] Results for 'Observation 1: Tysons Corner Regional Center is located in Fairfax County, Virginia.':\n[Doc 1] Tysons Corner Center: Tysons Corner Center, located in the Tysons Corner unincorporated area in Fairfax County, Virginia, United States (between McLean and Vienna, Virginia), opened to the public in 1968, becoming one of the first fully enclosed, climate-controlled shopping malls in the Washington metropolitan area.\n\n[Doc 2] Tysons, Virginia:  Tysons is Fairfax County's central business district and a regional commercial center.\n\n[Doc 3] Tysons, Virginia: Tysons, or formerly “Tysons Corner” is a census-designated place (CDP) and unincorporated community in Fairfax County, Virginia, United States.\n\n[Doc 4] Tysons, Virginia:  Tysons is home to two super-regional shopping malls—Tysons Corner Center and Tysons Galleria—and the corporate headquarters of numerous companies such as Intelsat, Gannett, Hilton Worldwide, Freddie Mac, Capital One and Booz Allen Hamilton.\n\n[Doc 5] Tysons, Virginia:  Located in Northern Virginia between the community of McLean and the town of Vienna along the Capital Beltway (I-495), it lies within the Washington Metropolitan Area.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 4.233561754226685,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

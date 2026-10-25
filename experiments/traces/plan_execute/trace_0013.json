@@ -1,0 +1,12 @@
+{
+  "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+  "answer": "",
+  "n_steps": 0,
+  "finished": false,
+  "finish_reason": "plan_error",
+  "steps": [],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 4.597681760787964,
+  "metadata": {}
+}

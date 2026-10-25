@@ -1,0 +1,23 @@
+{
+  "question": "Where was the father of Lord Patrick Crichton-Stuart born?",
+  "answer": "Dunrobin, County Kinnell, Scotland.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: [Observation 1: retrieved facts]",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: [Observation 1: retrieved facts]",
+      "observation": "[Search] Results for 'Thought 2: [Observation 1: retrieved facts]':\n[Doc 1] The Beginning or the End: Although the filmmakers put considerable effort into historical accuracy, particularly in details, the film is known for some key distortions of history.\n\n[Doc 2] Daniel Hobbins: Other reviews note the significance of the book as being the\" first translation of the trial transcripts in fifty years!\"\n\n[Doc 3] Ko 2: This film is a remake of the 2014 Telugu political thriller film\" Prathinidhi\", starring Nara Rohit.\n\n[Doc 4] Renauld II, Count of Nevers: They had:\n\n[Doc 5] Daniel Hobbins: Another positive reviewer refers to the book as\" excellent\" and\" informative.\"",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 17.146677494049072,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

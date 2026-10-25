@@ -1,0 +1,31 @@
+{
+  "question": "What South Korean actor was a member of the pop duo TVXQ and stared in Heading to the Ground, a 2009 MBC television series?",
+  "answer": "no",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "What were the members of the pop duo TVXQ?",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: no",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 1.3984620571136475,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

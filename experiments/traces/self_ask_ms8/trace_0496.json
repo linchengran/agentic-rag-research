@@ -1,0 +1,31 @@
+{
+  "question": "Anthony Avent played basketball fo a High School that is located in a city approcimately 8 mi west of where?",
+  "answer": "no",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Ask the first intermediate question (do NOT give the Final Answer yet): \nWhich High School is Anthony Avent associated with?",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: no",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 3.8025872707366943,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

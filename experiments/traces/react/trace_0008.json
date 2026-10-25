@@ -1,0 +1,39 @@
+{
+  "question": "Who is older, Annie Morton or Terry Richardson?",
+  "answer": "Terry Richardson 比 Annie Morton 老。",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "需要搜索关于Annie Morton和Terry Richardson的信息以确定他们的年龄。",
+      "action_name": "search",
+      "action_input": "Who is older, Annie Morton or Terry Richardson?",
+      "observation": "[Search] Results for 'Who is older, Annie Morton or Terry Richardson?':\n[Doc 1] Annie Morton: Annie Morton (born October 8, 1970) is an American model born in Pennsylvania.\n\n[Doc 2] Annie Morton:  She has been photographed by Helmut Newton; Peter Lindbergh; Annie Leibovitz; Richard Avedon; Juergen T...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "根据已有的信息,Annie Morton 的出生日期为 1970 年 10 月 8 日,而 Terry Richardson 的信息尚未明确。",
+      "action_name": "search",
+      "action_input": "Terry Richardson birth date",
+      "observation": "[Search] Results for 'Terry Richardson birth date':\n[Doc 1] Terry Richardson: Terrence \"Uncle Terry\" Richardson (born August 14, 1965) is an American fashion and portrait photographer who has shot advertising campaigns for Marc Jacobs, Aldo, Supreme, Sisley, Tom Ford, and Yves Saint Laurent among ot...",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "根据已知信息,Terry Richardson 的出生日期为 1965 年 8 月 14 日。",
+      "action_name": "finish",
+      "action_input": "Terry Richardson 比 Annie Morton 老。",
+      "observation": "[Finish] Answer: Terry Richardson 比 Annie Morton 老。",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 11.105296850204468,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+  "answer": "We’re From Kansas is the fight song of the University of Kansas whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area.",
+  "n_steps": 4,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "需要搜索堪萨斯州立大学及其分校的信息。",
+      "action_name": "search",
+      "action_input": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+      "observation": "[Search] Results for 'What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?':\n[Doc 1] University of Kansas:  Two branch campuses are in the Kansas City metropolitan area: the Edwards Campus in...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "需要看详细信息以确认是哪首歌。",
+      "action_name": "lookup",
+      "action_input": "Kansas Song",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "需要看详细信息以确认是哪首歌。",
+      "action_name": "lookup",
+      "action_input": "We’re From Kansas",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 4,
+      "thought": "需要确认文档2中的信息是否完全符合题目要求。",
+      "action_name": "finish",
+      "action_input": "We’re From Kansas is the fight song of the University of Kansas whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area.",
+      "observation": "[Finish] Answer: We’re From Kansas is the fight song of the University of Kansas whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 12.098801851272583,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

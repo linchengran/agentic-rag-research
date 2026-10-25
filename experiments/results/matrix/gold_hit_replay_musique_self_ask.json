@@ -1,0 +1,1752 @@
+{
+  "n": 100,
+  "agent": {
+    "gold_hit_full": 0.15,
+    "gold_hit_partial": 0.64,
+    "gold_coverage": 0.395,
+    "first_query_coverage": 0.37,
+    "avg_queries": 1.15
+  },
+  "baseline_single_query": {
+    "gold_hit_full": 0.17,
+    "gold_hit_partial": 0.79,
+    "gold_coverage": 0.48
+  },
+  "per_question": [
+    {
+      "id": "2hop__460946_294723",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Green (Steve Hillage album)",
+        "Miquette Giraudy"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__252311_366220",
+      "n_queries": 1,
+      "queries": [
+        "Who founded IFC Films?"
+      ],
+      "gold_titles": [
+        "Mike Medavoy",
+        "UHF (film)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__701895_752697",
+      "n_queries": 1,
+      "queries": [
+        "Where is Ciudad Deportiva located?"
+      ],
+      "gold_titles": [
+        "Ciudad Deportiva (Nuevo Laredo)",
+        "Nuevo Laredo Municipality"
+      ],
+      "hit_titles": [
+        "Ciudad Deportiva (Nuevo Laredo)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__259228_793698",
+      "n_queries": 1,
+      "queries": [
+        "Who is Ulrich Walter?"
+      ],
+      "gold_titles": [
+        "Philae (spacecraft)",
+        "Ulrich Walter"
+      ],
+      "hit_titles": [
+        "Ulrich Walter"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__481349_302087",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Learjet 60",
+        "List of Bombardier CRJ operators"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__697790_864352",
+      "n_queries": 1,
+      "queries": [
+        "Who is Caroline LeRoy's spouse?"
+      ],
+      "gold_titles": [
+        "Caroline LeRoy",
+        "Fletcher Webster"
+      ],
+      "hit_titles": [
+        "Caroline LeRoy"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__207476_625987",
+      "n_queries": 1,
+      "queries": [
+        "Who is Philippe, Duke of Orléans' father?"
+      ],
+      "gold_titles": [
+        "Leonora Dori",
+        "Philippe I, Duke of Orléans"
+      ],
+      "hit_titles": [
+        "Philippe I, Duke of Orléans"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__390947_232243",
+      "n_queries": 2,
+      "queries": [
+        "What is European Movement Germany's membership status?",
+        "What is the goal of the group that European Movement Germany is a member of?"
+      ],
+      "gold_titles": [
+        "Bernd Hüttemann",
+        "European Movement International"
+      ],
+      "hit_titles": [
+        "European Movement International"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__354635_174222",
+      "n_queries": 1,
+      "queries": [
+        "What is the owner of Empire Sports Network?"
+      ],
+      "gold_titles": [
+        "Empire Sports Network",
+        "Windjammer Communications"
+      ],
+      "hit_titles": [
+        "Empire Sports Network"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__635187_861533",
+      "n_queries": 4,
+      "queries": [
+        "Where is Lago District located?",
+        "What province shares a border with Niassa Province?",
+        "What province is Niassa Province located in?",
+        "What province is Cabo Delgado Province located in?"
+      ],
+      "gold_titles": [
+        "Lago District",
+        "Niassa Reserve"
+      ],
+      "hit_titles": [
+        "Lago District",
+        "Niassa Reserve"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "2hop__166824_185403",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Carmelo Imbriani",
+        "Stadio Ciro Vigorito"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__698577_851686",
+      "n_queries": 1,
+      "queries": [
+        "Who is the author of The Timothy Files?"
+      ],
+      "gold_titles": [
+        "The Anderson Tapes (novel)",
+        "The Timothy Files"
+      ],
+      "hit_titles": [
+        "The Timothy Files"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__362107_652514",
+      "n_queries": 1,
+      "queries": [
+        "Who is Callum McManaman?"
+      ],
+      "gold_titles": [
+        "Callum McManaman",
+        "Whiston, Merseyside"
+      ],
+      "hit_titles": [
+        "Callum McManaman"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__402530_774333",
+      "n_queries": 1,
+      "queries": [
+        "What county shares a border with Linn County?"
+      ],
+      "gold_titles": [
+        "Imperial, Texas",
+        "Lancaster Crossing"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__195917_575657",
+      "n_queries": 2,
+      "queries": [
+        "Who is William W. Blair?",
+        "Where was William W. Blair born?"
+      ],
+      "gold_titles": [
+        "Holley, New York",
+        "William W. Blair"
+      ],
+      "hit_titles": [
+        "William W. Blair"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__683835_709167",
+      "n_queries": 1,
+      "queries": [
+        "What award did Raymond M. Cuculli receive?"
+      ],
+      "gold_titles": [
+        "Passion Pictures",
+        "The Red Tree (Shaun Tan)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__197470_271394",
+      "n_queries": 1,
+      "queries": [
+        "What is Tyler MacDuff's profession?"
+      ],
+      "gold_titles": [
+        "Dana MacDuff"
+      ],
+      "hit_titles": [
+        "Dana MacDuff"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "2hop__458131_174974",
+      "n_queries": 2,
+      "queries": [
+        "Who is the producer of the movie 'The Rabbit Hole'?",
+        "Who starred the project 'The Rabbit Hole'?"
+      ],
+      "gold_titles": [
+        "Planet Cake",
+        "Rabbit Hole (film)"
+      ],
+      "hit_titles": [
+        "Rabbit Hole (film)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__299142_347613",
+      "n_queries": 1,
+      "queries": [
+        "Who is Sigrid Eskilsdotter?"
+      ],
+      "gold_titles": [
+        "Sigrid Eskilsdotter (Banér)",
+        "Sigrid Sture"
+      ],
+      "hit_titles": [
+        "Sigrid Eskilsdotter (Banér)",
+        "Sigrid Sture"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__528263_865831",
+      "n_queries": 1,
+      "queries": [
+        "Where is Kimbrough Memorial Stadium located?"
+      ],
+      "gold_titles": [
+        "Canyon, Texas",
+        "Kimbrough Memorial Stadium"
+      ],
+      "hit_titles": [
+        "Kimbrough Memorial Stadium"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__569582_304416",
+      "n_queries": 1,
+      "queries": [
+        "What is the performer of Almost Made Ya?"
+      ],
+      "gold_titles": [
+        "Almost Made Ya",
+        "Kinfolk (album)"
+      ],
+      "hit_titles": [
+        "Almost Made Ya"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__505860_650613",
+      "n_queries": 3,
+      "queries": [
+        "Who is the author of Hannibal and Scipio?",
+        "Who is the author of Hannibal?",
+        "Who is the author of the 1995 historical novel Hannibal?"
+      ],
+      "gold_titles": [
+        "Hannibal and Scipio",
+        "Thomas Nabbes"
+      ],
+      "hit_titles": [
+        "Hannibal and Scipio"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__821197_368148",
+      "n_queries": 1,
+      "queries": [
+        "What is the name of the organization Southern Maryland Electric Cooperative?"
+      ],
+      "gold_titles": [
+        "Hughesville, Maryland",
+        "Southern Maryland Electric Cooperative"
+      ],
+      "hit_titles": [
+        "Southern Maryland Electric Cooperative"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__554167_451128",
+      "n_queries": 1,
+      "queries": [
+        "Who is the Victim of Romance performer?"
+      ],
+      "gold_titles": [
+        "Victim of Romance",
+        "Wilson Phillips"
+      ],
+      "hit_titles": [
+        "Victim of Romance"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__702496_430061",
+      "n_queries": 1,
+      "queries": [
+        "Who is Tim Dubois?"
+      ],
+      "gold_titles": [
+        "Southwest City, Missouri",
+        "Tim DuBois"
+      ],
+      "hit_titles": [
+        "Tim DuBois"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__549146_223121",
+      "n_queries": 2,
+      "queries": [
+        "Who started The Bruce Lee Band?",
+        "Who is Mike Park?"
+      ],
+      "gold_titles": [
+        "Asian Man Records",
+        "The Bruce Lee Band"
+      ],
+      "hit_titles": [
+        "The Bruce Lee Band"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__647996_551681",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Emilia Galotti",
+        "Miss Sara Sampson"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__673655_316668",
+      "n_queries": 1,
+      "queries": [
+        "What group is known as The Blackout All-Stars?"
+      ],
+      "gold_titles": [
+        "Midnight Blue (Kenny Burrell album)",
+        "The Blackout All-Stars"
+      ],
+      "hit_titles": [
+        "The Blackout All-Stars"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__574419_270105",
+      "n_queries": 1,
+      "queries": [
+        "Which county is Van Hook Township located in?"
+      ],
+      "gold_titles": [
+        "Mountrail County Courthouse",
+        "Van Hook Township, Mountrail County, North Dakota"
+      ],
+      "hit_titles": [
+        "Van Hook Township, Mountrail County, North Dakota"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__403712_793210",
+      "n_queries": 2,
+      "queries": [
+        "Who is the father of Edward Baring?",
+        "Who is the father of Henry Baring?"
+      ],
+      "gold_titles": [
+        "Godfrey Baring",
+        "Tom Baring"
+      ],
+      "hit_titles": [
+        "Godfrey Baring",
+        "Tom Baring"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__832795_350510",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Be the One (album)",
+        "Jackie Jackson (album)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__744055_408817",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Bang Bang Rock & Roll",
+        "Eddie Argos"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__726717_610238",
+      "n_queries": 1,
+      "queries": [
+        "What are the examples of National Cycle Routes?"
+      ],
+      "gold_titles": [
+        "National Cycle Network",
+        "National Cycle Route 57"
+      ],
+      "hit_titles": [
+        "National Cycle Network",
+        "National Cycle Route 57"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__499577_617190",
+      "n_queries": 1,
+      "queries": [
+        "Who is the child of Peter Andreas Heiberg?"
+      ],
+      "gold_titles": [
+        "Johan Ludvig Heiberg (poet)",
+        "The Crisis and a Crisis in the Life of an Actress"
+      ],
+      "hit_titles": [
+        "Johan Ludvig Heiberg (poet)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__685280_510757",
+      "n_queries": 1,
+      "queries": [
+        "Which organisation won the 2023 Man of the Year award?"
+      ],
+      "gold_titles": [
+        "The Unwinding",
+        "The Village of Waiting"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__341305_332933",
+      "n_queries": 1,
+      "queries": [
+        "Where is Pine Springs located?"
+      ],
+      "gold_titles": [
+        "Culberson County-Allamoore Independent School District",
+        "Pine Springs, Texas"
+      ],
+      "hit_titles": [
+        "Pine Springs, Texas"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__731228_609866",
+      "n_queries": 2,
+      "queries": [
+        "Where is Julia's House located?",
+        "What district is Julia's House located?"
+      ],
+      "gold_titles": [
+        "Corfe Mullen",
+        "Julia's House"
+      ],
+      "hit_titles": [
+        "Julia's House"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__693444_220151",
+      "n_queries": 1,
+      "queries": [
+        "Who is the author of Young Man Luther?"
+      ],
+      "gold_titles": [
+        "Erikson's stages of psychosocial development",
+        "Young Man Luther"
+      ],
+      "hit_titles": [
+        "Young Man Luther"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__235471_565925",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Great Grape",
+        "The Place and the Time"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__310456_846599",
+      "n_queries": 3,
+      "queries": [
+        "Who is Tihomir of Serbia?",
+        "What is the relationship between Tihomir of Serbia and Boris Tadić?",
+        "Who is the child of Tihomir of Serbia?"
+      ],
+      "gold_titles": [
+        "Saint Sava",
+        "Stracimir Zavidović"
+      ],
+      "hit_titles": [
+        "Stracimir Zavidović"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__335418_279684",
+      "n_queries": 2,
+      "queries": [
+        "What team did the football players of the 1970s play for?",
+        "Who was Anna Benson's husband?"
+      ],
+      "gold_titles": [
+        "Anna Benson",
+        "Kris Benson"
+      ],
+      "hit_titles": [
+        "Anna Benson"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__191125_781346",
+      "n_queries": 1,
+      "queries": [
+        "Which country does Juba belong to?"
+      ],
+      "gold_titles": [
+        "Badigeru Swamp",
+        "The Citizen (South Sudan)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__475070_532404",
+      "n_queries": 1,
+      "queries": [
+        "Who is the spouse of Frances Tupper?"
+      ],
+      "gold_titles": [
+        "Arthur Rupert Dickey",
+        "Frances Tupper"
+      ],
+      "hit_titles": [
+        "Frances Tupper"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__700093_455653",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Dimuthu Bandara Abayakoon",
+        "Rohana Wijeweera"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__512773_346751",
+      "n_queries": 1,
+      "queries": [
+        "How is Bancroft situated geographically?"
+      ],
+      "gold_titles": [
+        "North Hastings High School",
+        "York River (Ontario)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__411091_625230",
+      "n_queries": 1,
+      "queries": [
+        "Who is Mark Dismore?"
+      ],
+      "gold_titles": [
+        "Greenfield, Indiana",
+        "Mark Dismore"
+      ],
+      "hit_titles": [
+        "Mark Dismore"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__423972_540249",
+      "n_queries": 1,
+      "queries": [
+        "Who was Nannina de' Medici?"
+      ],
+      "gold_titles": [
+        "Giuliano de' Medici",
+        "Nannina de' Medici"
+      ],
+      "hit_titles": [
+        "Nannina de' Medici"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__455158_247871",
+      "n_queries": 1,
+      "queries": [
+        "What is the address of NRHEG High School?"
+      ],
+      "gold_titles": [
+        "NRHEG High School",
+        "New Richland, Minnesota"
+      ],
+      "hit_titles": [
+        "NRHEG High School"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__189094_612080",
+      "n_queries": 1,
+      "queries": [
+        "What is the Rabat Ajax Football Ground's location?"
+      ],
+      "gold_titles": [
+        "Malcolm Licari",
+        "Rabat Ajax Football Ground"
+      ],
+      "hit_titles": [
+        "Rabat Ajax Football Ground"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__765678_310556",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "David Profumo",
+        "No Escape (1936 film)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__304852_758385",
+      "n_queries": 1,
+      "queries": [
+        "What is KPRM's license information?"
+      ],
+      "gold_titles": [
+        "Emmaville, Minnesota",
+        "KPRM"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__628752_538661",
+      "n_queries": 1,
+      "queries": [
+        "What is In The Shadow Of Greatness?"
+      ],
+      "gold_titles": [
+        "In the Shadow of Greatness",
+        "United States Naval Institute"
+      ],
+      "hit_titles": [
+        "In the Shadow of Greatness"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__661847_288421",
+      "n_queries": 1,
+      "queries": [
+        "What is the full cooperation?"
+      ],
+      "gold_titles": [
+        "Def Squad",
+        "Full Cooperation"
+      ],
+      "hit_titles": [
+        "Full Cooperation"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__496732_658428",
+      "n_queries": 1,
+      "queries": [
+        "Which island contains Bansaan Island? Observation: Bansaan Island is located in Tambaram Island. Intermediate Question: What is Tambaram Island? Observation: Tambaram Island is a part of Phuket Island. Intermediate Question: What is Phuket Island? Observation: Phuket Island is the largest island in Phang Nga Province, Thailand. Intermediate Question: What province does Phuket Island belong to? Observation: Phuket Island belongs to Phang Nga Province, Thailand. Intermediate Question: What country is Phang Nga Province in? Observation: Phang Nga Province is in Thailand. Intermediate Question: What country is Thailand in? Observation: Thailand is in Southeast Asia. Intermediate Question: What country is Malaysia in? Observation: Malaysia is in Southeast Asia. Final Answer: Thailand."
+      ],
+      "gold_titles": [
+        "Bansaan",
+        "Hinagdanan Cave"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__175175_347233",
+      "n_queries": 1,
+      "queries": [
+        "What is the full name of the company that made the Snappy Tomato Pizza?"
+      ],
+      "gold_titles": [
+        "Fort Mitchell, Kentucky",
+        "Snappy Tomato Pizza"
+      ],
+      "hit_titles": [
+        "Snappy Tomato Pizza"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__496961_554601",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Jeremy Oxley",
+        "Sunnyboys"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__274110_413723",
+      "n_queries": 1,
+      "queries": [
+        "Where is Ernie Watts from?"
+      ],
+      "gold_titles": [
+        "Ernie Watts (footballer, born 1872)",
+        "Woolhampton"
+      ],
+      "hit_titles": [
+        "Ernie Watts (footballer, born 1872)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__231890_595414",
+      "n_queries": 1,
+      "queries": [
+        "Where is Lloyd Dane from?"
+      ],
+      "gold_titles": [
+        "Eldon, Missouri",
+        "Lloyd Dane"
+      ],
+      "hit_titles": [
+        "Eldon, Missouri",
+        "Lloyd Dane"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__342746_679190",
+      "n_queries": 1,
+      "queries": [
+        "Who wrote the actress in The Actress?"
+      ],
+      "gold_titles": [
+        "Adam's Rib",
+        "The Actress"
+      ],
+      "hit_titles": [
+        "The Actress"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__860241_766393",
+      "n_queries": 1,
+      "queries": [
+        "Who authored Missing Person?"
+      ],
+      "gold_titles": [
+        "Missing Person (novel)",
+        "Patrick Modiano"
+      ],
+      "hit_titles": [
+        "Missing Person (novel)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__29368_29376",
+      "n_queries": 3,
+      "queries": [
+        "Who was the founder of Australia's Liberal Party?",
+        "Who was the longest-serving leader of the Liberal Party of Australia?",
+        "When was Robert Menzies the longest-serving leader of the Liberal Party of Australia?"
+      ],
+      "gold_titles": [
+        "Liberal Party of Australia"
+      ],
+      "hit_titles": [
+        "Liberal Party of Australia"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__29367_29376",
+      "n_queries": 3,
+      "queries": [
+        "Who was the Liberal Party of Australia's longest-serving leader?",
+        "Who was Robert Menzies?",
+        "When was Robert Menzies the longest-serving leader of the Liberal Party of Australia?"
+      ],
+      "gold_titles": [
+        "Liberal Party of Australia"
+      ],
+      "hit_titles": [
+        "Liberal Party of Australia"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__21075_5028",
+      "n_queries": 1,
+      "queries": [
+        "What is the academic system of Burma?"
+      ],
+      "gold_titles": [
+        "Myanmar",
+        "Plymouth"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__557411_652060",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "List of Happily Divorced episodes",
+        "The Nanny Reunion: A Nosh to Remember"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__677929_696450",
+      "n_queries": 1,
+      "queries": [
+        "What is The Final Testament of the Holy? published title?"
+      ],
+      "gold_titles": [
+        "Gagosian Gallery",
+        "The Final Testament of the Holy Bible"
+      ],
+      "hit_titles": [
+        "The Final Testament of the Holy Bible"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__132909_33564",
+      "n_queries": 1,
+      "queries": [
+        "During which era was the modern era of Bharat Dynamics Limited founded?"
+      ],
+      "gold_titles": [
+        "Hyderabad",
+        "Nirbhay"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__199216_33564",
+      "n_queries": 1,
+      "queries": [
+        "What era was the Agni-V missile program launched in?"
+      ],
+      "gold_titles": [
+        "Agni-V",
+        "Hyderabad"
+      ],
+      "hit_titles": [
+        "Agni-V"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__133241_33564",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Agni-V",
+        "Hyderabad"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__636597_480615",
+      "n_queries": 1,
+      "queries": [
+        "Which county contains Qiantong?"
+      ],
+      "gold_titles": [
+        "Hu Sanxing",
+        "Qiantong, Zhejiang"
+      ],
+      "hit_titles": [
+        "Qiantong, Zhejiang"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__373759_136043",
+      "n_queries": 1,
+      "queries": [
+        "What is the full name of the composer who created Heartbeat?"
+      ],
+      "gold_titles": [
+        "Heartbeat (Nina Sky song)",
+        "Nina Sky"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__709357_136043",
+      "n_queries": 2,
+      "queries": [
+        "What is the full name of the band behind the Move Ya Body song?",
+        "What is the full name of the band Nina Sky?"
+      ],
+      "gold_titles": [
+        "Move Ya Body",
+        "Nina Sky"
+      ],
+      "hit_titles": [
+        "Move Ya Body",
+        "Nina Sky"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__32254_84601",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Neptune",
+        "Voyager 2"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__471509_136043",
+      "n_queries": 1,
+      "queries": [
+        "Who created Nicole and Natalie's album?"
+      ],
+      "gold_titles": [
+        "Nicole and Natalie",
+        "Nina Sky"
+      ],
+      "hit_titles": [
+        "Nicole and Natalie",
+        "Nina Sky"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__87589_362941",
+      "n_queries": 2,
+      "queries": [
+        "Who was the founder of the National Women's Party?",
+        "Who was the founder of the National Woman's Party?"
+      ],
+      "gold_titles": [
+        "National Woman's Party",
+        "Paulsdale"
+      ],
+      "hit_titles": [
+        "National Woman's Party"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__61318_362941",
+      "n_queries": 1,
+      "queries": [
+        "Observation: [Error] Cannot generate intermediate question."
+      ],
+      "gold_titles": [
+        "Equal Rights Amendment",
+        "Paulsdale"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__20268_42004",
+      "n_queries": 1,
+      "queries": [
+        "What parliament is the modern equivalent of the Directory of Public Worship?"
+      ],
+      "gold_titles": [
+        "Presbyterianism",
+        "Scottish Parliament"
+      ],
+      "hit_titles": [
+        "Presbyterianism"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__159902_362941",
+      "n_queries": 2,
+      "queries": [
+        "Who was the person featured on the Chester Arthur coin?",
+        "When was Alfred Waud born?"
+      ],
+      "gold_titles": [
+        "List of First Ladies of the United States",
+        "Paulsdale"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__42027_42004",
+      "n_queries": 1,
+      "queries": [
+        "What is the body that has been located since 2004?"
+      ],
+      "gold_titles": [
+        "Scottish Parliament"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__648648_173389",
+      "n_queries": 1,
+      "queries": [
+        "What is the location of Broadhurst Park?"
+      ],
+      "gold_titles": [
+        "Broadhurst Park",
+        "Greengate, Greater Manchester"
+      ],
+      "hit_titles": [
+        "Broadhurst Park"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__477492_240386",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Metalworks Institute",
+        "TML Entertainment"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__776377_857193",
+      "n_queries": 1,
+      "queries": [
+        "Where is Bartram's Covered Bridge located?"
+      ],
+      "gold_titles": [
+        "Bartram's Covered Bridge",
+        "Crum Creek"
+      ],
+      "hit_titles": [
+        "Bartram's Covered Bridge"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__29752_814677",
+      "n_queries": 1,
+      "queries": [
+        "What is the underworld in ancient Egypt called?"
+      ],
+      "gold_titles": [
+        "Green",
+        "Hapi (Son of Horus)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__77601_814677",
+      "n_queries": 1,
+      "queries": [
+        "What is the name of the pantheon in ancient Egypt?"
+      ],
+      "gold_titles": [
+        "Hapi (Son of Horus)",
+        "Osiris"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__497191_129669",
+      "n_queries": 1,
+      "queries": [
+        "Where is Alhandra from?"
+      ],
+      "gold_titles": [
+        "Alhandra (footballer)",
+        "Vila Franca de Xira"
+      ],
+      "hit_titles": [
+        "Alhandra (footballer)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__311694_129669",
+      "n_queries": 4,
+      "queries": [
+        "What is Vera Barbosa's nationality?",
+        "What is Vera Barbosa's place of birth?",
+        "Where is Vera Barbosa's place of birth located?",
+        "What is Vila Franca de Xira's location?"
+      ],
+      "gold_titles": [
+        "Vera Barbosa",
+        "Vila Franca de Xira"
+      ],
+      "hit_titles": [
+        "Vera Barbosa",
+        "Vila Franca de Xira"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__819974_129669",
+      "n_queries": 1,
+      "queries": [
+        "What is the name of the municipality in question?"
+      ],
+      "gold_titles": [
+        "Póvoa de Santa Iria e Forte da Casa",
+        "Vila Franca de Xira"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__199513_13732",
+      "n_queries": 3,
+      "queries": [
+        "What does the engagement between Mary and the person from whom São José dos Campos takes its name refer to?",
+        "What is the relationship between São José dos Campos and the person from whom it takes its name?",
+        "What is the name of the person from whom São José dos Campos takes its name?"
+      ],
+      "gold_titles": [
+        "Mary, mother of Jesus",
+        "São José dos Campos"
+      ],
+      "hit_titles": [
+        "Mary, mother of Jesus",
+        "São José dos Campos"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__13731_801817",
+      "n_queries": 3,
+      "queries": [
+        "Who is Mary?",
+        "Who is the betrothed in the context of the film \"A Star Is Born\"?",
+        "In the film \"A Star Is Born\", who is Mary's betrothed?"
+      ],
+      "gold_titles": [
+        "Mary, mother of Jesus",
+        "Sisters of St Joseph of Nazareth"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__865961_159109",
+      "n_queries": 2,
+      "queries": [
+        "Which country corresponds to the ISO code ISO 3166-2:CV?",
+        "What country is associated with the ISO code ISO 3166-2:CV?"
+      ],
+      "gold_titles": [
+        "Cape Verde",
+        "ISO 3166-2:CV"
+      ],
+      "hit_titles": [
+        "ISO 3166-2:CV"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__728887_159109",
+      "n_queries": 1,
+      "queries": [
+        "In which country is Assomada located?"
+      ],
+      "gold_titles": [
+        "Cape Verde",
+        "RTC (Cape Verde)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__827995_159109",
+      "n_queries": 1,
+      "queries": [
+        "Which country does Amílcar Cabral International Airport belong to?"
+      ],
+      "gold_titles": [
+        "Amílcar Cabral International Airport",
+        "Cape Verde"
+      ],
+      "hit_titles": [
+        "Amílcar Cabral International Airport"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__159215_779396",
+      "n_queries": 2,
+      "queries": [
+        "What significant event in history is associated with the person who wrote about the rioting being a dividing factor in Birmingham?",
+        "Was James Watt involved in the Priestley Riots?"
+      ],
+      "gold_titles": [
+        "James Watt",
+        "Priestley Riots"
+      ],
+      "hit_titles": [
+        "Priestley Riots"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__119423_779396",
+      "n_queries": 2,
+      "queries": [
+        "Who designed the LapEngine?",
+        "When was the Lap Engine designed by James Watt?"
+      ],
+      "gold_titles": [
+        "James Watt",
+        "Lap Engine"
+      ],
+      "hit_titles": [
+        "James Watt",
+        "Lap Engine"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__115515_779396",
+      "n_queries": 1,
+      "queries": [
+        "Who created the creator of the Lap Engine?"
+      ],
+      "gold_titles": [
+        "James Watt",
+        "Lap Engine"
+      ],
+      "hit_titles": [
+        "James Watt",
+        "Lap Engine"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__665660_135481",
+      "n_queries": 1,
+      "queries": [
+        "Is the Davis Cup organized by the International Tennis Federation?"
+      ],
+      "gold_titles": [
+        "1967 Federation Cup (tennis)",
+        "Fed Cup"
+      ],
+      "hit_titles": [
+        "Fed Cup"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__201704_135481",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "1965 Federation Cup (tennis)",
+        "Fed Cup"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__861157_135481",
+      "n_queries": 1,
+      "queries": [
+        "What is the full name of the competition that includes the 1972 Federation Cup?"
+      ],
+      "gold_titles": [
+        "1972 Federation Cup (tennis)",
+        "Fed Cup"
+      ],
+      "hit_titles": [
+        "1972 Federation Cup (tennis)",
+        "Fed Cup"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__495316_660579",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Hickory Grove Estates, Mississippi",
+        "Oktibbeha County School District"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__478978_124498",
+      "n_queries": 1,
+      "queries": [
+        "Who is the father of the actor who played Je dis aime?"
+      ],
+      "gold_titles": [
+        "Je dis aime",
+        "Matthieu Chedid"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2hop__543853_124498",
+      "n_queries": 1,
+      "queries": [
+        "What is the full name of the Labo M performer?"
+      ],
+      "gold_titles": [
+        "Labo M",
+        "Matthieu Chedid"
+      ],
+      "hit_titles": [
+        "Labo M"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    }
+  ]
+}

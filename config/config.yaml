@@ -1,0 +1,117 @@
+# Agentic RAG 全局配置
+# 与已有 rag-research-project 的 config 保持风格一致
+
+# ============================================================
+# 基础模型配置
+# ============================================================
+# 8GB VRAM 约束 → 4bit 动态量化(2026-09-23 单方面决策)
+# 原计划:AWQ/GPTQ 预量化 + transformers 5.x 原生 GPTQConfig
+# 实测问题:optimum 2.3.0 的 GPTQ 集成有 bug(QuantizeConfig 未定义)
+#          autoawq 依赖 triton(Windows 不可装)
+#          auto-gptq 与 transformers 5.x 不兼容(API 重命名)
+# 退回:bitsandbytes 4bit 动态量化(已装 0.50.1,Win+Py3.13 wheel 全)
+# 显存:Qwen2.5-3B 4bit ≈ 2-3GB,留 5GB+ 给 KV cache,8GB 够用
+# 7B 仍风险:fp16 14GB 跑不动,4bit ≈ 4-5GB + KV 紧,留作可选
+llm:
+  # 本地模型路径(完整 fp16 模型,bnb 加载时动态量化)
+  model_name: "Qwen/Qwen2.5-3B-Instruct"
+  # 量化方案: None / "gptq" / "awq" / "bitsandbytes"
+  # 当前走 bitsandbytes(GPTQ 路径因 optimum bug 暂不可用)
+  quantization: "bitsandbytes"
+  # 是否使用 4bit 量化(预量化模型忽略此参数)
+  load_in_4bit: false
+  # 设备: auto / cuda / cpu
+  device: "auto"
+  # 推理参数
+  max_new_tokens: 64      # 短答足够,512 让模型倾向展开(F1=0 假象)
+  temperature: 0.0      # 贪心解码,保证可复现
+  do_sample: false
+
+# ============================================================
+# Embedding 与检索(沿用已有项目)
+# ============================================================
+embedding:
+  model_name: "BAAI/bge-small-zh-v1.5"
+  normalize: true
+
+vector_store:
+  backend: "faiss"
+  index_path: "data/processed/index/faiss.index"
+
+reranker:
+  model_name: "BAAI/bge-reranker-base"
+  enabled: true
+  top_k: 5              # 重排序后保留数量
+
+# ============================================================
+# Agent 配置
+# ============================================================
+agent:
+  # Agent 范式: react / plan_execute / self_ask / ircot
+  paradigm: "react"
+  # 最大检索步数(超出后强制 finish)
+  max_steps: 8
+  # 是否启用自我反思(仅部分范式生效)
+  enable_reflection: false
+  # 是否记录完整推理轨迹
+  save_trace: true
+  # 轨迹输出目录
+  trace_dir: "experiments/traces"
+
+# ============================================================
+# 检索器配置
+# ============================================================
+retriever:
+  # 检索器类型: faiss / faiss_rerank
+  type: "faiss_rerank"
+  # 单次检索返回的文档数
+  top_k: 5
+  # 文档最大字符数
+  max_doc_chars: 2000
+
+# ============================================================
+# 任务与数据集
+# ============================================================
+task:
+  # 任务类型: multihop_qa
+  name: "multihop_qa"
+  # 数据集: hotpotqa / 2wikimultihop / musique
+  dataset: "hotpotqa"
+  # 数据集路径
+  data_dir: "data/raw/hotpotqa"
+  # 评估样本数(0 表示全量)
+  eval_limit: 500
+  # 随机种子
+  seed: 42
+
+# ============================================================
+# 评估配置
+# ============================================================
+evaluation:
+  # 答案指标
+  answer_metrics: ["em", "answer_f1", "support_f1"]
+  # 决策指标
+  decision_metrics:
+    - "decision_accuracy"
+    - "over_retrieval_rate"
+    - "under_retrieval_rate"
+  # 效率指标
+  efficiency_metrics:
+    - "avg_steps"
+    - "total_tokens"
+    - "latency_seconds"
+
+# ============================================================
+# 输出配置
+# ============================================================
+output:
+  results_dir: "experiments/results"
+  figures_dir: "experiments/figures"
+  log_level: "INFO"
+
+# ============================================================
+# 离线模式(沿用已有项目)
+# ============================================================
+env:
+  hf_offline: true
+  transformers_offline: true

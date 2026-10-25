@@ -1,0 +1,31 @@
+{
+  "question": "Which film came out first, Blind Shaft or The Mask Of Fu Manchu?",
+  "answer": "2003.",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Which film came out first, BlindShaft or The Mask Of Fu Manchu?\n\nObservation: Blind Shaft and The Mask Of Fu Manchu are both films, but it's not clear which came out first based solely on this information. More details are needed to determine the chronological order. \n\nIntermediate Question: When did Blind Shaft come out? When did The Mask Of Fu Manchu come out?",
+      "action_name": "search",
+      "action_input": "When did Blind Shaft come out? When did The Mask Of Fu Manchu come out?",
+      "observation": "[Search] Results for 'When did Blind Shaft come out? When did The Mask Of Fu Manchu come out?':\n[Doc 1] The Mask of Fu Manchu: It was written by Irene Kuhn, Edgar Allan Woolf and John Willard based on the 1932 novel of the same name by Sax Rohmer.\n\n[Doc 2] The Mask of Fu Manchu: The Mask of Fu Manchu is a 1932 pre-Code adventure film directed by Charles Brabin.\n\n[Doc 3] Blind Shaft: Blind Shaft is a 2003 film about a pair of brutal con artists operating in the illegal coal mines of present- day northern China.\n\n[Doc 4] The Mask of Fu Manchu: Starring Boris Karloff as Fu Manchu, and featuring Myrna Loy as his depraved daughter, the movie revolves around Fu Manchu's quest for the golden sword and mask of Genghis Khan.\n\n[Doc 5] The Face of Fu Manchu: The Face of Fu Manchu is a 1965 thriller film directed by Don Sharp and based on the characters created by Sax Rohmer.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Intermediate Question: When did Blind Shaft come out? When did The Mask Of Fu Manchu come out? \nObservation: BlindShaft is a 2003 film about a pair of brutal con artists operating in the illegal coal mines of present- day northern China.  \nThe Mask Of Fu Manchu is a 1932 pre-Code adventure film starring Boris Karloff as Fu Manchu and featuring Myrna Loy as his depraved daughter, revolving around Fu Manchu's quest for the golden sword and mask of Genghis Khan. \n\nFinal Question: Which film came out first, BlindShaft or The Mask Of Fu Manchu?\nObservation: Blind Shaft came out in 2003 while The Mask Of Fu Manchu came out in 1932. \n\nIntermediate Question: When did Blind Shaft come out? \n Intermediate Question: When did The Mask Of Fu Manchu come out? \n The Mask Of Fu Manchu came out in 1932. \nObservation: Blind Shaft came out in 2003. \n\nFinal Answer: 2003.",
+      "action_name": "self_ask_query",
+      "action_input": "When did Blind Shaft come out? When did The Mask Of Fu Manchu come out?",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 101.74672794342041,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

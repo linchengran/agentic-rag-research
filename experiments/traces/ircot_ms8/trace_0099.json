@@ -1,0 +1,23 @@
+{
+  "question": "Are Yingkou and Fuding the same level of city?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Checking if Yingkou and Fuding are both cities.",
+      "action_name": "ircot_search",
+      "action_input": "Checking if Yingkou and Fuding are both cities.",
+      "observation": "[Search] Results for 'Checking if Yingkou and Fuding are both cities.':\n[Doc 1] Yingkou: Yingkou () is a prefecture-level city of Liaoning province, People's Republic of China.\n\n[Doc 2] Yingkou East Railway Station:  It is located in Dashiqiao, in the Yingkou prefecture level city, in the Liaoning province of China.\n\n[Doc 3] Yingkou Lanqi Airport: Yingkou Lanqi Airport (IATA: YKH, ICAO: ZYYK) is an airport serving the city of Yingkou in Liaoning province of Northeast China.\n\n[Doc 4] Yingkou Lanqi Airport:  The total investment for the project was estimated at CNY 8.94 billion.\n\n[Doc 5] Visa policy of Hong Kong:  Visitors from over 145 countries are permitted visa-free entry for periods ranging from 7 to 180 days, to the Hong Kong Special Administrative Region for tourism or certain business-related activities.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 6.627364635467529,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "question": "What football club plays in the area between the old tool gates: Brook Bar and Trafford bar?",
+  "answer": "Old Trafford",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What are the names of the old tool gates located near Brook Bar and Trafford Bar?\n\nObservation: The old tool gates near Brook Bar and Trafford Bar are known as Brook Bar Old Tool Gates and Trafford Bar Old Tool Gates.",
+      "action_name": "search",
+      "action_input": "What are the names of the old tool gates located near Brook Bar and Trafford Bar?",
+      "observation": "[Search] Results for 'What are the names of the old tool gates located near Brook Bar and Trafford Bar?':\n[Doc 1] Old Trafford, Greater Manchester:  The crossroads sites of two old toll gates roughly delineate the borders of the area: Brooks's Bar to the east and Trafford Bar to the west.\n\n[Doc 2] The Gatehouse, Monmouth:  The pub was known as the Barley Mow until it changed its name in 1993.\n\n[Doc 3] Marion Christopher Barry:  For most of his adult life, Barry went by his middle name, Christopher.\n\n[Doc 4] J. M. Barrie:  He was born and educated in Scotland but moved to London, where he wrote a number of successful novels and plays.\n\n[Doc 5] Rivington Hall Barn:  The barn may date from between the 9th and 13th centuries, but more likely the 16th century, and was restored, altered and enlarged in 1905 by Jonathan Simpson for Lord Leverhulme.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Intermediate Question: What are the names of the old tool gates located near Brook Bar and Trafford Bar?\nObservation: [Search] Results for 'What are the names of the old tool gates located near Brook Bar and Trafford Bar?':\n[Doc 1] Old Trafford, Greater Manchester:  The crossroads sites of two old toll gates roughly delineate the borders of the area: Brooks's Bar to the east and Trafford Bar to the west.\n\nFinal Answer: Old Trafford",
+      "action_name": "self_ask_query",
+      "action_input": "What are the names of the old tool gates located near Brook Bar and Trafford Bar?",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 9.924091339111328,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

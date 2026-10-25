@@ -1,0 +1,31 @@
+{
+  "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+  "answer": "1986-2013",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: 何时大卫·贝克汉姆曾担任曼联队主教练？球队由他管理期间的时间范围是怎样的？",
+      "action_name": "search",
+      "action_input": "何时大卫·贝克汉姆曾担任曼联队主教练？球队由他管理期间的时间范围是怎样的？",
+      "observation": "[Search] Results for '何时大卫·贝克汉姆曾担任曼联队主教练？球队由他管理期间的时间范围是怎样的？':\n[Doc 1] Alex Ferguson: Sir Alexander Chapman Ferguson, CBE (born 31 December 1941) is a Scottish former football manager and player who managed Manchester United from 1986 to 2013.\n\n[Doc 2] Ernest Mangnall: James Ernest Mangnall (4 Januar...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: 1986-2013",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 10.305967569351196,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

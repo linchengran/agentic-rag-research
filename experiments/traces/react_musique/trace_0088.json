@@ -1,0 +1,31 @@
+{
+  "question": "Where is the country with ISO code ISO 3166-2:CV located?",
+  "answer": "yes",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The country with ISO code ISO 3166-2:CV is likely in Europe.",
+      "action_name": "search",
+      "action_input": "country with ISO 3166-2:CV",
+      "observation": "[Search] Results for 'country with ISO 3166-2:CV':\n[Doc 1] ISO 3166-2:CV: ISO 3166-2:CV is the entry for Cabo Verde in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which defines codes for the names of the principal subdivisions (e.g., provinces or states) of all countries coded in ISO 3166-1.\n\n[Doc 2] ISO 3166-2:JP: ISO 3166-2:JP is the entry for Japan in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which defines codes for the names of the principal subdivisions (e.g.provinces or states) of all countries coded in ISO 3166-1.\n\n[Doc 3] ISO 3166-2:IN: ISO 3166-2:IN is the entry for India in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which defines codes for the names of the principal subdivisions (e.g., provinces or states) of all countries coded in ISO 3166-1.\n\n[Doc 4] ISO 3166-2:BR: ISO 3166-2:BR is the entry for Brazil in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which defines codes for the names of the principal subdivisions (e.g. provinces or states) of all countries coded in ISO 3166-1.\n\n[Doc 5] ISO 3166-2:CH: ISO 3166-2:CH is the entry for Switzerland in ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), which defines codes for the names of...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The country with ISO code ISO 3166-2:CV is likely Cabo Verde.",
+      "action_name": "finish",
+      "action_input": "yes",
+      "observation": "[Finish] Answer: yes",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 10.228545427322388,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

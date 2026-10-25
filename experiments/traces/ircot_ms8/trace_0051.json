@@ -1,0 +1,23 @@
+{
+  "question": "In 1991 Euromarché was bought by a chain that operated how any hypermarkets at the end of 2016?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "In 1991, Euromarché was bought by Carrefour.",
+      "action_name": "ircot_search",
+      "action_input": "In 1991, Euromarché was bought by Carrefour.",
+      "observation": "[Search] Results for 'In 1991, Euromarché was bought by Carrefour.':\n[Doc 1] Euromarché:  In June 1991, the group was rebought by its rival, Carrefour, for 5,2 billion francs.\n\n[Doc 2] 712 Fifth Avenue:  It was constructed from 1990 to 1991 and is the 53rd tallest building in New York City.\n\n[Doc 3] Filming of James Bond in the 1990s: Principal photography for the film began on 16 January 1995 and continued until 6 June.\n\n[Doc 4] 1993 Brownlow Medal:  The South Australian also added a Premiership Medallion to his collection after Essendon defeated Carlton in the 1993 premiership decider.\n\n[Doc 5] Selver:  The chain was established in 1995 with the opening of Punane Selver in Lasnamäe, Tallinn.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 13.477553844451904,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

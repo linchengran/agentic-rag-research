@@ -1,0 +1,23 @@
+{
+  "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: Allan Jones.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: Allan Jones.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: Allan Jones.':\n[Doc 1] U Know What's Up:  It is Jones's biggest hit to date.\n\n[Doc 2] Robert Earl Jones:  .\n\n[Doc 3] Robert Earl Jones:  Jones was the father of actor James Earl Jones.\n\n[Doc 4] Shrek Forever After (video game):  It is the fourth and final video game based on the movie series of \"Shrek\".\n\n[Doc 5] Snatch (TV series):  The show has been renewed for a second season.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 9.26619815826416,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

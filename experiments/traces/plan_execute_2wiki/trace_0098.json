@@ -1,0 +1,44 @@
+{
+  "question": "Where was the place of burial of Albert Frederick, Duke Of Prussia's mother?",
+  "answer": "shortest answer",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for Albert Frederick, Duke Of Prussia's mother's name will yield the correct information.",
+      "action_name": "search",
+      "action_input": "Albert Frederick, Duke Of Prussia's mother",
+      "observation": "[Search] Results for \"Albert Frederick, Duke Of Prussia's mother\":\n[Doc 1] Duchess Anna of Prussia: She was the daughter of Albert Frederick, Duke of Prussia, and Marie Eleonore of Cleves.\n\n[Doc 2] Albert Frederick, Duke of Prussia: He was a son of Albert of Prussia and Anna Marie of Brunswick-Lüneburg.\n\n[Doc 3] Albert Frederick, Duke of Prussia: Albert Frederick (7 May 1553 – 28 August 1618) was the Duke of Prussia, from 1568 until his death.\n\n[Doc 4] Anna Amalia, Abbess of Quedlinburg: She was one of ten surviving children of King Frederick William I of Prussia and Sophia Dorothea of Hanover.\n\n[Doc 5] Albert Frederick, Duke of Prussia: He was the second and last Prussian duke of the Ansbach branch of the Hohenzollern family.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The mother's name is Duchess Anna of Prussia. |",
+      "action_name": "lookup",
+      "action_input": "Duchess Anna of Prussia",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "To find the place of burial for Duchess Anna of Prussia, I need to search for her burial location. |",
+      "action_name": "search",
+      "action_input": "Duchess Anna of Prussia burial location",
+      "observation": "[Search] Results for 'Duchess Anna of Prussia burial location':\n[Doc 1] Anna Marie of Brunswick-Lüneburg: Münden; died: 20 March 1568 in Gurievsk  near Königsberg) was a Duchess of Brunswick-Lüneberg by birth and by marriage Duchess of Prussia.\n\n[Doc 2] Duchess Anna of Prussia: Duchess Anna of Prussia and Jülich-Cleves-Berg (3 July 1576 – 30 August 1625) was Electress consort of Brandenburg and Duchess consort of Prussia by marriage to John Sigismund, Elector of Brandenburg.\n\n[Doc 3] Duchess Anna of Prussia: She was the daughter of Albert Frederick, Duke of Prussia, and Marie Eleonore of Cleves.\n\n[Doc 4] Albert Frederick, Duke of Prussia: He was a son of Albert of Prussia and Anna Marie of Brunswick-Lüneburg.\n\n[Doc 5] Prince Constantine Constantinovich of Russia: Elisabeth's grandmother, the former Grand Duchess Maria Alexandrovna of Russia, wrote to her daughter, the Crown Princess Marie of Romania in 1911, saying,\" The young Kostya is seized now with terror that she will be snatched away, as he says, before he has even made her acquaintance.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 84.03953075408936,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for Albert Frederick, Duke Of Prussia's mother's name",
+      "Find the place of burial for the mother's name found above.",
+      "Finish with the shortest answer."
+    ]
+  }
+}

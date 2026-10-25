@@ -1,0 +1,39 @@
+{
+  "question": "Mamie Gummer played the role of Nancy Crozier on the TV series airing on what network?",
+  "answer": "Fox Network",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation: What network aired Nancy Crozier's character on?\nIntermediate Question: What network aired Nancy Crozier's character from Mamie Gummer on?",
+      "action_name": "search",
+      "action_input": "What network aired Nancy Crozier's character from Mamie Gummer on?",
+      "observation": "[Search] Results for \"What network aired Nancy Crozier's character from Mamie Gummer on?\":\n[Doc 1] Mamie Gummer:  She starred in the title role of The CW series \"Emily Owens, M.D.\" (2012–13), and played the recurring role of Nancy Crozier on \"The Good Wife\" (2010–15).\n\n[Doc 2] Evicted!:  It originally aired on Cartoon Network on March 18, 2010 as a preview for the series; it later officially aired on May 17, 2010.\n\n[Doc 3] Web Weirdos:  It originally aired on Cartoon Network on April 16, 2012.\n\n[Doc 4] The Telltale Head:  It originally aired on the Fox network in the United States on February 25, 1990.\n\n[Doc 5] Love It or List It Vancouver:  In the United States, the show is titled Love It or List It, Too, and airs on the HGTV network.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Intermediate Question: What network aired Nancy Crozier's character from Mamie Gummer on?",
+      "action_name": "search",
+      "action_input": "What network aired Nancy Crozier's character from Mamie Gummer on?",
+      "observation": "[Search] Results for \"What network aired Nancy Crozier's character from Mamie Gummer on?\":\n[Doc 1] Mamie Gummer:  She starred in the title role of The CW series \"Emily Owens, M.D.\" (2012–13), and played the recurring role of Nancy Crozier on \"The Good Wife\" (2010–15).\n\n[Doc 2] Evicted!:  It originally aired on Cartoon Network on March 18, 2010 as a preview for the series; it later officially aired on May 17, 2010.\n\n[Doc 3] Web Weirdos:  It originally aired on Cartoon Network on April 16, 2012.\n\n[Doc 4] The Telltale Head:  It originally aired on the Fox network in the United States on February 25, 1990.\n\n[Doc 5] Love It or List It Vancouver:  In the United States, the show is titled Love It or List It, Too, and airs on the HGTV network.",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Final Answer: Fox Network",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 11.356200456619263,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

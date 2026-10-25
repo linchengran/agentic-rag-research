@@ -1,0 +1,44 @@
+{
+  "question": "Rostker v. Goldberg held that the practice of what way of filling armed forces vacancies was consitutional?",
+  "answer": "requirement",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for Rostker v. Goldberg case will yield the necessary information about the case.",
+      "action_name": "search",
+      "action_input": "Rostker v. Goldberg",
+      "observation": "[Search] Results for 'Rostker v. Goldberg':\n[Doc 1] Rostker v. Goldberg: Rostker v. Goldberg, 453 U.S. 57 (1981) , was a decision of the United States Supreme Court holding that the practice of requiring only men to register for the draft was constitutional.\n\n[Doc 2] Rostker v. Goldberg:  (The named defendant is Bernard D. Rostker, Director of the Selective Service System.)\n\n[Doc 3] Rostker v. Goldberg:  After extensive hearings, floor debate and committee sessions on the matter, the United States Congress enacted the law, as it had previously been, to apply to men only.\n\n[Doc 4] Rostker v. Goldberg:  Several attorneys, including Robert L. Goldberg, subsequently challenged the gender distinction as unconstitutional.\n\n[Doc 5] Rostker v. Goldberg:  In a 6-3 decision, the Supreme Court held that this gender distinction was not a violation of the equal protection component of the due process clause, and that the Act would stand as passed.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "I have found the relevant part of the opinion discussing the constitutionality of filling vacancies in armed forces. |",
+      "action_name": "lookup",
+      "action_input": "Rostker v. Goldberg",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The relevant part of the opinion discussing the constitutionality of filling vacancies in armed forces can be found by looking up the case name in the search results.",
+      "action_name": "lookup",
+      "action_input": "Rostker v. Goldberg",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 48.92107605934143,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for Rostker v. Goldberg case",
+      "Find the specific part of the opinion discussing the constitutionality of filling vacancies in armed forces",
+      "Finish with the shortest answer."
+    ]
+  }
+}

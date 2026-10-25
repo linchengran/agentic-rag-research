@@ -1,0 +1,31 @@
+{
+  "question": "What is the birthday of the actress who was the Duchess in \"The Revengers Tragedy\"?",
+  "answer": "No",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation: In which year did \"The Revengers Tragedy\" come out?\n\nYear \"The Revengers Traged unsur comes out?",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: No",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 2.5214831829071045,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

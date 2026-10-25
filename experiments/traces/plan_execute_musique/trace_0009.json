@@ -1,0 +1,44 @@
+{
+  "question": "What province shares a border with the province where Lago District is located?",
+  "answer": "",
+  "n_steps": 3,
+  "finished": false,
+  "finish_reason": "max_steps",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for the location of Lago District will provide information about its location.",
+      "action_name": "search",
+      "action_input": "Lago District location",
+      "observation": "[Search] Results for 'Lago District location':\n[Doc 1] Lago District: Lago District is a district of Niassa Province in north-western Mozambique. The principal town is Metangula. Lago District is bordered to the west by Lake Nyasa, on the south by Lichinga, on the east by Sanga District. Lago shares its northern boundary with Tanzania.\n\n[Doc 2] Lake District: The Lake District is located entirely within the county of Cumbria. All the land in England higher than 3,000 feet (914 m) above sea level lies within the National Park, including Scafell Pike, the highest mountain in England. It also contains the deepest and longest bodies of water in England, Wast Water and Windermere.\n\n[Doc 3] Lago Verde (Queyras): Lago Verde (Italian for \"green lake\") is a lake which is located in Italy, close to the French border and the Queyras valley.\n\n[Doc 4] San Diego: Tourism is a major industry owing to the city's climate, its beaches, and numerous tourist attractions such as Balboa Park, Belmont amusement park, San Diego Zoo, San Diego Zoo Safari Park, and SeaWorld San Diego. San Diego's Spanish and Mexican heritage is reflected in the many historic sites across the city, such as Mission San Diego de Alcala and Old Town San Diego State Historic Park. Also, the local craft brewing industry attracts an increasing number of visitors for \"beer tours\" and the annual San Diego Beer Week in November; San Diego has been called \"America's Craft Beer Capital.\"\n\n[Doc 5] Lac-Matapédia, Quebec: Lac-Matapé...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "From the search results, Lago District is located in Niassa Province in Mozambique.",
+      "action_name": "lookup",
+      "action_input": "Lago District Niassa Province",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "From the search results, Lago District is located in Niassa Province in Mozambique. Next, I need to find which province it borders.",
+      "action_name": "lookup",
+      "action_input": "Lago District neighboring province",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 178.10812139511108,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for the location of Lago District",
+      "Find which province Lago District is located in",
+      "Finish with the shortest answer."
+    ]
+  }
+}

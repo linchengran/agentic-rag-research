@@ -1,0 +1,23 @@
+{
+  "question": "What was the name of a woman from the book titled \"Their Lives: The Women Targeted by the Clinton Machine \" and was also a former white house intern?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: Chelsea Clinton?",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: Chelsea Clinton?",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: Chelsea Clinton?':\n[Doc 1] I Am... Gabriel:  Some think he's an answer to prayer.\n\n[Doc 2] Charmed (season 4):  This season also saw the introduction of Rose McGowan as Paige Matthews—half-sister to Prue, Piper and Phoebe—and a slight alteration of the opening credits, due to the third season departure of Shannen Doherty as Prue.\n\n[Doc 3] Charmed:  However, following Prue's death in the third-season finale, their long-lost half sister Paige Matthews (Rose McGowan) assumes her place within the \"Power of Three\" from season four onwards.\n\n[Doc 4] 2015 FA Women's Cup Final:  Chelsea made its second final appearance, after losing the 2012 final.\n\n[Doc 5] Charlotte Hornets draft history:  The franchise's name was changed back to the Hornets at the conclusion of the 2013–14 season, one year after the team in Louisiana renamed itself the New Orleans Pelicans.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 15.437731742858887,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

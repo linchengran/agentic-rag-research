@@ -1,0 +1,31 @@
+{
+  "question": "Where are the headquarters for the publisher of In the Shadow of Greatness?",
+  "answer": "no",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "[search query]",
+      "action_name": "ircot_search",
+      "action_input": "[search query]",
+      "observation": "[Search] Results for '[search query]':\n[Doc 1] Poultry: Poultry (/ˌpoʊltriː/) are domesticated birds kept by humans for the eggs they produce, their meat, their feathers, or sometimes as pets. These birds are most typically members of the superorder Galloanserae (fowl), especially the order Galliformes (which includes chickens, quails and turkeys) and the family Anatidae, in order Anseriformes, commonly known as \"waterfowl\" and including domestic ducks and domestic geese. Poultry also includes other birds that are killed for their meat, such as the young of pigeons (known as squabs) but does not include similar wild birds hunted for sport or food and known as game. The word \"poultry\" comes from the French/Norman word poule, itself derived from the Latin word pullus, which means small animal.\n\n[Doc 2] Search for the Gods: Search for the Gods is a 1975 television film directed by Jud Taylor, and stars Kurt Russell and Stephen McHattie. It was intended to be the pilot episode of a TV series that never made it into production.\n\n[Doc 3] Copyright infringement: In some countries, the personal copying exemption explicitly requires that the content being copied was obtained legitimately – i.e., from authorized sources, not file-sharing networks. Other countries, such as the Netherlands, make no such distinction; the exemption there had been assumed, even by the government, to apply to any such copying, even from file-sharing networks. However, in April 2014, the Court of Justice of t...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "action_name": "ircot_search",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 66.13926672935486,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

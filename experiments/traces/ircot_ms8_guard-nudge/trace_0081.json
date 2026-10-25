@@ -1,0 +1,23 @@
+{
+  "question": "The Album Against the Wind was the 11th Album of a Rock singer Robert C Seger born may 6 1945. What was the Rock singers stage name ?",
+  "answer": "Robert C Seger",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: Robert C Seger",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: Robert C Seger",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: Robert C Seger':\n[Doc 1] Bob Seger: Robert Clark Seger ( , born May 6, 1945) is an American singer-songwriter, guitarist and pianist.\n\n[Doc 2] 2017 Australian Open – Men's singles final:  In a rematch of the 2009 Australian Open final, which Nadal won in 5 sets, Roger Federer won the duel in 5 sets, beating Nadal for the first time in a Grand Slam since the 2007 Wimbledon final.\n\n[Doc 3] Robert Belushi:  On television, he is best known as Allen (\"The Buddy\") on the of Spike TV's \"The Joe Schmo Show\" and Linus the Bartender on the ninth and final season of CBS's \"How I Met Your Mother\".\n\n[Doc 4] James Gunn:  2\" (2017).\n\n[Doc 5] Robert Earl Jones:  .",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 16.845210790634155,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

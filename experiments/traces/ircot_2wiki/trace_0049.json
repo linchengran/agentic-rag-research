@@ -1,0 +1,23 @@
+{
+  "question": "Who is Blanche Of Portugal (1259–1321)'s paternal grandmother?",
+  "answer": "Alfonso IV Of Portugal",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find who Blanche Of Portugal's father was.",
+      "action_name": "ircot_search",
+      "action_input": "Find who Blanche Of Portugal's father was.",
+      "observation": "[Search] Results for \"Find who Blanche Of Portugal's father was.\":\n[Doc 1] Blanche of Portugal (1259–1321): Blanche of Portugal (25 February 1259 in Santarém, – 17 April 1321 in Burgos; Branca in Portuguese and Blanca in Spanish), was an \"infanta\", the firstborn child of King Afonso III of Portugal and his second wife Beatrice of Castile.\n\n[Doc 2] Blanche of Portugal (1259–1321): Named after her great-aunt Blanche of Castile, queen of France, Blanche was the Lady of Las Huelgas, Montemor-o-Velho, Alcocer and Briviesca, the city which she founded.\n\n[Doc 3] Blanche of Brittany: Through her mother she was the granddaughter of King Henry III of England and Eleanor of Provence.\n\n[Doc 4] Ferdinand of Portugal, Duke of Guarda: Ferdinand of Portugal, Duke of Guarda, (5 June 1507 – 7 November 1534) was a Portuguese \"infante\" (prince), the son of King Manuel I of Portugal and his second wife, Maria of Aragon.\n\n[Doc 5] Blanche of Brittany: She is also known as Blanche de Dreux.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 79.47474360466003,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

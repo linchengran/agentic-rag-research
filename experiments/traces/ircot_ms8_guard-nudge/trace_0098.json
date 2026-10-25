@@ -1,0 +1,23 @@
+{
+  "question": "In which city is the ambassador of the Rabat-Salé-Kénitra administrative region to China based?",
+  "answer": "Casablanca.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: Casablanca.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: Casablanca.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: Casablanca.':\n[Doc 1] Lord Byron (opera):  This was Thomson's third and final opera.\n\n[Doc 2] The Hunger Games: Mockingjay – Part 2:  Hoffman died in February 2014, making \"Mockingjay – Part 2\" his final film role.\n\n[Doc 3] 2017 Australian Open – Men's singles final:  In a rematch of the 2009 Australian Open final, which Nadal won in 5 sets, Roger Federer won the duel in 5 sets, beating Nadal for the first time in a Grand Slam since the 2007 Wimbledon final.\n\n[Doc 4] 1998 ICC KnockOut Trophy Final:  In the second semi-final, West Indies defeated India by six wickets, and qualified for the final.\n\n[Doc 5] Zurracapote:  The result is a mild-to-medium alcoholic drink, similar to sangría.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 1.8245797157287598,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

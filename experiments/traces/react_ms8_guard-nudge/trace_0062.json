@@ -1,0 +1,39 @@
+{
+  "question": "Who was born earlier, Emma Bull or Virginia Woolf?",
+  "answer": "Virginia Woolf",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about Emma Bull and Virginia Woolf.",
+      "action_name": "search",
+      "action_input": "Who was Emma Bull? And who was Virginia Woolf?",
+      "observation": "[Search] Results for 'Who was Emma Bull? And who was Virginia Woolf?':\n[Doc 1] Emma Bull: Emma Bull (born December 13, 1954) is an American science fiction and fantasy author.\n\n[Doc 2] Emma Bull:  As a singer, songwriter, and guitarist, she has been a member of the Minneapolis-based folk/rock bands Cats Laughing and The Flash Girls.\n\n[Doc 3] Virginia Woolf: Adeline Virginia Woolf (née Stephen; 25 January 1882 – 28 March 1941) was an English writer who is considered one of the foremost modernists of the twentieth century, and a pioneer in the use of stream of consciousness as a narrative device.\n\n[Doc 4] Emma Bull:  She is also known for a series of anthologies set in Liavek, a shared universe that she created with her husband Will Shetterly.\n\n[Doc 5] Virginia Woolf:  Born in an affluent household in Kensington, London, she attended the King's College London and was acquainted with the early reformers of women's higher education.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Look up the birth years of Emma Bull and Virginia Woolf.",
+      "action_name": "lookup",
+      "action_input": "Who was born earlier, Emma Bull or Virginia Woolf?",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "action_name": "finish",
+      "action_input": "Virginia Woolf",
+      "observation": "[Finish] Answer: Virginia Woolf",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 13.675876379013062,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "The 2017–18 Wigan Athletic F.C. season will be a year in which the team competes in the league cup known as what for sponsorship reasons?",
+  "answer": "Barclays Premier League.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: Barclays Premier League.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: Barclays Premier League.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: Barclays Premier League.':\n[Doc 1] It's Alive! (Dexter):  In the episode, which takes place five weeks after the first-season finale, Sgt. James Doakes (Erik King) is following Dexter Morgan (Michael C. Hall) at all times, but when he gets his first opportunity Dexter finds himself unable to kill.\n\n[Doc 2] 2012 US Open – Men's singles final:  The match is a significant part of the rivalry between the two players.\n\n[Doc 3] Struggle for Rome (board game):  It is the second game in the \"Catan Histories\" series of board games.\n\n[Doc 4] 2017 Australian Open – Men's singles final:  It was contested between Roger Federer and Rafael Nadal, ranked 17th and 9th in the world respectively.\n\n[Doc 5] 2013 East Africa Premier League:  The tournament was won by Rising Stars Chuis who defeated Ruwenzori Warriors by 9 wickets in the final.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 5.222634792327881,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

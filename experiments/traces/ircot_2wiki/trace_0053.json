@@ -1,0 +1,23 @@
+{
+  "question": "Where does the director of film Man At Bath work at?",
+  "answer": "London.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: London.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: London.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: London.':\n[Doc 1] The Beginning or the End: The title was supplied by President Harry S. Truman.\n\n[Doc 2] Young and Dangerous 2: It is the first sequel in the\" Young and Dangerous\" film series.\n\n[Doc 3] Young and Dangerous 4: 4( Literal Title\" 97 Wise Guys: No War Can not Be Won\") is a 1997 Hong Kong triad film directed by Andrew Lau.\n\n[Doc 4] Young and Dangerous 3: It is the second sequel in the\" Young and Dangerous\" film series.\n\n[Doc 5] Her Luck in London: The film follows a naive country girl as she heads to London, where she is corrupted.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 8.93695616722107,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

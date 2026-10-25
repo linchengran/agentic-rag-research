@@ -1,0 +1,31 @@
+{
+  "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+  "answer": "1973",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Ask the first intermediate question (do NOT give the Final Answer yet): What year was the manga series based on Ichitaka Seto's 16-year-old high school student status published?\n\nObservation: The manga series is based on a 16-year-old high school student named Ichitaka Seto.",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: 1973",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 5.89397668838501,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

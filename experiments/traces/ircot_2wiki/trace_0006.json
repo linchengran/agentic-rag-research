@@ -1,0 +1,23 @@
+{
+  "question": "Where was the father of Ștefan I. Nenițescu born?",
+  "answer": "Romania",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find the birthplace of Ștefan I. Nenițescu's father.",
+      "action_name": "ircot_search",
+      "action_input": "Find the birthplace of Ștefan I. Nenițescu's father.",
+      "observation": "[Search] Results for \"Find the birthplace of Ștefan I. Nenițescu's father.\":\n[Doc 1] Place of birth: This means that the domicile of the baby's mother is the registered place of birth.\n\n[Doc 2] Place of birth: The place of birth is not necessarily the place where the parents of the new baby live.\n\n[Doc 3] Place of birth: In many countries, this also means that the government requires that the birth of the new baby is registered in the place of birth.\n\n[Doc 4] Place of birth: For example, Sweden has used the concept of\" födelsehemortdomicile of birth\") since 1947.\n\n[Doc 5] Place of birth: In some countries( primarily in the Americas), the place of birth automatically determines the nationality of the baby, a practice often referred to by the Latin phrase\" jus soli\".",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 33.45659899711609,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

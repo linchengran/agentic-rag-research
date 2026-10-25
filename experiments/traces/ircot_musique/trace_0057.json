@@ -1,0 +1,23 @@
+{
+  "question": "Which county does Lloyd Dane's birthplace belong to?",
+  "answer": "Crawford County",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Retrieving the birthplace of Lloyd Dane.",
+      "action_name": "ircot_search",
+      "action_input": "Retrieving the birthplace of Lloyd Dane.",
+      "observation": "[Search] Results for 'Retrieving the birthplace of Lloyd Dane.':\n[Doc 1] Lloyd Dane: Lloyd Dane (August 19, 1925 – December 11, 2015) was a NASCAR Grand National Series driver from Eldon, Missouri. He participated part-time in the 1951 and 1954 to 1964 seasons, capturing four wins, all in his own car. Two of Dane's wins came during the 1956 season, when he finished a career best 23rd in points.\n\n[Doc 2] William Shakespeare: William Shakespeare was the son of John Shakespeare, an alderman and a successful glover (glove-maker) originally from Snitterfield, and Mary Arden, the daughter of an affluent landowning farmer. He was born in Stratford-upon-Avon and baptised there on 26 April 1564. His actual date of birth remains unknown, but is traditionally observed on 23 April, Saint George's Day. This date, which can be traced to a mistake made by an 18th-century scholar, has proved appealing to biographers because Shakespeare died on the same date in 1616. He was the third of eight children, and the eldest surviving son.\n\n[Doc 3] Prince Albert Victor, Duke of Clarence and Avondale: Prince Albert Victor, Duke of Clarence and Avondale (Albert Victor Christian Edward; 8 January 1864 – 14 January 1892), was the eldest child of the Prince and Princess of Wales (later King Edward VII and Queen Alexandra) and grandson of the reigning British monarch, Queen Victoria. From the time of his birth, he was second in the line of succession to the British throne, but never became king because he ...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 9.697211027145386,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

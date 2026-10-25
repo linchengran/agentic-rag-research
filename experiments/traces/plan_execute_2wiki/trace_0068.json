@@ -1,0 +1,44 @@
+{
+  "question": "Where was the director of film Highway Dragnet born?",
+  "answer": "",
+  "n_steps": 3,
+  "finished": false,
+  "finish_reason": "max_steps",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for \"Highway Dragnet film crew\" to find the director's name.",
+      "action_name": "search",
+      "action_input": "\"Highway Dragnet film crew\"",
+      "observation": "[Search] Results for '\"Highway Dragnet film crew\"':\n[Doc 1] Highway Dragnet: The film stars Richard Conte, Joan Bennett and Wanda Hendrix.\n\n[Doc 2] Highway Dragnet: Highway Dragnet is a 1954 film noir B film crime film directed by Nathan Juran from a story by U.S. Anderson and Roger Corman.\n\n[Doc 3] Monster from the Ocean Floor: It was the first film produced by Roger Corman( although he had previously written\" Highway Dragnet\").\n\n[Doc 4] High (film): High is a film released in 1967, directed by Larry Kent and starring Lanny Beckman, Astri Thorvik, Peter Mathews, Joyce Cay, and Denis Payne.\n\n[Doc 5] Bulldog Drummond (1929 film): The film stars Ronald Colman as the title character, Claud Allister, Lawrence Grant, Montagu Love, Wilson Benge, Joan Bennett, and Lilyan Tashman.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "action_name": "lookup",
+      "action_input": "Richard Conte",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The director of Highway Dragnet is Richard Conte based on the search results. Now, I need to find Richard Conte's birthplace.",
+      "action_name": "lookup",
+      "action_input": "Richard Conte",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 154.77378845214844,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for \"Highway Dragnet film crew\" to find director's name",
+      "Search for director's name to find birthplace",
+      "Finish with the shortest answer."
+    ]
+  }
+}

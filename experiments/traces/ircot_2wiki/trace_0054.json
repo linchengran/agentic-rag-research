@@ -1,0 +1,31 @@
+{
+  "question": "Who is Arthur Gore, 2Nd Earl Of Arran's paternal grandfather?",
+  "answer": "Sir Arthur Gore, 2nd Baronet.",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation 11: Arthur Gore, 1st Earl of Gore's father was Arthur",
+      "action_name": "ircot_search",
+      "action_input": "Observation 11: Arthur Gore, 1st Earl of Gore's father was Arthur",
+      "observation": "[Search] Results for \"Observation 11: Arthur Gore, 1st Earl of Gore's father was Arthur\":\n[Doc 1] Arthur Gore, 1st Earl of Arran: He died in April 1773 and was succeeded in his titles by his eldest son Arthur.\n\n[Doc 2] Sir Arthur Gore, 2nd Baronet: Gore was succeeded in the baronetcy by his eldest son Arthur, who later was raised to the Peerage of Ireland as 1st Earl of Arran.\n\n[Doc 3] Arthur Gore, 1st Earl of Arran: Arthur Gore, 1st Earl of Arran PC (Ire) (1703 – 17 April 1773), known as Sir Arthur Gore, 3rd Baronet from 1741 to 1757 and as Viscount Sudley from 1758 to 1762, was an Irish politician.\n\n[Doc 4] Arthur Gore, 1st Earl of Arran: Arran was the son of Sir Arthur Gore, 2nd Baronet, and Elizabeth Annesley, and was educated at Trinity College, Dublin.\n\n[Doc 5] Paul Annesley Gore: He was the second son of Sir Arthur Gore, 2nd Baronet and Elizabeth Annesley, and younger brother of Arthur Gore, 1st Earl of Arran.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "action_name": "ircot_search",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 157.185537815094,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

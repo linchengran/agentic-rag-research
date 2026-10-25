@@ -1,0 +1,23 @@
+{
+  "question": "In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
+  "answer": "Vienna",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The \"Prince of Tenors\" was Enrico Caruso.",
+      "action_name": "ircot_search",
+      "action_input": "The \"Prince of Tenors\" was Enrico Caruso.",
+      "observation": "[Search] Results for 'The \"Prince of Tenors\" was Enrico Caruso.':\n[Doc 1] The Last English King:  It revolves around Walt Edwinson, a housecarl of Harold Godwinson, the last Anglo-Saxon king of England.\n\n[Doc 2] He Who Whispers:  Carr considered this one of his best impossible crime novels.\n\n[Doc 3] Duchy of Thuringia:  From about 1111/12 the territory was ruled by the Landgraves of Thuringia as Princes of the Holy Roman Empire.\n\n[Doc 4] Ferdinando Provesi:  He was regarded as one of the greatest Italian opera composers of the era .\n\n[Doc 5] The Greek Princess and the Young Gardener:  Joseph Jacobs included it in \"More Celtic Fairy Tales\".",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 49.871442556381226,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

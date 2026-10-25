@@ -1,0 +1,39 @@
+{
+  "question": "What WB supernatrual drama series was Jawbreaker star Rose Mcgowan best known for being in?",
+  "answer": "Charmed",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for WB supernatural dramas.",
+      "action_name": "search",
+      "action_input": "WB supernatural dramas",
+      "observation": "[Search] Results for 'WB supernatural dramas':\n[Doc 1] Charmed (season 4): The fourth season of \"Charmed\", an American supernatural drama television series, began airing on October 4, 2001 on The WB.\n\n[Doc 2] SuperMansion:  The series stars Bryan Cranston, Heidi Gardner, Tucker Gilmore, Keegan-Michael Key, Tom Root, Yvette Nicole Brown, Zeb Wells, and Jillian Bell.\n\n[Doc 3] Adventures of Superman (TV series):  The show's first two seasons (episodes 1–52, 26 titles per season) were filmed in black-and-white; seasons three through six (episodes 53–104, 13 titles per season) were filmed in color but originally telecast in black and white.\n\n[Doc 4] Evicted!:  The episode guest stars Erik Estrada as King Worm.\n\n[Doc 5] Adventures of Superman (TV series):  \"Superman\" was not shown in color until 1965 when the series was syndicated to local stations.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Lookup the information about Rose McGowan's involvement in WB supernatural dramas.",
+      "action_name": "lookup",
+      "action_input": "Rose McGowan supernatural WB series",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "Finish[Charmed]",
+      "action_name": "finish",
+      "action_input": "Charmed",
+      "observation": "[Finish] Answer: Charmed",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 14.283046960830688,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

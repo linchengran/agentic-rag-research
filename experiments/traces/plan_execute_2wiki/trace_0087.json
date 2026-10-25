@@ -1,0 +1,44 @@
+{
+  "question": "Who is the paternal grandfather of Kujō Yoritsugu?",
+  "answer": "no further information available",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The search should be conducted using Kujō Yoritsugu's full name to ensure accurate results.",
+      "action_name": "search",
+      "action_input": "Kujō Yoritsugu paternal lineage",
+      "observation": "[Search] Results for 'Kujō Yoritsugu paternal lineage':\n[Doc 1] Kujō Yoritsugu: His father was the 4th Kamakura \"shōgun\", Kujō Yoritsune.\n\n[Doc 2] Kujō Yoritsugu: , also known as Fujiwara no Yoritsugu, was the fifth \"shōgun\" of the Kamakura shogunate of Japan.\n\n[Doc 3] Kujō Yoritsugu: Yoritsugu was a member of the great Fujiwara clan.\n\n[Doc 4] Kujō Yoritsugu: The Kujō family was one of the five branches of the historically powerful Fujiwara clan of courtiers.\n\n[Doc 5] Kujō Yoritsune: The Kujō family was one of the five branches of the historically powerful Fujiwara clan of courtiers.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Yoritsune was the father of Kujō Yoritsugu, so his paternal grandfather would be Kujō Yoritsune's father, which is Yoritsune.",
+      "action_name": "lookup",
+      "action_input": "Yoritsune",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "To find Yoritsune, I need to search for Yoritsune's lineage.",
+      "action_name": "search",
+      "action_input": "Yoritsune paternal lineage",
+      "observation": "[Search] Results for 'Yoritsune paternal lineage':\n[Doc 1] Kujō Yoritsune: , also known as Fujiwara no Yoritsune, was the fourth \"shōgun\" of the Kamakura shogunate of Japan.\n\n[Doc 2] Kujō Yoritsune: Yoritsune was a member of the great Fujiwara clan.\n\n[Doc 3] Kujō Yoritsune: no Yoriie.\n\n[Doc 4] Kujō Yoritsune: no Yoritomo.\n\n[Doc 5] Heo Hwang-ok: that trace their lineage to the legendary queen.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 239.19335269927979,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for Kujō Yoritsugu's paternal lineage",
+      "Find the paternal grandfather from the found lineage.",
+      "Finish with the shortest answer."
+    ]
+  }
+}

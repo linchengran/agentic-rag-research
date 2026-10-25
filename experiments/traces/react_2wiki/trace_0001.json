@@ -1,0 +1,47 @@
+{
+  "question": "Which film came out first, Blind Shaft or The Mask Of Fu Manchu?",
+  "answer": "no",
+  "n_steps": 4,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about Blind Shaft and The Mask of Fu Manchu.",
+      "action_name": "search",
+      "action_input": "Which film came out first, Blind Shaft or The Mask of Fu Manchu?",
+      "observation": "[Search] Results for 'Which film came out first, Blind Shaft or The Mask of Fu Manchu?':\n[Doc 1] The Mask of Fu Manchu: The Mask of Fu Manchu is a 1932 pre-Code adventure film directed by Charles Brabin.\n\n[Doc 2] The Mask of Fu Manchu: It was written by Irene Kuhn, Edgar Allan Woolf and John Willard based on the 1932 novel of the same name by Sax Rohmer.\n\n[Doc 3] The Face of Fu Manchu: The Face of Fu Manchu is a 1965 thriller film directed by Don Sharp and based on the characters created by Sax Rohmer.\n\n[Doc 4] Les Trottoirs de Bangkok: The film was inspired by the 1932 Boris Karloff classic\" The Mask of Fu Manchu\".\n\n[Doc 5] The Mask of Fu Manchu: Dr. Petrie is absent from this film.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Based on the search results, Blind Shaft does not seem to be mentioned, while The Mask of Fu Manchu is mentioned in two documents.",
+      "action_name": "lookup",
+      "action_input": "The Mask of Fu Manchu",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "TheMasking results still don't provide clear information about which film came out first. I will now look up BlindShaft.",
+      "action_name": "lookup",
+      "action_input": "Blind Shaft",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 4,
+      "thought": "",
+      "action_name": "finish",
+      "action_input": "no",
+      "observation": "[Finish] Answer: no",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 94.50789308547974,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

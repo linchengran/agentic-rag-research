@@ -1,0 +1,23 @@
+{
+  "question": "What occupation do Chris Menges and Aram Avakian share?",
+  "answer": "Cinematographer",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find the occupations of Chris Menges and Aram Avakian.",
+      "action_name": "ircot_search",
+      "action_input": "Find the occupations of Chris Menges and Aram Avakian.",
+      "observation": "[Search] Results for 'Find the occupations of Chris Menges and Aram Avakian.':\n[Doc 1] Aram Avakian: Aram A. Avakian (April 23, 1926 – January 17, 1987) was an Armenian-American film editor and director.\n\n[Doc 2] Chris Menges: Chris Menges BSC, ASC (born 15 September 1940) is an English cinematographer and film director.\n\n[Doc 3] Chris Menges:  He is a member of both the American and British Societies of Cinematographers.\n\n[Doc 4] Made in Britain:  Cinematographer Chris Menges's use of the Steadicam contributed to the fluid and gritty atmosphere of the play.\n\n[Doc 5] James Ogilvie:  Ogilvy was nominated for the vacancy by John Stewart, Duke of Albany.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 11.6988844871521,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

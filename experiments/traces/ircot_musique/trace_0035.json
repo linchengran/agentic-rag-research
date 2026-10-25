@@ -1,0 +1,23 @@
+{
+  "question": "What is the capital of the county that Pine Springs is located in?",
+  "answer": "Culberson County",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Which state does Pine Springs belong to?",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Which state does Pine Springs belong to?",
+      "observation": "[Search] Results for 'Thought 2: Which state does Pine Springs belong to?':\n[Doc 1] Pine Springs, Texas: Pine Springs is an unincorporated community in northern Culberson County, Texas, United States. It is the closest settlement to the headquarters of Guadalupe Mountains National Park, which contains Guadalupe Peak, the highest point in the state of Texas. Pine Springs is located on U.S. Routes 62 and 180. The last population read 51 residents.\n\n[Doc 2] The Grove (Cold Spring, New York): The Grove, also known as Loretto Rest, is a historic house located on Grove Court in Cold Spring, New York, United States. It was built as the estate of Frederick Lente, surgeon at the nearby West Point Foundry and later a founder of the American Academy of Medicine, in the mid-19th century. The Italian-villa design, popular at the time, was by the prominent architect Richard Upjohn. In 2008 it was listed on the National Register of Historic Places.\n\n[Doc 3] Mud Run (Green Creek tributary): Mud Run is a tributary of Green Creek in Columbia County, Pennsylvania, in the United States. It is long and flows through Greenwood Township. The stream's watershed has an area of 13.3 square miles and is located in Greenwood Township, Orange Township, and Mount Pleasant Township. The stream is in the ridge and valley physiographic province. Its annual load of sediment is . The Kramer Covered Bridge crosses the stream.\n\n[Doc 4] Bowling Green Plateau: Bowling Green Plateau () is a small but prominent ice-...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 7.099315166473389,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

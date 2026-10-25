@@ -1,0 +1,39 @@
+{
+  "question": "What is the middle name of the actress who plays Bobbi Bacha in Suburban Madness?",
+  "answer": "Sela Ward",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The actress who plays Bobbi Bacha in Suburban Madness needs to be found.",
+      "action_name": "lookup",
+      "action_input": "actress who plays Bobbi Bacha in Suburban Madness",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 2,
+      "thought": "The actress 'actress who plays Bobbi Bacha in Suburban Madness' needs to be found again for more specific information.",
+      "action_name": "search",
+      "action_input": "actress who plays Bobbi Bacha in Suburban Madness",
+      "observation": "[Search] Results for 'actress who plays Bobbi Bacha in Suburban Madness':\n[Doc 1] Bobbi Bacha: Bobbi Bacha is a Texas Private Investigator portrayed in 2004 TV Sony Pictures Movie \"Suburban Madness\" played by actress Sela Ward.\n\n[Doc 2] Suburban Madness: Suburban Madness is an American crime drama television film, based on a true story, starring Sela Ward as PI Bobbi Bacha of Blue Moon Investigations.\n\n[Doc 3] Bobbi Bacha:  Bobbi Bacha also was involved and worked on the case of New York millionaire Robert Durst who was charged with murder in Galveston, Texas for killing his neighbor Morris Black but was found not guilty by a Galveston County Jury.\n\n[Doc 4] Jenna Dewan:  She has also starred on the short-lived NBC series \"The Playboy Club\" and had a recurring role on the FX series \"American Horror Story\".\n\n[Doc 5] Audra McDonald:  She has won six Tony Awards, more performance wins than any other actor, and is the only person to win all four acting categories.",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "The actress's full name needs to be determined from the information given.",
+      "action_name": "finish",
+      "action_input": "Sela Ward",
+      "observation": "[Finish] Answer: Sela Ward",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 14.722113132476807,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

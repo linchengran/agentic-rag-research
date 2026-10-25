@@ -1,0 +1,12 @@
+{
+  "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+  "answer": "",
+  "n_steps": 0,
+  "finished": false,
+  "finish_reason": "plan_error",
+  "steps": [],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 4.312256097793579,
+  "metadata": {}
+}

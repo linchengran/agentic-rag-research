@@ -1,0 +1,67 @@
+{
+  "react_hard": {
+    "paradigm": "react_hard",
+    "n": 30,
+    "control": {
+      "n": 30,
+      "em": 0.1,
+      "relaxed_em": 0.13333333333333333,
+      "f1": 0.1357142857142857,
+      "avg_steps": 3.466666666666667,
+      "total_real_searches": 57,
+      "avg_real_searches": 1.9,
+      "finish_reason_dist": {
+        "max_steps": 3,
+        "finish_action": 27
+      },
+      "guard_events": {
+        "duplicate_query": 0,
+        "zero_new_docs": 0,
+        "stop_triggered": 0,
+        "stop_ignored": 0
+      },
+      "n_guard_touched": 0,
+      "n_guard_stopped": 0
+    },
+    "treated": {
+      "n": 30,
+      "em": 0.1,
+      "relaxed_em": 0.13333333333333333,
+      "f1": 0.11904761904761905,
+      "avg_steps": 3.2333333333333334,
+      "total_real_searches": 38,
+      "avg_real_searches": 1.2666666666666666,
+      "finish_reason_dist": {
+        "finish_action": 30
+      },
+      "guard_events": {
+        "duplicate_query": 9,
+        "zero_new_docs": 0,
+        "stop_triggered": 2,
+        "stop_ignored": 0
+      },
+      "n_guard_touched": 7,
+      "n_guard_stopped": 0
+    },
+    "delta": {
+      "em": 0.0,
+      "relaxed_em": 0.0,
+      "f1": -0.01666666666666665,
+      "avg_steps": -0.2333333333333334,
+      "avg_real_searches": -0.6333333333333333
+    },
+    "harm_check": {
+      "note": "守卫截停/触碰的题在控制组的 EM——若控制组也接近 0,则干预无伤害",
+      "guard_stopped_questions": {
+        "n": 0,
+        "control_em": null,
+        "treated_em": null
+      },
+      "guard_touched_questions": {
+        "n": 7,
+        "control_em": 0.0,
+        "treated_em": 0.0
+      }
+    }
+  }
+}

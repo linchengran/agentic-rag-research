@@ -1,0 +1,23 @@
+{
+  "question": "What is the place of birth of the director of film Marianela (1940 Film)?",
+  "answer": "Madrid, Spain.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for the director of the film Marianela (1940 Film)",
+      "action_name": "ircot_search",
+      "action_input": "Search for the director of the film Marianela (1940 Film)",
+      "observation": "[Search] Results for 'Search for the director of the film Marianela (1940 Film)':\n[Doc 1] Marianela (1940 film): Marianela is a 1940 Spanish drama film directed by Benito Perojo.\n\n[Doc 2] Marianela (1940 film): It is based on the 1878 novel by Benito Pérez Galdós.\n\n[Doc 3] A Quiet Place Part II: The sequel film, written and directed by John Krasinski, stars Emily Blunt, Millicent Simmonds, and\n\n[Doc 4] The Pirates of Somalia (film): The Pirates of Somalia( or simply Pirates of Somalia in the UK) is a 2017 American drama film written and directed by Bryan Buckley.\n\n[Doc 5] At the End of the Tunnel: At the End of the Tunnel  is a 2016 Argentine crime thriller film directed by Rodrigo Grande.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 38.308019161224365,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

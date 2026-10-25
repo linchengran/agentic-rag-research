@@ -1,0 +1,23 @@
+{
+  "question": "Are director of film Nights On The Road and director of film Swann In Love (Film) from the same country?",
+  "answer": "No.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Retrieving the countries of directors for both films.",
+      "action_name": "ircot_search",
+      "action_input": "Retrieving the countries of directors for both films.",
+      "observation": "[Search] Results for 'Retrieving the countries of directors for both films.':\n[Doc 1] The Shooting: Both films were shown at several international film festivals but it was not until 1968 that the U.S. distribution rights were purchased by the Walter Reade Organization.\n\n[Doc 2] Óskar Jónasson: His film \"Remote Control\" was screened in the Un Certain Regard section at the 1993 Cannes Film Festival.\n\n[Doc 3] The Last Horror Film: The director, David Winters, filmed on location at the Cannes Film Festival.\n\n[Doc 4] The Parts You Lose: The film is directed by Christopher Cantwell based on a screenplay by Darren Lemke.\n\n[Doc 5] The Fall of a Nation: Based upon\" The Fall of a Nation\", written by the director, the film is now considered lost.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 37.02745032310486,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

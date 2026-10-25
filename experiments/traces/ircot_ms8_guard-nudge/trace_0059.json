@@ -1,0 +1,23 @@
+{
+  "question": "Are both Cypress and Ajuga genera?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation 2: Yes.",
+      "action_name": "ircot_search",
+      "action_input": "Observation 2: Yes.",
+      "observation": "[Search] Results for 'Observation 2: Yes.':\n[Doc 1] Oh, No! Not THEM!:  Not THEM!\n\n[Doc 2] Rick Potion No. 9:  The episode has been well received, and was seen by about 1.7 million viewers when airing.\n\n[Doc 3] Hackers (film):  [...] Yes, I am a criminal.\n\n[Doc 4] No Water, No Moon:  Its lead single was \"Questions\".\n\n[Doc 5] Snatch (TV series):  The show has been renewed for a second season.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 3.8138368129730225,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "question": "Which film has the director who died earlier, Il Seduttore or The Trial Of Joan Of Arc?",
+  "answer": "Il Seduttore",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Which director did Il Seduttore have earlier than The TrialOf Joan Of Arc?",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Il Seduttore",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 3.348963499069214,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+  "answer": "New York City.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Retrieving the director of the romantic comedy \"Big Stone Gap\".",
+      "action_name": "ircot_search",
+      "action_input": "Retrieving the director of the romantic comedy \"Big Stone Gap\".",
+      "observation": "[Search] Results for 'Retrieving the director of the romantic comedy \"Big Stone Gap\".':\n[Doc 1] Big Stone Gap (film): Big Stone Gap is a 2014 American drama romantic comedy film written and directed by Adriana Trigiani and produced by Donna Gigliotti for Altar Identity Studios, a subsidiary of Media...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 10.58615779876709,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

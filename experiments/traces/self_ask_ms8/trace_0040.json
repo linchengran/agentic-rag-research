@@ -1,0 +1,31 @@
+{
+  "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+  "answer": "Manchester Terrier",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Which of the following dogs are ancestors of Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?\n\nObservation: Gordon Setters and Irish Setters are both types of Setters, while the Manchester Terrier is a terrier breed known for being a hunting dog, and the Scotch Collie is a herding dog known for its distinctive tail. Gordon and Irish Setters are not directly related to these breeds.",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Manchester Terrier",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 6.253727436065674,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

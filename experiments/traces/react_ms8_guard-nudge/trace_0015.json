@@ -1,0 +1,39 @@
+{
+  "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+  "answer": "United States",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about Brown State Fishing Lake and its location.",
+      "action_name": "search",
+      "action_input": "Brown State Fishing Lake population",
+      "observation": "[Search] Results for 'Brown State Fishing Lake population':\n[Doc 1] Brown State Fishing Lake: Brown State Fishing Lake (sometimes also known as Brown State Fishing Lake And Wildlife Area) is a protected area in Brown County, Kansas in the United States.\n\n[Doc 2] Brown State Fishing Lake:  The area was formerly known as Brown County State Park, and is 8 miles (13 km) east of Hiawatha, Kansas.\n\n[Doc 3] Brown State Fishing Lake:  The lake is 62 acres (0.25 km²) in area and up to 13 feet (4 m) deep.\n\n[Doc 4] Shawnee State Fishing Lake: Shawnee State Fishing Lake is approximately eight miles northwest of Topeka, Kansas, and is in northern Shawnee County, Kansas.\n\n[Doc 5] Neosho State Fishing Lake:  There are 124 public use acres surrounding the lake.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Look up the population of the country where Brown State Fishing Lake is located.",
+      "action_name": "lookup",
+      "action_input": "country population of brown state fishing lake",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "action_name": "finish",
+      "action_input": "United States",
+      "observation": "[Finish] Answer: United States",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 11.727601051330566,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

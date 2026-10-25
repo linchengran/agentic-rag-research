@@ -1,0 +1,44 @@
+{
+  "question": "who is the younger brother of The episode guest stars of The Hard Easy ",
+  "answer": "yes",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Need to search for information about TheHard Easy episode guests.",
+      "action_name": "search",
+      "action_input": "TheHard easy episode guests",
+      "observation": "[Search] Results for 'TheHard easy episode guests':\n[Doc 1] The Hard Easy (Adventure Time):  The episode guest stars Brian Doyle-Murray as Prince Huge and Jonathan Katz as the Mudscamp elder.\n\n[Doc 2] The Hard Easy (film):  The film stars Henry Thomas, Vera Farmiga, David Boreanaz, Bruce Dern, Peter Weller, Gary Busey, and Nick Lachey.\n\n[Doc 3] The Hard Easy (Adventure Time):  The episode was written and storyboarded by Tom Herpich and Skyler Page, from a story by Patrick McHale, Kent Osborne, and Pendleton Ward.\n\n[Doc 4] Web Weirdos:  The episode guest stars both Bobcat Goldthwait and Susie Essman.\n\n[Doc 5] The Farm (The Office):  The episode guest stars Matt Jones as Dwight's cousin Zeke, Majandra Delfino as Dwight's sister Fannie, Blake Garrett Rosenthal as his nephew, and Thomas Middleditch as his brother.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "From the search results, I need to identify the younger brother among the guests. |",
+      "action_name": "lookup",
+      "action_input": "younger brother",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The younger brother among the guests needs to be identified from the list. |",
+      "action_name": "lookup",
+      "action_input": "younger brother",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 33.83348298072815,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for \"The Hard Easy episode guests\"",
+      "Find the younger brother among the guests from the first search result",
+      "Finish with the shortest answer."
+    ]
+  }
+}

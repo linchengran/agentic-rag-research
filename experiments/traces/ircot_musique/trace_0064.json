@@ -1,0 +1,23 @@
+{
+  "question": "Who founded the publisher of The Final Testament of the Holy Bible?",
+  "answer": "Archbishop William Laud of Canterbury.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Observation 2: )",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 2: )",
+      "observation": "[Search] Results for '(Observation 2: )':\n[Doc 1] Dota 2: Dota 2 is a multiplayer online battle arena (MOBA) video game developed and published by Valve Corporation. The game is a sequel to \"Defense of the Ancients\" (\"DotA\"), which was a community-created mod for Blizzard Entertainment's \"\" and its expansion pack, \"The Frozen Throne\". \"Dota 2\" is played in matches between two teams of five players, with each team occupying and defending their own separate base on the map. Each of the ten players independently controls a powerful character, known as a \"hero\", who all have unique abilities and differing styles of play. During a match, players collect experience points and items for their heroes to successfully defeat the opposing team's heroes in player versus player combat. A team wins by being the first to destroy the other team's \"Ancient\", a large structure located within their base.\n\n[Doc 2] Red Dead Redemption 2: Red Dead Redemption 2 is a Western - themed action - adventure game set in an open world environment. It is played from either a third or first - person perspective and the player controls Arthur Morgan, an outlaw and a member of the Van der Linde gang. The game features both single - player and online multiplayer components.\n\n[Doc 3] The Haves and the Have Nots (TV series): The Haves and the Have Nots Genre Soap opera Crime thriller Created by Tyler Perry Written by Tyler Perry Directed by Tyler Perry Starring Tika Sumpter Crystal Fox Tyler Lepley Renee Lawless ...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 20.052693128585815,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

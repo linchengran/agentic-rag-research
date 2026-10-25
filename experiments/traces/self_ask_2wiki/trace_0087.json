@@ -1,0 +1,39 @@
+{
+  "question": "Who is the paternal grandfather of Kujō Yoritsugu?",
+  "answer": "Kujō Yoritsune.",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: Who is the father of Kujō Yoritsugu?\n\nObservation: Kujō Yoritsugu is the son of Niijima Kiyomori.",
+      "action_name": "search",
+      "action_input": "Who is the father of Kujō Yoritsugu?",
+      "observation": "[Search] Results for 'Who is the father of Kujō Yoritsugu?':\n[Doc 1] Kujō Yoritsune: His father was \"kanpaku\" Kujō Michiie and his grandmother was a niece of Minamoto\n\n[Doc 2] Kujō Yoritsugu: His father was the 4th Kamakura \"shōgun\", Kujō Yoritsune.\n\n[Doc 3] Kujō Yoritsugu: , also known as Fujiwara no Yoritsugu, was the fifth \"shōgun\" of the Kamakura shogunate of Japan.\n\n[Doc 4] Kujō Yoritsugu: The Kujō family was one of the five branches of the historically powerful Fujiwara clan of courtiers.\n\n[Doc 5] Kaoru Hatoyama: After the elections of 2009, she became more widely known as the grandmother of Prime Minister Yukio Hatoyama and his politician brother Kunio Hatoyama.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Intermediate Question: Who is the father of Kujō Yoritsugu?\nObservation: Kujō Yoritsugu: , also known as Fujiwara no Yoritsugu, was the fifth \"shōgun\" of the Kamakura shogunate of Japan.",
+      "action_name": "search",
+      "action_input": "Who is the father of Kujō Yoritsugu?",
+      "observation": "[Search] Results for 'Who is the father of Kujō Yoritsugu?':\n[Doc 1] Kujō Yoritsune: His father was \"kanpaku\" Kujō Michiie and his grandmother was a niece of Minamoto\n\n[Doc 2] Kujō Yoritsugu: His father was the 4th Kamakura \"shōgun\", Kujō Yoritsune.\n\n[Doc 3] Kujō Yoritsugu: , also known as Fujiwara no Yoritsugu, was the fifth \"shōgun\" of the Kamakura shogunate of Japan.\n\n[Doc 4] Kujō Yoritsugu: The Kujō family was one of the five branches of the historically powerful Fujiwara clan of courtiers.\n\n[Doc 5] Kaoru Hatoyama: After the elections of 2009, she became more widely known as the grandmother of Prime Minister Yukio Hatoyama and his politician brother Kunio Hatoyama.",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Intermediate Question: Who was the father of Kujō Yoritsugu?\nObservation: [Search] Results for 'Who is the father of Kujō Yoritsugu?':\n[Doc 2] Kujō Yoritsugu: His father was the 4th Kamakura \"shōgun\", Kujō Yoritsune.\n\n[Doc 3] Kujō Yoritsugu: , also known as Fujiwara no Yoritsugu, was the fifth \"shōgun\" of the Kamakura shogunate of Japan.\n\n[Doc 4] Kujō Yoritsugu: The Kujō family was one of the five branches of the historically powerful Fujiwara clan of courtiers.\n\n[Doc 5] Kaoru Hatoyama: After the elections of 2009, she became more widely known as the grandmother of Prime Minister Yukio Hatoyama and his politician brother Kunio Hatoyama.\nFinal Answer: Kujō Yoritsune.",
+      "action_name": "self_ask_query",
+      "action_input": "Who was the father of Kujō Yoritsugu?",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 49.01607394218445,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

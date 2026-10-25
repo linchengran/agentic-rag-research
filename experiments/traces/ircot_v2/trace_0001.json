@@ -1,0 +1,23 @@
+{
+  "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+  "answer": "None Government Position.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Was the actress Susan Sarandon involved in Kiss and Tell?",
+      "action_name": "ircot_search",
+      "action_input": "Was the actress Susan Sarandon involved in Kiss and Tell?",
+      "observation": "[Search] Results for 'Was the actress Susan Sarandon involved in Kiss and Tell?':\n[Doc 1] Kiss and Tell (1945 film):  In the film, two teenage girls cause their respective parents much concern when they start to become interested in boys.\n\n[Doc 2] Kiss and Tell (1945 film):  The parents' bickering a...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 9.177389860153198,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "In which district was Ernie Watts born?",
+  "answer": "Ernie Watts was born in Woolhampton, which is located in Berkshire district.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 4: [Observation 2: Watts, Ernie Watts was born in Detroit]",
+      "action_name": "ircot_search",
+      "action_input": "Thought 4: [Observation 2: Watts, Ernie Watts was born in Detroit]",
+      "observation": "[Search] Results for 'Thought 4: [Observation 2: Watts, Ernie Watts was born in Detroit]':\n[Doc 1] Ernie Watts (footballer, born 1872): Born in Woolhampton in Berkshire, his earliest known club was Reading, before he moved to Notts County, where he made 17 appearances in The Football League. He had a second spell with Reading and also played for West Ham United, where he was captain for the club's final season at the Memorial Grounds, before joining New Brompton in 1904, where he was a regular starter during the 1904–05 season. His later clubs included Grays Athletic and Clapton Orient, as well as two more spells with Reading.\n\n[Doc 2] Gentle Thoughts: Gentle Thoughts is the second solo album by Lee Ritenour, and was released as a Direct-to-disc recording. It features Ernie Watts, Dave Grusin, Patrice Rushen, Anthony Jackson, Harvey Mason and Steve Forman.\n\n[Doc 3] The Truth About the Harry Quebert Affair (miniseries): Patrick Dempsey as Harry Quebert Ben Schnetzer as Marcus Goldman Damon Wayans Jr. as Sgt. Perry Gahalowood Kristine Froseth as Nola Kellergan Kurt Fuller as Chief Gareth Pratt Victoria Clark as Jenny Quinn Tessa Mossey as young Jenny Quinn Wayne Knight as Benjamin Roth Don Harvey as Bobbo Quinn Matt Frewer as Reverend Kellergan Colm Feore as Elijah Stern Josh Close as Luther Caleb Craig Eldridge as Travis Dawn Connor Price as young Travis Dawn Virginia Madsen as Tamara Quinn\n\n[Doc 4] William Shakespeare: William Shakespeare was the son of John Shakespeare, an a...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 36.33412432670593,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

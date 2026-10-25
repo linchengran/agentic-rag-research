@@ -1,0 +1,39 @@
+{
+  "question": "The northern English anglian Kingdom in the Humber estuary spoke what dialect of english?",
+  "answer": "Kingdom of Northumbria",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What kingdom in the Humber estuary is located in northern England?\n\nObservation: The kingdom in the Humber estuary located in northern England was the Anglian Kingdom.",
+      "action_name": "search",
+      "action_input": "What kingdom in the Humber estuary is located in northern England?",
+      "observation": "[Search] Results for 'What kingdom in the Humber estuary is located in northern England?':\n[Doc 1] Kingdom of Northumbria:  The name reflects the approximate southern limit to the kingdom's territory, the Humber estuary.\n\n[Doc 2] Humberside:  It was composed of land from either side of the Humber Estuary, created from portions of East Riding of Yorkshire, West Riding of Yorkshire, and the district of Lindsey, Lincolnshire.\n\n[Doc 3] Kingdom of Northumbria: The Kingdom of Northumbria ( ; Old English: \"Norþhymbra rīce\" , \"kingdom of the Northumbrians\") was a medieval Anglian kingdom in what is now northern England and south-east Scotland, which subsequently became an earldom in a unified English kingdom.\n\n[Doc 4] Humberhead Levels:  The levels occupy the former Glacial Lake Humber, an area bounded to the east by the Yorkshire Wolds and the northern Lincolnshire Edge, a limestone escarpment, and to the west by the southern part of the Yorkshire magnesian limestone ridge.\n\n[Doc 5] Kingdom of the Isles:  The islands concerned are sometimes referred to as the Kingdom of Mann and the Isles, although only some of the later rulers claimed that title.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Intermediate Question: What is the name of the kingdom in the Humber estuary located in northern England?",
+      "action_name": "search",
+      "action_input": "What is the name of the kingdom in the Humber estuary located in northern England?",
+      "observation": "[Search] Results for 'What is the name of the kingdom in the Humber estuary located in northern England?':\n[Doc 1] Kingdom of Northumbria:  The name reflects the approximate southern limit to the kingdom's territory, the Humber estuary.\n\n[Doc 2] Humber Warhawks:  The club represent the counties of East Yorkshire and North East Lincolnshire by taking their name from the Humber Estuary that flows between the two counties and the Humber Bridge which connects them.\n\n[Doc 3] Kingdom of Northumbria: The Kingdom of Northumbria ( ; Old English: \"Norþhymbra rīce\" , \"kingdom of the Northumbrians\") was a medieval Anglian kingdom in what is now northern England and south-east Scotland, which subsequently became an earldom in a unified English kingdom.\n\n[Doc 4] Humberside:  It was composed of land from either side of the Humber Estuary, created from portions of East Riding of Yorkshire, West Riding of Yorkshire, and the district of Lindsey, Lincolnshire.\n\n[Doc 5] Haddington, East Lothian:  The name Haddington is Anglo-Saxon, dating from the sixth or seventh century AD when the area was incorporated into the kingdom of Bernicia.",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Intermediate Question: What is the name of the kingdom in the Humber estuary located in northern England?\nObservation: [Search] Results for 'What is the name of the kingdom in the Humber estuary located in northern England?':\n[Doc 3] Kingdom of Northumbria: The Kingdom of Northumbria ( ; Old English: \"Norþhymbra rīce\" , \"kingdom of the Northumbrians\") was a medieval Anglian kingdom in what is now northern England and south-east Scotland, which subsequently became an earldom in a unified English kingdom.\n\nFinal Answer: Kingdom of Northumbria",
+      "action_name": "self_ask_query",
+      "action_input": "What is the name of the kingdom in the Humber estuary located in northern England?",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 30.59790563583374,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

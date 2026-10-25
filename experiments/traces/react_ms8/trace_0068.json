@@ -1,0 +1,31 @@
+{
+  "question": "who is the younger brother of The episode guest stars of The Hard Easy ",
+  "answer": "yes",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about The Hard Easy episode guests.",
+      "action_name": "search",
+      "action_input": "The episode guest stars of The Hard Easy",
+      "observation": "[Search] Results for 'The episode guest stars of The Hard Easy':\n[Doc 1] The Hard Easy (Adventure Time):  The episode guest stars Brian Doyle-Murray as Prince Huge and Jonathan Katz as the Mudscamp elder.\n\n[Doc 2] The Hard Easy (film):  The film stars Henry Thomas, Vera Farmiga, David Boreanaz, Bruce Dern, Peter Weller, Gary Busey, and Nick Lachey.\n\n[Doc 3] The Hard Easy (Adventure Time):  The episode was written and storyboarded by Tom Herpich and Skyler Page, from a story by Patrick McHale, Kent Osborne, and Pendleton Ward.\n\n[Doc 4] The Hard Easy (Adventure Time): \"The Hard Easy\" is the twenty-third episode of the fourth season of the American animated television series \"Adventure Time\".\n\n[Doc 5] The Hard Easy (film): The Hard Easy is a 2006 American action crime drama film directed by Ari Ryan, and written by Jon Lindstrom and Tom Schanley.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The episode guest stars of The Hard Easy were Brian Doyle-Murray and Jonathan Katz.",
+      "action_name": "finish",
+      "action_input": "yes",
+      "observation": "[Finish] Answer: yes",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 7.677004337310791,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

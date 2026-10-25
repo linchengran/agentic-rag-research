@@ -1,0 +1,23 @@
+{
+  "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers?",
+      "action_name": "ircot_search",
+      "action_input": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers?",
+      "observation": "[Search] Results for 'Are Giuseppe Verdi and Ambroise Thomas both Opera composers?':\n[Doc 1] Ambroise Thomas: Charles Louis Ambroise Thomas (5 August 1811 – 12 February 1896) was a French composer, best known for his operas \"Mignon\" (1866) and \"Hamlet\" (1868, after Shakespeare) and as Director of th...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 11.19486403465271,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+  "answer": "",
+  "n_steps": 2,
+  "finished": false,
+  "finish_reason": "max_steps",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for British first-generation jet bombers during World War II will yield documents that can be further examined to identify which one was used in the South West Pacific theatre during WWII.",
+      "action_name": "search",
+      "action_input": "British first-generation jet bombers during World War II",
+      "observation": "[Search] Results for 'British first-generation jet bombers during World War II':\n[Doc 1] World War II casualties: World War II was the deadliest military conflict in history in absolute terms of total casualties.\n\n[Doc 2] No. 2 Squadron RAAF:  It saw action as a bomber unit in the South West Pacific theatre of World War II and, equipped with English Electric Canberra jets, in the Malayan Emergency and the Vietnam War.\n\n[Doc 3] World War II casualties:  The tables below give a detailed country-by-country count of human losses.\n\n[Doc 4] VMF-236:  The squadron conducted the first dive bombing attack against Bougainville and was credited with downing 4 Japanese aircraft during the course of the war.\n\n[Doc 5] Hans Jenisch:  He commanded the Type VIIA U-boat \"U-32\" , sinking seventeen ships on seven patrols, for a total of  gross register tons (GRT) of Allied shipping, to become the 26th highest scoring U-Boat ace of World War II.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The search results need to be examined to identify which British first-generation jet bomber was used in the South WestPacific theatre during WWII.",
+      "action_name": "lookup",
+      "action_input": "No. 2 Squadron RAAF",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 37.29233169555664,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for British first-generation jet bombers during World War II",
+      "Identify which one was used in the South West Pacific theatre during WWII. Finish with the shortest answer."
+    ]
+  }
+}

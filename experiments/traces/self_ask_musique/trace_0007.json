@@ -1,0 +1,39 @@
+{
+  "question": "What is the goal of the group that European Movement Germany is a member of?",
+  "answer": "Promoting European integration.",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What is European Movement Germany's membership status?  \nObservation: European Movement Germany is a member of the European Union.",
+      "action_name": "search",
+      "action_input": "What is European Movement Germany's membership status?",
+      "observation": "[Search] Results for \"What is European Movement Germany's membership status?\":\n[Doc 1] Enlargement of the European Union: The EU's predecessor, the European Economic Community, was founded with the Inner Six member states in 1958, when the Treaty of Rome came into force. Since then, the EU's membership has grown to twenty - eight, with the latest member state being Croatia, which joined in July 2013. The most recent territorial enlargement of the EU was the incorporation of Mayotte in 2014. The most notable territorial reductions of the EU, and its predecessors, were the exit of Algeria upon independence in 1962 and the exit of Greenland in 1985.\n\n[Doc 2] European Movement International: The European Movement International is a lobbying association that coordinates the efforts of associations and national councils with the goal of promoting European integration, and disseminating information about it.\n\n[Doc 3] Germany: The chancellor, Angela Merkel (22 November 2005–present), is the head of government and exercises executive power through their Cabinet, similar to the role of a prime minister in other parliamentary democracies. Federal legislative power is vested in the parliament consisting of the Bundestag (Federal Diet) and Bundesrat (Federal Council), which together form the legislative body. The Bundestag is elected through direct elections, by proportional representation (mixed-member). The members of the Bundesrat represent the governments of the sixteen federated stat...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Intermediate Question: What is the goal of the group that European Movement Germany is a member of?",
+      "action_name": "search",
+      "action_input": "What is the goal of the group that European Movement Germany is a member of?",
+      "observation": "[Search] Results for 'What is the goal of the group that European Movement Germany is a member of?':\n[Doc 1] History of the euro: The euro came into existence on 1 January 1999, although it had been a goal of the European Union (EU) and its predecessors since the 1960s. After tough negotiations, particularly due to opposition from the United Kingdom, the Maastricht Treaty entered into force in 1993 with the goal of creating an economic and monetary union by 1999 for all EU states except the UK and Denmark (even though Denmark has a fixed exchange rate policy with the euro).\n\n[Doc 2] European Movement International: The European Movement International is a lobbying association that coordinates the efforts of associations and national councils with the goal of promoting European integration, and disseminating information about it.\n\n[Doc 3] Germany: The chancellor, Angela Merkel (22 November 2005–present), is the head of government and exercises executive power through their Cabinet, similar to the role of a prime minister in other parliamentary democracies. Federal legislative power is vested in the parliament consisting of the Bundestag (Federal Diet) and Bundesrat (Federal Council), which together form the legislative body. The Bundestag is elected through direct elections, by proportional representation (mixed-member). The members of the Bundesrat represent the governments of the sixteen federated states and are members of the state cabinets.Since 1949, the party system has ...",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Intermediate Question: What is the goal of the group that European Movement Germany is a member of?\nObservation: The European Movement International is a lobbying association that coordinates the efforts of associations and national councils with the goal of promoting European integration, and disseminating information about it. \n\nFinal Answer: Promoting European integration.",
+      "action_name": "self_ask_query",
+      "action_input": "What is the goal of the group that European Movement Germany is a member of?",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 12.296850442886353,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

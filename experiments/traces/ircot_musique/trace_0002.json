@@ -1,0 +1,23 @@
+{
+  "question": "What administrative territorial entity is the owner of Ciudad Deportiva located?",
+  "answer": "Mexico",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Ciudad Deportiva is located in Spain)",
+      "action_name": "ircot_search",
+      "action_input": "Ciudad Deportiva is located in Spain)",
+      "observation": "[Search] Results for 'Ciudad Deportiva is located in Spain)':\n[Doc 1] Ciudad Deportiva (Nuevo Laredo): The Ciudad Deportiva (\"Sports City\") is a sports complex in Nuevo Laredo, Mexico. It is home to the Tecolotes de Nuevo Laredo Mexican Baseball League team and the Toros de Nuevo Laredo Mexican professional basketball team from the Liga Nacional de Baloncesto Profesional. The Ciudad Deportiva's Estadio Nuevo Laredo (baseball park) can seat up to 12,000 fans at a baseball game and the Nuevo Laredo Multidisciplinary Gymnasium can seat 4,000 fans at a basketball game.\n\n[Doc 2] Severino Reija: Severino Reija Vázquez (born 25 November 1938 in Lugo, Galicia) is a former footballer from Spain who played as a defender.\n\n[Doc 3] Casa de los Pinelo: The Casa de los Pinelo is a Renaissance building located in the centre of Seville in Spain. It houses both the Real Academia Sevillana de Buenas Letras and the Real Academia de Bellas Artes de Santa Isabel de Hungría.\n\n[Doc 4] Santa Cruz de Moya: Santa Cruz de Moya is a municipality located in the province of Cuenca, Castile-La Mancha, Spain. According to the 2004 census (INE), the municipality has a population of 423 inhabitants.\n\n[Doc 5] Río Frío de Juárez: Río Frío de Juárez, originally Río Frío (Cold River), a Mexican populated place, is located in the municipality of Ixtapaluca in the State of Mexico. Río Frío de Juárez is located at the highest point on the highway between Mexico City to Puebla de Zaragoza being located at the top of ...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 3.1898365020751953,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

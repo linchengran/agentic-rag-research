@@ -1,0 +1,23 @@
+{
+  "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+  "answer": "Manchester Terrier",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Final Answer: no)",
+      "action_name": "ircot_search",
+      "action_input": "(Final Answer: no)",
+      "observation": "[Search] Results for '(Final Answer: no)':\n[Doc 1] Oh, No! Not THEM!: Oh, No!\n\n[Doc 2] Oh, No! Not THEM!:  Not THEM!\n\n[Doc 3] No Water, No Moon:  Its lead single was \"Questions\".\n\n[Doc 4] No Plan (EP):  It was directed by Tom Hingston.\n\n[Doc 5] 2017 Australian Open – Men's singles final:  In a rematch of the 2009 Australian Open final, which Nadal won in 5 sets, Roger Federer won the duel in 5 sets, beating Nadal for the first time in a Grand Slam since the 2007 Wimbledon final.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 90.32685375213623,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

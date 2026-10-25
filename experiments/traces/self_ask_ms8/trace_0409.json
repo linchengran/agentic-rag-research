@@ -1,0 +1,31 @@
+{
+  "question": "What are the names of the members of the Detroit-based hip hop duo who has worked with Jason Gilbert?",
+  "answer": "no more information available.",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "What is the name of the Detroit-based hip hop duo that has worked with Jason Gilbert?\n\nObservation: The Roots are a Detroit-based hip hop duo that has worked with Jason Gilbert.",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: no more information available.",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 3.5507733821868896,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

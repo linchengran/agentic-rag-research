@@ -1,0 +1,39 @@
+{
+  "question": "Who is the maternal grandfather of Amadeus Vii, Count Of Savoy?",
+  "answer": "Juan de Padilla",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find the lineage of Amadeus Vii, Count Of Savoy.",
+      "action_name": "ircot_search",
+      "action_input": "Find the lineage of Amadeus Vii, Count Of Savoy.",
+      "observation": "[Search] Results for 'Find the lineage of Amadeus Vii, Count Of Savoy.':\n[Doc 1] Amadeus VII, Count of Savoy: Amadeus VII (March 1360, Chambéry – 1 November 1391), known as the Red Count, was Count of Savoy from 1383 to 1391.\n\n[Doc 2] Amadeus VII, Count of Savoy: Amadeus was the son of Amadeus VI, Count of Savoy and Bonne of Bourbon.\n\n[Doc 3] Amadeus VIII, Duke of Savoy: Amadeus VIII( 4 September 1383 – 7 January 1451) was a Savoyard nobleman, the son of Amadeus VII, Count of Savoy and Bonne of Berry.\n\n[Doc 4] Amadeus VII, Count of Savoy: Amadeus VII left the important role of guardian of his son and heir, Amadeus VIII, to his own mother, a sister of the powerful Duke de Bourbon, instead of following the tradition of appointing the child's mother, who was a daughter of the equally powerful Duke de Berry.\n\n[Doc 5] Amadeus VII, Count of Savoy: Amadeus VII was known for his hospitality, for he would entertain people of all stations and never turned a person from his table without a meal.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Find the lineage of Blanche of Savoy.",
+      "action_name": "ircot_search",
+      "action_input": "Find the lineage of Blanche of Savoy.",
+      "observation": "[Search] Results for 'Find the lineage of Blanche of Savoy.':\n[Doc 1] Heo Hwang-ok: that trace their lineage to the legendary queen.\n\n[Doc 2] Blanche of Brittany: She is also known as Blanche de Dreux.\n\n[Doc 3] Blanche of Brittany: Through her mother she was the granddaughter of King Henry III of England and Eleanor of Provence.\n\n[Doc 4] Marie of Savoy, Duchess of Milan: Marie of Savoy( 1411–1469) was a daughter of Amadeus VIII, Duke of Savoy( later the Antipope Felix V) and Mary of Burgundy.\n\n[Doc 5] Louis of Piedmont: His titles and estates were inherited by the senior line of the House of Savoy.",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Find the lineage of Amadeus VI, Count of Savoy.",
+      "action_name": "ircot_search",
+      "action_input": "Find the lineage of Amadeus VI, Count of Savoy.",
+      "observation": "[Search] Results for 'Find the lineage of Amadeus VI, Count of Savoy.':\n[Doc 1] Amadeus VII, Count of Savoy: Amadeus was the son of Amadeus VI, Count of Savoy and Bonne of Bourbon.\n\n[Doc 2] Amadeus VIII, Duke of Savoy: Amadeus VIII( 4 September 1383 – 7 January 1451) was a Savoyard nobleman, the son of Amadeus VII, Count of Savoy and Bonne of Berry.\n\n[Doc 3] Amadeus VII, Count of Savoy: Amadeus VII (March 1360, Chambéry – 1 November 1391), known as the Red Count, was Count of Savoy from 1383 to 1391.\n\n[Doc 4] Amadeus VII, Count of Savoy: Amadeus VII left the important role of guardian of his son and heir, Amadeus VIII, to his own mother, a sister of the powerful Duke de Bourbon, instead of following the tradition of appointing the child's mother, who was a daughter of the equally powerful Duke de Berry.\n\n[Doc 5] Amadeus VIII, Duke of Savoy: After the death of his father in 1391, his mother acted as a regent, because of his youth.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 391.86752223968506,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "Do both films, Dial M For Murder and Marius (1931 Film), have the directors who are from the same country?",
+  "answer": "no.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: no.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: no.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: no.':\n[Doc 1] The Beginning or the End: The title was supplied by President Harry S. Truman.\n\n[Doc 2] The Beginning or the End: The film received generally mixed reviews, and was a box office disappointment.\n\n[Doc 3] Renauld II, Count of Nevers: They had:\n\n[Doc 4] A Quiet Place Part II: Noah Jupe reprising their roles from the first film.\n\n[Doc 5] Moment of Danger: The film proved to be the final completed film for Dorothy Dandridge.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 25.846230268478394,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

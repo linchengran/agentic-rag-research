@@ -1,0 +1,17 @@
+{
+  "n_samples": 30,
+  "finish_reason_distribution": {
+    "final_answer": 30
+  },
+  "decision_metrics": {
+    "decision_accuracy": 0.1,
+    "over_retrieval_rate": 0.0,
+    "under_retrieval_rate": 0.8,
+    "avg_n_retrievals": 1.1,
+    "answer_accuracy": 0.1
+  },
+  "answer_metrics": {
+    "em": 0.1,
+    "answer_f1": 0.13833333333333334
+  }
+}

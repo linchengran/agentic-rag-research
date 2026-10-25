@@ -1,0 +1,23 @@
+{
+  "question": "The Directory of Public Worship was approved by a parliament whose modern equivalent has been based where since 2004?",
+  "answer": "House of Commons.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: House of Commons.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: House of Commons.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: House of Commons.':\n[Doc 1] Finale (Smallville): \"Finale\" is the title of the two-episode series finale of the superhero television series \"Smallville\". The episodes are the 21st and 22nd of the 10th season, and the 216th and 217th episodes overall. The finale originally aired on The CW in the United States on May 13, 2011. The first half was written by Al Septien and Turi Meyer, and directed by Kevin G. Fair, and the second half was written by Kelly Souders and Brian Peterson, and directed by Greg Beeman.\n\n[Doc 2] 2002 United States House of Representatives elections: The Elections for the United States House of Representatives on 5 November 2002 was in the middle of President George W. Bush's first term. Although it was a midterm election, the Republican Party gained a net eight seats, solidifying their majority. Together with gains made in the Senate, it was one of the few mid-term elections that the party in control of the White House increased their number of seats in the House (the other such mid-term elections were in 1934 and 1998).\n\n[Doc 3] Full House (season 2): In season two, Danny is fired from his job as a sportscaster and instead is promoted to a higher position as the host of a morning talk show titled Wake Up San Francisco, earning him a co-host named Rebecca Donaldson (Lori Loughlin) and Jesse's potential love interest. Meanwhile, Jesse and Joey become best friends (much to Danny's jealousy) and start doing adver...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 10.020522117614746,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

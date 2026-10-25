@@ -1,0 +1,44 @@
+{
+  "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+  "answer": "University of Kansas",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for universities in Lawrence, Kansas with main campus.",
+      "action_name": "search",
+      "action_input": "universities main campus lawrence kansas",
+      "observation": "[Search] Results for 'universities main campus lawrence kansas':\n[Doc 1] University of Kansas:  The main campus in Lawrence, one of the largest college towns in Kansas, is on Mount Oread, the highest elevation in Lawrence.\n\n[Doc 2] University of Missouri–Kansas City:  UMKC is spread across multiple ...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "action_name": "search",
+      "action_input": "universities branch campuses in kansas city metropolitan area",
+      "observation": "[Search] Results for 'universities branch campuses in kansas city metropolitan area':\n[Doc 1] University of Kansas:  Two branch campuses are in the Kansas City metropolitan area: the Edwards Campus in Overland Park, and the university's medical school and hospital in Kansas City.\n\n[Doc 2] University...",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "The relevant information is contained in the first document from the previous search result. It states that the main campus of the university is located in Lawrence, Kansas.",
+      "action_name": "finish",
+      "action_input": "University of Kansas",
+      "observation": "[Finish] Answer: University of Kansas",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 34.425933599472046,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for universities in Lawrence, Kansas with main campus",
+      "Search for universities with branch campuses in Kansas City metropolitan area",
+      "Finish with the shortest answer."
+    ]
+  }
+}

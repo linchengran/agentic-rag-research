@@ -1,0 +1,44 @@
+{
+  "question": "What is the mouth of watercourse for the body of water where Bartram's Covered Bridge is located?",
+  "answer": "yes",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for Bartram's Covered Bridge location will provide information about its position.",
+      "action_name": "search",
+      "action_input": "Bartram's Covered Bridge location",
+      "observation": "[Search] Results for \"Bartram's Covered Bridge location\":\n[Doc 1] Bartram's Covered Bridge: Bartram's Covered Bridge, a historic covered bridge built in 1860, uses a Burr Truss design and carried Goshen Road over Crum Creek on the border between Delaware County and Chester County, Pennsylvania. It is long and wide and is the only covered bridge remaining of the 30 which once stood in Delaware County. The bridge has slanted planks at each entrance and is the only covered bridge in Pennsylvania with this feature. According to an on-site marker from the Newtown Square Historical Preservation Society, the bridge was built to be \"hi and wide as a load of hay\" It was built by Ferdinand Wood and named for Mordecai Bartram.\n\n[Doc 2] Burt Henry Covered Bridge: The Burt Henry Covered Bridge, also known as the Henry Covered Bridge or just the Henry Bridge, is a covered bridge that spans the Walloomsac River near Bennington, Vermont. A Town lattice truss bridge, it carries River Road, just south of the village of North Bennington. Originally built about 1840, it was listed on the National Register of Historic Places in 1973 as Bennington County's oldest covered bridge. It was rebuilt in 1989 by the Vermont Agency of Transportation.\n\n[Doc 3] Kintersburg Covered Bridge: The Kintersburg Covered Bridge is a covered bridge spanning Crooked Creek in Rayne Township, Indiana County, Pennsylvania, United States. Built in 1877, it is one of four covered bridges in the county, and is the only one w...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The provided documents do not directly mention the mouth of the watercourse for the body of water where Bartram's Covered Bridge is located. I need to look up more specific details.",
+      "action_name": "lookup",
+      "action_input": "Crum Creek",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The lookup for Crum Creek will help identify the mouth of the watercourse for the body of water where Bartram's Covered Bridge is located.",
+      "action_name": "lookup",
+      "action_input": "Crum Creek",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 134.5125617980957,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for Bartram's Covered Bridge location",
+      "Find the mouth of watercourse for the body of water where the bridge is located",
+      "Finish with the shortest answer."
+    ]
+  }
+}

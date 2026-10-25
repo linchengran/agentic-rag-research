@@ -1,0 +1,31 @@
+{
+  "question": "Who is Arthur Gore, 2Nd Earl Of Arran's paternal grandfather?",
+  "answer": "Yes",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Who is Arthur Gore, 2Nd Earl Of Arran?\n\nObservation: Arthur Gore, 2Nd Earl Of Arran was a historical figure representing the 2Nd Earl of Arran. \n\nAsk the next intermediate question: Who was the paternal grandfather of the 2Nd Earl Of Arran?",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Yes",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 9.365145921707153,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

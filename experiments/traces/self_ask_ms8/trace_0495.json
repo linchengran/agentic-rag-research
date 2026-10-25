@@ -1,0 +1,31 @@
+{
+  "question": "How many restaurants comprise the quick service restaurant chain that Ron Joyce helped found?",
+  "answer": "no",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: Who founded the quick service restaurant chain that Ron Joyce served?\nObservation: Ron Joyce founded the Quick Service Restaurant Chain founded.",
+      "action_name": "search",
+      "action_input": "Who founded the quick service restaurant chain that Ron Joyce served?",
+      "observation": "[Search] Results for 'Who founded the quick service restaurant chain that Ron Joyce served?':\n[Doc 1] Ron Joyce:  He co-founded the Tim Hortons doughnut chain as Tim Horton's partner and first franchisee.\n\n[Doc 2] The Works (restaurant):  The restaurant chain started by Brad Fennema in Ottawa in 2001, has grown to 27 locations across southern Ontario.\n\n[Doc 3] Chefette:  Chefette was founded by a Trinidadian businessman named Assad John Haloute, who migrated to Barbados in 1971.\n\n[Doc 4] Tim Hortons:  It is also Canada's largest quick service restaurant chain; as of December 31, 2016, it had a total of 4,613 restaurants in nine countries.\n\n[Doc 5] Hero Certified Burgers: Hero Certified Burgers is a Canadian restaurant chain franchise that sells hamburgers and other quick service restaurant fare.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: no",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 5.029803514480591,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

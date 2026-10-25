@@ -1,0 +1,23 @@
+{
+  "question": "D1NZ is a series based on what oversteering technique?",
+  "answer": "Oversteering technique.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "D1NZ being a series implies it's related to oversteering techniques in motorsports.",
+      "action_name": "ircot_search",
+      "action_input": "D1NZ being a series implies it's related to oversteering techniques in motorsports.",
+      "observation": "[Search] Results for \"D1NZ being a series implies it's related to oversteering techniques in motorsports.\":\n[Doc 1] D1NZ:  There is currently no New Zealand drifting championship so D1NZ is the premier series running as a clubsport advanced event under MotorSport New Zealand.\n\n[Doc 2] Drifting (motorsport): Drifting is a driving technique where the driver intentionally oversteers, with loss of traction in the rear wheels or all tires, while maintaining control and driving the car through the entirety of a corner.\n\n[Doc 3] D1NZ: D1NZ is a production car drifting series in New Zealand.\n\n[Doc 4] D1NZ:  New competitors generally need to prove themselves in the Pro-sport championship before entering the Pro championship (unless coming from an equivalent international series).\n\n[Doc 5] D1NZ:  It began early in 2003 as a small competition consisting of several drifting teams from all over the country in order to organise and regulate Drifting events on the circuit.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 10.499131202697754,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

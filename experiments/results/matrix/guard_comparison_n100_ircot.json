@@ -1,0 +1,66 @@
+{
+  "ircot": {
+    "paradigm": "ircot",
+    "n": 100,
+    "control": {
+      "n": 100,
+      "em": 0.13,
+      "relaxed_em": 0.14,
+      "f1": 0.16133333333333333,
+      "avg_steps": 1.06,
+      "total_real_searches": 106,
+      "avg_real_searches": 1.06,
+      "finish_reason_dist": {
+        "final_answer": 100
+      },
+      "guard_events": {
+        "duplicate_query": 0,
+        "zero_new_docs": 0,
+        "stop_triggered": 0,
+        "stop_ignored": 0
+      },
+      "n_guard_touched": 0,
+      "n_guard_stopped": 0
+    },
+    "treated": {
+      "n": 100,
+      "em": 0.13,
+      "relaxed_em": 0.14,
+      "f1": 0.16133333333333333,
+      "avg_steps": 1.06,
+      "total_real_searches": 106,
+      "avg_real_searches": 1.06,
+      "finish_reason_dist": {
+        "final_answer": 100
+      },
+      "guard_events": {
+        "duplicate_query": 0,
+        "zero_new_docs": 0,
+        "stop_triggered": 0,
+        "stop_ignored": 0
+      },
+      "n_guard_touched": 0,
+      "n_guard_stopped": 0
+    },
+    "delta": {
+      "em": 0.0,
+      "relaxed_em": 0.0,
+      "f1": 0.0,
+      "avg_steps": 0.0,
+      "avg_real_searches": 0.0
+    },
+    "harm_check": {
+      "note": "守卫截停/触碰的题在控制组的 EM——若控制组也接近 0,则干预无伤害",
+      "guard_stopped_questions": {
+        "n": 0,
+        "control_em": null,
+        "treated_em": null
+      },
+      "guard_touched_questions": {
+        "n": 0,
+        "control_em": null,
+        "treated_em": null
+      }
+    }
+  }
+}

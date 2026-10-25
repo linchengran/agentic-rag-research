@@ -1,0 +1,23 @@
+{
+  "question": "What WB supernatrual drama series was Jawbreaker star Rose Mcgowan best known for being in?",
+  "answer": "Charmed",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Was Rose McGowan known for starring in in any WB supernatural drama series?",
+      "action_name": "ircot_search",
+      "action_input": "Was Rose McGowan known for starring in in any WB supernatural drama series?",
+      "observation": "[Search] Results for 'Was Rose McGowan known for starring in in any WB supernatural drama series?':\n[Doc 1] Rose McGowan:  She is best known to television audiences for having played Paige Matthews in The WB supernatural drama series \"Charmed\" from 2001 to 2006.\n\n[Doc 2] Rose McGowan: Rose Arianna McGowan (born September 5, 1973) is an Italian-born American actress, film producer, director and singer.\n\n[Doc 3] The Doom Generation:  It stars James Duval, Rose McGowan, and Johnathon Schaech.\n\n[Doc 4] Planet Terror:  The film stars Rose McGowan, Freddy Rodriguez, Josh Brolin, Marley Shelton, Naveen Andrews, Michael Biehn, Jeff Fahey, Stacy Ferguson, and Bruce Willis.\n\n[Doc 5] Gilmore Girls: A Year in the Life:  It is a sequel to \"Gilmore Girls\", an American comedy-drama television series created by Amy Sherman-Palladino and starring Lauren Graham and Alexis Bledel, which ran from 2000 to 2007 on The WB and The CW.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 9.440450668334961,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

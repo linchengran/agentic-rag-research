@@ -1,0 +1,44 @@
+{
+  "question": "Which of Tara Strong major voice role in animated series is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\"?",
+  "answer": "voice actress",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The search query should be refined with the full title to get accurate results.",
+      "action_name": "search",
+      "action_input": "American animated television series based on DC Comics Teen Titans",
+      "observation": "[Search] Results for 'American animated television series based on DC Comics Teen Titans':\n[Doc 1] Teen Titans Go! (TV series):  is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\".\n\n[Doc 2] Teen Titans (season 1): The first season of the animated television series Teen Titans, based on the DC comics series created by Bob Haney and Bruno Premiani, originally aired on Cartoon Network in the United States.\n\n[Doc 3] List of Teen Titans episodes: \"Teen Titans\" is an American animated television series based on the DC comics series of the same name by Bob Haney and Bruno Premiani.\n\n[Doc 4] Teen Titans (season 4): The fourth season of the animated television series \"Teen Titans\", based on the DC comics series of the same time by Bob Haney and Bruno Premiani, originally aired on Cartoon Network in the United States.\n\n[Doc 5] List of Teen Titans Go! episodes: \" is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\".",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "To find Tara Strong's voice role, I need to look through the documents that mention her. |",
+      "action_name": "lookup",
+      "action_input": "Tara Strong",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "Tara Strong's voice role is likely mentioned in the context of the TV series she was involved with. |",
+      "action_name": "lookup",
+      "action_input": "Tara Strong",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 128.4091489315033,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for \"American animated television series based on DC Comics Teen Titans\"",
+      "Find Tara Strong's voice role in the American animated series based on Teen Titans",
+      "Finish with the shortest answer."
+    ]
+  }
+}

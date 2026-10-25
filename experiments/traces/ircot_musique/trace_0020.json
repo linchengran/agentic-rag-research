@@ -1,0 +1,23 @@
+{
+  "question": "What record label is the performer of Almost Made Ya signed to?",
+  "answer": "Searching for the artist's name of Almost Made Ya.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Searching for the artist's name of Almost Made Ya.",
+      "action_name": "ircot_search",
+      "action_input": "Searching for the artist's name of Almost Made Ya.",
+      "observation": "[Search] Results for \"Searching for the artist's name of Almost Made Ya.\":\n[Doc 1] Almost Made Ya: Almost Made Ya is an R&B song by American duo Ali & Gipp, for the debut album, \"Kinfolk\" (2007). The song samples Brandy's \"Almost Doesn't Count\". The song is about a relationship between a female and a male; LeToya sings that she is \"almost done\" with her man, that \"they\" need improve the relationship, while the men say about the situation they've been passing. The song leaked on April 13, 2007 and officially released (for commercial purposes) on Sunday, June 13, 2007. The song was written by LeToya Luckett, Jermaine Dupri, Ali Vaskabi-Waski-Jones, Cameron Gipp, Shelly Peiken and Guy Roche\n\n[Doc 2] The Allegory of Faith: The Allegory of Faith, also known as Allegory of the Catholic Faith, is a painting created by Dutch artist Johannes Vermeer in about 1670–72. The painting is currently located at the Metropolitan Museum of Art in New York, and has been since 1931.\n\n[Doc 3] Gail Robinson (soprano): Gail Robinson (7 August 1946 – 19 October 2008) was an American operatic soprano who sang with many of the world's leading opera companies during the 1970s and 1980s. She spent most of her career singing lyric coloratura roles at the Metropolitan Opera. After her performance career ended she taught singing to young artists and also directed the Metropolitan Opera's Young Artist Program for over ten years. Upon leaving the Met, she joined the voice faculty at the University of Kentucky...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 63.99530744552612,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

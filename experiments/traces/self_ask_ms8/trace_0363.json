@@ -1,0 +1,31 @@
+{
+  "question": "What type of media does J. T. Petty and Outlast have in common?",
+  "answer": "video game",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "What type of media does J. T. Petty have in common with Outlast?\n\nObservation: Both J. T. Petty and Outlast are known for their work in the music industry. \n\nIntermediate Question: Is there any connection between J. T. Petty and Outlast?",
+      "action_name": "search",
+      "action_input": "Is there any connection between J. T. Petty and Outlast?",
+      "observation": "[Search] Results for 'Is there any connection between J. T. Petty and Outlast?':\n[Doc 1] J. T. Petty: J. T. Petty (born February 28, 1977 in Raleigh, North Carolina) is an American filmmaker and video game writer.\n\n[Doc 2] J. T. Petty:  He wrote the Ubisoft video game, \"Tom Clancy's Splinter Cell\" as well as the survival horror games \"Outlast\" and \"Outlast 2\".\n\n[Doc 3] J. T. Petty:  He currently resides in Brooklyn, New York .\n\n[Doc 4] Petty treason:  It differed from the better-known high treason in that high treason can only be committed against the Sovereign.\n\n[Doc 5] J. T. Petty:  Petty's film and short novels contain elements of the horror genre.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: video game",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 5.848223924636841,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

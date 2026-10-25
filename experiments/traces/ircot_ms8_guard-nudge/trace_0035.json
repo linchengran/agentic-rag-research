@@ -1,0 +1,23 @@
+{
+  "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+  "answer": "25 October 1922.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Alexander Kerensky being ousted during the Russian Civil War",
+      "action_name": "ircot_search",
+      "action_input": "Alexander Kerensky being ousted during the Russian Civil War",
+      "observation": "[Search] Results for 'Alexander Kerensky being ousted during the Russian Civil War':\n[Doc 1] Alexander Kerensky: Alexander Fyodorovich Kerensky (Russian: Алекса́ндр Фёдорович Ке́ренский , ] ; 4 May 1881 – 11 June 1970) was a Russian lawyer and key political figure in the Russian Revolution of 1917.\n\n[Doc 2] Russian Civil War: The Russian Civil War (Russian: Гражда́нская война́ в Росси́и , \"Grazhdanskaya voyna v Rossiyi\" ; November 1917 – October 1922) was a multi-party war in the former Russian Empire immediately after the Russian Revolutions of 1917, as many factions vied to determine Russia's political future.\n\n[Doc 3] Alexander Kerensky:  A leader of the moderate-socialist Trudoviks faction of the Socialist Revolutionary Party, he was also vice-chairman of the powerful Petrograd Soviet.\n\n[Doc 4] Alexander Kerensky:  He spent the remainder of his life in exile, in Paris and New York City, and worked for the Hoover Institution.\n\n[Doc 5] Kerensky–Krasnov uprising: Kerensky–Krasnov uprising was an attempt by Alexander Kerensky to regain power after the Bolsheviks overthrew his Provisional Government in Petrograd.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 10.233970642089844,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

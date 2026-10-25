@@ -1,0 +1,23 @@
+{
+  "question": "Who was married to the star of No Escape?",
+  "answer": "no information found",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Observation 1: retrieved facts)",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 1: retrieved facts)",
+      "observation": "[Search] Results for '(Observation 1: retrieved facts)':\n[Doc 1] Planck constant: The assumption that black-body radiation is thermal leads to an accurate prediction: the total amount of emitted energy goes up with the temperature according to a definite rule, the Stefan–Boltzmann law (1879–84). But it was also known that the colour of the light given off by a hot object changes with the temperature, so that \"white hot\" is hotter than \"red hot\". Nevertheless, Wilhelm Wien discovered the mathematical relationship between the peaks of the curves at different temperatures, by using the principle of adiabatic invariance. At each different temperature, the curve is moved over by Wien's displacement law (1893). Wien also proposed an approximation for the spectrum of the object, which was correct at high frequencies (short wavelength) but not at low frequencies (long wavelength). It still was not clear why the spectrum of a hot object had the form that it has (see diagram).\n\n[Doc 2] Frederick Kagan: Frederick Kagan and his father Donald Kagan, who is a professor at Yale and a fellow at the Hudson Institute, together authored \"While America Sleeps: Self-Delusion, Military Weakness, and the Threat to Peace Today\" (2000). The book argued in favor of a large increase in military spending and warned of future threats, including from a potential revival of Iraq's WMD program. Frederick along with his brother Robert Kagan, who is a member of the Aspen Strategy Group, and their father Donal...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 11.065036058425903,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

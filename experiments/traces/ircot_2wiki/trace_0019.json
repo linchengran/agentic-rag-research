@@ -1,0 +1,23 @@
+{
+  "question": "Which film has the director who died earlier, Tangled Destinies or The Daltons' Women?",
+  "answer": "David Ebersole",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Retrieving the director of Tangled Destinies.",
+      "action_name": "ircot_search",
+      "action_input": "Retrieving the director of Tangled Destinies.",
+      "observation": "[Search] Results for 'Retrieving the director of Tangled Destinies.':\n[Doc 1] Tangled Destinies: Tangled Destinies is a 1932 American film directed by Frank R. Strayer.\n\n[Doc 2] Tangled Destinies: The film is also known as Who Killed Harvey Forbes?\n\n[Doc 3] Tangled Destinies: in the United Kingdom.\n\n[Doc 4] The Last Company: The film's art direction was overseen by Andrej Andrejew.\n\n[Doc 5] The Gallant Lords of Bois-Doré: Along with the films about Angélique it is considered one of the most successful works of this director.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 31.717000484466553,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

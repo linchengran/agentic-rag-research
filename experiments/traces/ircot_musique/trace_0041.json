@@ -1,0 +1,23 @@
+{
+  "question": "What place does the administrative territorial entity that Juba is located in share a border with?",
+  "answer": "South Sudan.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The country that Juba is located in) Final Answer: South Sudan.",
+      "action_name": "ircot_search",
+      "action_input": "The country that Juba is located in) Final Answer: South Sudan.",
+      "observation": "[Search] Results for 'The country that Juba is located in) Final Answer: South Sudan.':\n[Doc 1] The Citizen (South Sudan): The Citizen is a newspaper based in Juba, the national capital of South Sudan and the state capital of Central Equatoria.\n\n[Doc 2] Blair Athol, New South Wales: Blair Athol is a suburb of Sydney, in the state of New South Wales, Australia. Blair Athol is located 57 kilometres south-west of the Sydney central business district, in the local government area of the City of Campbelltown and is part of the Macarthur region.\n\n[Doc 3] Fatumanongi: Fatumanongi is an island in Tonga. It is located within the Ha'apai Group in the centre of the country, to the northeast of the national capital of Nukualofa.\n\n[Doc 4] Thabiso Nkoana: Thabiso Nkoana (born 28 October 1992) is a South African footballer who plays for Ajax Cape Town as a striker.\n\n[Doc 5] Hakauata: Hakauata is an island in Tonga. It is located within the Ha'apai Group in the center of the country, to northeast of the national capital of Nukualofa.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 4.219646453857422,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

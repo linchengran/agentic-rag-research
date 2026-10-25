@@ -1,0 +1,23 @@
+{
+  "question": "Who is William Ii, Count Of Flanders's paternal grandmother?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation 3: Without more specific lineage details, we cannot determine the exact identity of his paternal grandmother.",
+      "action_name": "ircot_search",
+      "action_input": "Observation 3: Without more specific lineage details, we cannot determine the exact identity of his paternal grandmother.",
+      "observation": "[Search] Results for 'Observation 3: Without more specific lineage details, we cannot determine the exact identity of his paternal grandmother.':\n[Doc 1] Qianlong Emperor: On 8 February, he abdicated in favour of his son, the Jiaqing Emperor—a filial act in order not to reign longer than his grandfather, the illustrious Kangxi Emperor.\n\n[Doc 2] Colgú mac Faílbe Flaind: The annals mention no details of his reign.\n\n[Doc 3] Cynan Garwyn: Little reliable information exists which can be used to reconstruct the background and career of the historical figure.\n\n[Doc 4] Voisava: The first source, a biography on her son, mentions her as the daughter of a\" Triballian nobleman\", which is interpreted as her being Serbian, modern scholars pointing to the Branković dynasty.\n\n[Doc 5] Anthemiolus: He was sent by his father to Gaul with a powerful army, accompanied by three generals — Thorisarius, Everdingus, and Hermianus — in order to oppose the Visigoths then occupying Provence and threatening to conquer the Auvergne.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 22.116459369659424,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

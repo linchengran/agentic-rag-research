@@ -1,0 +1,31 @@
+{
+  "question": "Born on 6 March 1937, this man was also a citizen of the United Kingdom.",
+  "answer": "no",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Ask the first intermediate question: What is the full name of the person born on 6 March 1937?\n\nObservation: The full name is not provided with the given information. Further research is needed to identify the person.",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: no",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 6.828667163848877,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

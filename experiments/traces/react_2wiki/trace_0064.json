@@ -1,0 +1,31 @@
+{
+  "question": "Who is Gaston, Duke Of Orléans's paternal grandmother?",
+  "answer": "Marie of Cleves",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about Gaston, Duke of Orléans and his family lineage.",
+      "action_name": "search",
+      "action_input": "Gaston, Duke of Orléans paternal grandmother",
+      "observation": "[Search] Results for 'Gaston, Duke of Orléans paternal grandmother':\n[Doc 1] Gaston of Foix, Duke of Nemours: His maternal grandparents were Charles, Duke of Orléans and Marie of Cleves.\n\n[Doc 2] Gaston, Duke of Orléans: Gaston, Duke of Orléans (24 April 1608 – 2 February 1660), was the third son of King Henry IV of France and his wife Marie de' Medici.\n\n[Doc 3] Gaston of Foix, Duke of Nemours: His paternal grandparents were Gaston IV of Foix- Grailly and Queen regnant Eleanor of Navarre.\n\n[Doc 4] Gaston, Duke of Orléans: As the eldest surviving brother of King Louis XIII, he was known at court by the traditional honorific Monsieur.\n\n[Doc 5] Gaston II, Count of Foix: Gaston II married his cousin Eleanore de Comminges, daughter of Bernard VII of Comminges and Laura de Montfort.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The search results indicate that Gaston, Duke of Orléans' maternal grandparents are Charles, Duke of Orléans and Marie of Cleves.",
+      "action_name": "finish",
+      "action_input": "Marie of Cleves",
+      "observation": "[Finish] Answer: Marie of Cleves",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 13.973974466323853,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

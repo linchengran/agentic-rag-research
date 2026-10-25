@@ -1,0 +1,23 @@
+{
+  "question": "Which country Audofleda's husband is from?",
+  "answer": "Ostrogoths.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find the nationality of Audofilda's husband",
+      "action_name": "ircot_search",
+      "action_input": "Find the nationality of Audofilda's husband",
+      "observation": "[Search] Results for \"Find the nationality of Audofilda's husband\":\n[Doc 1] Audofleda: She married Theoderic the Great, King of the Ostrogoths (471–526), around 493 AD (exact date unknown).\n\n[Doc 2] Audofleda: She was the sister of Clovis I, King of the Franks.\n\n[Doc 3] Audofleda: This political move allied Theoderic with the Franks, and by marrying his daughters off to the kings of the Burgundians, the Vandals, and the Visigoths, he allied himself with every major 'Barbarian' kingdom in the West.\n\n[Doc 4] Hugh Despenser the younger: He rose to national prominence as royal chamberlain and a favourite of Edward II of England.\n\n[Doc 5] Saved by the Belles: Touma is a Lebanese Canadian film director and producer residing in Montreal, Quebec, Canada.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 24.844403743743896,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "question": "Who is older, Annie Morton or Terry Richardson?",
+  "answer": "no",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search the names to find relevant information.",
+      "action_name": "search",
+      "action_input": "Terry Richardson and Annie Morton age",
+      "observation": "[Search] Results for 'Terry Richardson and Annie Morton age':\n[Doc 1] Terry Richardson: Terrence \"Uncle Terry\" Richardson (born August 14, 1965) is an American fashion and portrait photographer who has shot advertising campaigns for Marc Jacobs, Aldo, Supreme, Sisley, Tom Ford, and Yves Saint Lauren...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Lookup the dates in the search results to compare them.",
+      "action_name": "lookup",
+      "action_input": "age",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "Compare the ages of Terry Richardson and Annie Morton from the search results.",
+      "action_name": "finish",
+      "action_input": "no",
+      "observation": "[Finish] Answer: no",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 14.878297090530396,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

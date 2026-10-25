@@ -1,0 +1,44 @@
+{
+  "question": "What WB supernatrual drama series was Jawbreaker star Rose Mcgowan best known for being in?",
+  "answer": "Charmed",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The search should be for information about Jawbreaker star's best-known supernatural drama series.",
+      "action_name": "search",
+      "action_input": "Jawbreaker star best-known supernatural drama series",
+      "observation": "[Search] Results for 'Jawbreaker star best-known supernatural drama series':\n[Doc 1] Rose McGowan:  She is best known to television audiences for having played Paige Matthews in The WB supernatural drama series \"Charmed\" from 2001 to 2006.\n\n[Doc 2] SuperMansion:  The series stars Bryan Cranston, Heidi Gardner, Tucker Gilmore, Keegan-Michael Key, Tom Root, Yvette Nicole Brown, Zeb Wells, and Jillian Bell.\n\n[Doc 3] Adventures of Superman (TV series):  The show's first two seasons (episodes 1–52, 26 titles per season) were filmed in black-and-white; seasons three through six (episodes 53–104, 13 titles per season) were filmed in color but originally telecast in black and white.\n\n[Doc 4] Adventures of Superman (TV series):  The show was the first television series to feature Superman and began filming in 1951 in California on RKO-Pathé stages and the RKO Forty Acres back lot.\n\n[Doc 5] Kay Tagal Kang Hinintay:  The critically acclaimed and top-rating teleserye won the CMMA Best Drama Series and the PMPC Star Awards Best Primetime Drama Series.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The answer is now clear.",
+      "action_name": "lookup",
+      "action_input": "Rose McGowan best-known supernatural drama series",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The answer is \"Charmed\".",
+      "action_name": "lookup",
+      "action_input": "Rose McGowan best-known supernatural drama series",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 46.79223299026489,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for Jawbreaker star's best-known supernatural drama series",
+      "Find the supernatural drama series Rose McGowan was best known for being in.",
+      "Finish with the shortest answer."
+    ]
+  }
+}

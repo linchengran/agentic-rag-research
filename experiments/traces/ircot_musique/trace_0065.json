@@ -1,0 +1,23 @@
+{
+  "question": "During which era was the company that makes Nirbhay founded?",
+  "answer": "1964",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Observation 1: )",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 1: )",
+      "observation": "[Search] Results for '(Observation 1: )':\n[Doc 1] Planck constant: The assumption that black-body radiation is thermal leads to an accurate prediction: the total amount of emitted energy goes up with the temperature according to a definite rule, the Stefan–Boltzmann law (1879–84). But it was also known that the colour of the light given off by a hot object changes with the temperature, so that \"white hot\" is hotter than \"red hot\". Nevertheless, Wilhelm Wien discovered the mathematical relationship between the peaks of the curves at different temperatures, by using the principle of adiabatic invariance. At each different temperature, the curve is moved over by Wien's displacement law (1893). Wien also proposed an approximation for the spectrum of the object, which was correct at high frequencies (short wavelength) but not at low frequencies (long wavelength). It still was not clear why the spectrum of a hot object had the form that it has (see diagram).\n\n[Doc 2] Voyager 2: Following a mid-course correction in 1987, Voyager 2's closest approach to Neptune occurred on August 25, 1989. Through repeated computerized test simulations of trajectories through the Neptunian system conducted in advance, flight controllers determined the best way to route Voyager 2 through the Neptune-Triton system. Since the plane of the orbit of Triton is tilted significantly with respect to the plane of the ecliptic, through mid-course corrections, Voyager 2 was directed into a path about 4950 kilome...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 9.608147382736206,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

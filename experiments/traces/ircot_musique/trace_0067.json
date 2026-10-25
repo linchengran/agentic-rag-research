@@ -1,0 +1,23 @@
+{
+  "question": "In what era was the company known as the manufacturer of Agni-V founded?",
+  "answer": "modern.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: modern.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: modern.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: modern.':\n[Doc 1] Modern synthesis (20th century): The modern synthesis was the early 20th - century synthesis reconciling Charles Darwin's theory of evolution and Gregor Mendel's ideas on heredity in a joint mathematical framework. Julian Huxley coined the term in his 1942 book, Evolution: The Modern Synthesis.\n\n[Doc 2] Edward II (play): Edward II is a Renaissance or Early Modern period play written by Christopher Marlowe. It is one of the earliest English history plays. The full title of the first publication is The Troublesome Reign and Lamentable Death of Edward the Second, King of England, with the Tragical Fall of Proud Mortimer.\n\n[Doc 3] Shrek 2: Shrek 2 is a 2004 American computer - animated fantasy film produced by DreamWorks Animation and directed by Andrew Adamson, Kelly Asbury and Conrad Vernon. It is the sequel to 2001's Shrek, with Mike Myers, Eddie Murphy and Cameron Diaz reprising their respective voice roles of Shrek, Donkey, and Fiona from the first film, joined by Antonio Banderas, Julie Andrews, John Cleese, Rupert Everett, and Jennifer Saunders. Sometime after the first film, Shrek, Donkey and Fiona go to visit Fiona's parents (voiced by Andrews and Cleese), while Shrek and Donkey discover that a greedy Fairy God Mother (voiced by Saunders) is plotting to destroy Shrek and Fiona's marriage so Fiona can marry her son, Prince Charming (voiced by Everett). Shrek and Donkey team up with a swashbuckling cat named ...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 7.282028913497925,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

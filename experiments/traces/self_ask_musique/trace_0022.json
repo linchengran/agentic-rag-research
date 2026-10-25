@@ -1,0 +1,31 @@
+{
+  "question": "In which county is Southern Maryland Electric Cooperative headquartered?",
+  "answer": "Hughesville",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What is the name of the organization Southern Maryland Electric Cooperative?\nObservation: Southern Maryland Electric Cooperative has the name Southern Maryland Electric Cooperative.",
+      "action_name": "search",
+      "action_input": "What is the name of the organization Southern Maryland Electric Cooperative?",
+      "observation": "[Search] Results for 'What is the name of the organization Southern Maryland Electric Cooperative?':\n[Doc 1] Southern Maryland Electric Cooperative: The Southern Maryland Electric Cooperative (SMECO) is an electric distribution cooperative which is headquartered in Hughesville, Maryland. SMECO serves approximately 161,000 customers in Calvert, Charles, Prince George's, and St. Mary's counties of southern Maryland. Under its rules as a nonprofit cooperative, SMECO passes on its costs to its customer-members without markup or profit.\n\n[Doc 2] General Electric: GE is a multinational conglomerate headquartered in Fairfield, Connecticut. Its main offices are located at 30 Rockefeller Plaza at Rockefeller Center in New York City, known now as the Comcast Building. It was formerly known as the GE Building for the prominent GE logo on the roof; NBC's headquarters and main studios are also located in the building. Through its RCA subsidiary, it has been associated with the center since its construction in the 1930s. GE moved its corporate headquarters from the GE Building on Lexington Avenue to Fairfield in 1974.\n\n[Doc 3] United Nations Economic and Social Council: The president is elected for a one - year term and chosen from the small or mid-sized powers represented on the ECOSOC. Inga Rhonda King was elected seventy - fourth President of ECOSOC on 26 July 2018. Ambassador King is currently the Ambassador and Permanent Representative of Saint Vincent and the Grenadines to the United...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Hughesville",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 4.344807147979736,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

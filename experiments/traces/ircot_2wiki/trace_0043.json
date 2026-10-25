@@ -1,0 +1,23 @@
+{
+  "question": "Who is the paternal grandfather of Alexandre Berthier, 3Rd Prince Of Wagram?",
+  "answer": "King Maximilian I of Bavaria. Berthier.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find the father of Alexandre Berthier, 3Rd PrinceOf Wagram.",
+      "action_name": "ircot_search",
+      "action_input": "Find the father of Alexandre Berthier, 3Rd PrinceOf Wagram.",
+      "observation": "[Search] Results for 'Find the father of Alexandre Berthier, 3Rd PrinceOf Wagram.':\n[Doc 1] Alexandre Berthier, 3rd Prince of Wagram: Louis Philippe Marie \"Alexandre\" Berthier, 3rd Prince of Wagram (24 March 1836, Paris – 15 July 1911, Château de Grosbois) was a French nobleman and prince of Wagram.\n\n[Doc 2] Alexandre Berthier, 3rd Prince of Wagram: He was the son of Napoléon Alexandre Berthier and Zénaïde Françoise Clary and grandson of Louis Alexandre Berthier.\n\n[Doc 3] Alexandre Louis Philippe Marie Berthier, 4th Prince of Wagram: Alexandre Louis Philippe Marie Berthier( July 20, 1883, Paris – May 30, 1918, Barenton- sur- Serre; 4th Prince de Wagram) was the son of Bertha Clara von Rothschild of the German branch of the prominent Rothschild family and Louis Philippe Marie Alexandre Berthier, 3rd Prince de Wagram( 1836 – 1911).\n\n[Doc 4] Louis-Alexandre Berthier: Louis- Alexandre Berthier( 20 November 1753 – 1 June 1815), 1st Prince of Wagram, Sovereign Prince of Neuchâtel, was a French Marshal and Vice- Constable of the Empire, and Chief of Staff under Napoleon.\n\n[Doc 5] Napoléon Alexandre Berthier, 2nd Prince of Wagram: Son of Louis-Alexandre Berthier, 1st Prince of Wagram, and Duchess Maria Elisabeth in Bavaria (and by his mother, grandnephew of King Maximilian I of Bavaria).",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 132.8872618675232,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

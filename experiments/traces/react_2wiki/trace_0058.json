@@ -1,0 +1,39 @@
+{
+  "question": "Which country the director of film Daadagiri is from?",
+  "answer": "Francisco Leria",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The director of the film Daadagiri needs to be found.",
+      "action_name": "search",
+      "action_input": "director of film Daadagiri",
+      "observation": "[Search] Results for 'director of film Daadagiri':\n[Doc 1] Daadagiri: Daadagiri is a 1997 Bollywood film directed by Arshad Khan starring Mithun Chakraborty, Ayub Khan, Simran, Rituparna Sengupta in lead roles and Puneet Issar, Nishigandha Wad, Shakti Kapoor and Kader Khan.\n\n[Doc 2] Semshook: The film was directed By Siddharth Anand Kumar, produced by Francisco Leria and written by Sudip Sharma and Rahul Singh.\n\n[Doc 3] Ghar Ki Shobha: The film was directed by Harshadrai Mehta and Ramesh Saigal.\n\n[Doc 4] Sathyavan Savithri: Sathyavan Savithri is a 2007 Kannada comedy film directed by Ramesh Aravind and produced by Ajay Chandani for Ajay Films banner.\n\n[Doc 5] En Aasai Unnoduthan: The film stars Prem Menon and Poornima Bhagyaraj.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The director of the film Daadagiri needs to be found.",
+      "action_name": "lookup",
+      "action_input": "director of film Daadagiri",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The director of the film Daadagiri needs to be found.",
+      "action_name": "finish",
+      "action_input": "Francisco Leria",
+      "observation": "[Finish] Answer: Francisco Leria",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 87.50279116630554,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

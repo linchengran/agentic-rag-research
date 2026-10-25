@@ -1,0 +1,23 @@
+{
+  "question": "who is the younger brother of The episode guest stars of The Hard Easy ",
+  "answer": "no.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: [search query] Final Answer: noobs.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: [search query] Final Answer: noobs.",
+      "observation": "[Search] Results for 'Thought 2: [search query] Final Answer: noobs.':\n[Doc 1] Thirty Eight (album):  One single was released from the album, \"The Answer\", as a preorder bonus.\n\n[Doc 2] Charmed:  However, following Prue's death in the third-season finale, their long-lost half sister Paige Matthews (Rose McGowan) assumes her place within the \"Power of Three\" from season four onwards.\n\n[Doc 3] Angry Birds Stella (TV series):  They do succeed, as seen in \"You Asked For It\", the 13th and final episode of season 2 and the series finale of \"Angry Birds Stella\", where after a long awful night, Stella and her gang launch the Golden Egg out of the island, never to be seen again.\n\n[Doc 4] Noel C. Bloom:  Three of those companies of which founded are now owned by Lionsgate.\n\n[Doc 5] Struggle for Rome (board game):  Catan Histories: Struggle for Rome is no exception.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 3.2599003314971924,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

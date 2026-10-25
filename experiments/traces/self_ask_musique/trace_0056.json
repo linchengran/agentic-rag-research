@@ -1,0 +1,31 @@
+{
+  "question": "In which district was Ernie Watts born?",
+  "answer": "Woolhampton",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: Where is Ernie Watts from?\n\nObservation: Ernie Watts is from Detroit, Michigan.",
+      "action_name": "search",
+      "action_input": "Where is Ernie Watts from?",
+      "observation": "[Search] Results for 'Where is Ernie Watts from?':\n[Doc 1] Ernie Watts (footballer, born 1872): Born in Woolhampton in Berkshire, his earliest known club was Reading, before he moved to Notts County, where he made 17 appearances in The Football League. He had a second spell with Reading and also played for West Ham United, where he was captain for the club's final season at the Memorial Grounds, before joining New Brompton in 1904, where he was a regular starter during the 1904–05 season. His later clubs included Grays Athletic and Clapton Orient, as well as two more spells with Reading.\n\n[Doc 2] William Shakespeare: William Shakespeare was the son of John Shakespeare, an alderman and a successful glover (glove-maker) originally from Snitterfield, and Mary Arden, the daughter of an affluent landowning farmer. He was born in Stratford-upon-Avon and baptised there on 26 April 1564. His actual date of birth remains unknown, but is traditionally observed on 23 April, Saint George's Day. This date, which can be traced to a mistake made by an 18th-century scholar, has proved appealing to biographers because Shakespeare died on the same date in 1616. He was the third of eight children, and the eldest surviving son.\n\n[Doc 3] Allandale (Toronto): Allandale is a historic house in Toronto, Ontario, Canada. It was built by prominent brewer Enoch Turner in 1856 on Sherbourne Street just north of Dundas St.. When it was built this was the fringe of the town, and the house is rural in appea...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Woolhampton",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 5.615498065948486,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

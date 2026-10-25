@@ -1,0 +1,23 @@
+{
+  "question": "Which film has the director who was born later, El Extraño Viaje or Love In Pawn?",
+  "answer": "Richard Linklater",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Who was the director of El Extraño Viaje?",
+      "action_name": "ircot_search",
+      "action_input": "Who was the director of El Extraño Viaje?",
+      "observation": "[Search] Results for 'Who was the director of El Extraño Viaje?':\n[Doc 1] El extraño viaje: Famous film director Jess Franco acts as the brother of the protagonist.\n\n[Doc 2] El extraño viaje: El extraño viaje is a 1964 Spanish black drama film directed by Fernando Fernán Gómez.\n\n[Doc 3] El extraño viaje: It was voted seventh best Spanish film by professionals and critics in 1996 Spanish cinema centenary.\n\n[Doc 4] Elio Petri: Elio Petri( 29 January 1929 – 10 November 1982) was an Italian political filmmaker best known for the 1970 Academy Award- winning film\" Investigation of a Citizen Above Suspicion\".\n\n[Doc 5] Fernando Fernán Gómez: In the 1950s he began to direct movies, including the film of his novel, \"El viaje a ninguna parte\".",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 30.603519916534424,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

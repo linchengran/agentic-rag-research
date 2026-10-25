@@ -1,0 +1,39 @@
+{
+  "question": "Handi-Snacks are a snack food product line sold by what American multinational confectionery, food, and beverage company that is based in Illinois?",
+  "answer": "Mondelez International",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for American multinational confectionery company based in Illinois.",
+      "action_name": "search",
+      "action_input": "Handi-Snacks American multinational confectionery based in Illinois",
+      "observation": "[Search] Results for 'Handi-Snacks American multinational confectionery based in Illinois':\n[Doc 1] Handi-Snacks: Handi-Snacks are a snack food product line sold by Mondelez International.\n\n[Doc 2] Handi-Snacks:  The common two-compartment Handi-Snack has a small spread compartment and a larger compartment for crackers; a red plastic spreader is included with crackers.\n\n[Doc 3] United States Senate election in Illinois, 1978:  Percy's last-ditch effort appeared to have paid off, as he was able to edge out Seith to win what would end up being his third and final term in the Senate.\n\n[Doc 4] United States Senate election in Illinois, 1978:  Though Percy had been expected to coast to re-election over Seith, a first-time candidate, the election quickly became competitive.\n\n[Doc 5] United States Senate elections in Illinois, 2010:  There were two ballot items for the same seat: a routine one, to fill the Class 3 seat beginning with the 112th United States Congress beginning on January 3, 2011, and a special item, to fill that seat for the final weeks of the 111th Congress, replacing the temporary appointment of Roland Burris to the vacancy created by Barack Obama's election to the presidency.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Look up the information found the most recent search result.",
+      "action_name": "lookup",
+      "action_input": "Handi-Snacks American multinational confectionery based in Illinois",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "action_name": "finish",
+      "action_input": "Mondelez International",
+      "observation": "[Finish] Answer: Mondelez International",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 17.459988117218018,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

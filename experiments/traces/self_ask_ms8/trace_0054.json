@@ -1,0 +1,31 @@
+{
+  "question": "Ellie Goulding worked with what other writers on her third studio album, Delirium?",
+  "answer": "Delirium",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What was the title of Ellie Goulding's third studio album, Delirium?\nObservation: Ellie Goulding's third studio album is titled \"Delirium.\"",
+      "action_name": "search",
+      "action_input": "What was the title of Ellie Goulding's third studio album, Delirium?",
+      "observation": "[Search] Results for \"What was the title of Ellie Goulding's third studio album, Delirium?\":\n[Doc 1] Delirium (Ellie Goulding album): Delirium is the third studio album by English singer and songwriter Ellie Goulding, released on 6 November 2015 by Polydor Records.\n\n[Doc 2] Delirium World Tour: The Delirium World Tour is the third headlining concert tour by British singer and songwriter Ellie Goulding to promote her third studio album, \"Delirium\" (2015).\n\n[Doc 3] Something in the Way You Move: \"Something in the Way You Move\" is a song by English singer and songwriter Ellie Goulding from her third studio album, \"Delirium\" (2015).\n\n[Doc 4] On My Mind (Ellie Goulding song): \"On My Mind\" is a song by English singer Ellie Goulding from her third studio album \"Delirium\" (2015).\n\n[Doc 5] Love Me like You Do:  The song was also included on Goulding's third studio album, \"Delirium\" (2015).",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Delirium",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 3.106337547302246,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

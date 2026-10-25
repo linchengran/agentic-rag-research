@@ -1,0 +1,47 @@
+{
+  "question": "How long is the bridge in the Öresund Region that connect Copenhagen, Denmark and Malmo, Sweden?",
+  "answer": "8 km",
+  "n_steps": 4,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation: What is the length of the bridge connecting Copenhagen, Denmark and Malmo, Sweden?\n\nIntermediate Question: Which bridge connects Copenhagen, Denmark and Malmo, Sweden?",
+      "action_name": "search",
+      "action_input": "Which bridge connects Copenhagen, Denmark and Malmo, Sweden?",
+      "observation": "[Search] Results for 'Which bridge connects Copenhagen, Denmark and Malmo, Sweden?':\n[Doc 1] Copenhagen Malmö Port:  The region is connected by the Øresund Bridge, which spans the strait at its southern end, and the HH Ferry route between Helsingør, Denmark and Helsingborg, Sweden.\n\n[Doc 2] Copenhagen Malmö Port: Copenhagen Malmö Port AB (CMP) operates the ports in Denmark's capital Copenhagen and in Sweden's third largest city, Malmö.\n\n[Doc 3] Sweden:  It borders Norway to the west and north and Finland to the east, and is connected to Denmark in the southwest by a bridge-tunnel across the Öresund.\n\n[Doc 4] Bartlett's Bridge:  The bridge has parapet walls made of large granite slabs 4.5 ft , 2 ft wide, and 1 ft thick.\n\n[Doc 5] Øresund Region:  The region is connected by the Øresund Bridge, which spans the strait at its southern end, and the HH Ferry route between Elsinore, Denmark (Danish: \"Helsingør\") and Helsingborg, Sweden at the narrowest point of the strait.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation: [Search] Results for 'Which bridge connects Copenhagen, Denmark and Malmo, Sweden?'\n[Doc 1] Copenhagen Malmö Port:  The region is connected by the Øresund Bridge, which spans the strait at its southern end, and the HH Ferry route between Helsingør, Denmark and Helsingborg, Sweden.\n\nIntermediate Question: What is the length of the Øresund Bridge?",
+      "action_name": "search",
+      "action_input": "What is the length of the Øresund Bridge?",
+      "observation": "[Search] Results for 'What is the length of the Øresund Bridge?':\n[Doc 1] Øresund Bridge:  The bridge runs nearly 8 km from the Swedish coast to the artificial island Peberholm in the middle of the strait.\n\n[Doc 2] Øresund Bridge:  The crossing is completed by the 4 km Drogden Tunnel from Peberholm to the Danish island of Amager.\n\n[Doc 3] Øresund Bridge: The Øresund/Öresund/Oresund Bridge (Danish: \"Øresundsbroen\" , ] ; Swedish: \"Öresundsbron\" , ] ; hybrid name: \"Øresundsbron \") is a combined railway and motorway bridge across the Øresund strait between Sweden and Denmark.\n\n[Doc 4] Bartlett's Bridge:  The bridge is 30 ft long and 42 ft wide, with its elliptical arch reaching a height of 13 ft above the river.\n\n[Doc 5] Shinn Covered Bridge:  Measuring 98 ft in length, the bridge was constructed soon after the drowning of one of Shinn's children.",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Intermediate Question: What is the total length of the Øresund Bridge?\nObservation: [Search] Results for 'What is the total length of the Øresund Bridge?':\n[Doc 1] Øresund Bridge:  The bridge runs nearly 8 km from the Swedish coast to the artificial island Peberholm in the middle of the strait.",
+      "action_name": "search",
+      "action_input": "What is the total length of the Øresund Bridge?",
+      "observation": "[Search] Results for 'What is the total length of the Øresund Bridge?':\n[Doc 1] Øresund:  The strait has a length of 118 km and the width varies from 4 km to 28 km .\n\n[Doc 2] Øresund Bridge:  The bridge runs nearly 8 km from the Swedish coast to the artificial island Peberholm in the middle of the strait.\n\n[Doc 3] Øresund Bridge:  The crossing is completed by the 4 km Drogden Tunnel from Peberholm to the Danish island of Amager.\n\n[Doc 4] Øresund Bridge: The Øresund/Öresund/Oresund Bridge (Danish: \"Øresundsbroen\" , ] ; Swedish: \"Öresundsbron\" , ] ; hybrid name: \"Øresundsbron \") is a combined railway and motorway bridge across the Øresund strait between Sweden and Denmark.\n\n[Doc 5] Bartlett's Bridge:  The bridge is 30 ft long and 42 ft wide, with its elliptical arch reaching a height of 13 ft above the river.",
+      "error": ""
+    },
+    {
+      "step": 4,
+      "thought": "Final Answer: 8 km",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 29.8346951007843,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

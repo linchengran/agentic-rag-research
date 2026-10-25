@@ -1,0 +1,23 @@
+{
+  "question": "Where was the place of death of Anastasia Of Serbia's husband?",
+  "answer": "Istanbul.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: Istanbul.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: Istanbul.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: Istanbul.':\n[Doc 1] Ko 2: This film is a remake of the 2014 Telugu political thriller film\" Prathinidhi\", starring Nara Rohit.\n\n[Doc 2] Judy Berlin: It was Madeline Kahn's final film.\n\n[Doc 3] A Question of Attribution: The two plays are collectively called\" Single Spies\".\n\n[Doc 4] The Week-End: It was produced and distributed by Pathé Exchange.\n\n[Doc 5] Allan Kroeker: He has the distinction of directing the series finales for ,  and .",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 24.581329107284546,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

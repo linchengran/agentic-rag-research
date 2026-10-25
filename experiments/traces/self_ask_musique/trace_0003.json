@@ -1,0 +1,31 @@
+{
+  "question": "Where is Ulrich Walter's employer headquartered?",
+  "answer": "Argonne National Laboratory, Chicago, Illinois.",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: Who is Ulrich Walter?\nObservation: Ulrich Walter is a German actor and filmmaker.",
+      "action_name": "search",
+      "action_input": "Who is Ulrich Walter?",
+      "observation": "[Search] Results for 'Who is Ulrich Walter?':\n[Doc 1] Ulrich Walter: After two post-doc positions at the Argonne National Laboratory, Chicago, Illinois, and the University of California at Berkeley, California, he was selected in 1987 to join the German astronaut team. From 1988 to 1990, he completed basic training at the German Aerospace Center, and was then nominated to be in the prime crew for the second German Spacelab mission.\n\n[Doc 2] Soviet Union in World War II: Germany invaded Poland on 1 September 1939. Joseph Stalin waited until 17 September before launching his own invasion of Poland. Part of southeastern (Karelia) and the Salla region of Finland were annexed by the Soviet Union after the Winter War. This was followed by Soviet annexations of Estonia, Latvia, Lithuania, and parts of Romania (Bessarabia, Northern Bukovina and the Hertza region). It was only in 1989 that the Soviet Union admitted the existence of the secret protocol of the Nazi - Soviet pact regarding the planned divisions of these territories. The invasion of Bukovina violated the Molotov - Ribbentrop Pact, as it went beyond the Soviet sphere agreed with the Axis.\n\n[Doc 3] Hendrick de Clerck: Hendrick de Clerck (c. 1560 – 27 August 1630) was a Flemish painter active in Brussels during the late sixteenth and early seventeenth centuries. Stylistically he belongs to the late Mannerist generation of artists preceding Peter Paul Rubens and the Flemish Baroque, and his paintings are very similar to his c...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Argonne National Laboratory, Chicago, Illinois.",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 4.546793460845947,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

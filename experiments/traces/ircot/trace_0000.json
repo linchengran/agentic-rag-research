@@ -1,0 +1,31 @@
+{
+  "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+  "answer": "No, Scott Derrickson and Ed Wood are not of the same nationality. Scott Derrickson is an American national, while Ed Wood's nationality is actually English. Ed Wood (real name: Clifton Davis) was an American film director known for his work in Hollywood. Therefore, they have different nationalities.",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2:",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2:",
+      "observation": "[Search] Results for 'Thought 2:':\n[Doc 1] Zachary Throne:  .\n\n[Doc 2] Evicted!: \"Evicted!\"\n\n[Doc 3] James Gunn:  2\" (2017).\n\n[Doc 4] Tunnels &amp; Trolls: Tunnels & Trolls (abbreviated \"T&T\") is a fantasy role-playing game designed by Ken St. Andre and first published in 1975 by Flying Buffalo.\n\n[D...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Yes, Scott Derrickson and Ed Wood are both American nationals.",
+      "action_name": "ircot_search",
+      "action_input": "Final Answer: Yes, Scott Derrickson and Ed Wood are both American nationals.",
+      "observation": "[Search] Results for 'Final Answer: Yes, Scott Derrickson and Ed Wood are both American nationals.':\n[Doc 1] Scott Derrickson: Scott Derrickson (born July 16, 1966) is an American director, screenwriter and producer.\n\n[Doc 2] Scott Derrickson:  He is best known for directing horror films such as \"Si...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 110.02241659164429,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

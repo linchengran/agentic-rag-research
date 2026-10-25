@@ -1,0 +1,23 @@
+{
+  "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+  "answer": "Columbia University.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find the university where Ralph Hefferline was a psychology professor.",
+      "action_name": "ircot_search",
+      "action_input": "Find the university where Ralph Hefferline was a psychology professor.",
+      "observation": "[Search] Results for 'Find the university where Ralph Hefferline was a psychology professor.':\n[Doc 1] Ralph Hefferline: Ralph Franklin Hefferline (15 February 1910 in Muncie, Indiana – 16 March 1974) was a psychology professor at Columbia University.\n\n[Doc 2] Wolfson College, Cambridge:  The majority of students at the college are postgraduates.\n\n[Doc 3] Peterhouse, Cambridge:  It is the oldest college of the university, having been founded in 1284 by Hugo de Balsham, Bishop of Ely, and granted its charter by King Edward I.\n\n[Doc 4] James Alcock:  He has been a Professor of Psychology at York University (Canada) since 1973.\n\n[Doc 5] Alice Lloyd College:  It was co-founded by the journalist Alice Spencer Geddes Lloyd, a native of Cambridge, Massachusetts, and June Buchanan, a native of New York City, in 1923, at first under the name of Caney Junior College, as an institution to educate leaders for Appalachia locally.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 5.065674543380737,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

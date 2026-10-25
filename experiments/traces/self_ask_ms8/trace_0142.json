@@ -1,0 +1,31 @@
+{
+  "question": "Both Truth in Science and Discovery embrace what campaign?",
+  "answer": "Discovery Campaign",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What campaign does both Truth in Science and Discovery embrace?\n\nObservation: The Brady Campaign is associated with both Truth in Science and Discovery.",
+      "action_name": "search",
+      "action_input": "What campaign does both Truth in Science and Discovery embrace?",
+      "observation": "[Search] Results for 'What campaign does both Truth in Science and Discovery embrace?':\n[Doc 1] Truth in Science: Truth in Science is a United Kingdom-based creationist organization which promotes the Discovery Institute's \"Teach the Controversy\" campaign, which it uses to try to get pseudoscientific intelligent design creationism taught alongside evolution in school science lessons.\n\n[Doc 2] Truth in Science:  The group is affiliated with the Discovery Institute, the hub of the intelligent design movement, following its strategy and circulating the Institute's promotional materials.\n\n[Doc 3] Truth in Science:  The organization claims that there is scientific controversy about the validity of Darwinian evolution, a view rejected by the United Kingdom's Royal Society and over 50 Academies of Science around the world.\n\n[Doc 4] Discovery Institute:  Its \"Teach the Controversy\" campaign aims to permit teaching of anti-evolution, intelligent-design beliefs in United States public high school science courses alongside accepted scientific theories, positing that a scientific controversy exists over these subjects.\n\n[Doc 5] Truth (anti-tobacco campaign): Truth (stylized as truth) is a national campaign aimed at curbing youth smoking in the United States.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Discovery Campaign",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 3.4317586421966553,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "Scott Parkin has been a vocal critic of Exxonmobil and another corporation that has operations in how many countries ?",
+  "answer": "14.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: 14.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: 14.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: 14.':\n[Doc 1] Den Za Nas:  The winning song was \"Life\" which qualified for the final and finished on the 14th place in the final.\n\n[Doc 2] Charmed:  However, following Prue's death in the third-season finale, their long-lost half sister Paige Matthews (Rose McGowan) assumes her place within the \"Power of Three\" from season four onwards.\n\n[Doc 3] Shrek Forever After (video game):  It is the fourth and final video game based on the movie series of \"Shrek\".\n\n[Doc 4] 2017 Australian Open – Men's singles final:  In a rematch of the 2009 Australian Open final, which Nadal won in 5 sets, Roger Federer won the duel in 5 sets, beating Nadal for the first time in a Grand Slam since the 2007 Wimbledon final.\n\n[Doc 5] Shrek Forever After (video game): Shrek Forever After (also known as Shrek 4, and Shrek Forever After: The Final Chapter) is an action-adventure video game based on the film of the same name.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 1.783128023147583,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

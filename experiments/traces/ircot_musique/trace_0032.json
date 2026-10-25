@@ -1,0 +1,23 @@
+{
+  "question": "What is the network which National Cycle Route 57 is part of an example of?",
+  "answer": "NCR Network.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: NCR Network.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: NCR Network.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: NCR Network.':\n[Doc 1] National Cycle Network: The National Cycle Network (NCN) is the national cycling route network of the United Kingdom, which was established to encourage cycling throughout Britain, as well as for the purposes of bicycle touring. It was created by the charity Sustrans who were aided by a £42.5 million National Lottery grant. In 2017, the 16,575 mile network was used for over 786 million trips.\n\n[Doc 2] American Idol (season 16): The sixteenth season of American Idol premiered on March 11, 2018, on the ABC television network. It is the show's first season to air on ABC. Ryan Seacrest continued his role as the show's host, while Katy Perry, Luke Bryan, and Lionel Richie joined as judges.\n\n[Doc 3] The Block (Australian TV series): Applications for the fourteenth season of the series opened in August 2017 until 10 September 2017, looking for couples couples aged between 18 and 65 years old being sought by casting agents. Filming for the season was originally slated to occur between January 2018 and April 2018, but will begin filming on 8 February 2018. In October 2017, the fourteenth season and location of The Block were officially confirmed at Nine's upfronts. In June 2018, Network Nine announced the teams for the fourteenth season of The Block. In July 2018, Network Nine announced the premiere date of Season 14 as Sunday, August 5th at 7pm.\n\n[Doc 4] Next Caller (TV series): Next Caller is an unaired American t...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 3.3348801136016846,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

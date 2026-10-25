@@ -1,0 +1,47 @@
+{
+  "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+  "answer": "Last Action Hero year",
+  "n_steps": 4,
+  "finished": false,
+  "finish_reason": "max_steps",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "需要搜索有关Guns N' Roses和Arnold Schwarzenegger的电影宣传的相关信息。",
+      "action_name": "search",
+      "action_input": "Guns N' Roses Arnold Schwarzenegger movie promotion",
+      "observation": "[Search] Results for \"Guns N' Roses Arnold Schwarzenegger movie promotion\":\n[Doc 1] Arnold Schwarzenegger filmography:  In addition to films and television, he has appeared in music videos for AC/DC, Bon Jovi, and Guns N' Roses.\n\n[Doc 2] Last Action Hero: The film stars Arnold Schwarzenegger as Jack...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "需要从文档中进一步查找关于Guns N' Roses电影宣传的具体年份。",
+      "action_name": "search",
+      "action_input": "Last Action Hero Guns N' Roses movie promotion year",
+      "observation": "[Search] Results for \"Last Action Hero Guns N' Roses movie promotion year\":\n[Doc 1] Last Action Hero: Last Action Hero is a 1993 American fantasy action comedy film directed and produced by John McTiernan.\n\n[Doc 2] Last Action Hero:  It is a satire of the action genre and associated clichés, contain...",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "需要从文档中进一步查找关于Guns N' Roses电影宣传的具体年份。",
+      "action_name": "search",
+      "action_input": "Guns N' Roses movie promotion year",
+      "observation": "[Search] Results for \"Guns N' Roses movie promotion year\":\n[Doc 1] Oh My God (Guns N' Roses song):  The song was sent out to radio stations in November 1999 as a promo for the soundtrack and the band.\n\n[Doc 2] Oh My God (Guns N' Roses song): \"Oh My God\" is a song by Guns N' Roses released in 1999 on...",
+      "error": ""
+    },
+    {
+      "step": 4,
+      "thought": "需要从文档中进一步查找关于Last Action Hero电影的具体年份。",
+      "action_name": "search",
+      "action_input": "Last Action Hero year",
+      "observation": "[Search] Results for 'Last Action Hero year':\n[Doc 1] Last Action Hero: Last Action Hero is a 1993 American fantasy action comedy film directed and produced by John McTiernan.\n\n[Doc 2] Last Action Hero:  It is a satire of the action genre and associated clichés, containing several parodies of action...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 16.12911033630371,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

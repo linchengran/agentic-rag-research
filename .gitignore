@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 数据集与索引:用 scripts 里的构建脚本重建,不入库
+data/raw/
+data/processed/
+
+# 本地配置与凭据
+.env
+.env.local
+config/local.yaml
+
+# 日志
+*.log
+
+# 系统杂项
+.DS_Store
+Thumbs.db

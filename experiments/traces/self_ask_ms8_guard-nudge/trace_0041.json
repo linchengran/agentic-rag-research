@@ -1,0 +1,31 @@
+{
+  "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+  "answer": "Mumbai",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: Who founded the company that Sachin Warrier worked for as a software engineer?",
+      "action_name": "search",
+      "action_input": "Who founded the company that Sachin Warrier worked for as a software engineer?",
+      "observation": "[Search] Results for 'Who founded the company that Sachin Warrier worked for as a software engineer?':\n[Doc 1] Sachin Warrier:  He was working as a software engineer in Tata Consultancy Services in Kochi.\n\n[Doc 2] Sachin Warrier:  His latest work is as a composer for the movie Aanandam.\n\n[Doc 3] Sachin Warrier:  Later he resigned from the job to concentrate more on music.\n\n[Doc 4] Sachin Bansal: Sachin Bansal (born 5 August 1981) is an Indian Software engineer and Internet entrepreneur known for co-founding India's e-commerce platform Flipkart.\n\n[Doc 5] Lead programmer: A lead programmer is a software engineer in charge of one or more software projects.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation: Sachin Bansal: Sachin Bansal (born 5 August 1981) is an Indian Software engineer and Internet entrepreneur known for co-founding India's e-commerce platform Flipkart. \n\nFinal Answer: Mumbai",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 61.154959201812744,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

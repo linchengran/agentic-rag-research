@@ -1,0 +1,23 @@
+{
+  "question": "What district is the headquarter of Julia's House located?",
+  "answer": "Central District.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: Central District.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: Central District.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: Central District.':\n[Doc 1] Finale (Smallville): \"Finale\" is the title of the two-episode series finale of the superhero television series \"Smallville\". The episodes are the 21st and 22nd of the 10th season, and the 216th and 217th episodes overall. The finale originally aired on The CW in the United States on May 13, 2011. The first half was written by Al Septien and Turi Meyer, and directed by Kevin G. Fair, and the second half was written by Kelly Souders and Brian Peterson, and directed by Greg Beeman.\n\n[Doc 2] The Finale (Seinfeld): ``The Finale ''is the two - part series finale of the American sitcom Seinfeld. They are the 179th and 180th episodes of the show and the 23rd and 24th episodes of the ninth season. It aired on NBC May 14, 1998 to an audience of 76 million viewers. Its initial running time was 1 hour and 15 minutes.\n\n[Doc 3] Bang Bon District: Bang Bon (Thai: บางบอน, pronounced [bāːŋ bɔ̄ːn]) is one of the 50 districts (khet) of Bangkok, Thailand. Its neighbours, clockwise from north, are Bang Khae, Phasi Charoen, Chom Thong, and Bang Khun Thian districts of Bangkok, Mueang Samut Sakhon District and Krathum Baen District of Samut Sakhon Province, and Nong Khaem District of Bangkok.\n\n[Doc 4] North Bergen School District: The district is classified by the New Jersey Department of Education as being in District Factor Group \"B\", the second-lowest of eight groupings. District Factor Groups organize districts statewide...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 12.43161916732788,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

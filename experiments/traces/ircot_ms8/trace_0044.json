@@ -1,0 +1,23 @@
+{
+  "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+  "answer": "Jimmy Carter.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: Jimmy Carter.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: Jimmy Carter.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: Jimmy Carter.':\n[Doc 1] Kerr Smith:  He is also known for portraying Carter Horton in \"Final Destination\" (2000).\n\n[Doc 2] Nancy Carter:  Her storylines include relationships with Wayne Ladlow (Malachi Kirby), Dexter Hartman (Khali Best) and Tamwar Masood (Himesh Patel), coping with the aftermath of her mother's rape, suffering from epilepsy and a feud with her older brother Lee Carter (Danny-Boy Hatchard).\n\n[Doc 3] Samantha Carter:  Carter also appears in two episodes of Season 1 of \"Stargate Universe.\"\n\n[Doc 4] Cars 3:  Directed by Brian Fee, the screenplay was written by Kiel Murray, Bob Peterson and Mike Rich.\n\n[Doc 5] Cars 3:  The returning voices of Owen Wilson, Bonnie Hunt and Larry the Cable Guy are joined by Cristela Alonzo, Chris Cooper, Armie Hammer, Nathan Fillion, Kerry Washington and Lea DeLaria, in addition to a dozen NASCAR personalities.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 1.7210321426391602,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

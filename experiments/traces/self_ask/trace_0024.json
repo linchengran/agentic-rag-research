@@ -1,0 +1,31 @@
+{
+  "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+  "answer": "Peter Schmeichel",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: Who was the father of Kasper Schmeichel?",
+      "action_name": "search",
+      "action_input": "Who was the father of Kasper Schmeichel?",
+      "observation": "[Search] Results for 'Who was the father of Kasper Schmeichel?':\n[Doc 1] Kasper Schmeichel:  He is the son of former Manchester United and Danish international goalkeeper Peter Schmeichel.\n\n[Doc 2] Kasper Schmeichel: Kasper Peter Schmeichel (] ; born 5 November 1986) is a Danish professional footbal...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Peter Schmeichel",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 70.35518646240234,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "question": "Which film whose director was born first, 45 Fathers or The Intended?",
+  "answer": "Yes",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Observation 1: )",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 1: )",
+      "observation": "[Search] Results for '(Observation 1: )':\n[Doc 1] Björk: \"\n\n[Doc 2] Damn, dis-moi: Both versions were released on 17 May 2018.\n\n[Doc 3] Second Motion Records: Second Motion\n\n[Doc 4] Bon, Amur Oblast: There is 1 street.\n\n[Doc 5] 'Adud al-Dawla: An observatory was built by his orders in Isfahan where Azophi worked.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "(Observation 2: )",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 2: )",
+      "observation": "[Search] Results for '(Observation 2: )':\n[Doc 1] Red 2 (film): It was based on the limited comic book series of the same name, created by Warren Ellis and Cully Hamner, and published by the DC Comics imprint Homage.\n\n[Doc 2] Damn, dis-moi: Both versions were released on 17 May 2018.\n\n[Doc 3] Ko 2: This film is a remake of the 2014 Telugu political thriller film\" Prathinidhi\", starring Nara Rohit.\n\n[Doc 4] Ko 2: A stand- alone sequel to the successful 2011 film\" Ko\", the film was planned to release in April 2016 but released on 13 May 2016.\n\n[Doc 5] Red 2 (film): \"Red 2\" was released on July 19, 2013.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 176.22019052505493,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

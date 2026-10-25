@@ -1,0 +1,31 @@
+{
+  "question": "Jamie Harris is best known for his role as The Hook-Handed Man in a movie directed by who ?",
+  "answer": "Jamie Fox",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Ask the first intermediate question (do NOT give the Final Answer yet): \nWhich movie features Jamie Harris in the role of The Hook-Hand-Fisted Man? \n\nObservation: [retrieved facts] \n(You will receive: Observation: [retrieved facts])",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Jamie Fox",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 8.127838134765625,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

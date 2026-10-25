@@ -1,0 +1,23 @@
+{
+  "question": "Who founded the company that distributed the film UHF?",
+  "answer": "Siddharth Anand.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Who distributed the film UHF?",
+      "action_name": "ircot_search",
+      "action_input": "Who distributed the film UHF?",
+      "observation": "[Search] Results for 'Who distributed the film UHF?':\n[Doc 1] Bang Bang!: Bang Bang! is a 2014 Indian action comedy film, directed by Siddharth Anand, written by Abbas Tyrewala and Sujoy Ghosh, and produced by Fox Star Studios. The film is an official remake of the 2010 Hollywood film \"Knight and Day\", and features Hrithik Roshan and Katrina Kaif, in the lead roles performed by Tom Cruise and Cameron Diaz, respectively, in the original. The main antagonist of the film is Danny Denzongpa. The film was distributed and marketed by Fox Star Studios in collaboration with Fox International Productions worldwide.\n\n[Doc 2] UHF (film): Yankovic and Levey wrote the film after Yankovic's second studio album, looking to apply the musician's parody and comedy to film, and chose the approach of George being a straight man with a vivid imagination to support the inclusion of parodies within the film. They struggled with finding a film production company for financing the film, but were eventually able to get Orion Pictures' support after stating they could keep the film costs under $5 million. Principal filming took place around Tulsa, Oklahoma, with many of the extras for the film from the Tulsa and Dallas, Texas areas.\n\n[Doc 3] The Accidental Husband: The Accidental Husband is a 2008 American romantic comedy film directed by Griffin Dunne, and starring Uma Thurman, Jeffrey Dean Morgan, Colin Firth, Isabella Rossellini, and Sam Shepard. The film was written by Mimi Hare, Clare Naylor and B...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 8.099793672561646,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

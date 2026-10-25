@@ -1,0 +1,44 @@
+{
+  "question": "What was the name of a woman from the book titled \"Their Lives: The Women Targeted by the Clinton Machine \" and was also a former white house intern?",
+  "answer": "Monica",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for \"Their Lives: The Women Targeted by the Clinton Machine\" book to find the relevant information.",
+      "action_name": "search",
+      "action_input": "\"Their Lives: The Women Targeted by the Clinton Machine\"",
+      "observation": "[Search] Results for '\"Their Lives: The Women Targeted by the Clinton Machine\"':\n[Doc 1] Their Lives: Their Lives: The Women Targeted by the Clinton Machine is a book by Candice E. Jackson.\n\n[Doc 2] Their Lives:  Published by conservative publisher World Ahead Publishing on May 31, 2005, it recounts the stories of seven women who crossed paths with Bill Clinton: Monica Lewinsky, Paula Jones, Gennifer Flowers, Kathleen Willey, Elizabeth Gracen, Juanita Broaddrick, and Sally Perdue.\n\n[Doc 3] The Young Ones (TV series):  Shown on BBC2, it featured anarchic, offbeat humour which helped bring alternative comedy to television in the 1980s and made household names of its writers and performers.\n\n[Doc 4] Togo women's national football team:  Their current manager is Paul Zoungbede.\n\n[Doc 5] Gilmore Girls: A Year in the Life: Gilmore Girls: A Year in the Life is an American web television series on the streaming service Netflix.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "action_name": "lookup",
+      "action_input": "\"Their Lives: The Women Targeted by the Clinton Machine\"",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "From the search results, I need to find the name of the woman from \"Their Lives: The Women Targeted by the Clinton Machine\" who was a former White House intern.",
+      "action_name": "lookup",
+      "action_input": "Their Lives: The Women Targeted by the Clinton Machine",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 68.312340259552,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for \"Their Lives: The Women Targeted by the Clinton Machine\" book",
+      "Find the name of the woman who was a former White House intern",
+      "Finish with the shortest answer."
+    ]
+  }
+}

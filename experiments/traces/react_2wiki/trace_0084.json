@@ -1,0 +1,31 @@
+{
+  "question": "Which song was released more recently, Go Ahead And Break My Heart or Knee Deep In My Heart?",
+  "answer": "no",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about songs released in different years.",
+      "action_name": "search",
+      "action_input": "Which song was released more recently, GoAhead And Break My Hearts or Knee Deep In My Heart?",
+      "observation": "[Search] Results for 'Which song was released more recently, GoAhead And Break My Hearts or Knee Deep In My Heart?':\n[Doc 1] Knee Deep in My Heart: \" Knee Deep in My Heart\" is a song by Irish singer- songwriter Shane Filan, released as the third single from his debut studio album\" You and Me\"( 2013).\n\n[Doc 2] Knee Deep in My Heart: The song was released as a single on 29 November 2013.\n\n[Doc 3] Go Ahead and Break My Heart: \" Go Ahead and Break My Heart\" is a song that was written and recorded by American singers Blake Shelton and Gwen Stefani for the former's tenth studio album,\" If I'm Honest\"( 2016).\n\n[Doc 4] Go Ahead and Break My Heart: The song is Shelton and Stefani's first collaboration.\n\n[Doc 5] Knee Deep in My Heart: The song has peaked to number 92 on the Irish Singles Chart and number 69 on the UK Singles Chart.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Based on the information from the searches, \"Go Ahead and Break My Heart\" was released in 2016 and \"Knee Deep in My Heart\" was released in 2013.",
+      "action_name": "finish",
+      "action_input": "no",
+      "observation": "[Finish] Answer: no",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 15.672610759735107,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

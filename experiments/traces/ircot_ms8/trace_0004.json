@@ -1,0 +1,23 @@
+{
+  "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Retrieving the director of the romantic comedy \"Big Stone Gap\".",
+      "action_name": "ircot_search",
+      "action_input": "Retrieving the director of the romantic comedy \"Big Stone Gap\".",
+      "observation": "[Search] Results for 'Retrieving the director of the romantic comedy \"Big Stone Gap\".':\n[Doc 1] Big Stone Gap (film): Big Stone Gap is a 2014 American drama romantic comedy film written and directed by Adriana Trigiani and produced by Donna Gigliotti for Altar Identity Studios, a subsidiary of Media Society.\n\n[Doc 2] Big Stone Gap (film):  Based on Trigiani's 2000 best-selling novel of the same name, the story is set in the actual Virginia town of Big Stone Gap circa 1970s.\n\n[Doc 3] Big Stone Gap (film):  The film had its world premiere at the Virginia Film Festival on November 6, 2014.\n\n[Doc 4] Udanchhoo:  It has ingredients of comedy, romance and thrill.\n\n[Doc 5] A Few Best Men: A Few Best Men is a 2011 Australian-British comedy film written by Dean Craig and directed by Stephan Elliott.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 60.03796458244324,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

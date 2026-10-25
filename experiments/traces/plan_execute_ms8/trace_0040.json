@@ -1,0 +1,44 @@
+{
+  "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+  "answer": "no",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "I need to search for information about the ancestry of Manchester Terriers and Scotch Collies.",
+      "action_name": "search",
+      "action_input": "ancestry Manchester Terrier Scotch Collie",
+      "observation": "[Search] Results for 'ancestry Manchester Terrier Scotch Collie':\n[Doc 1] Scotch Collie:  Other ancestors include the Gordon and Irish Setters.\n\n[Doc 2] Teddy Roosevelt Terrier:  It is assumed that the Feist (dog), Bull Terrier, Smooth Fox Terrier, Manchester Terrier, Whippet, Italian Greyhound, the now extinct English White Terrier, Turnspit dog and or Wry Legged Terrier all share in the Teddy Roosevelt Terrier's ancestry.\n\n[Doc 3] Scotch Collie: The Scotch Collie is a landrace breed of dog which originated from the highland regions of Scotland.\n\n[Doc 4] Manchester Terrier: The Manchester Terrier is a breed of dog of the smooth-haired terrier type.\n\n[Doc 5] Toy Manchester Terrier:  The breed was bred down in size in North America from the Manchester Terrier, and is placed in the Toy Group by the American Kennel Club and the Canadian Kennel Club (the Manchester Terrier is placed in the Terrier Group.)",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The relevant information for the ancestry of Gordon Setters and Irish Setters is contained in the search results. |",
+      "action_name": "lookup",
+      "action_input": "Gordon Setter",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The relevant information for the ancestry of Gordon Setters and Irish Setters is needed the lookup of 'Gordon Setter' will provide this detail.",
+      "action_name": "lookup",
+      "action_input": "Gordon Setter",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 169.84014010429382,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for the ancestry of Manchester Terriers and Scotch Collies",
+      "Find the ancestry of Gordon Setters and Irish Setters",
+      "Finish with the shortest answer."
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "question": "Who is Cornelia (Wife Of Caesar)'s child-in-law?",
+  "answer": "The stories where Cornelia appears are in the context of the Gracchi family and the late Republic, specifically her role as a virtuous Roman woman and her familial relationships with other prominent figures of the time. Cornelia's specific child-in-law relationship is not explicitly mentioned in the given sources.",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: In which story does Cornelia appear?\n\nObservation: Cornelia appears in the story of Julius Caesar's assassination.",
+      "action_name": "search",
+      "action_input": "In which story does Cornelia appear?",
+      "observation": "[Search] Results for 'In which story does Cornelia appear?':\n[Doc 1] Cornelia (mother of the Gracchi): She is remembered as a prototypical example of a virtuous Roman woman.\n\n[Doc 2] Cornelia (mother of the Gracchi): She was the mother of the Gracchi brothers, and the mother- in- law of Scipio Aemilianus.\n\n[Doc 3] Cornelia (mother of the Gracchi): Cornelia( c. 190s – c. 115 BC) was the second daughter of Publius Cornelius Scipio Africanus, the hero of the Second Punic War, and Aemilia Paulla.\n\n[Doc 4] Cornelia (wife of Caesar): Cornelia (c. 97 – c. 69 BC) was the first or second wife of Caesar, and the mother of his only daughter, Julia.\n\n[Doc 5] Cornelia (wife of Caesar): A daughter of Lucius Cornelius Cinna, Cornelia was related by birth or marriage to many of the most influential figures of the late Republic.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Intermediate Question: In which story does Cornelia appear?\nObservation: [Search] Results for 'In which story does Cornelia appear?':\n[Doc 1] Cornelia (mother of the Gracchi): She is remembered as a prototypical example of a virtuous Roman woman.\n[Doc 2] Cornelia (wife of Caesar): A daughter of Lucius Cornelius Cinna, Cornelia was related by birth or marriage to many of the most influential figures of the late Republic.\n\nFinal Answer: The stories where Cornelia appears are in the context of the Gracchi family and the late Republic, specifically her role as a virtuous Roman woman and her familial relationships with other prominent figures of the time. Cornelia's specific child-in-law relationship is not explicitly mentioned in the given sources.",
+      "action_name": "self_ask_query",
+      "action_input": "In which story does Cornelia appear?",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 25.200173139572144,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "question": "Who was born later, D'Arcy Coulson or Thomas William Adams?",
+  "answer": "",
+  "n_steps": 3,
+  "finished": false,
+  "finish_reason": "max_steps",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for birth years of D'Arcy Coulson and Thomas William Adams will provide the necessary information to compare their dates.",
+      "action_name": "search",
+      "action_input": "D'Arcy Coulson birth year and Thomas William Adams birth year",
+      "observation": "[Search] Results for \"D'Arcy Coulson birth year and Thomas William Adams birth year\":\n[Doc 1] Thomas William Adams: Alfred Albert Thomas William Adams( 24 June 1842 – 1 June 1919), known as Thomas William Adams, was a New Zealand farmer, forester, churchman and educationalist.\n\n[Doc 2] Thomas William Adams: He was born in Graveley, Cambridgeshire, England on 24 June 1842.\n\n[Doc 3] D'Arcy Coulson: John D' Arcy Coulson( February 17, 1908 – April 13, 1996) was a Canadian professional ice hockey defenceman who played one season in the National Hockey League for the Philadelphia Quakers.\n\n[Doc 4] Thomas William Adams: Adams married Lucy Pannett in 1867 and they had a daughter the following year.\n\n[Doc 5] Thomas William Adams: In 1913 he was a member of the Royal Commission on Forestry, and in 1918 he became a lifetime member of the New Zealand Forestry League.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "From the search results, I need to find the birth year for both D'Arcy Coulson and Thomas William Adams to compare them.",
+      "action_name": "lookup",
+      "action_input": "Thomas William Adams birth year",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The birth year for Thomas William Adams is needed the result of the previous action. Now I need to find the birth year for D'Arcy Coulson.",
+      "action_name": "lookup",
+      "action_input": "Thomas William Adams birth year",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 245.99521112442017,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for birth years of D'Arcy Coulson and Thomas William Adams",
+      "Compare the birth years to determine who was born later",
+      "Finish with the shortest answer."
+    ]
+  }
+}

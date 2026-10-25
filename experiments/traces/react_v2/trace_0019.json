@@ -1,0 +1,47 @@
+{
+  "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+  "answer": "",
+  "n_steps": 4,
+  "finished": false,
+  "finish_reason": "max_steps",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about writers from England.",
+      "action_name": "search",
+      "action_input": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+      "observation": "[Search] Results for 'Which writer was from England, Henry Roth or Robert Erskine Childers?':\n[Doc 1] Robert Erskine Childers: Robert Erskine Childers DSC (25 June 1870 – 24 November 1922), universally known as Erskine Childers, was a British writer, whose works included the influential novel \"The R...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Lookup the information found in the search results to identify the writer from England.",
+      "action_name": "lookup",
+      "action_input": "writer from England, Henry Roth or Robert Erskine Childers?",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "action_name": "parse_error",
+      "action_input": "Finish[Robert Erskine Childers]",
+      "observation": "[Error] Unknown action: parse_error",
+      "error": "unknown_action"
+    },
+    {
+      "step": 4,
+      "thought": "The provided information is not clear enough to determine which writer is from England.",
+      "action_name": "search",
+      "action_input": "Who was the writer from England, Henry Roth or Robert Erskine Childers?",
+      "observation": "[Search] Results for 'Who was the writer from England, Henry Roth or Robert Erskine Childers?':\n[Doc 1] Robert Erskine Childers: Robert Erskine Childers DSC (25 June 1870 – 24 November 1922), universally known as Erskine Childers, was a British writer, whose works included the influential novel \"The...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 25.743387699127197,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

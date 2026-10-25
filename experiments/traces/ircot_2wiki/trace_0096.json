@@ -1,0 +1,31 @@
+{
+  "question": "Which film came out first, Celine: Through The Eyes Of The World or Dilan 1991?",
+  "answer": "Dilan 1991.",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: Dilan 1991.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: Dilan 1991.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: Dilan 1991.':\n[Doc 1] Dilan 1991: Dilan 1991 is a 2019 Indonesian teen romantic drama film.\n\n[Doc 2] Dilan 1991: The film sold more than 5 million tickets as of 17 March 2019.\n\n[Doc 3] Dilan 1991: Like its prequel, the film is also based on Dilan novel series written by Pidi Baiq, this is from\" Dilan Bagian Kedua: Dia adalah Dilanku tahun 1991\"( Dilan Part Two: He is My 1991 Dilan).\n\n[Doc 4] Kenneth Branagh: He has directed such films as \"Dead Again\" (1991), in which he also starred, \"Swan Song\" (1992)\n\n[Doc 5] H. Verlan Andersen: On October 5, 1991, he was released from his service as a general authority.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "[Search Query] \"Dilan 1991 release year\" Final Answer: Dilan 1991.",
+      "action_name": "ircot_search",
+      "action_input": "[Search Query] \"Dilan 1991 release year\" Final Answer: Dilan 1991.",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 84.09672141075134,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

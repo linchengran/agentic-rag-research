@@ -1,0 +1,31 @@
+{
+  "question": "The 1967 Federation Cup is an instance of this tournament which is named after what organization?",
+  "answer": "United States",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about the 1967 Federation Cup.",
+      "action_name": "search",
+      "action_input": "1967 federation cup tournament organization",
+      "observation": "[Search] Results for '1967 federation cup tournament organization':\n[Doc 1] 1967 Federation Cup (tennis): The 1967 Federation Cup was the fifth edition of what is now known as the Fed Cup. 17 nations participated in the tournament, which was held at the Blau-Weiss Tennis Club in West Berlin from 6–11 June. United States defended their title, defeating Great Britain in the final.\n\n[Doc 2] 1965 Federation Cup (tennis): The 1965 Federation Cup was the third edition of what is now known as the Fed Cup. Eleven nations participated in the tournament, which was held at the Kooyong Lawn Tennis Club in Melbourne, Australia from 15–18 January. United States and Australia both reached the final for the third consecutive time, and Australia defended their title, defeating United States by winning both of their singles rubbers.\n\n[Doc 3] List of Chelsea F.C. managers: Name Nat Tenure Honours Ted Drake England 1952 -- 1961 1955 First Division 1955 FA Charity Shield Tommy Docherty Scotland 1961 -- 1967 1965 Football League Cup Dave Sexton England 1967 -- 1974 1970 FA Cup 1971 European Cup Winners' Cup John Neal England 1981 -- 1985 1984 Second Division John Hollins England 1985 -- 1988 1986 Full Members Cup Bobby Campbell England 1988 -- 1991 1989 Second Division 1990 Full Members Cup Ruud Gullit Netherlands 1996 -- 1998 1997 FA Cup Gianluca Vialli Italy 1998 -- 2000 1998 Football League Cup 1998 UEFA Cup Winners' Cup 1998 UEFA Super Cup 2000 FA Cup 2000 FA Charity Shield José Mourinho Portu...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "action_name": "finish",
+      "action_input": "United States",
+      "observation": "[Finish] Answer: United States",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 10.031676769256592,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

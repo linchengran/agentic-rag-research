@@ -1,0 +1,31 @@
+{
+  "question": "What army did the namesake of the ship launched as the München in 1930 fight in during the American Revolutionary War?",
+  "answer": "American Army/Militia",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "What year did the American Revolutionary War take place?\n\nObservation: The American Revolutionary War took place in the late 18th century.",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: American Army/Militia",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 4.8243935108184814,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

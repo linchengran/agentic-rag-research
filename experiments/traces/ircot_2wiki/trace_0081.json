@@ -1,0 +1,23 @@
+{
+  "question": "Are both bands, Snowman (Band) and Jessamine (Band), from the same country?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Observation 2: Jessamine (Band) is from United States)",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 2: Jessamine (Band) is from United States)",
+      "observation": "[Search] Results for '(Observation 2: Jessamine (Band) is from United States)':\n[Doc 1] Jessamine (band): Jessamine was an American post- rock band, that recorded three albums for Kranky records between 1994 and 1998, and a number of singles for other record labels.\n\n[Doc 2] Jessamine (band): The band split in 1998, and Ritter and Brown recorded together as Fontanelle for a couple more years.\n\n[Doc 3] Jessamine (band): Their single\" Cellophane\" was a minor college radio hit in the band's native Seattle, getting frequent airplay on KCMU( now KEXP).\n\n[Doc 4] Jessamine (band): This mesh of krautrock, shoegaze, drone, space- rock, and experimental electronica helped the band forge a unique sound, which helped them stand apart from other active bands in the Seattle scene that were more grunge, metal, or indie- rock based.\n\n[Doc 5] Jessamine (band): The band's sound was influenced by the works of Krautrock bands such as Can and Neu!, and their first album also bore some sonic resemblance to the sounds of early 1990s bands from the UK shoegaze scene.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 23.782041311264038,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

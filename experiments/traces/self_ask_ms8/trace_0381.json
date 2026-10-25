@@ -1,0 +1,39 @@
+{
+  "question": "Who did the Doncaster Belles play in the 1994 FA Women's Cup Final held at Glanford Park? ",
+  "answer": "Doncaster Belles",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What year was the 1994 FA Women's Cup Final held? \n\nObservation: The 1994 FA Women's Cup Final was held in 1994.",
+      "action_name": "search",
+      "action_input": "What year was the 1994 FA Women's Cup Final held?",
+      "observation": "[Search] Results for \"What year was the 1994 FA Women's Cup Final held?\":\n[Doc 1] 1994 FA Women's Cup Final: The 1994 FA Women's Cup Final was the 24th final of the FA Women's Cup, England's primary cup competition for women's football teams.\n\n[Doc 2] 1994 FA Women's Cup Final:  The showpiece event was played between Doncaster Belles and Knowsley United Women at Glanford Park in Scunthorpe on 24 April 1994.\n\n[Doc 3] 1994 FA Women's Cup Final:  Knowsley United made its first final appearance, after losing the previous season's FA Women's Premier League Cup final at Wembley.\n\n[Doc 4] 1994 FA Women's Cup Final:  Doncaster Belles entered their 11th final in 12 seasons, having won the trophy on five of those occasions.\n\n[Doc 5] 2017 FA Women's Cup Final: The 2017 FA Women's Cup Final was the 47th final of the FA Women's Cup, England's primary cup competition for women's football teams.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation: [Search] Results for \"What year was the 1994 FA Women's Cup Final held?\":\n\n[Doc 1] 1994 FA Women's Cup Final: The 1994 FA Women's Cup Final was the 24th final of the FA Women's Cup, England's primary cup competition for women's football teams.\n\n[Doc 2] 1994 FA Women's Cup Final:  The showpiece event was played between Doncaster Belles and Knowsley United Women at Glanford Park in Scunthorpe on 24 April 1994.\n\n[Doc 3] 1994 FA Women's Cup Final:  Knowsley United made its first final appearance, after losing the previous season's FA Women's Premier League Cup final at Wembley.\n\n[Doc 4] 1994 FA Women's Cup Final:  Doncaster Belles were playing their 11th final in 12 seasons, having won the trophy on five of those occasions.\n\n[Doc 5] 2017 FA Women's Cup Final: The 2017 FA Women's Cup Final was the 47th final of the FA Women's Cup, England's primary cup competition for women's football teams.\n\nFinal Question: What year was the 1994 FA Women's Cup Final held?\n\nObservation: [Search] Results for \"What year was the 1994 FA Women's Cup Final held?\":\n\n[Doc 1] 1994 FA Women's Cup Final: The 1994 FA Women's Cup Final was the 24th final of the FA Women's Cup, England's primary cup competition for women's football teams.\n\n[Doc 2] 1994 FA Women's Cup Final:  The showpiece event was played between Doncaster Belles and Knowsley United Women at Glanford Park in Scunthorpe on 24 April 1994.\n\n[Doc 3] 1994 FA Women's Cup Final:  Knowsley United made its first final appearance, after losing the previous season's FA Women's Premier League Cup final at Wembley.\n\n[Doc 4] 1994 FA Women's Cup Final:  Doncaster Belles were playing their 11th final in 12 seasons, having won the trophy on",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 3,
+      "thought": "Final Answer: Doncaster Belles",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 43.93842840194702,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

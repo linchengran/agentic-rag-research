@@ -1,0 +1,23 @@
+{
+  "question": "Where is Amílcar Cabral International Airport?",
+  "answer": "Guinea-Bissau",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observations 1: Guinea-Bissau is a country in West Africa.",
+      "action_name": "ircot_search",
+      "action_input": "Observations 1: Guinea-Bissau is a country in West Africa.",
+      "observation": "[Search] Results for 'Observations 1: Guinea-Bissau is a country in West Africa.':\n[Doc 1] Guinea-Bissau: The 2010 maternal mortality rate per 100,000 births for Guinea Bissau was 1000. This compares with 804.3 in 2008 and 966 in 1990. The under 5 mortality rate, per 1,000 births, was 195 and the neonatal mortality as a percentage of under 5's mortality was 24. The number of midwives per 1,000 live births was 3; one out of eighteen pregnant women die as a result of pregnancy. According to a 2013 UNICEF report, 50% of women in Guinea Bissau had undergone female genital mutilation. In 2010, Guinea Bissau had the 7th highest maternal mortality rate in the world.\n\n[Doc 2] Larraul: Larraul is a town and municipality located in the province of Gipuzkoa, in the autonomous community of Basque Country, northern Spain.\n\n[Doc 3] Antoñana: Antoñana is a town located in the Campezo/Kanpezu municipality, Álava (Araba) Province, in the Basque Country autonomous community, northern Spain.\n\n[Doc 4] Cuenya: Cuenya is one of six parishes (administrative divisions) in Nava, a municipality within the province and autonomous community of Asturias, in northern Spain. It has an area of 11.36 square kilometers and in the 2001 census 193 houses were counted.\n\n[Doc 5] Christophe Béchu: Christophe Béchu (born 11 June 1974 in Angers, Maine-et-Loire) is a French politician, President of the General Council of the Maine-et-Loire department since 2004 and Member of the European Parliament (MEP) elected in t...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 91.18686270713806,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

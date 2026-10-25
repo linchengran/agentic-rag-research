@@ -1,0 +1,23 @@
+{
+  "question": "Who is the father of Edward Baring, 1st Baron Revelstoke's father?",
+  "answer": "Edward Baring",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find the father of Edward Baring, 1st Baron Revelstoke.",
+      "action_name": "ircot_search",
+      "action_input": "Find the father of Edward Baring, 1st Baron Revelstoke.",
+      "observation": "[Search] Results for 'Find the father of Edward Baring, 1st Baron Revelstoke.':\n[Doc 1] Tom Baring: Thomas Baring, known as \"Tom\", was the tenth child (fifth of second marriage) of Henry Baring of Cromer Hall, and younger full brother of Edward Baring, 1st Baron Revelstoke. Like his brother, Baring was involved in the family banking business, beginning his career in the Liverpool office of Barings Bank. He later moved to New York City to join Kidder Peabody. When, in 1890, Kidder Peabody split its dual Boston-New York firm, Baring became a partner in the separated New York firm. He and another Kidder-Peabody alumnus, George C. Magoun, formed Baring, Magoun. Both houses continued as North American agents for Barings.\n\n[Doc 2] Edward VIII: Edward was born on 23 June 1894 at White Lodge, Richmond Park, on the outskirts of London during the reign of his great-grandmother Queen Victoria. He was the eldest son of the Duke and Duchess of York (later King George V and Queen Mary). His father was the son of the Prince and Princess of Wales (later King Edward VII and Queen Alexandra). His mother was the eldest daughter of the Duke and Duchess of Teck (Francis and Mary Adelaide). At the time of his birth, he was third in the line of succession to the throne, behind his grandfather and father.\n\n[Doc 3] Godfrey Baring: A member of the influential Baring family, he was the son of Lieutenant-General Charles Baring, son of Henry Bingham Baring, son of Henry Baring, third son of Sir Francis B...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 15.021777868270874,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

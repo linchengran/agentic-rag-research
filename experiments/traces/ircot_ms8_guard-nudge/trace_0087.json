@@ -1,0 +1,23 @@
+{
+  "question": "Where are Teide National Park and Garajonay National Park located?",
+  "answer": "Tenerife and La Gomera.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation 1: Teide National Park is located on the island of Tenerife, while Garajonay National Park is also located on the island of Tenerife.",
+      "action_name": "ircot_search",
+      "action_input": "Observation 1: Teide National Park is located on the island of Tenerife, while Garajonay National Park is also located on the island of Tenerife.",
+      "observation": "[Search] Results for 'Observation 1: Teide National Park is located on the island of Tenerife, while Garajonay National Park is also located on the island of Tenerife.':\n[Doc 1] Teide National Park: Teide National Park (Spanish: \"Parque nacional del Teide\" , ] ) is a national park located in Tenerife (Canary Islands, Spain).\n\n[Doc 2] Garajonay National Park: Garajonay National Park (Spanish: \"Parque nacional de Garajonay\" , ] ) is located in the center and north of the island of La Gomera, one of the Canary Islands (Spain).\n\n[Doc 3] Garajonay National Park:  It occupies 40 km (15 sq mi) and it extends into each of the six municipalities on the island.\n\n[Doc 4] Adenocarpus viscosus:  It can be found above 1800 m on two of the islands, La Palma in Caldera de Tabouriente and Tenerife where it is a dominant shrub in Teide National Park and occurs in parts of Corona Forestal Nature Park and Reserva Especial de las Palomas.\n\n[Doc 5] North Cascades National Park:  Several national wilderness areas and British Columbia parkland adjoin the National Park.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 11.580890893936157,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

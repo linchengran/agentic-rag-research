@@ -1,0 +1,79 @@
+{
+  "question": "Who held the record for the longest service in the Australian Parliament for a woman, and was surpassed by  a former Australian politician who was the 29th Speaker of the House of Representatives?",
+  "answer": "Dorothy Tangney",
+  "n_steps": 8,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: Who held the record for the longest service in the Australian Parliament for a woman?",
+      "action_name": "search",
+      "action_input": "Who held the record for the longest service in the Australian Parliament for a woman?",
+      "observation": "[Search] Results for 'Who held the record for the longest service in the Australian Parliament for a woman?':\n[Doc 1] Kathy Sullivan (Australian politician):  She previously held the record for the longest service in the Australian Parliament for a woman, oustripping the record previously held by Dorothy Tangney.\n\n[Doc 2] Kathy Sullivan (Australian politician):  She was the first woman member of the parliament to have served in both houses.\n\n[Doc 3] Carol Martin:  She was the first Aboriginal woman to be elected to any Australian parliament.\n\n[Doc 4] George II, Earl of March: George de Dunbar, 11th Earl of Dunbar & March Lord of Annandale and the Isle of Man, (c. 1370 – after 1457) was the last of his family to hold these titles.\n\n[Doc 5] Geri Donnelly:  She was selected as a member of the Canadian Soccer Hall of Fame in 2014.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation: Kathy Sullivan held the first woman to hold the record for the longest service in the Australian Parliament.\n\nIntermediate Question: Was Kathy Sullivan a former Australian politician?",
+      "action_name": "search",
+      "action_input": "Was Kathy Sullivan a former Australian politician?",
+      "observation": "[Search] Results for 'Was Kathy Sullivan a former Australian politician?':\n[Doc 1] Kathy Sullivan (Australian politician): Kathryn Jean Martin \"Kathy\" Sullivan AM (born 8 March 1942), Australian politician, was a Liberal member of the Australian Senate from 1974 to 1984, representing Queensland, and a member of the House of Representatives for the Division of Moncrieff, Queensland, from 1984 to 2001.\n\n[Doc 2] Kathy Sullivan (Australian politician):  She previously held the record for the longest service in the Australian Parliament for a woman, oustripping the record previously held by Dorothy Tangney.\n\n[Doc 3] Kathy Sullivan (Australian politician):  She was the first woman member of the parliament to have served in both houses.\n\n[Doc 4] Kathy Sullivan (Australian politician):  This record has since been surpassed by Bronwyn Bishop.\n\n[Doc 5] Bronwyn Bishop: Bronwyn Kathleen Bishop (née Setright; born 19 October 1942) is a former Australian politician who was the 29th Speaker of the House of Representatives, holding the office between 12 November 2013 and 2 August 2015.",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Intermediate Question: Who was the first woman to hold the record for the longest service in the Australian Parliament?\nObservation: Kathy Sullivan previously held the record for the longest service in the Australian Parliament for a woman, oustripping the record previously held by Dorothy Tangney.",
+      "action_name": "search",
+      "action_input": "Who was the first woman to hold the record for the longest service in the Australian Parliament?",
+      "observation": "[Search] Results for 'Who was the first woman to hold the record for the longest service in the Australian Parliament?':\n[Doc 1] Kathy Sullivan (Australian politician):  She previously held the record for the longest service in the Australian Parliament for a woman, oustripping the record previously held by Dorothy Tangney.\n\n[Doc 2] Kathy Sullivan (Australian politician):  She was the first woman member of the parliament to have served in both houses.\n\n[Doc 3] Carol Martin:  She was the first Aboriginal woman to be elected to any Australian parliament.\n\n[Doc 4] Valentina Tereshkova:  She is the first woman to have flown in space, having been selected from more than 400 applicants and five finalists to pilot Vostok 6 on 16 June 1963.\n\n[Doc 5] Roslyn Dundas:  Until Kelly Vincent's election to the South Australian Legislative Council in 2010, Dundas was the youngest woman ever elected to an Australian parliament.",
+      "error": ""
+    },
+    {
+      "step": 4,
+      "thought": "Intermediate Question: Who was the first woman to hold the record for the longest service in the Australian Parliament?\nObservation: Kathy Sullivan (Australian politician): She previously held the record for the longest service in the Australian Parliament for a woman, oustripping the record previously held by Dorothy Tangney.",
+      "action_name": "search",
+      "action_input": "Who was the first woman to hold the record for the longest service in the Australian Parliament?",
+      "observation": "[Search] Results for 'Who was the first woman to hold the record for the longest service in the Australian Parliament?':\n[Doc 1] Kathy Sullivan (Australian politician):  She previously held the record for the longest service in the Australian Parliament for a woman, oustripping the record previously held by Dorothy Tangney.\n\n[Doc 2] Kathy Sullivan (Australian politician):  She was the first woman member of the parliament to have served in both houses.\n\n[Doc 3] Carol Martin:  She was the first Aboriginal woman to be elected to any Australian parliament.\n\n[Doc 4] Valentina Tereshkova:  She is the first woman to have flown in space, having been selected from more than 400 applicants and five finalists to pilot Vostok 6 on 16 June 1963.\n\n[Doc 5] Roslyn Dundas:  Until Kelly Vincent's election to the South Australian Legislative Council in 2010, Dundas was the youngest woman ever elected to an Australian parliament.",
+      "error": ""
+    },
+    {
+      "step": 5,
+      "thought": "Intermediate Question: Who was the first woman to hold the record for the longest service in the Australian Parliament?\nObservation: [Search] Results for 'Who was the first woman to hold the record for the longest service in the Australian Parliament?':\n[Doc 1] Kathy Sullivan (Australian politician):  She previously held the record for the longest service in the Australian Parliament for a woman, oustripping the record previously held by Dorothy Tangney.\n\n[Doc 2] Kathy Sullivan (Australian politician):  She was the first woman member of the parliament to have in both houses.\n\n[Doc 3] Carol Martin:  She was the first Aboriginal woman to be elected to any Australian parliament.\n\n[Doc 4] Valentina Tereshkova:  She is the first woman to have flown in space, having been selected from more than 400 applicants and five finalists to pilot Vostok 6 on 16 June 1963.\n\n[Doc 5] Roslyn Dundas:  Until Kelly Vincent's election to the South Australian Legislative Council in 2010, Dundas was the youngest woman ever to an Australian parliament.",
+      "action_name": "search",
+      "action_input": "Who was the first woman to hold the record for the longest service in the Australian Parliament?",
+      "observation": "[Search] Results for 'Who was the first woman to hold the record for the longest service in the Australian Parliament?':\n[Doc 1] Kathy Sullivan (Australian politician):  She previously held the record for the longest service in the Australian Parliament for a woman, oustripping the record previously held by Dorothy Tangney.\n\n[Doc 2] Kathy Sullivan (Australian politician):  She was the first woman member of the parliament to have served in both houses.\n\n[Doc 3] Carol Martin:  She was the first Aboriginal woman to be elected to any Australian parliament.\n\n[Doc 4] Valentina Tereshkova:  She is the first woman to have flown in space, having been selected from more than 400 applicants and five finalists to pilot Vostok 6 on 16 June 1963.\n\n[Doc 5] Roslyn Dundas:  Until Kelly Vincent's election to the South Australian Legislative Council in 2010, Dundas was the youngest woman ever elected to an Australian parliament.",
+      "error": ""
+    },
+    {
+      "step": 6,
+      "thought": "Intermediate Question: Who was the first woman to hold the record for the longest service in the Australian Parliament?\nObservation: [Search] Results for 'Who was the first woman to hold the record for the longest service in the Australian Parliament?':\n[Doc 1] Kathy Sullivan (Australian politician):  She previously held the record for the longest service in the Australian Parliament for a woman, oustripping the record previously held by Dorothy Tangney.\n\n[Doc 2] Kathy Sullivan (Australian politician):  She was the first woman member of the parliament to have served in both houses.\n\n[Doc 3] Carol Martin:  She was the first Aboriginal woman to be elected to any Australian parliament.\n\n[Doc 4] Valentina Tereshkova:  She is the first woman to have flown in space, having been selected from more than 400 applicants and five finalists to pilot Vostok 6 on 16 June 1963.\n\n[Doc 5] Roslyn Dundas:  Until Kelly Vincent's election to the South Australian Legislative Council in 2010, Dundas was the youngest woman ever to an Australian parliament.",
+      "action_name": "search",
+      "action_input": "Who was the first woman to hold the record for the longest service in the Australian Parliament?",
+      "observation": "[Search] Results for 'Who was the first woman to hold the record for the longest service in the Australian Parliament?':\n[Doc 1] Kathy Sullivan (Australian politician):  She previously held the record for the longest service in the Australian Parliament for a woman, oustripping the record previously held by Dorothy Tangney.\n\n[Doc 2] Kathy Sullivan (Australian politician):  She was the first woman member of the parliament to have served in both houses.\n\n[Doc 3] Carol Martin:  She was the first Aboriginal woman to be elected to any Australian parliament.\n\n[Doc 4] Valentina Tereshkova:  She is the first woman to have flown in space, having been selected from more than 400 applicants and five finalists to pilot Vostok 6 on 16 June 1963.\n\n[Doc 5] Roslyn Dundas:  Until Kelly Vincent's election to the South Australian Legislative Council in 2010, Dundas was the youngest woman ever elected to an Australian parliament.",
+      "error": ""
+    },
+    {
+      "step": 7,
+      "thought": "Intermediate Question: Who was the first woman to hold the record for the longest service in the Australian Parliament?\nObservation: [Search] Results for 'Who was the first woman to hold the record for the longest service in the Australian Parliament?':\n[Doc 1] Kathy Sullivan (Australian politician):  She previously held the record for the longest service in the Australian Parliament for a woman, oustripping the record previously held by Dorothy Tangney.\n\n[Doc 2] Kathy Sullivan (Australian politician):  She was the first woman member of the parliament to have served in both houses.\n\n[Doc 3] Carol Martin:  She was the first Aboriginal woman to be elected to any Australian parliament.\n\n[Doc 4] Valentina Tereshkova:  She is the first woman to have flown in space, having been selected from more than 400 applicants and five finalists to pilot Vostok 6 on 16 June 1963.\n\n[Doc 5] Roslyn Dundas:  Until Kelly Vincent's election to the South Australian Legislative Council in 2010, Dundas was the youngest woman ever to an Australian parliament.",
+      "action_name": "search",
+      "action_input": "Who was the first woman to hold the record for the longest service in the Australian Parliament?",
+      "observation": "[Search] Results for 'Who was the first woman to hold the record for the longest service in the Australian Parliament?':\n[Doc 1] Kathy Sullivan (Australian politician):  She previously held the record for the longest service in the Australian Parliament for a woman, oustripping the record previously held by Dorothy Tangney.\n\n[Doc 2] Kathy Sullivan (Australian politician):  She was the first woman member of the parliament to have served in both houses.\n\n[Doc 3] Carol Martin:  She was the first Aboriginal woman to be elected to any Australian parliament.\n\n[Doc 4] Valentina Tereshkova:  She is the first woman to have flown in space, having been selected from more than 400 applicants and five finalists to pilot Vostok 6 on 16 June 1963.\n\n[Doc 5] Roslyn Dundas:  Until Kelly Vincent's election to the South Australian Legislative Council in 2010, Dundas was the youngest woman ever elected to an Australian parliament.",
+      "error": ""
+    },
+    {
+      "step": 8,
+      "thought": "Final Answer: Dorothy Tangney",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 180.91419339179993,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

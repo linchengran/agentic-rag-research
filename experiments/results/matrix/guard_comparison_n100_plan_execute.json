@@ -1,0 +1,68 @@
+{
+  "plan_execute": {
+    "paradigm": "plan_execute",
+    "n": 100,
+    "control": {
+      "n": 100,
+      "em": 0.14,
+      "relaxed_em": 0.16,
+      "f1": 0.18016666666666667,
+      "avg_steps": 2.68,
+      "total_real_searches": 130,
+      "avg_real_searches": 1.3,
+      "finish_reason_dist": {
+        "finish_action": 89,
+        "max_steps": 11
+      },
+      "guard_events": {
+        "duplicate_query": 0,
+        "zero_new_docs": 0,
+        "stop_triggered": 0,
+        "stop_ignored": 0
+      },
+      "n_guard_touched": 0,
+      "n_guard_stopped": 0
+    },
+    "treated": {
+      "n": 100,
+      "em": 0.14,
+      "relaxed_em": 0.16,
+      "f1": 0.18016666666666667,
+      "avg_steps": 2.68,
+      "total_real_searches": 126,
+      "avg_real_searches": 1.26,
+      "finish_reason_dist": {
+        "finish_action": 89,
+        "max_steps": 11
+      },
+      "guard_events": {
+        "duplicate_query": 4,
+        "zero_new_docs": 1,
+        "stop_triggered": 0,
+        "stop_ignored": 0
+      },
+      "n_guard_touched": 5,
+      "n_guard_stopped": 0
+    },
+    "delta": {
+      "em": 0.0,
+      "relaxed_em": 0.0,
+      "f1": 0.0,
+      "avg_steps": 0.0,
+      "avg_real_searches": -0.040000000000000036
+    },
+    "harm_check": {
+      "note": "守卫截停/触碰的题在控制组的 EM——若控制组也接近 0,则干预无伤害",
+      "guard_stopped_questions": {
+        "n": 0,
+        "control_em": null,
+        "treated_em": null
+      },
+      "guard_touched_questions": {
+        "n": 5,
+        "control_em": 0.2,
+        "treated_em": 0.2
+      }
+    }
+  }
+}

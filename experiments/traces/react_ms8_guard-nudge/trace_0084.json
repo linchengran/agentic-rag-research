@@ -1,0 +1,79 @@
+{
+  "question": "What was the name of a woman from the book titled \"Their Lives: The Women Targeted by the Clinton Machine \" and was also a former white house intern?",
+  "answer": "",
+  "n_steps": 8,
+  "finished": false,
+  "finish_reason": "max_steps",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about the book \"Their Lives: The Women Targeted by the Clinton Machine\" and the women mentioned in it.",
+      "action_name": "search",
+      "action_input": "\"Their Lives: The Women Targeted by the Clinton Machine\"",
+      "observation": "[Search] Results for '\"Their Lives: The Women Targeted by the Clinton Machine\"':\n[Doc 1] Their Lives: Their Lives: The Women Targeted by the Clinton Machine is a book by Candice E. Jackson.\n\n[Doc 2] Their Lives:  Published by conservative publisher World Ahead Publishing on May 31, 2005, it recounts the stories of seven women who crossed paths with Bill Clinton: Monica Lewinsky, Paula Jones, Gennifer Flowers, Kathleen Willey, Elizabeth Gracen, Juanita Broaddrick, and Sally Perdue.\n\n[Doc 3] The Young Ones (TV series):  Shown on BBC2, it featured anarchic, offbeat humour which helped bring alternative comedy to television in the 1980s and made household names of its writers and performers.\n\n[Doc 4] Togo women's national football team:  Their current manager is Paul Zoungbede.\n\n[Doc 5] Gilmore Girls: A Year in the Life: Gilmore Girls: A Year in the Life is an American web television series on the streaming service Netflix.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Look up information about the women mentioned in the book \"Their Lives: The Women Targeted by the Clinton Machine\".",
+      "action_name": "parse_error",
+      "action_input": "Action: Lookup[a[Their to To to to finish the question.",
+      "observation": "[Error] Unknown action: parse_error",
+      "error": "unknown_action"
+    },
+    {
+      "step": 3,
+      "thought": "Look up specific details about the women mentioned in the book \"Their Lives: The Women Targeted by the Clinton Machine\".",
+      "action_name": "search",
+      "action_input": "aWomen from the book \"Their Lives: The Women Targeted by the Clinton Machine\" titled \"Their Lives: The Women Targeted by the Clinton Machine\" and focusing on women who were former White House interns.\nObservation: [Search",
+      "observation": "[Search] Results for 'aWomen from the book \"Their Lives: The Women Targeted by the Clinton Machine\" titled \"Their Lives: The Women Targeted by the Clinton Machine\" and focusing on women who were former White House interns.\\nObservation: [Search':\n[Doc 1] Their Lives: Their Lives: The Women Targeted by the Clinton Machine is a book by Candice E. Jackson.\n\n[Doc 2] Their Lives:  Published by conservative publisher World Ahead Publishing on May 31, 2005, it recounts the stories of seven women who crossed paths with Bill Clinton: Monica Lewinsky, Paula Jones, Gennifer Flowers, Kathleen Willey, Elizabeth Gracen, Juanita Broaddrick, and Sally Perdue.\n\n[Doc 3] The White House Doctor:  With a foreword from Bill Clinton, the autobiographical book takes a look at the personal lives of three American Presidents (George H.W. Bush, Bill Clinton, and George W. Bush) and three American First Ladies (Barbara Bush, Hillary Clinton, and Laura Bush) she had taken care of while working as a White House physician.\n\n[Doc 4] Carol J. Adams:  She is the author of several books, including \"The Sexual Politics of Meat: A Feminist-Vegetarian Critical Theory\" (1990) and \"The Pornography of Meat\" (2004), focusing in particular on what she argues are the links between the oppression of women and that of non-human animals.\n\n[Doc 5] The White House Doctor: The White House Doctor: My Patients Were Presidents – A Memoir is a book authored by Connie Mariano, the first military woman in the history of the United...",
+      "error": ""
+    },
+    {
+      "step": 4,
+      "thought": "Look up more specific details about the women mentioned in the book \"Their Lives: The Women Targeted by the Clinton Machine\".",
+      "action_name": "search",
+      "action_input": "former white house interns",
+      "observation": "[Search] Results for 'former white house interns':\n[Doc 1] Eric Schultz:  Schultz is a former White House Principal Deputy Press Secretary and special assistant to President Obama.\n\n[Doc 2] The White House Doctor:  With a foreword from Bill Clinton, the autobiographical book takes a look at the personal lives of three American Presidents (George H.W. Bush, Bill Clinton, and George W. Bush) and three American First Ladies (Barbara Bush, Hillary Clinton, and Laura Bush) she had taken care of while working as a White House physician.\n\n[Doc 3] David Urban:  In November 2016, it was reported that Urban was being considered as the next chair of the Republican National Committee, as well as the White House Deputy Chief of Staff, and in May 2017, it was reported that Trump was considering Urban to replace Reince Priebus as White House Chief of Staff.\n\n[Doc 4] The White House Doctor: The White House Doctor: My Patients Were Presidents – A Memoir is a book authored by Connie Mariano, the first military woman in the history of the United States to be appointed as Physician to the President, the first female director of the medical unit of the White House, and the first Filipino-American to become a rear admiral in the US Navy.\n\n[Doc 5] The White House Doctor:  It was described as a \"fascinating look into what goes on behind closed doors at 1600 Pennsylvania Avenue\".",
+      "error": ""
+    },
+    {
+      "step": 5,
+      "thought": "Look up more specific details about the women mentioned in the book \"Their Lives: The Women Targeted by the Clinton Machine\".",
+      "action_name": "lookup",
+      "action_input": "former white house interns",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 6,
+      "thought": "Look up more specific details about the women mentioned in the book \"Their Lives: The Women Targeted by the Clinton Machine\".",
+      "action_name": "parse_error",
+      "action_input": "Action: Search[aformer white house interns from \"Their Lives: The Women Targeted by the Clinton Machine\"",
+      "observation": "[Error] Unknown action: parse_error",
+      "error": "unknown_action"
+    },
+    {
+      "step": 7,
+      "thought": "Look up more specific details about the women mentioned in the book \"Their Lives: The Women Targeted by the Clinton Machine\".",
+      "action_name": "search",
+      "action_input": "former white house interns from \"Their Lives: The Women Targeted by the Clinton Machine\"",
+      "observation": "[Search] Results for 'former white house interns from \"Their Lives: The Women Targeted by the Clinton Machine\"':\n[Doc 1] Their Lives: Their Lives: The Women Targeted by the Clinton Machine is a book by Candice E. Jackson.\n\n[Doc 2] Their Lives:  Published by conservative publisher World Ahead Publishing on May 31, 2005, it recounts the stories of seven women who crossed paths with Bill Clinton: Monica Lewinsky, Paula Jones, Gennifer Flowers, Kathleen Willey, Elizabeth Gracen, Juanita Broaddrick, and Sally Perdue.\n\n[Doc 3] The White House Doctor:  With a foreword from Bill Clinton, the autobiographical book takes a look at the personal lives of three American Presidents (George H.W. Bush, Bill Clinton, and George W. Bush) and three American First Ladies (Barbara Bush, Hillary Clinton, and Laura Bush) she had taken care of while working as a White House physician.\n\n[Doc 4] Kenneth Posner:  He also designed the lights for \"Little Women\".\n\n[Doc 5] The White House Doctor:  It was described as a \"fascinating look into what goes on behind closed doors at 1600 Pennsylvania Avenue\".",
+      "error": ""
+    },
+    {
+      "step": 8,
+      "thought": "Look up more specific details about the women mentioned in the book \"Their Lives: The Women Targeted by the Clinton Machine\".",
+      "action_name": "search",
+      "action_input": "aformer to former white house interns from \"Their Lives: The Women Targeted by the Clinton Machine\"\nObservation: [Search",
+      "observation": "[Search] Results for 'aformer to former white house interns from \"Their Lives: The Women Targeted by the Clinton Machine\"\\nObservation: [Search':\n[Doc 1] Their Lives: Their Lives: The Women Targeted by the Clinton Machine is a book by Candice E. Jackson.\n\n[Doc 2] Their Lives:  Published by conservative publisher World Ahead Publishing on May 31, 2005, it recounts the stories of seven women who crossed paths with Bill Clinton: Monica Lewinsky, Paula Jones, Gennifer Flowers, Kathleen Willey, Elizabeth Gracen, Juanita Broaddrick, and Sally Perdue.\n\n[Doc 3] Robert R. Hood:  Past roles with the federal government include a role at the White House as Special Assistant to the President in the Office of Legislative Affairs and posts at the United States Department of Defense as principal deputy assistant secretary for legislative affairs and as deputy under secretary of defense for budget and appropriations affairs.\n\n[Doc 4] The White House Doctor:  With a foreword from Bill Clinton, the autobiographical book takes a look at the personal lives of three American Presidents (George H.W. Bush, Bill Clinton, and George W. Bush) and three American First Ladies (Barbara Bush, Hillary Clinton, and Laura Bush) she had taken care of while working as a White House physician.\n\n[Doc 5] The White House Doctor: The White House Doctor: My Patients Were Presidents – A Memoir is a book authored by Connie Mariano, the first military woman in the history of the United States to be appointed as Physicia...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 96.7787024974823,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

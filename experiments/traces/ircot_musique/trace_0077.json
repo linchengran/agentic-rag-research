@@ -1,0 +1,23 @@
+{
+  "question": "Since 2004, what is the location of the body to which, if a matter is not specifically reserved, it is devolved?",
+  "answer": "United States.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The body to which matters are generally directed if is the United Nations General Assembly.",
+      "action_name": "ircot_search",
+      "action_input": "The body to which matters are generally directed if is the United Nations General Assembly.",
+      "observation": "[Search] Results for 'The body to which matters are generally directed if is the United Nations General Assembly.':\n[Doc 1] Member states of the United Nations: The United Nations member states are the 193 sovereign states that are members of the United Nations (UN) and have equal representation in the UN General Assembly. The UN is the world's largest intergovernmental organization, ahead of the Organisation of Islamic Cooperation.\n\n[Doc 2] Constitution of the United States: Since the Constitution came into force in 1789, it has been amended 27 times, including an amendment to repeal a previous one, in order to meet the changing needs of a nation that has profoundly changed since the eighteenth century. In general, the first ten amendments, known collectively as the Bill of Rights, offer specific protections of individual liberty and justice and place restrictions on the powers of government. The majority of the seventeen later amendments expand individual civil rights protections. Others address issues related to federal authority or modify government processes and procedures. Amendments to the United States Constitution, unlike ones made to many constitutions worldwide, are appended to the document. All four pages of the original U.S. Constitution are written on parchment.\n\n[Doc 3] Royal assent: The government, consisting of the monarch and the ministers, will then usually approve the proposal and the sovereign and one of the ministers signs the proposal with the addition ...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 13.259041547775269,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

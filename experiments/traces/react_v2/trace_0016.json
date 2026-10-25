@@ -1,0 +1,31 @@
+{
+  "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+  "answer": "no",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about the Vermont Catamounts men's soccer team and their conference history.",
+      "action_name": "search",
+      "action_input": "conference history of Vermont Catamounts men's soccer team",
+      "observation": "[Search] Results for \"conference history of Vermont Catamounts men's soccer team\":\n[Doc 1] Vermont Catamounts men's soccer:  The team competes in the America East Conference.\n\n[Doc 2] Vermont Catamounts men's soccer: The Vermont Catamounts men's soccer team represents the University of Vermont in al...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "After searching, the Vermont Catamounts men's soccer team competes in the America East Conference.",
+      "action_name": "finish",
+      "action_input": "no",
+      "observation": "[Finish] Answer: no",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 9.157768964767456,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

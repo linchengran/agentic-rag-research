@@ -1,0 +1,39 @@
+{
+  "question": "What type of activity does Owner earnings and Warren Buffett have in common?",
+  "answer": "Owner earnings",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: Who is Warren Buffett?\n\nObservation: Warren Buffett is a well-known investor and business magnate. He is often associated with investing in companies.",
+      "action_name": "search",
+      "action_input": "Who is Warren Buffett?",
+      "observation": "[Search] Results for 'Who is Warren Buffett?':\n[Doc 1] Warren Buffett: Warren Edward Buffett ( ; born August 30, 1930) is an American business magnate, investor, and philanthropist.\n\n[Doc 2] Howard Warren Buffett: Howard Warren Buffett (born October 14, 1983) is an American public relations professor, political advisor, and philanthropist.\n\n[Doc 3] Warren Buffett:  He is considered by some to be one of the most successful investors in the world, and as of August 2017 is the second wealthiest person in the United States, and the fourth wealthiest in the world, with a total net worth of $76.9 billion.\n\n[Doc 4] Warren Buffett:  Buffett serves as the Chief Executive Officer and Chairman of Berkshire Hathaway.\n\n[Doc 5] Howard Warren Buffett:  He previously led agriculture-based economic stabilization and redevelopment programs in Iraq and Afghanistan while at the United States Department of Defense, and as a policy advisor in the Executive Office of the President of the United States under President Barack Obama.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation: [Search] Results for 'Who is Warren Buffett?':\n[Doc 1] Warren Buffett: Warren Edward Buffett ( ; born August 30, 1930) is an American business magnate, investor, and philanthropist.\n\n[Doc 2] Warren Buffett:  He is considered by some to be one of the most successful investors in the world, and as of August 2017 is the second wealthiest person in the United States, and the fourth wealthiest in the world, with a total net worth of $76.9 billion.\n\n[Doc 3] Warren Buffett:  He serves as the Chief Executive Officer and Chairman of Berkshire Hathaway.\n\nFinal Question: What type of activity does Owner earnings and Warren Buffett have in common?",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 3,
+      "thought": "Final Answer: Owner earnings",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 12.834063529968262,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

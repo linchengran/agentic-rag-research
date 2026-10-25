@@ -1,0 +1,65 @@
+{
+  "self_ask": {
+    "n_questions": 100,
+    "curve": {
+      "1": {
+        "n_questions_reached": 66,
+        "repeat_queries": 0,
+        "repeat_rate": 0.0,
+        "zero_new_gain_rate": 0.15151515151515152,
+        "marginal_hits_per_question": 1.0151515151515151,
+        "marginal_recovery_rate": 0.4527027027027027
+      },
+      "2": {
+        "n_questions_reached": 28,
+        "repeat_queries": 5,
+        "repeat_rate": 0.17857142857142858,
+        "zero_new_gain_rate": 0.75,
+        "marginal_hits_per_question": 0.25,
+        "marginal_recovery_rate": 0.23333333333333334
+      },
+      "3": {
+        "n_questions_reached": 13,
+        "repeat_queries": 2,
+        "repeat_rate": 0.15384615384615385,
+        "zero_new_gain_rate": 0.7692307692307693,
+        "marginal_hits_per_question": 0.23076923076923078,
+        "marginal_recovery_rate": 0.375
+      },
+      "4": {
+        "n_questions_reached": 10,
+        "repeat_queries": 5,
+        "repeat_rate": 0.5,
+        "zero_new_gain_rate": 1.0,
+        "marginal_hits_per_question": 0.0,
+        "marginal_recovery_rate": 0.0
+      },
+      "5": {
+        "n_questions_reached": 6,
+        "repeat_queries": 4,
+        "repeat_rate": 0.6666666666666666,
+        "zero_new_gain_rate": 1.0,
+        "marginal_hits_per_question": 0.0,
+        "marginal_recovery_rate": 0.0
+      },
+      "6": {
+        "n_questions_reached": 3,
+        "repeat_queries": 1,
+        "repeat_rate": 0.3333333333333333,
+        "zero_new_gain_rate": 1.0,
+        "marginal_hits_per_question": 0.0,
+        "marginal_recovery_rate": 0.0
+      },
+      "7": {
+        "n_questions_reached": 1,
+        "repeat_queries": 1,
+        "repeat_rate": 1.0,
+        "zero_new_gain_rate": 1.0,
+        "marginal_hits_per_question": 0.0,
+        "marginal_recovery_rate": 0.0
+      }
+    },
+    "total_queries": 127,
+    "repeat_queries_total": 18
+  }
+}

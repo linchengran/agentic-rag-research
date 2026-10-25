@@ -1,0 +1,31 @@
+{
+  "question": "Georges-Henri Bousquet translated the work of a historian who is of what heritage?",
+  "answer": "French",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What is Georges-Henri Bousquet's heritage?\n\nObservation: Georges-Henri Bousquet was French.",
+      "action_name": "search",
+      "action_input": "What is Georges-Henri Bousquet's heritage?",
+      "observation": "[Search] Results for \"What is Georges-Henri Bousquet's heritage?\":\n[Doc 1] Georges-Henri Bousquet: Georges-Henri Bousquet (21 June 1900, Meudon – 23 January 1978, Latresne) was a 20th-century French jurist, economist and Islamologist.\n\n[Doc 2] Georges-Henri Bousquet:  He was known as a polyglot, spoke several European languages (Dutch, his second mother tongue, English, German, Italian, but also Spanish, Danish, Norwegian ...) and Eastern ones (Arab, Malay ...).\n\n[Doc 3] Georges-Henri Bousquet:  He is also known for his translation work of the great Muslim authors, Al-Ghazali, a theologian who died in 1111 and Tunisian historian Ibn Khaldun (1332-1406).\n\n[Doc 4] Georges-Henri Bousquet:  He was Professor of law at the Faculty of Law of the University of Algiers where he was a specialist in the sociology of North Africa (Berbers, Islam).\n\n[Doc 5] George D. Buffett:  He was an arch-conservative state representative, owner of Buffett's Candy and cousin of Warren Buffett.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: French",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 5.789366960525513,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

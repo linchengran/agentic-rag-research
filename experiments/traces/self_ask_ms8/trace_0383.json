@@ -1,0 +1,39 @@
+{
+  "question": "What national historic district is located near a village in the town of Philipstown, New York?",
+  "answer": "Baltic Sea.",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What is Philipstown's current name?\n\nObservation: Philipstown is now known as the Village of Morrisania.",
+      "action_name": "search",
+      "action_input": "What is Philipstown's current name?",
+      "observation": "[Search] Results for \"What is Philipstown's current name?\":\n[Doc 1] English language:  Named after the Angles, one of the Germanic tribes that migrated to England, it ultimately derives its name from the Anglia (Angeln) peninsula in the Baltic Sea.\n\n[Doc 2] John A. Brown (department store):  It operated under that name from 1932, when its founder bought out its predecessor and renamed the chain for himself.\n\n[Doc 3] Roald Dahl Plass:  It is named after Cardiff-born author Roald Dahl, and is located on the coast along the south of the city centre.\n\n[Doc 4] New York's 1st State Senate district:  It is currently represented by Senator Kenneth LaValle (R).\n\n[Doc 5] A&amp;W Restaurants:  The company name was taken respectively from the initials of their last names—Allen and Wright.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation: [Search] Results for \"What is Philipstown's current name?\":\n[Doc 1] English language:  Named after the Angles, one of the Germanic tribes that migrated to England, it ultimately derives its name from the Anglia (Angeln) peninsula in the Baltic Sea.\n\nIntermediate Question: Is there any connection between Philipstown and Anglia (Angeln) peninsula?",
+      "action_name": "search",
+      "action_input": "Is there any connection between Philipstown and Anglia (Angeln) peninsula?",
+      "observation": "[Search] Results for 'Is there any connection between Philipstown and Anglia (Angeln) peninsula?':\n[Doc 1] English language:  Named after the Angles, one of the Germanic tribes that migrated to England, it ultimately derives its name from the Anglia (Angeln) peninsula in the Baltic Sea.\n\n[Doc 2] Garrison, New York:  It is part of the town of Philipstown, on the east side of the Hudson River, across from the United States Military Academy at West Point.\n\n[Doc 3] Ambulanse:  The overall link between the short stories is an ambulance driving through an unnamed city.\n\n[Doc 4] Belling-Lee connector: The Belling-Lee connector or IEC 61169-2 radio-frequency coaxial connector of type 9,52, known colloquially in countries where it is used as a TV antenna connector as a PAL antenna connector, IEC antenna connector, or simply as a TV aerial plug, is commonly used in Europe and Australia to connect coaxial cables with each other and with terrestrial VHF/UHF roof antennas, antenna signal amplifiers, CATV distribution equipment, TV sets, and FM and DAB radio receivers.\n\n[Doc 5] City of Angels (film):  With the guidance of a man (Dennis Franz) who has already made the transition from immortality, the angel falls and discovers the human experience.",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Intermediate Question: Is there any connection between Philipstown and Anglia (Angeln) peninsula?\nObservation: [Search] Results for 'Is there any connection between Philipstown and Anglia (Angeln) peninsula?':\n[Doc 1] English language:  Named after the Angles, one of the Germanic tribes that migrated to England, it ultimately derives its name from the Anglia (Angeln) peninsula in the Baltic Sea.\n\nFinal Answer: Baltic Sea.",
+      "action_name": "self_ask_query",
+      "action_input": "Is there any connection between Philipstown and Anglia (Angeln) peninsula?",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 17.266262531280518,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "question": "Where was the spouse of Frances Tupper born?",
+  "answer": "Canada",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about Frances Tupper to gather details about her.",
+      "action_name": "search",
+      "action_input": "Frances Tupper",
+      "observation": "[Search] Results for 'Frances Tupper':\n[Doc 1] Frances Tupper: Frances Amélia Tupper, Lady Tupper (née Morse; March 14, 1826 – May 11, 1912) was the wife of Sir Charles Tupper, the sixth Prime Minister of Canada. They had six children together, three boys and three girls.\n\n[Doc 2] Frances Bean Cobain: Frances Bean Cobain (born August 18, 1992) is an American visual artist and model. She is the only child of Nirvana frontman Kurt Cobain and Hole frontwoman Courtney Love.\n\n[Doc 3] Frances Ingram: Elizabeth Frances Ingram (5 November 1888 – 12 April 1974) was an American operatic contralto of English birth who had an active career in North America during the 1910s and 1920s.\n\n[Doc 4] Les Deux Plateaux: Les Deux Plateaux, more commonly known as the Colonnes de Buren, is a highly controversial art installation created by the French artist Daniel Buren in 1985–1986. It is located in the inner courtyard (Cour d'Honneur) of the Palais Royal in Paris, France.\n\n[Doc 5] German military administration in occupied France during World War II: Military Administration in France Militärverwaltung in Frankreich Occupation de la France par l'Allemagne 1940 -- 1944 Flag Emblem German (pink) and Italian (green) occupation zones of France: the zone occupée, the zone libre, the zone interdite, the Military Administration in Belgium and Northern France, and annexed Alsace - Lorraine. Status Territory under German military administration Capital Paris Military Commander 1940 -- 1942 Otto von Stülpnag...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The birthplace of Frances Amélia Tupper is needed Canada.",
+      "action_name": "lookup",
+      "action_input": "Frances Amélia Tupper",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The spouse's birthplace needs to be found from Frances Tupper's details. |",
+      "action_name": "lookup",
+      "action_input": "Frances Améliat Tupper",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 23.908493518829346,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for Frances Tupper's information",
+      "Find the spouse's birthplace from Frances Tupper's details",
+      "Finish with the shortest answer."
+    ]
+  }
+}

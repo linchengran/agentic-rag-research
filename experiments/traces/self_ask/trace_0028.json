@@ -1,0 +1,31 @@
+{
+  "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+  "answer": "Henry J. Kaiser",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: 谁是现代美国造船业的先驱并创立了Kaiser Ventures公司？",
+      "action_name": "search",
+      "action_input": "谁是现代美国造船业的先驱并创立了Kaiser Ventures公司？",
+      "observation": "[Search] Results for '谁是现代美国造船业的先驱并创立了Kaiser Ventures公司？':\n[Doc 1] Kaiser Ventures:  It was founded by Henry J. Kaiser to provide steel plate for the Pacific Coast shipbuilding industry, which expanded during World War II, then shrank, then expanded again during the Korean War.\n\n[Doc 2] Henry J. Kai...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Henry J. Kaiser",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 5.3367695808410645,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

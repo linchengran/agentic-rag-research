@@ -1,0 +1,31 @@
+{
+  "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+  "answer": "MBLQB (Mixmatch) Management Company",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Ask the first intermediate question (do NOT give the Final Answer yet): Who formed the South Korean boy group that debuted 2014 S/S is the debut album of?",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: MBLQB (Mixmatch) Management Company",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 2.7810990810394287,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

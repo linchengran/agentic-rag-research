@@ -1,0 +1,23 @@
+{
+  "question": "Which of Tara Strong major voice role in animated series is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\"?",
+  "answer": "no.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: no.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: no.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: no.':\n[Doc 1] Rick Potion No. 9:  The title of the episode is in reference to the 1959 song \"Love Potion No. 9\" by the Clovers.\n\n[Doc 2] Charmed:  However, following Prue's death in the third-season finale, their long-lost half sister Paige Matthews (Rose McGowan) assumes her place within the \"Power of Three\" from season four onwards.\n\n[Doc 3] Amen: The Awakening:  It was to be the first FPS by Cavedog.\n\n[Doc 4] Shrek Forever After (video game):  It is the fourth and final video game based on the movie series of \"Shrek\".\n\n[Doc 5] Battle of Norfolk:  It was the final battle of the war before the unilateral ceasefire took effect.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 60.03351140022278,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

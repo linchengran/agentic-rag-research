@@ -1,0 +1,14 @@
+\begin{table}[htbp]
+\centering
+\caption{边际恢复率 = 第 k 步新命中金标标题 / 该步开始时未命中数;step k 到达题数见 stepwise_coverage_n100.json}
+\begin{tabular}{lllllllc}
+\toprule
+范式 & 总检索 & 重复 query & step 1 & step 2 & step 3 & step 4 & step 5 \\
+\midrule
+ReAct & 156 & 27(17%) & 62.1 & 31.8 & 11.1 & 0.0 & 0.0 \\
+Plan-and-Execute & 130 & 3(2%) & 49.0 & 44.1 & 25.0 & — & — \\
+Self-Ask & 135 & 26(19%) & 51.6 & 28.1 & 7.7 & 0.0 & 0.0 \\
+IRCoT & 104 & 0(0%) & 28.0 & 0.0 & — & — & — \\
+\bottomrule
+\end{tabular}
+\end{table}

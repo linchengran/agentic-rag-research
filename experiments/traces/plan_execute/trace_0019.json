@@ -1,0 +1,12 @@
+{
+  "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+  "answer": "",
+  "n_steps": 0,
+  "finished": false,
+  "finish_reason": "plan_error",
+  "steps": [],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 3.9917919635772705,
+  "metadata": {}
+}

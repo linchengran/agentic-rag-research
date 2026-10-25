@@ -1,0 +1,23 @@
+{
+  "question": "What event caused the Liberal Party of Australia's longest-serving leader to become Prime Minister?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation 5: No, the 1972 election was not caused by any other significant event.",
+      "action_name": "ircot_search",
+      "action_input": "Observation 5: No, the 1972 election was not caused by any other significant event.",
+      "observation": "[Search] Results for 'Observation 5: No, the 1972 election was not caused by any other significant event.':\n[Doc 1] 2020 United States presidential election: The United States presidential election of 2020, scheduled for Tuesday, November 3, 2020, will be the 59th quadrennial U.S. presidential election. Voters will select presidential electors who in turn will either elect a new president and vice president through the electoral college or re-elect the incumbents. The series of presidential primary elections and caucuses are likely to be held during the first six months of 2020. This nominating process is also an indirect election, where voters cast ballots selecting a slate of delegates to a political party's nominating convention, who then in turn elect their party's presidential nominee.\n\n[Doc 2] Poor People's Campaign: The SCLC announced the campaign on December 4, 1967. King delivered a speech which identified ``a kind of social insanity which could lead to national ruin. ''In January 1968, the SCLC created and distributed an`` Economic Fact Sheet'' with statistics explaining why the campaign was necessary. King avoided providing specific details about the campaign and attempted to redirect media attention to the values at stake. The Poor People's Campaign held firm to the movement's commitment to non-violence. ``We are custodians of the philosophy of non-violence, ''said King at a press conference.`` And it has worked''. King originally wanted the Poor People's Campaign...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 20.635566473007202,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

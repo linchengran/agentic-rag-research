@@ -1,0 +1,23 @@
+{
+  "question": "Bordan Tkachuk was the CEO of a company that provides what sort of products?",
+  "answer": "Energy products",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find the company Bordan Tkachuk was CEO of.",
+      "action_name": "ircot_search",
+      "action_input": "Find the company Bordan Tkachuk was CEO of.",
+      "observation": "[Search] Results for 'Find the company Bordan Tkachuk was CEO of.':\n[Doc 1] Bordan Tkachuk: Bordan Tkachuk ( ) is a British business executive, the former CEO of Viglen, also known from his appearances on the BBC-produced British version of \"The Apprentice,\" interviewing for his boss Lord Sugar.\n\n[Doc 2] Bobby Mehta:  He served as vice chairman and director of HSBC Financial Corporation Limited., (Formerly Household International Inc.).\n\n[Doc 3] Bobby Mehta:  He serves as a director of TransUnion Corp. and TransUnion LLC.\n\n[Doc 4] RetailMeNot:  The company was founded by Cotter Cunningham.\n\n[Doc 5] Lush (company):  The company was founded by Mark Constantine, a trichologist and Liz Weir, a beauty therapist.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 13.22747540473938,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

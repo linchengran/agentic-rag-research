@@ -1,0 +1,23 @@
+{
+  "question": "What American professional Hawaiian surfer born 18 October 1992 won the Rip Curl Pro Portugal?",
+  "answer": "John John Florence",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Searching for American professional Hawaiian surfer born on 18 October 1992 who won the Rip Curl Pro Portugal.",
+      "action_name": "ircot_search",
+      "action_input": "Searching for American professional Hawaiian surfer born on 18 October 1992 who won the Rip Curl Pro Portugal.",
+      "observation": "[Search] Results for 'Searching for American professional Hawaiian surfer born on 18 October 1992 who won the Rip Curl Pro Portugal.':\n[Doc 1] MEO Rip Curl Pro Portugal:  The defending champion is the 2016 WSL champion, John John Florence who won the event in 2016.\n\n[Doc 2] MEO Rip Curl Pro Portugal: MEO Rip Curl Pro Portugal formerly known as \"Moche Rip Curl Pro Portugal\" or \"Rip Curl Pro Portugal\" is a professional surfing competition of the ASP World Tour held every year in October at the Supertubos beach in Peniche, Portugal.\n\n[Doc 3] MEO Rip Curl Pro Portugal:  The event was first founded in 2009 as \"Rip Curl Search Portugal\".\n\n[Doc 4] MEO Rip Curl Pro Portugal 2016: The MEO Rip Curl Pro Portugal 2016 was an event of the World Surf League for 2016 World Surf League Men's Championship Tour.\n\n[Doc 5] MEO Rip Curl Pro Portugal 2017: The MEO Rip Curl Pro Portugal 2017 is an event of the World Surf League for the 2017 World Surf League Men's Championship Tour.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 17.1481876373291,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

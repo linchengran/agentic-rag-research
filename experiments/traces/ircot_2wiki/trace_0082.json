@@ -1,0 +1,23 @@
+{
+  "question": "Where was the performer of song God (John Lennon Song) born?",
+  "answer": "United Kingdom.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 3: [Observation 2: John Lennon was born in Liverpool]",
+      "action_name": "ircot_search",
+      "action_input": "Thought 3: [Observation 2: John Lennon was born in Liverpool]",
+      "observation": "[Search] Results for 'Thought 3: [Observation 2: John Lennon was born in Liverpool]':\n[Doc 1] John Lennon: Born in Liverpool, Lennon became involved in the skiffle craze as a teenager.\n\n[Doc 2] John Lennon: John Winston Ono Lennon (born John Winston Lennon, 9 October 19408 December 1980) was an English singer, songwriter and peace activist who gained worldwide fame as the founder, co-lead vocalist, and rhythm guitarist of the Beatles.\n\n[Doc 3] John Lennon: Lennon was known for the rebellious nature and acerbic wit in his music, writing, drawings, on film and in interviews.\n\n[Doc 4] John II, Prince of Anhalt-Zerbst: He was the youngest son of Albert II, Prince of Anhalt- Zerbst, by his second wife Beatrix, daughter of Rudolf I, Elector of Saxony and Duke of Saxe- Wittemberg.\n\n[Doc 5] James Douglas, 3rd Earl of Angus: He was betrothed briefly to Princess Joan, third daughter of King James I",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 17.7352774143219,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+  "answer": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?",
+  "n_steps": 4,
+  "finished": false,
+  "finish_reason": "max_steps",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "需要先搜索关于Badly Drawn Boy和Wolf Alice的乐器人数比的信息。",
+      "action_name": "search",
+      "action_input": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?",
+      "observation": "[Search] Results for 'Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?':\n[Doc 1] Badly Drawn Boy: Damon Michael Gough (born 2 October 1969, in Dunstable, Bedfordshire), known by the stage name Badly Drawn Boy, is an English indie singer-songwriter and mul...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "已经通过检索得知Badly Drawn Boy的相关信息，但还需了解Wolf Alice的乐器人数比。",
+      "action_name": "search",
+      "action_input": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?",
+      "observation": "[Search] Results for 'Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?':\n[Doc 1] Badly Drawn Boy: Damon Michael Gough (born 2 October 1969, in Dunstable, Bedfordshire), known by the stage name Badly Drawn Boy, is an English indie singer-songwriter and mul...",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "已经通过检索得知Badly Drawn Boy的相关信息，但还需了解Wolf Alice的乐器人数比。",
+      "action_name": "search",
+      "action_input": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?",
+      "observation": "[Search] Results for 'Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?':\n[Doc 1] Badly Drawn Boy: Damon Michael Gough (born 2 October 1969, in Dunstable, Bedfordshire), known by the stage name Badly Drawn Boy, is an English indie singer-songwriter and mul...",
+      "error": ""
+    },
+    {
+      "step": 4,
+      "thought": "已经通过检索得知Badly Drawn Boy的相关信息，还需进一步检索Wolf Alice的乐器人数比。",
+      "action_name": "search",
+      "action_input": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?",
+      "observation": "[Search] Results for 'Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?':\n[Doc 1] Badly Drawn Boy: Damon Michael Gough (born 2 October 1969, in Dunstable, Bedfordshire), known by the stage name Badly Drawn Boy, is an English indie singer-songwriter and mul...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 25.866561889648438,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

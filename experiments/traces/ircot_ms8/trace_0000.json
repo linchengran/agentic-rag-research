@@ -1,0 +1,23 @@
+{
+  "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Observation 1: Scott Derrickson is an American film director. Ed Wood is an American film director.)",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 1: Scott Derrickson is an American film director. Ed Wood is an American film director.)",
+      "observation": "[Search] Results for '(Observation 1: Scott Derrickson is an American film director. Ed Wood is an American film director.)':\n[Doc 1] Scott Derrickson: Scott Derrickson (born July 16, 1966) is an American director, screenwriter and producer.\n\n[Doc 2] Ed Wood (film): Ed Wood is a 1994 American biographical period comedy-drama film directed and produced by Tim Burton, and starring Johnny Depp as cult filmmaker Ed Wood.\n\n[Doc 3] Ed Wood: Edward Davis Wood Jr. (October 10, 1924 – December 10, 1978) was an American filmmaker, actor, writer, producer, and director.\n\n[Doc 4] Scott Derrickson:  He is best known for directing horror films such as \"Sinister\", \"The Exorcism of Emily Rose\", and \"Deliver Us From Evil\", as well as the 2016 Marvel Cinematic Universe installment, \"Doctor Strange.\"\n\n[Doc 5] Ed Wood (film):  The film concerns the period in Wood's life when he made his best-known films as well as his relationship with actor Bela Lugosi, played by Martin Landau.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 130.81544303894043,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

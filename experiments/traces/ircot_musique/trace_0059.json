@@ -1,0 +1,23 @@
+{
+  "question": "What award was received by the person who authored Missing Person?",
+  "answer": "Prix Goncourt.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The award received by the author of Missing Person",
+      "action_name": "ircot_search",
+      "action_input": "The award received by the author of Missing Person",
+      "observation": "[Search] Results for 'The award received by the author of Missing Person':\n[Doc 1] Missing Person (novel): Missing Person (French: \"Rue des Boutiques Obscures\") is the sixth novel by French writer Patrick Modiano, published on 5 September 1978. In the same year it was awarded the Prix Goncourt. The English translation by Daniel Weissbort was published in 1980. Rue des Boutiques Obscures (literally 'the Street of dark shops') is the name of a street in Rome () where one of the characters lived, and where Modiano himself lived for some time.\n\n[Doc 2] List of awards and honours received by Audrey Hepburn: Audrey Hepburn received numerous awards and honors during her career. Hepburn won, or was nominated for, awards for her work in motion pictures, television, spoken - word recording, on stage, and humanitarian work. She was five - times nominated for an Academy Award, and was awarded the 1954 Academy Award for Best Actress for her performance in Roman Holiday and the Jean Hersholt Humanitarian Award in 1993, post-humously, for her humanitarian work. She won a record three BAFTA Awards for Best British Actress in a Leading Role, from five nominations, and received a Lifetime Achievement Award in 1992. Hepburn received 10 Golden Globe Award nominations, winning two, and was the recipient of the Cecil B. DeMille Award in 1990. She also won the 1954 Tony Award for Best Performance by a Leading Actress in a Play in Ondine, and received a Special Tony Award in 1968.\n\n[Doc 3] George W....",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 9.301984786987305,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "question": "Who is the maternal grandfather of Antiochus X Eusebes?",
+  "answer": "yes",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for Antiochus X Eusebes family tree will yield information about his lineage.",
+      "action_name": "search",
+      "action_input": "Antiochus X Eusebes family tree",
+      "observation": "[Search] Results for 'Antiochus X Eusebes family tree':\n[Doc 1] Antiochus X Eusebes: AntiochusX married his stepmother, Antiochus IX's widow Cleopatra Selene, and had several children with her, including a future king Antiochus XIII.\n\n[Doc 2] Antiochus X Eusebes: He was the son of Antiochus IX and perhaps his Egyptian wife Cleopatra IV.\n\n[Doc 3] Antiochus X Eusebes: Antiochus XI, Philip I and Demetrius III.\n\n[Doc 4] Antiochus X Eusebes: Antiochus X Eusebes Philopator (–92 or 88 BC) was a Hellenistic Seleucid monarch who reigned as the King of Syria between 95 BC and 92 BC or 89/88 BC (224 SE (Seleucid year)).\n\n[Doc 5] Antiochus X Eusebes: Antiochus IX was killed in 95BC at the hands of Seleucus VI, the son of his half-brother and rival Antiochus VIII.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The family tree provided shows that Antiochus X Eusebes' mother was Cleopatra Selene, daughter of Cleopatra IV and Antiochus IX. However, the family tree does not provide information on her parents.",
+      "action_name": "lookup",
+      "action_input": "Cleopatra Selene",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "To find Cleopatra Selene's parents, I need to search for more details on her lineage. |",
+      "action_name": "search",
+      "action_input": "Cleopatra Selene maternal lineage",
+      "observation": "[Search] Results for 'Cleopatra Selene maternal lineage':\n[Doc 1] Heo Hwang-ok: that trace their lineage to the legendary queen.\n\n[Doc 2] Amalia of Cleves: Amalia and her siblings had a rather grand lineage.\n\n[Doc 3] Princess Feodora of Denmark: Feodora Louise Caroline-Mathilde Viktoria Alexandra Frederikke Johanne)\n\n[Doc 4] Cleopatra IV of Egypt: Cleopatra IV  was Queen of Egypt briefly from 116 to 115 BC, jointly with her husband Ptolemy IX Lathyros.\n\n[Doc 5] Cleopatra IV of Egypt: She later became queen consort of Syria as the wife of Antiochus IX Cyzicenus.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 126.17381596565247,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for Antiochus X Eusebes family tree",
+      "Find maternal grandparents in the family tree",
+      "Finish with the shortest answer."
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+  "answer": "",
+  "n_steps": 2,
+  "finished": false,
+  "finish_reason": "max_steps",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The search should be conducted using the title of the film \"Kiss and Tell\".",
+      "action_name": "search",
+      "action_input": "actors who played Corliss Archer in Kiss and Tell",
+      "observation": "[Search] Results for 'actors who played Corliss Archer in Kiss and Tell':\n[Doc 1] Kiss and Tell (1945 film): Kiss and Tell is a 1945 American comedy film starring then 17-year-old Shirley Temple as Corliss Archer.\n\n[Doc 2] A Kiss for Corliss:  It stars Shirley Temple in her final starring role as well as her final film appearance.\n\n[Doc 3] Kiss and Tell (1945 film):  The parents' bickering about which girl is the worse influence causes more problems than it solves.\n\n[Doc 4] Meet Corliss Archer (TV series):  The program was an adaptation of the radio series of the same name, which was based on a series of short stories by F. Hugh Herbert.\n\n[Doc 5] A Kiss for Corliss:  It is a sequel to the 1945 film \"Kiss and Tell\".",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "action_name": "lookup",
+      "action_input": "actors who played Corliss Archer in Kiss and Tell",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 62.13194561004639,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for actors who played Corliss Archer in Kiss and Tell",
+      "Find the government position held by that specific actor Plan."
+    ]
+  }
+}

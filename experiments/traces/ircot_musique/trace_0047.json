@@ -1,0 +1,23 @@
+{
+  "question": "What county is the NRHEG High School located in?",
+  "answer": "New Richland County, Minnesota.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation 1: NRHEG High School is not located in any specific county.",
+      "action_name": "ircot_search",
+      "action_input": "Observation 1: NRHEG High School is not located in any specific county.",
+      "observation": "[Search] Results for 'Observation 1: NRHEG High School is not located in any specific county.':\n[Doc 1] NRHEG High School: NRHEG High School is located in New Richland, Minnesota. NRHEG stands for New Richland, Hartland, Ellendale, Geneva, which are the towns that the school district covers.\n\n[Doc 2] Troy Independent School District: Located in Bell County, the district extends into a small portion of Falls County. In addition to Troy, the district also serves the unincorporated communities of Pendleton, Belfalls, and Oenaville.\n\n[Doc 3] Bowie Independent School District: The Bowie Independent School District is a public school district based in Bowie, Texas (USA). Located in Montague County, the district also serves the city of Sunset. Small portions of the district extend into Jack and Clay counties.\n\n[Doc 4] Indian River Charter High School: Founded in 1998, Indian River Charter High School enrolls 750 students in grades 9 through 12. Located next door to Indian River State College’s Mueller Campus, students are encouraged to participate in dual enrollment. IRCHS has regularly rated an “A” or “B” school by Florida’s School Rating System and has been the highest rated high school in Indian River County for the past ten years. Students shoulder a great deal of responsibility within the school environment, from the open campus, to Homebase expectations, and participation in community projects such as cultural events, government meetings, and volunteer activities. Each student...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 4.954490900039673,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

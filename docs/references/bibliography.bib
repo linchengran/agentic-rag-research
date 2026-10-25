@@ -1,0 +1,234 @@
+% =====================================================================
+% Agent 毕设文献调研清单
+% 适用选题:小模型 Agent 能力边界研究(及备选方向)
+% 整理日期:2026-09-22
+% 说明:每条文献附中文摘要与"对本项目的相关性"标注
+% =====================================================================
+
+% =================== Agent 范式核心文献 ===================
+
+@article{yao2023react,
+  title   = {{ReAct}: Synergizing Reasoning and Acting in Language Models},
+  author  = {Yao, Shunyu and Zhao, Jeffrey and Yu, Dian and Du, Nan and Shafran, Izhak and Narasimhan, Karthik R. and Cao, Yuan},
+  journal = {ICLR},
+  year    = {2023},
+  url     = {https://arxiv.org/abs/2210.03629},
+  note    = {必读。Agent 范式的奠基工作。Reason+Act 交替循环。}
+}
+
+@inproceedings{shinn2023reflextion,
+  title     = {{Reflextion}: Language Agents with Verbal Reinforcement Learning},
+  author    = {Shinn, Noah and Cassano, Federico and Gopinath, Ashwin and Narasimhan, Karthik and Yao, Shunyu},
+  booktitle = {NeurIPS},
+  year      = {2023},
+  url       = {https://arxiv.org/abs/2303.11381},
+  note      = {必读。在 ReAct 基础上加入自我反思,是本研究 Reflextion 范式的来源。}
+}
+
+@inproceedings{wei2022cot,
+  title     = {Chain-of-Thought Prompting Elicits Reasoning in Large Language Models},
+  author    = {Wei, Jason and Wang, Xuezhi and Schuurmans, Dale and Bosma, Maarten and Ichter, Brian and Xia, Fei and Chi, Ed H. and Le, Quoc V. and Zhou, Denny},
+  booktitle = {NeurIPS},
+  year      = {2022},
+  url       = {https://arxiv.org/abs/2201.11903},
+  note      = {必读。CoT 是 Agent 的前置基础,Direct → CoT 的对比基础。}
+}
+
+@article{schick2023toolformer,
+  title   = {{Toolformer}: Language Models Can Teach Themselves to Use Tools},
+  author  = {Schick, Timo and Dwivedi-Yu, Jane and Dess{\`i}, Roberto and Raileanu, Roberta and Lomeli, Maria and Zettlemoyer, Luke and Cancedda, Nicola and Scialom, Thomas},
+  journal = {NeurIPS},
+  year    = {2023},
+  url     = {https://arxiv.org/abs/2302.04761},
+  note    = {选读。Toolformer 是工具学习的代表,讨论"何时调用"问题。}
+}
+
+@article{patil2023gorilla,
+  title   = {{Gorilla}: Large Language Model Connected with Massive APIs},
+  author  = {Patil, Shishir G. and Zhang, Tianjun and Wang, Xin and Gonzalez, Joseph E.},
+  journal = {NeurIPS},
+  year    = {2023},
+  url     = {https://arxiv.org/abs/2305.15334},
+  note    = {选读。API 调用任务的代表,涉及微调使模型学会调用 API。}
+}
+
+% =================== Agent 评估基准 ===================
+
+@inproceedings{liu2024agentbench,
+  title     = {{AgentBench}: Evaluating {LLMs} as Agents},
+  author    = {Liu, Xiao and Yu, Hao and Zhang, Hanchen and Xu, Yifan and Lei, Xuanyu and Lai, Hanyu and Gu, Yu and Ding, Hangliang and Men, Kaiwen and Yang, Kejuan and others},
+  booktitle = {ICLR},
+  year      = {2024},
+  url       = {https://arxiv.org/abs/2308.03688},
+  note      = {必读。综合 Agent 评估基准,本研究评估协议设计的重要参考。}
+}
+
+@article{qin2023toolllm,
+  title   = {{ToolLLM}: Facilitating Large Language Models to Master 16000+ Real-world APIs},
+  author  = {Qin, Yujia and Liang, Shihao and Ye, Yining and Zhu, Kunlun and others},
+  journal = {NeurIPS},
+  year    = {2023},
+  url     = {https://arxiv.org/abs/2307.16789},
+  note    = {选读。ToolLLM 的数据集、训练方法对工具调用任务设计有参考价值。}
+}
+
+@misc{bfcl2024,
+  title  = {Berkeley Function Calling Leaderboard},
+  author = {{Berkeley Function Calling Leaderboard Team}},
+  year   = {2024},
+  url    = {https://gorilla.cs.berkeley.edu/bfcl.html},
+  note   = {选读。函数调用 Leaderboard,工具调用任务的评价参考。}
+}
+
+% =================== 自我改进 / 反思 ===================
+
+@inproceedings{madaan2023selfrefine,
+  title     = {{Self-Refine}: Iterative Refinement with Self-Feedback},
+  author    = {Madaan, Aman and Tandon, Niket and Gupta, Prakhar and Hallinan, Skyler and Gao, Luyu and Wiegreffe, Sarah and Alon, Uri and Dziri, Nouha and Prabhumoye, Shrimai and Yang, Yiming and others},
+  booktitle = {NeurIPS},
+  year      = {2023},
+  url       = {https://arxiv.org/abs/2303.17651},
+  note      = {必读。Self-Refine 是 Reflextion 的简化版,可作为本研究"轻量化框架"设计的参考。}
+}
+
+@article{huang2022inner,
+  title   = {Inner Monologue: Embodied Reasoning through Planning with Language Models},
+  author  = {Huang, Wenlong and Xia, Fei and Xiao, Ted and Chan, Harris and Liang, Jacky and Florence, Peter and Zeng, Andy and Tompson, Jonathan and Mordatch, Igor and Chebotar, Yevgen and others},
+  journal = {arXiv preprint arXiv:2207.05608},
+  year    = {2022},
+  url     = {https://arxiv.org/abs/2207.05608},
+  note    = {选读。规划与反思的早期工作,Plan-and-Execute 范式参考。}
+}
+
+% =================== 多 Agent 与协作 ===================
+
+@article{wu2023autogen,
+  title   = {AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation},
+  author  = {Wu, Qingyun and Bansal, Gagan and Zhang, Jieyu and Wu, Yiran and Li, Beibin and Zhu, Erkang and Jiang, Li and Zhang, Xiaoyun and Wang, Shaokun and Liu, Jiale and others},
+  journal = {arXiv preprint arXiv:2308.08155},
+  year    = {2023},
+  url     = {https://arxiv.org/abs/2308.08155},
+  note    = {选读。多 Agent 框架,本研究可作为延伸方向。}
+}
+
+% =================== 规划与执行 ===================
+
+@article{weng2023llmagents,
+  title   = {LLM-powered Autonomous Agents},
+  author  = {Weng, Lilian},
+  journal = {Lilian Weng's Blog},
+  year    = {2023},
+  url     = {https://lilianweng.github.io/posts/2023-06-23-agent/},
+  note    = {必读。综述类博文,Agent 全景视角,入门必看。}
+}
+
+% =================== 小模型相关 ===================
+
+@misc{abdin2024phi3,
+  title  = {{Phi-3} Technical Report: A Highly Capable Language Model Locally on Your Phone},
+  author = {Abdin, Marah and others},
+  year   = {2024},
+  url    = {https://arxiv.org/abs/2404.14219},
+  note   = {选读。小模型代表,讨论 3.8B 模型的能力上限。}
+}
+
+@misc{meta2024llama3,
+  title  = {The {Llama 3} Herd of Models},
+  author = {{Meta AI}},
+  year   = {2024},
+  url    = {https://arxiv.org/abs/2407.21783},
+  note   = {选读。Llama 3 系列,小模型对比的备选基座。}
+}
+
+@misc{qwen2024qwen25,
+  title  = {{Qwen2.5} Technical Report},
+  author = {{Qwen Team}},
+  year   = {2024},
+  url    = {https://qwenlm.github.io/blog/qwen2.5/},
+  note   = {必读。本项目默认基座模型,熟悉其指令跟随与 Function Calling 能力。}
+}
+
+% =================== 综述与产业报告 ===================
+
+@misc{caict2024agent,
+  title  = {大模型智能体应用研究报告},
+  author = {中国信息通信研究院},
+  year   = {2024},
+  note   = {选读。中文综述,Agent 产业视角。}
+}
+
+@article{zhao2023survey,
+  title   = {A Survey of Large Language Models},
+  author  = {Zhao, Wayne Xin and Zhou, Kun and Li, Junyi and Tang, Tianyi and others},
+  journal = {arXiv preprint arXiv:2303.18223},
+  year    = {2023},
+  url     = {https://arxiv.org/abs/2303.18223},
+  note    = {选读。LLM 综述,理解 Agent 在 LLM 生态中的位置。}
+}
+
+% =================== 数学 / 多跳问答 相关(任务侧)=====================
+
+@inproceedings{cobbe2021gsm8k,
+  title     = {Training Verifiers to Solve Math Word Problems},
+  author    = {Cobbe, Karl and Kosaraju, Vineet and Bavarian, Mohammad and Chen, Mark and Jun, Heewoo and Kaiser, Lukasz and Plappert, Matthias and Tworek, Jerry and Hilton, Jacob and Nakano, Reiichiro and others},
+  booktitle = {arXiv preprint arXiv:2110.14168},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2110.14168},
+  note      = {必读。GSM8K 数据集出处,本项目数学任务的核心数据集。}
+}
+
+@inproceedings{yang2018hotpotqa,
+  title     = {{HotpotQA}: A Dataset for Diverse, Explainable Multi-hop Question Answering},
+  author    = {Yang, Zhilin and Qi, Peng and Zhang, Saizheng and Bengio, Yoshua and Cohen, William W. and Salakhutdinov, Ruslan and Manning, Christopher D.},
+  booktitle = {EMNLP},
+  year      = {2018},
+  url       = {https://arxiv.org/abs/1809.09600},
+  note      = {必读。HotpotQA 是多跳问答经典数据集,本项目多跳任务的核心。}
+}
+
+@article{li2023api,
+  title   = {{API-Bank}: A Comprehensive Benchmark for Tool-Augmented LLMs},
+  author  = {Li, Minghao and Zhao, Yelong and Lin, Qinyi and others},
+  journal = {arXiv preprint arXiv:2304.08244},
+  year    = {2023},
+  url     = {https://arxiv.org/abs/2304.08244},
+  note    = {必读。API-Bank 数据集出处,工具调用任务的核心。}
+}
+
+% =================== 失败模式 / 鲁棒性 ===================
+
+@article{guo2024deepseek,
+  title   = {{DeepSeek-V2}: A Strong, Economical, and Efficient Mixture-of-Experts Language Model},
+  author  = {Guo, Daya and Deng, Yang and Yang, Zhihong and others},
+  journal = {arXiv preprint arXiv:2405.04434},
+  year    = {2024},
+  url     = {https://arxiv.org/abs/2405.04434},
+  note    = {选读。MoE 架构与 Function Calling 实现,可作为模型对比参考。}
+}
+
+@article{ouyang2022training,
+  title   = {Training Language Models to Follow Instructions with Human Feedback},
+  author  = {Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll L. and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and others},
+  journal = {NeurIPS},
+  year    = {2022},
+  url     = {https://arxiv.org/abs/2203.02155},
+  note    = {选读。RLHF 起源工作,理解指令微调背景。}
+}
+
+% =================== 工程实践类 ===================
+
+@misc{langchain2024,
+  title  = {LangChain Documentation},
+  author = {{LangChain Team}},
+  year   = {2024},
+  url    = {https://python.langchain.com/},
+  note   = {选读。工程实现参考,工具调用与 Agent 编排。}
+}
+
+@misc{vllm2024,
+  title  = {vLLM: Efficient Memory Management for LLM Serving},
+  author = {{vLLM Project}},
+  year   = {2024},
+  url    = {https://github.com/vllm-project/vllm},
+  note   = {选读。本地部署推理加速参考。}
+}

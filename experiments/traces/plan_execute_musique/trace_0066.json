@@ -1,0 +1,44 @@
+{
+  "question": "During what era was the manufacturer of Agni-V founded?",
+  "answer": "no earlier era found",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for the Agni-V missile program details will provide information about its development era.",
+      "action_name": "search",
+      "action_input": "Agni-V missile program details",
+      "observation": "[Search] Results for 'Agni-V missile program details':\n[Doc 1] Agni-V: Agni-V is an intercontinental ballistic missile developed by the Defence Research and Development Organisation (DRDO) of India. Agni V is part of the Agni series of missiles, one of the missile systems under the original Integrated Guided Missile Development Program.\n\n[Doc 2] India and weapons of mass destruction: India Nuclear programme start date 1967 First nuclear weapon test 18 May 1974 First fusion weapon test 11 May 1998 Most recent test 13 May 1998 Largest - yield test 20 - 60 kt total Number of tests to date 6 Peak stockpile 110 - 120 Current stockpile 110 - 120 Maximum missile range 5,000 - 5,800 km (Agni - V) NPT Party No Smiling Buddha Declared (Pokhran - II) Disputed (Pokhran - II) 2016 estimate Agni V\n\n[Doc 3] Agni-I: Agni-I (Agnī \"\"Fire\"\") is a short-range ballistic missile developed by DRDO of India under the Integrated Guided Missile Development Program. It is a single-stage missile developed after the Kargil War to fill the gap between 250 km range of Prithvi-II and 2,500 km range of Agni-II. It was first launched on 25 January 2002 from a road mobile launcher at Integrated Test Range (ITR), Wheeler Island. Less than 75 launchers are deployed.\n\n[Doc 4] Agni Air Flight 101: Agni Air Flight 101 was a regional flight operated by Agni Air between Kathmandu, Nepal, and Lukla, Nepal, that crashed on 24 August 2010, killing all 14 people on board. Twenty minutes after take-off from Kathmandu, the...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The search results show that Agni-V is part of the Agni series of missiles developed by DRDO. The observation indicates that the Agni-V program started the same era as the Pokhran-II nuclear tests, which were conducted in 1998.",
+      "action_name": "lookup",
+      "action_input": "era of Pokhran-II nuclear tests",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The era of the Pokhran-II nuclear tests is 1998 based on the observation. |",
+      "action_name": "finish",
+      "action_input": "no earlier era found",
+      "observation": "[Finish] Answer: no earlier era found",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 80.63016748428345,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for the Agni-V missile program details",
+      "Find the era in which the Agni-V was developed",
+      "Finish with the shortest answer."
+    ]
+  }
+}

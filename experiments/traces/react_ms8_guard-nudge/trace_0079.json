@@ -1,0 +1,39 @@
+{
+  "question": "In which year was the King who made the 1925 Birthday Honours born?",
+  "answer": "1925",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The 1925 Birthday Honours were given by King George V, so we need to find information about his birth year.",
+      "action_name": "search",
+      "action_input": "King George V 1925 Birthday Honours birth year",
+      "observation": "[Search] Results for 'King George V 1925 Birthday Honours birth year':\n[Doc 1] 1925 Birthday Honours: The 1925 Birthday Honours were appointments by King George V to various orders and honours to reward and highlight good works by citizens of the British Empire.\n\n[Doc 2] 1925 Birthday Honours:  The appointments were made to celebrate the official birthday of The King, and were published in \"The London Gazette\" on 3 June 1925.\n\n[Doc 3] George V: George V (George Frederick Ernest Albert; 3 June 1865 – 20 January 1936) was King of the United Kingdom and the British Dominions, and Emperor of India, from 6 May 1910 until his death in 1936.\n\n[Doc 4] Birthday Honours: King's/Queen's Birthday Honours is, in some Commonwealth realms, the marking of the reigning monarch's official birthday by granting various individuals appointment into national or dynastic orders or the award of decorations and medals.\n\n[Doc 5] Birthday Honours:  All royal honours are published in the relevant gazette, and the daily newspapers of each realm.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "I found the birth year of King George V from the documents.",
+      "action_name": "lookup",
+      "action_input": "George V birth year",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "With the birth year of King George V being 1925, this is the year we are looking for.",
+      "action_name": "finish",
+      "action_input": "1925",
+      "observation": "[Finish] Answer: 1925",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 14.729543685913086,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

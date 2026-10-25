@@ -1,0 +1,23 @@
+{
+  "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+  "answer": "Firth of Forth",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of which coastal area?",
+      "action_name": "ircot_search",
+      "action_input": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of which coastal area?",
+      "observation": "[Search] Results for 'A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of which coastal area?':\n[Doc 1] Dirleton Castle: Dirleton Castle is a medieval fortress in the village of Dirleton, East Lothian, Scotland.\n\n[Doc 2] Yellowcraigs:  It is bordered to the north by the Firth of Forth, to the south by the village of Dirleton and Dirleton Castle, to the east by the North Berwick West Links golf course, and to the west by the Archerfield Estate and Links golf courses.\n\n[Doc 3] Scottish Borders:  It borders the City of Edinburgh, Dumfries and Galloway, East Lothian, Midlothian, South Lanarkshire, West Lothian and, to the south and east, Northumberland in England.\n\n[Doc 4] Lothian and Borders: Lothian and Borders is an area in south-east Scotland consisting of the East Lothian, City of Edinburgh, Midlothian, West Lothian areas (collectively known as Lothian) along with the Scottish Borders.\n\n[Doc 5] Corieltauvi:  They were bordered by the Brigantes to the north, the Cornovii to the west, the Dobunni and Catuvellauni to the south, and the Iceni to the east.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 16.30921959877014,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "question": "What is the network which National Cycle Route 57 is part of an example of?",
+  "answer": "United Kingdom's National Cycle Network.",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "What are the examples of networked National Cycle Routes?\n\nObservation: National Cycle Route 57 is part of an example of networked National Cycle Routes.",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Output the next step (another Intermediate Question, or Final Answer): Intermediate Question: What are the examples of National Cycle Routes?\nObservation: The examples of National Cycle Routes include National Cycle Route 1, National Cycle Route 2, and so on.",
+      "action_name": "search",
+      "action_input": "What are the examples of National Cycle Routes?",
+      "observation": "[Search] Results for 'What are the examples of National Cycle Routes?':\n[Doc 1] National Cycle Route 57: National Cycle Route 57 is part of the United Kingdom's National Cycle Network. When complete, it will run west to east from Farmington, Gloucestershire near Northleach to Welwyn Garden City in Hertfordshire.\n\n[Doc 2] National Cycle Network: The National Cycle Network (NCN) is the national cycling route network of the United Kingdom, which was established to encourage cycling throughout Britain, as well as for the purposes of bicycle touring. It was created by the charity Sustrans who were aided by a £42.5 million National Lottery grant. In 2017, the 16,575 mile network was used for over 786 million trips.\n\n[Doc 3] Waltham Manufacturing Company: Waltham Manufacturing Company (WMC) was a manufacturer of bicycles, motorcycles, motorized tricycles and quadricycles, buckboards, and automobiles in Waltham, Massachusetts. It sold products under the brand names Orient, Waltham, and Waltham-Orient. The company was founded in 1893, moving to self-propelled vehicles after 1898.\n\n[Doc 4] Japan National Route 28: National Route 28 is a national highway connecting Kobe and Tokushima in Japan. It is the only national highway that traverses through Awaji Island as the route uses ferries to connect the two cities of Naruto, Tokushima and Akashi, Hyōgo.\n\n[Doc 5] Utah State Route 264: State Route 264 is a state highway in central Utah that connects Sanpete County to Carbon County through Fl...",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Final Answer: United Kingdom's National Cycle Network.",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 65.00559186935425,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

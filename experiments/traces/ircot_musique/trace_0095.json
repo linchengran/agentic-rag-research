@@ -1,0 +1,23 @@
+{
+  "question": "What is the competition that the 1965 Federation Cup is part of named after?",
+  "answer": "Fed Cup",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The Federation Cup was held in 1965, what is the tournament it is part of named after?",
+      "action_name": "ircot_search",
+      "action_input": "The Federation Cup was held in 1965, what is the tournament it is part of named after?",
+      "observation": "[Search] Results for 'The Federation Cup was held in 1965, what is the tournament it is part of named after?':\n[Doc 1] 1965 Federation Cup (tennis): The 1965 Federation Cup was the third edition of what is now known as the Fed Cup. Eleven nations participated in the tournament, which was held at the Kooyong Lawn Tennis Club in Melbourne, Australia from 15–18 January. United States and Australia both reached the final for the third consecutive time, and Australia defended their title, defeating United States by winning both of their singles rubbers.\n\n[Doc 2] Ružica Meglaj-Rimac: Ružica Meglaj-Rimac (15 February 1941 – 11 July 1996) was a former Yugoslav and Croatian basketball player born in Croatian-Slovenian family. The Ružica Meglaj-Rimac Cup is named after her.\n\n[Doc 3] 1967 Federation Cup (tennis): The 1967 Federation Cup was the fifth edition of what is now known as the Fed Cup. 17 nations participated in the tournament, which was held at the Blau-Weiss Tennis Club in West Berlin from 6–11 June. United States defended their title, defeating Great Britain in the final.\n\n[Doc 4] Fed Cup: Fed Cup is the premier international team competition in women's tennis, launched in 1963 to celebrate the 50th anniversary of the International Tennis Federation (ITF). The competition was known as the Federation Cup until 1995. The Fed Cup is the world's largest annual women's international team sports competition in terms of the number of nations that compete. The current Fed Cup Chairp...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 6.225636005401611,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

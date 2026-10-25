@@ -1,0 +1,23 @@
+{
+  "question": "Who is the spouse of the Green performer?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 3: Who is the spouse of Alice? (Observation 2: The spouse of Alice is Bob.)",
+      "action_name": "ircot_search",
+      "action_input": "Thought 3: Who is the spouse of Alice? (Observation 2: The spouse of Alice is Bob.)",
+      "observation": "[Search] Results for 'Thought 3: Who is the spouse of Alice? (Observation 2: The spouse of Alice is Bob.)':\n[Doc 1] Jack McFarland: In season three, Jack undertakes a search for his biological father, which ends when he discovers that his father died several years back. Jack does, however, meet Elliot (Michael Angarano), his own biological son, whom he fathered by depositing at a sperm bank as a teenager so that he could buy a leather jacket. He later discovers that the boy's mother Bonnie (Rosie O'Donnell) is a lesbian; she was a nurse at the sperm bank who stole Jack's deposit and was inseminated with it.\n\n[Doc 2] White Rabbit: The White Rabbit is a fictional character in Lewis Carroll's book \"Alice's Adventures in Wonderland\". He appears at the very beginning of the book, in chapter one, wearing a waistcoat, and muttering \"Oh dear! Oh dear! I shall be too late!\" Alice follows him down the rabbit hole into Wonderland. Alice encounters him again when he mistakes her for his housemaid Mary Ann and she becomes trapped in his house after growing too large. The Rabbit shows up again in the last few chapters, as a herald-like servant of the King and Queen of Hearts.\n\n[Doc 3] Khrystyne Haje: Khrystyne Kamil Haje (/ krɪˈstiːn hɑːdʒ /; born December 21, 1968) is an American actress. She is known for her role as Simone Foster in the sitcom series Head of the Class.\n\n[Doc 4] Alice de Lusignan, Countess of Surrey: Alice de Lusignan, Countess of Surrey (1224 – 9 February 1256) was a ute...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 65.64141988754272,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

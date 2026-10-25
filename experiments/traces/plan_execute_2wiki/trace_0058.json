@@ -1,0 +1,35 @@
+{
+  "question": "Which country the director of film Daadagiri is from?",
+  "answer": "Arshad Khan",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The search should be conducted with the title of the film to find information about its director.",
+      "action_name": "search",
+      "action_input": "the director of the film Daadagiri",
+      "observation": "[Search] Results for 'the director of the film Daadagiri':\n[Doc 1] Daadagiri: Daadagiri is a 1997 Bollywood film directed by Arshad Khan starring Mithun Chakraborty, Ayub Khan, Simran, Rituparna Sengupta in lead roles and Puneet Issar, Nishigandha Wad, Shakti Kapoor and Kader Khan.\n\n[Doc 2] Semshook: The film was directed By Siddharth Anand Kumar, produced by Francisco Leria and written by Sudip Sharma and Rahul Singh.\n\n[Doc 3] Sathyavan Savithri: Sathyavan Savithri is a 2007 Kannada comedy film directed by Ramesh Aravind and produced by Ajay Chandani for Ajay Films banner.\n\n[Doc 4] The Parts You Lose: The film is directed by Christopher Cantwell based on a screenplay by Darren Lemke.\n\n[Doc 5] Tell It to the Bees: Tell It to the Bees is 2018 British drama film directed by Annabel Jankel and starring Anna Paquin and Holliday Grainger.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "action_name": "lookup",
+      "action_input": "Arshad Khan",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 195.07701539993286,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for the director of the film Daadagiri",
+      "Find the nationality of the director from the search result. Finish with the shortest answer."
+    ]
+  }
+}

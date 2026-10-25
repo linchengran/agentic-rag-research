@@ -1,0 +1,23 @@
+{
+  "question": "Where was the author of Hannibal and Scipio educated at?",
+  "answer": "Eton.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: [Observation 1: retrieved facts]",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: [Observation 1: retrieved facts]",
+      "observation": "[Search] Results for 'Thought 2: [Observation 1: retrieved facts]':\n[Doc 1] Planck constant: The assumption that black-body radiation is thermal leads to an accurate prediction: the total amount of emitted energy goes up with the temperature according to a definite rule, the Stefan–Boltzmann law (1879–84). But it was also known that the colour of the light given off by a hot object changes with the temperature, so that \"white hot\" is hotter than \"red hot\". Nevertheless, Wilhelm Wien discovered the mathematical relationship between the peaks of the curves at different temperatures, by using the principle of adiabatic invariance. At each different temperature, the curve is moved over by Wien's displacement law (1893). Wien also proposed an approximation for the spectrum of the object, which was correct at high frequencies (short wavelength) but not at low frequencies (long wavelength). It still was not clear why the spectrum of a hot object had the form that it has (see diagram).\n\n[Doc 2] Bureaucracy (book): Bureaucracy is a political book written by Austrian School economist and libertarian thinker Ludwig von Mises. The author's motivation in writing the book is his concern with the spread of socialist ideals and the increasing bureaucratization of economic life. While he does not deny the necessity of certain bureaucratic structures for the smooth operation of any civilized state, he disagrees with the extent to which it has come to dominate the public life of European countr...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 14.349863767623901,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "In what month is the annual documentary film festival, that is presented by the fortnightly published British journal of literary essays, held? ",
+  "answer": "no.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: March.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: March.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: March.':\n[Doc 1] .ky:  After September 2, 2015 the .\n\n[Doc 2] Longhunter:  The parties of two or three men (and rarely more) usually started their hunts in October and ended toward the end of March or early in April.\n\n[Doc 3] Red Sparrow:  It is scheduled to be released on March 2, 2018.\n\n[Doc 4] I'd Come for You:  It was released March 23, 2009. \"\n\n[Doc 5] Drive Angry:  It was released on February 25, 2011.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 4.62054967880249,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

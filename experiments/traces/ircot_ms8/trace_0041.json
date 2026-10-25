@@ -1,0 +1,23 @@
+{
+  "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+  "answer": "Bangalore, India.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: Amazon Technologies Inc.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: Amazon Technologies Inc.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: Amazon Technologies Inc.':\n[Doc 1] Team Fortress 2:  It is distributed online through Valve's digital retailer Steam, with retail distribution being handled by Electronic Arts.\n\n[Doc 2] Id Tech 5:  It was seen as a major advancement over id Tech 4.\n\n[Doc 3] Id Tech 5:  It follows its predecessors, id Tech 1, 2, 3 and 4, all of which have subsequently been published under the GNU General Public License.\n\n[Doc 4] Cyclone Hondo:  The cyclone gradually weakened over the next several days due to an increase in forward speed and a decrease in sea surface temperatures.\n\n[Doc 5] Bart to the Future:  It originally aired on the Fox network in the United States on March 19, 2000.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 13.295866012573242,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

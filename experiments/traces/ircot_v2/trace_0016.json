@@ -1,0 +1,23 @@
+{
+  "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+  "answer": "1988",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 5:",
+      "action_name": "ircot_search",
+      "action_input": "Thought 5:",
+      "observation": "[Search] Results for 'Thought 5:':\n[Doc 1] Evicted!: \"Evicted!\"\n\n[Doc 2] Zachary Throne:  .\n\n[Doc 3] Id Tech 5:  It was seen as a major advancement over id Tech 4.\n\n[Doc 4] 5:55:  \"The Songs That We Sing\" and \"5:55\" were released as singles.\n\n[Doc 5] 5:55: 5:55 is the second album by French musician...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 18.483766794204712,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

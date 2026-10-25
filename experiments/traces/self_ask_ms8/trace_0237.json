@@ -1,0 +1,31 @@
+{
+  "question": "A scam involving a male calling small town fast-food restaurants and pretending to be a police officer to have them strip search employees was turned into a movie of what name?",
+  "answer": "Compliance",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What is the title of the movie based on a scam involving a male calling small town fast-food restaurants and pretending to be a police officer to have them strip search employees?\n\nObservation: The movie is titled \"Police Academy.\"",
+      "action_name": "search",
+      "action_input": "What is the title of the movie based on a scam involving a male calling small town fast-food restaurants and pretending to be a police officer to have them strip search employees?",
+      "observation": "[Search] Results for 'What is the title of the movie based on a scam involving a male calling small town fast-food restaurants and pretending to be a police officer to have them strip search employees?':\n[Doc 1] Strip search phone call scam:  The incidents involved a man prank calling a restaurant or grocery store, claiming to be a police officer and then convincing managers to conduct strip searches of female employees, and to perform other bizarre acts on behalf of \"the police\".\n\n[Doc 2] Compliance (film):  The film is based on the strip search prank call scam that took place at a Mount Washington, Kentucky McDonald's restaurant in Bullit County.\n\n[Doc 3] Compliance (film):  The plot focuses on a prank caller who, posing as a police officer, convinces the manager of a fast food restaurant to carry out intrusive and unlawful procedures on an employee.\n\n[Doc 4] Strip search phone call scam:  The calls were most often placed to fast-food restaurants in small towns, located in rural areas of the United States.\n\n[Doc 5] Brother from Another Series:  The title is not only a pun on the movie \"The Brother from Another Planet\" (used for a previous episode as well), but also a reference to the fact that guest stars Kelsey Grammer (Frasier Crane) and David Hyde Pierce (Niles Crane) also played bickering brothers on the NBC sitcom \"Frasier\".",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Compliance",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 9.181596994400024,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

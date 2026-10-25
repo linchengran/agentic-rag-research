@@ -1,0 +1,44 @@
+{
+  "question": "Who is Arthur Gore, 2Nd Earl Of Arran's paternal grandfather?",
+  "answer": "Arthur Gore",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about the 2Nd Earl of Arran's lineage.",
+      "action_name": "search",
+      "action_input": "2Nd Earl Of Arran lineage",
+      "observation": "[Search] Results for '2Nd Earl Of Arran lineage':\n[Doc 1] Arthur Gore, 2nd Earl of Arran: Arthur Saunders Gore, 2nd Earl of Arran KP, PC (Ire)\n\n[Doc 2] Arthur Gore, 2nd Earl of Arran: Arran was the eldest son of Arthur Gore, 1st Earl of Arran, and Jane Saunders.\n\n[Doc 3] Arthur Gore, 2nd Earl of Arran: In 1773 he succeeded his father as second Earl of Arran and entered the Irish House of Lords.\n\n[Doc 4] Arthur Gore, 2nd Earl of Arran: Arran was also appointed High Sheriff of County Wexford in 1757 and High Sheriff of Mayo in 1765.\n\n[Doc 5] Philip Gore, 4th Earl of Arran: Born at Dublin Castle, Arran was the eldest son of Colonel the Hon. William John Gore, second son of Arthur Gore, 2nd Earl of Arran, and his wife Caroline, daughter of Sir Thomas Hales, 4th Baronet.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The first document mentions that Arthur Gore, 2nd Earl of Arran, was the eldest son of Arthur Gore, 1st Earl of Arran. Therefore, the 1st Earl of Arran is Arthur Gore's paternal grandfather.",
+      "action_name": "lookup",
+      "action_input": "paternal grandfather",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The 1st Earl of Arran is Arthur Gore's paternal grandfather. |",
+      "action_name": "finish",
+      "action_input": "Arthur Gore",
+      "observation": "[Finish] Answer: Arthur Gore",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 158.6357979774475,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for 2Nd Earl Of Arran lineage",
+      "Find 2Nd Earl Of Arran's paternal grandfather",
+      "Finish with the shortest answer."
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "question": "Who was born earlier, Silas Hardy or Lee Mantle?",
+  "answer": "no",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about Silas Hardy and Lee Mantle.",
+      "action_name": "search",
+      "action_input": "Silas Hardy and Lee Mantle birth dates",
+      "observation": "[Search] Results for 'Silas Hardy and Lee Mantle birth dates':\n[Doc 1] Silas Hardy: Silas Hardy( 30 April 1867 – 27 June 1905) was an English cricketer.\n\n[Doc 2] Lee Mantle: Lee Mantle( December 13, 1851 November 18, 1934) was a United States Senator from Montana.\n\n[Doc 3] Lee Mantle: Born in Birmingham, England, his mother converted to Mormonism and immigrated to the United States with her children; they settled at Salt Lake City, Utah in 1864.\n\n[Doc 4] Silas Hardy: He was born in Ilkeston, Derbyshire.\n\n[Doc 5] Silas H. Strawn: Silas Hardy Strawn( December 15, 1866 – 1946) was a prominent Chicago lawyer and one of the name partners at the law firm of Winston& Strawn.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Lookup the birth dates of Silas Hardy and Lee Mantle in the search results.",
+      "action_name": "lookup",
+      "action_input": "birth dates",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "Finish the comparison between Silas Hardy and Lee Mantle's birth dates.",
+      "action_name": "finish",
+      "action_input": "no",
+      "observation": "[Finish] Answer: no",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 22.064757347106934,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

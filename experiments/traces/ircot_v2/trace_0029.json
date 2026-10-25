@@ -1,0 +1,31 @@
+{
+  "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+  "answer": "The Pit.",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: The Pit.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: The Pit.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: The Pit.':\n[Doc 1] Pilot (Rick and Morty):  It is written by series creators Dan Harmon and Justin Roiland, and directed by Roiland.\n\n[Doc 2] Shrek Forever After (video game):  It is the fourth and final video game based on the movie series of \"Shrek\".\n...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "[Search] Results for 'Tunnels and Trolls adventure name'.",
+      "action_name": "ircot_search",
+      "action_input": "[Search] Results for 'Tunnels and Trolls adventure name'.",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 34.154226779937744,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

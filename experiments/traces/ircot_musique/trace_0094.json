@@ -1,0 +1,23 @@
+{
+  "question": "The 1967 Federation Cup is an instance of this tournament which is named after what organization?",
+  "answer": "International Tennis Federation (ITF)",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The 1967 Federation Cup being referenced is likely a precursor to the current ATP and WTA tennis tours.",
+      "action_name": "ircot_search",
+      "action_input": "The 1967 Federation Cup being referenced is likely a precursor to the current ATP and WTA tennis tours.",
+      "observation": "[Search] Results for 'The 1967 Federation Cup being referenced is likely a precursor to the current ATP and WTA tennis tours.':\n[Doc 1] 1967 Federation Cup (tennis): The 1967 Federation Cup was the fifth edition of what is now known as the Fed Cup. 17 nations participated in the tournament, which was held at the Blau-Weiss Tennis Club in West Berlin from 6–11 June. United States defended their title, defeating Great Britain in the final.\n\n[Doc 2] Fed Cup: Fed Cup is the premier international team competition in women's tennis, launched in 1963 to celebrate the 50th anniversary of the International Tennis Federation (ITF). The competition was known as the Federation Cup until 1995. The Fed Cup is the world's largest annual women's international team sports competition in terms of the number of nations that compete. The current Fed Cup Chairperson is Katrina Adams.\n\n[Doc 3] 2018 FIFA World Cup: The final took place on 15 July at the Luzhniki Stadium in Moscow, between France and Croatia. France won the match 4 -- 2 to claim their second World Cup title, marking the fourth consecutive title won by a European team.\n\n[Doc 4] United States men's national soccer team: The United States men's national soccer team is controlled by the United States Soccer Federation and competes in the Confederation of North, Central American and Caribbean Association Football. The team has appeared in ten FIFA World Cups, including the first in 1930, where they reached the semi-finals. The U.S. parti...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 18.89115881919861,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

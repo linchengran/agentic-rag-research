@@ -1,0 +1,31 @@
+{
+  "question": "Which film came out first, Celine: Through The Eyes Of The World or Dilan 1991?",
+  "answer": "no",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Which film came out first, Celine: Through The Eyes Of The World or Dilan 1991?\n\nObservation: Celine: Through The Eyes Of The World is a film, and Dilan 1991 could refer to an event or person named 1991. To determine which came first, we need to look up their release dates. \n\nAsk the next intermediate question: What is the release date of Celine: Through The Eyes Of The World?",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: no",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 15.674323320388794,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

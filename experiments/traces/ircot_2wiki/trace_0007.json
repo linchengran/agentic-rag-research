@@ -1,0 +1,23 @@
+{
+  "question": "Are North Marion High School (Oregon) and Seoul High School both located in the same country?",
+  "answer": "",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Observation 3: North Marion High School is located in the United States, and Seoul High School is located in South Korea.)",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 3: North Marion High School is located in the United States, and Seoul High School is located in South Korea.)",
+      "observation": "[Search] Results for '(Observation 3: North Marion High School is located in the United States, and Seoul High School is located in South Korea.)':\n[Doc 1] Seoul High School: Seoul High School( Hangul: 서울고등학교) is a public high school located in the heart of Seoul, South Korea.\n\n[Doc 2] North Marion High School (West Virginia): North Marion High School is a public Double A (\"AA\") high school in the U.S. state of West Virginia, with a current enrollment of 851 students.\n\n[Doc 3] North Marion High School (Oregon): North Marion High School is a public high school in Aurora, Oregon, United States.\n\n[Doc 4] North Marion High School (Oregon): The school draws students from the cities of Aurora, Hubbard, and Donald as well as the communities of Broadacres and Butteville.\n\n[Doc 5] Marion High School (Kansas): It is one of three schools operated by Marion USD 408, and is the sole high school in the district.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 34.858165979385376,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

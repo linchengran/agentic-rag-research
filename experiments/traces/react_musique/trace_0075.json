@@ -1,0 +1,39 @@
+{
+  "question": "The Directory of Public Worship was approved by a parliament whose modern equivalent has been based where since 2004?",
+  "answer": "yes",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about the Directory of Public Worship and its parliamentary background.",
+      "action_name": "search",
+      "action_input": "The Directory of Public Worship parliament modern equivalent",
+      "observation": "[Search] Results for 'The Directory of Public Worship parliament modern equivalent':\n[Doc 1] Presbyterianism: Presbyterian denominations that trace their heritage to the British Isles usually organise their church services inspired by the principles in the Directory of Public Worship, developed by the Westminster Assembly in the 1640s. This directory documented Reformed worship practices and theology adopted and developed over the preceding century by British Puritans, initially guided by John Calvin and John Knox. It was enacted as law by the Scottish Parliament, and became one of the foundational documents of Presbyterian church legislation elsewhere.\n\n[Doc 2] Lascelles Principles: During public discussion of the King's potential response to the outcome of the 1950 general election, which returned a very slim Labour Party majority in the House of Commons, the Lascelles Principles were formally stated in a letter by Sir Alan Lascelles, Private Secretary to King George VI, under the pseudonym \"Senex\" to the Editor of \"The Times\", published on 2 May 1950:\n\n[Doc 3] Rhodesian Front: Following the elections leading to the country's independence in 1980, as the Republic of Zimbabwe, the RF won all 20 parliamentary seats reserved for whites in the power-sharing agreement that it had forged. On June 6, 1981, the party changed its name to the Republican Front, and on July 21, 1984 it became the Conservative Alliance of Zimbabwe. Eleven of its twenty parliamentarians defected over the...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Look up information in the search results to find the modern equivalent of the parliament that issued the Directory of Public Worship.",
+      "action_name": "lookup",
+      "action_input": "modern equivalent parliament",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "Based on the information from the search results, the modern equivalent of the parliament that approved the Directory of Public Worship is likely the UK Parliament.",
+      "action_name": "finish",
+      "action_input": "yes",
+      "observation": "[Finish] Answer: yes",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 16.848434448242188,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

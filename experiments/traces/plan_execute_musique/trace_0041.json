@@ -1,0 +1,44 @@
+{
+  "question": "What place does the administrative territorial entity that Juba is located in share a border with?",
+  "answer": "yes",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for the borders of South Sudan will provide information about its neighboring countries.",
+      "action_name": "search",
+      "action_input": "the borders of south sudan",
+      "observation": "[Search] Results for 'the borders of south sudan':\n[Doc 1] India–Pakistan border: The India and Pakistan Border, known locally as the International Border (IB), is an international border running between India and Pakistan that demarcates the Indian states and the four provinces of Pakistan. The border runs from the Line of Control (LoC), which separates the Indian controlled Kashmir from Pakistan controlled Kashmir, in the north, to Wagah, which partitioned the Indian Punjab state and Punjab Province of Pakistan, in the east. The Zero Point separates the Indian states of Gujarat and Rajasthan to Sindh province of Pakistan, in the south.\n\n[Doc 2] East Nusa Tenggara: Located in the east of Lesser Sunda Islands, East Nusa Tenggara faces the Indian Ocean in the south and Flores Sea in the north. The province is bordered by other provinces, West Nusa Tenggara in the west. In the east, the province is bordered by East Timor and southern part of Maluku.\n\n[Doc 3] Amman Governorate: The Amman Governorate has the largest population of the 12 governorates of Jordan. It borders Zarqa Governorate to the north and north east, the governorates of Balqa and Madaba to the west, Karak and Ma'an governorates to the south. It also shares an international border with Saudi Arabia from the east.\n\n[Doc 4] Bueng Kan Province: The province is in the northeastern corner of Thailand. It borders, from the south clockwise, Nakhon Phanom, Sakon Nakhon, and Nong Khai Province. To the north and east it bor...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The provided documents do not contain information about the borders of South Sudan. |",
+      "action_name": "search",
+      "action_input": "Juba border countries",
+      "observation": "[Search] Results for 'Juba border countries':\n[Doc 1] Canada–United States border: The Canada -- United States border (French: Frontière entre le Canada et les États - Unis), officially known as the International Boundary (French: Frontière internationale), is the longest international border in the world between two countries. It is shared between Canada and the United States, the second - and fourth - largest countries by area, respectively. The terrestrial boundary (including portions of maritime boundaries in the Great Lakes, and on the Atlantic, Pacific, and Arctic coasts) is 8,891 kilometres (5,525 mi) long, of which 2,475 kilometres (1,538 mi) is Canada's border with Alaska. Eight Canadian provinces and territories (Yukon, British Columbia, Alberta, Saskatchewan, Manitoba, Ontario, Quebec, and New Brunswick), and thirteen U.S. states (Alaska, Washington, Idaho, Montana, North Dakota, Minnesota, Michigan, Ohio, Pennsylvania, New York, Vermont, New Hampshire, and Maine) are located along the border.\n\n[Doc 2] India–Pakistan border: The India and Pakistan Border, known locally as the International Border (IB), is an international border running between India and Pakistan that demarcates the Indian states and the four provinces of Pakistan. The border runs from the Line of Control (LoC), which separates the Indian controlled Kashmir from Pakistan controlled Kashmir, in the north, to Wagah, which partitioned the Indian Punjab state and Punjab Province of Pakistan, in the eas...",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "The provided documents still do not contain specific information about South Sudan's borders. |",
+      "action_name": "search",
+      "action_input": "Juba border countries",
+      "observation": "[Search] Results for 'Juba border countries':\n[Doc 1] Canada–United States border: The Canada -- United States border (French: Frontière entre le Canada et les États - Unis), officially known as the International Boundary (French: Frontière internationale), is the longest international border in the world between two countries. It is shared between Canada and the United States, the second - and fourth - largest countries by area, respectively. The terrestrial boundary (including portions of maritime boundaries in the Great Lakes, and on the Atlantic, Pacific, and Arctic coasts) is 8,891 kilometres (5,525 mi) long, of which 2,475 kilometres (1,538 mi) is Canada's border with Alaska. Eight Canadian provinces and territories (Yukon, British Columbia, Alberta, Saskatchewan, Manitoba, Ontario, Quebec, and New Brunswick), and thirteen U.S. states (Alaska, Washington, Idaho, Montana, North Dakota, Minnesota, Michigan, Ohio, Pennsylvania, New York, Vermont, New Hampshire, and Maine) are located along the border.\n\n[Doc 2] India–Pakistan border: The India and Pakistan Border, known locally as the International Border (IB), is an international border running between India and Pakistan that demarcates the Indian states and the four provinces of Pakistan. The border runs from the Line of Control (LoC), which separates the Indian controlled Kashmir from Pakistan controlled Kashmir, in the north, to Wagah, which partitioned the Indian Punjab state and Punjab Province of Pakistan, in the eas...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 89.46618509292603,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for the borders of South Sudan",
+      "Find the bordering country of Juba in South Sudan",
+      "Finish with the shortest answer."
+    ]
+  }
+}

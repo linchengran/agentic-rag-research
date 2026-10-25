@@ -1,0 +1,39 @@
+{
+  "question": "Which company owns the manufacturer of Learjet 60?",
+  "answer": "Bombardier Aerospace",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search the information about Learjet 60.",
+      "action_name": "search",
+      "action_input": "Which company owns the manufacturer of Learjet 60?",
+      "observation": "[Search] Results for 'Which company owns the manufacturer of Learjet 60?':\n[Doc 1] Learjet 60: The Learjet 60 is a mid-size cabin, medium-range business jet aircraft manufactured by Bombardier Aerospace in Wichita, Kansas. Powered by two Pratt & Whitney Canada PW305A engines, it has a range (with 4 passengers and 2 crew) of with NBAA reserves, ISA. In July 2012 Bombardier Aerospace announced a temporary \"production pause\" of the latest variant Learjet 60XR to begin in the fourth quarter of 2012.\n\n[Doc 2] Elon Musk: Elon Reeve Musk FRS (/ ˈiːlɒn /; born June 28, 1971) is a business magnate, investor and engineer. He is the founder, CEO, and lead designer of SpaceX; co-founder, CEO, and product architect of Tesla, Inc.; co-founder and CEO of Neuralink; and co-founder of PayPal. In December 2016, he was ranked 21st on the Forbes list of The World's Most Powerful People. As of August 2018, he has a net worth of $20.2 billion and is listed by Forbes as the 46th - richest person in the world.\n\n[Doc 3] Manoj Bhargava: Manoj Bhargava is an Indian American businessman and philanthropist. He is the founder and CEO of Innovations Ventures LLC (dba Living Essentials LLC), the company known for producing the 5 - hour Energy drink. By 2012 the brand had grown to do an estimated $1 billion in sales. In 2015, Bhargava pledged 99% of his net worth to improving the well - being of the world's less fortunate.\n\n[Doc 4] Wagner Manufacturing Company: The Wagner Manufacturing Company was a family -...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The information provided does not directly answer the question about which company owns the manufacturer of Learjet 60.",
+      "action_name": "search",
+      "action_input": "Who owns the manufacturer of Learjet 60?",
+      "observation": "[Search] Results for 'Who owns the manufacturer of Learjet 60?':\n[Doc 1] Learjet 60: The Learjet 60 is a mid-size cabin, medium-range business jet aircraft manufactured by Bombardier Aerospace in Wichita, Kansas. Powered by two Pratt & Whitney Canada PW305A engines, it has a range (with 4 passengers and 2 crew) of with NBAA reserves, ISA. In July 2012 Bombardier Aerospace announced a temporary \"production pause\" of the latest variant Learjet 60XR to begin in the fourth quarter of 2012.\n\n[Doc 2] List of NASCAR Manufacturers' champions: In the 60 seasons the Championship has been awarded, only nine different manufacturers have won it. Chevrolet has been the most successful, with 39 titles. The second most successful is Ford, with 15 titles.\n\n[Doc 3] Reese and the Smooth Ones: Reese and the Smooth Ones is a 1969 album by the Art Ensemble of Chicago recorded in Paris for the French BYG Actuel label. It features performances by Lester Bowie, Joseph Jarman, Roscoe Mitchell and Malachi Favors Maghostut.\n\n[Doc 4] Alfred Waud: Alfred Rudolph Waud (wōd) (October 2, 1828 – April 6, 1891) was an American artist and illustrator, born in London, England. He is most notable for the sketches he made as an artist correspondent during the American Civil War.\n\n[Doc 5] Éric Neuhoff: Éric Neuhoff, born 4 July 1956, is a French novelist and journalist. He debuted in 1982 a journalist at \" Le Quotidien de Paris\" and used a style nicknamed \"néo-hussard\", after the Hussards movement of the 1950s. He ...",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "",
+      "action_name": "finish",
+      "action_input": "Bombardier Aerospace",
+      "observation": "[Finish] Answer: Bombardier Aerospace",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 17.313381910324097,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

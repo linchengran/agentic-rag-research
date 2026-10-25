@@ -1,0 +1,23 @@
+{
+  "question": "Who is the spouse of the director of film Eden And After?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find the director of the film \"Eden and After\".",
+      "action_name": "ircot_search",
+      "action_input": "Find the director of the film \"Eden and After\".",
+      "observation": "[Search] Results for 'Find the director of the film \"Eden and After\".':\n[Doc 1] Eden and After: Eden and After  is a 1970 French-Czechoslovak drama art film directed by Alain Robbe-Grillet.\n\n[Doc 2] Under the Lantern: The film's art direction was by Otto Moldenhauer.\n\n[Doc 3] The Last Company: The film's art direction was overseen by Andrej Andrejew.\n\n[Doc 4] The Parts You Lose: The film is directed by Christopher Cantwell based on a screenplay by Darren Lemke.\n\n[Doc 5] Dangerous to Know: The movie was directed by Robert Florey.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 26.11639380455017,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

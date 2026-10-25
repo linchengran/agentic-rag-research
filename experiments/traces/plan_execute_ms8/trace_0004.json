@@ -1,0 +1,44 @@
+{
+  "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+  "answer": "Adriana Trigiani",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for movies with the title \"Big Stone Gap\".",
+      "action_name": "search",
+      "action_input": "Big Stone Gap movies",
+      "observation": "[Search] Results for 'Big Stone Gap movies':\n[Doc 1] Big Stone Gap (film): Big Stone Gap is a 2014 American drama romantic comedy film written and directed by Adriana Trigiani and produced by Donna Gigliotti for Altar Identity Studios, a subsidiary of Media Society.\n\n[Doc 2] Big Stone Gap (film):  The film had its world premiere at the Virginia Film Festival on November 6, 2014.\n\n[Doc 3] Big Stone Gap (film):  Based on Trigiani's 2000 best-selling novel of the same name, the story is set in the actual Virginia town of Big Stone Gap circa 1970s.\n\n[Doc 4] The Big Brain:  The film stars George E. Stone, Phillips Holmes, Fay Wray, Minna Gombell and Lilian Bond.\n\n[Doc 5] Mary Poppins Returns:  The film is scheduled for release on December 25, 2018, giving it one of the longest gaps between film sequels in history.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The director of the movie \"Big Stone Gap\" is likely mentioned in the first document as the creator of the screenplay.",
+      "action_name": "lookup",
+      "action_input": "director",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The director is likely mentioned in the first document as the creator of the screenplay. |",
+      "action_name": "lookup",
+      "action_input": "director",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 149.8795166015625,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for movies directed Big Stone Gap",
+      "Find the director of the movie \"Big Stone Gap\"",
+      "Finish with the shortest answer."
+    ]
+  }
+}

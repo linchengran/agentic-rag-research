@@ -1,0 +1,23 @@
+{
+  "question": "What nationality is the director of film World And Time Enough?",
+  "answer": "French.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: French.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: French.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: French.':\n[Doc 1] Dis-moi: It was commissioned for French TV.\n\n[Doc 2] Disk 413: It was the French version of the British film\" Guilty Melody\".\n\n[Doc 3] John II, Count of Nevers: John II, Count of Nevers( known as Jean de Clamecy, prior to acquiring title of\" Count of Nevers\"; 1415–1491) was a French noble.\n\n[Doc 4] Égérie (song): It entered the French Singles Chart at number 49 on 11 April 2015, where it has since peaked.\n\n[Doc 5] The Beginning or the End: Many refused, but others, such as J. Robert Oppenheimer, co-operated.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 3.413447380065918,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

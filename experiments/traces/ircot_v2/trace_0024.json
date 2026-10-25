@@ -1,0 +1,23 @@
+{
+  "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+  "answer": "Boleslaw Schmeichel",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for the father of Kasper Schmeichel who was voted as the best goalkeeper by IFFHS in 1992.",
+      "action_name": "ircot_search",
+      "action_input": "Search for the father of Kasper Schmeichel who was voted as the best goalkeeper by IFFHS in 1992.",
+      "observation": "[Search] Results for 'Search for the father of Kasper Schmeichel who was voted as the best goalkeeper by IFFHS in 1992.':\n[Doc 1] Peter Schmeichel: Peter Bolesław Schmeichel MBE (] ; born 18 November 1963) is a Danish former professional footballer who played as a goalkeeper, and was voted the IFFHS...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 73.47962808609009,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

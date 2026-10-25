@@ -1,0 +1,31 @@
+{
+  "question": "Who is the father-in-law of Sophia Of Wittelsbach?",
+  "answer": "Wyndham Goold",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation: Sophia Of Wittelsbach is married to Maximilian Of Wittelsbach. \n\nIntermediate Question: Who is the father of Maximilian Of Wittelsbach?",
+      "action_name": "search",
+      "action_input": "Who is the father of Maximilian Of Wittelsbach?",
+      "observation": "[Search] Results for 'Who is the father of Maximilian Of Wittelsbach?':\n[Doc 1] Wyndham Goold: He was the son in law of Frederick Falkiner Goold, Archdeacon of Raphoe and brother in law of Bishop Hamilton Verschoyle\n\n[Doc 2] Sophia of Wittelsbach: Otto I Wittelsbach, who was Count Palatine and later Duke of Bavaria, and his wife Agnes of Loon.\n\n[Doc 3] Sophia of Wittelsbach: In 1196, Sophia married Landgrave Hermann I of Thuringia; she was his second wife.\n\n[Doc 4] Joan of Geneva: His wife, whatever her name and origins, bore Amadeus II several children, although there is some uncertainty about how many:\n\n[Doc 5] Anna Amalia, Abbess of Quedlinburg: She was one of ten surviving children of King Frederick William I of Prussia and Sophia Dorothea of Hanover.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Wyndham Goold",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 7.606915473937988,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

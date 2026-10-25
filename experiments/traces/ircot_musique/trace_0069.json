@@ -1,0 +1,23 @@
+{
+  "question": "What is the performer of Heartbeat named after?",
+  "answer": "no one",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The song \"Heartbeat\" was performed by the American singer and songwriter John Newman.)",
+      "action_name": "ircot_search",
+      "action_input": "The song \"Heartbeat\" was performed by the American singer and songwriter John Newman.)",
+      "observation": "[Search] Results for 'The song \"Heartbeat\" was performed by the American singer and songwriter John Newman.)':\n[Doc 1] Heartbeat (Nina Sky song): \"Heartbeat\" is a song by American twins duo Nina Sky. It was released as a second single from their third studio album \"Nicole and Natalie\" on June 14, 2012. The song is released independently through their official website. Music video for the song is released on July 27, 2012, four days before the album's release. Later, \"Heartbeat: Remixes\", a remix EP, was also released.\n\n[Doc 2] In My Life: ``In My Life ''is a song by the Beatles released on the 1965 album Rubber Soul, and credited to Lennon -- McCartney. The song originated with John Lennon, but Paul McCartney and Lennon later disagreed over the extent of their respective contribution to that song, specifically the melody. George Martin contributed the piano solo bridge. It is ranked 23rd on Rolling Stone's`` The 500 Greatest Songs of All Time'' as well as fifth on their list of the Beatles' 100 Greatest Songs. The song placed second on CBC's 50 Tracks. Mojo magazine named it the best song of all time in 2000.\n\n[Doc 3] American Idol: David Archuleta's performance of John Lennon's \"Imagine\" was considered by many as one of the best of the season. Jennifer Lopez, who was brought in as a judge in season ten, called it a beautiful song-moment that she will never forget. Jason Castro's semi-final performance of \"Hallelujah\" also received considerable attention, and it propelled Jef...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 18.095423460006714,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+  "answer": "Neil Diamond.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: Neil Diamond.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: Neil Diamond.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: Neil Diamond.':\n[Doc 1] Dig Your Own Grave:  The EP was first sold on the band's final 5 show tour. \"\n\n[Doc 2] Dirty Pretty Things (band):  They announced their split on 1 October 2008 and played their final shows during November.\n\n[Doc 3] Den Za Nas:  The winning song was \"Life\" which qualified for the final and finished on the 14th place in the final.\n\n[Doc 4] Shrek Forever After (video game):  It is the fourth and final video game based on the movie series of \"Shrek\".\n\n[Doc 5] Lost City (Stargate SG-1):  It was originally intended to be a second \"Stargate\" film, and was then to be the show's absolute finale, and finally ended up being the seventh season finale after the series was renewed.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 1.5835742950439453,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

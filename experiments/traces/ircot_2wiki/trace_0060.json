@@ -1,0 +1,23 @@
+{
+  "question": "What is the place of birth of the performer of song Who...?",
+  "answer": "Iceland",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Observation 1: retrieved facts)",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 1: retrieved facts)",
+      "observation": "[Search] Results for '(Observation 1: retrieved facts)':\n[Doc 1] Safe (2012 film): Upon release, the film received generally negative reviews for its screenplay, writing and pace.\n\n[Doc 2] Daniel Hobbins: Other reviews note the significance of the book as being the\" first translation of the trial transcripts in fifty years!\"\n\n[Doc 3] Daniel Hobbins: Another positive reviewer refers to the book as\" excellent\" and\" informative.\"\n\n[Doc 4] Björk: \"\n\n[Doc 5] Because the Internet: \" Because the Internet\" received generally positive reviews from critics.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 39.35967803001404,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

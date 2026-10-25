@@ -1,0 +1,35 @@
+{
+  "question": "In what era was the company known as the manufacturer of Agni-V founded?",
+  "answer": "no specific era mentioned",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for the timeline of Agni-V missile development will provide information about its era.",
+      "action_name": "search",
+      "action_input": "the timeline of Agni-V missile development",
+      "observation": "[Search] Results for 'the timeline of Agni-V missile development':\n[Doc 1] Agni-V: Agni-V is an intercontinental ballistic missile developed by the Defence Research and Development Organisation (DRDO) of India. Agni V is part of the Agni series of missiles, one of the missile systems under the original Integrated Guided Missile Development Program.\n\n[Doc 2] India and weapons of mass destruction: India Nuclear programme start date 1967 First nuclear weapon test 18 May 1974 First fusion weapon test 11 May 1998 Most recent test 13 May 1998 Largest - yield test 20 - 60 kt total Number of tests to date 6 Peak stockpile 110 - 120 Current stockpile 110 - 120 Maximum missile range 5,000 - 5,800 km (Agni - V) NPT Party No Smiling Buddha Declared (Pokhran - II) Disputed (Pokhran - II) 2016 estimate Agni V\n\n[Doc 3] Marshall Plan: The Marshall Plan (officially the European Recovery Program, ERP) was an American initiative to aid Western Europe, in which the United States gave over $13 billion (nearly $140 billion in 2017 dollars) in economic assistance to help rebuild Western European economies after the end of World War II. The plan was in operation for four years beginning on April 8, 1948. The goals of the United States were to rebuild war - torn regions, remove trade barriers, modernise industry, improve European prosperity, and prevent the spread of Communism. The Marshall Plan required a lessening of interstate barriers, a dropping of many regulations, and encouraged an increase in...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The search results show that Agni-V is part of the Agni series of missiles. However, it does not directly mention the era of its first launch.",
+      "action_name": "lookup",
+      "action_input": "the era of Agni-V first launch",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 59.932830810546875,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for the timeline of Agni-V missile development",
+      "Find the era when the Agni-V was first launched Finish with the shortest answer."
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "question": "American Blues included the drummer from which American rock band?",
+  "answer": "Dusty Hill",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: Which American rock band's American Blues album featured the year 1977?\n\nObservation: The album \"American Blues\" was released by the rock band Eric Clapton.",
+      "action_name": "search",
+      "action_input": "Which American rock band's American Blues album featured the year 1977?",
+      "observation": "[Search] Results for \"Which American rock band's American Blues album featured the year 1977?\":\n[Doc 1] American Blues: American Blues were an American 1960s Texas-based garage rock band, who played a psychedelic style of blues rock music influenced by the 13th Floor Elevators.\n\n[Doc 2] Steve Miller Band: The Steve Miller Band is an American rock band formed in 1966 in San Francisco, California.\n\n[Doc 3] America's Suitehearts: \"America's Suitehearts\" is a song by American rock band Fall Out Boy and the second single taken from their fourth studio album, \"Folie à Deux\" (2008).\n\n[Doc 4] The Rats (American band):  It appeared under the band name The Desperate Edge later in 1984.\n\n[Doc 5] The Burning Red:  It is the band's second best selling album in the US, selling as many copies in three years as \"Burn My Eyes\" sold in almost eight years (1994–2002) .",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation: American Blues: American Blues were an American 1960s Texas-based garage rock band, who played a psychedelic style of blues rock music.\n\nIntermediate Question: Which American rock band's American Blues album was released in 1977?",
+      "action_name": "search",
+      "action_input": "Which American rock band's American Blues album was released in 1977?",
+      "observation": "[Search] Results for \"Which American rock band's American Blues album was released in 1977?\":\n[Doc 1] American Blues:  They are most notable for including two future members of the band ZZ Top in their ranks, Dusty Hill and Frank Beard.\n\n[Doc 2] American Blues: American Blues were an American 1960s Texas-based garage rock band, who played a psychedelic style of blues rock music influenced by the 13th Floor Elevators.\n\n[Doc 3] Perfect Day (Cascada album):  This album, however, features covers of songs from the early 2000s of the rock and country genres, with the exception of Because the Night (originally released by Patti Smith) which was released in 1978.\n\n[Doc 4] The Rats (American band):  In 2008, Portland's Mississippi Records reissued the first album on vinyl.\n\n[Doc 5] Steve Miller Band:  The band continued to produce more albums and in 2014 toured with the rock band Journey.",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Final Answer: Dusty Hill",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 8.672672986984253,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

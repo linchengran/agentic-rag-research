@@ -1,0 +1,31 @@
+{
+  "question": "What city is located in the county containing Qiantong?",
+  "answer": "Ninghai City",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Observation 1: Qiantong County is located in Shandong Province.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Observation 1: Qiantong County is located in Shandong Province.",
+      "observation": "[Search] Results for 'Thought 2: Observation 1: Qiantong County is located in Shandong Province.':\n[Doc 1] Qiantong, Zhejiang: Qiantong () is a town in southwestern Ninghai County in eastern Zhejiang province, China, situated along G15 Shenyang–Haikou Expressway around southwest of the county seat as the crow flies. , it has 29 villages under its administration. The town was established in the last years of the Song Dynasty, though much of its architecture dates from the Ming or Qing; a large proportion of its residents are surnamed Tong ().\n\n[Doc 2] Baranya County: The county lies in southern Hungary, on the border with Croatia. The River Drava forms part of its southern border, and the River Danube its eastern border. It shares borders with the Hungarian counties Somogy, Tolna, and Bács-Kiskun. The capital of Baranya county is Pécs.\n\n[Doc 3] Hinsdale County, Colorado: As of the census of 2000, there were 790 people, 359 households, and 246 families residing in the county.  The population density was 0.7 people per square mile (0.3/km²).  There were 1,304 housing units at an average density of 1.2 per square mile (0.5/km²).  The racial makeup of the county was 97.34% White, 1.52% Native American, 0.25% Asian, 0.38% from other races, and 0.51% from two or more races.  1.52% of the population were Hispanic or Latino of any race.\n\n[Doc 4] Chunggang County: Chunggang County is a \"kun\", or county, in northern Chagang province, North Korea. It was originally part of Huchang county...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "action_name": "ircot_search",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 34.31207084655762,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

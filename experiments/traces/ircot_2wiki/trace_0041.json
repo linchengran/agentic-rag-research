@@ -1,0 +1,23 @@
+{
+  "question": "Which country Prince Nikolaus Wilhelm Of Nassau's mother is from?",
+  "answer": "Germany",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Nassau is a principality within the United Kingdom of Germany)",
+      "action_name": "ircot_search",
+      "action_input": "Nassau is a principality within the United Kingdom of Germany)",
+      "observation": "[Search] Results for 'Nassau is a principality within the United Kingdom of Germany)':\n[Doc 1] Tangled Destinies: in the United Kingdom.\n\n[Doc 2] Adolf of Nassau (1540–1568): He was the second youngest brother of William the Silent.\n\n[Doc 3] Adolf of Nassau (1540–1568): He was the fourth son and sixth child of William I, Count of Nassau-Dillenburg and Juliana of Stolberg.\n\n[Doc 4] Adolf of Nassau (1540–1568): Adolf of Nassau (Dillenburg, 11 July 1540 – Heiligerlee, 23 May 1568) was a count of Nassau, also known as Adolphus of Nassau.\n\n[Doc 5] Frederick William, Prince of Nassau-Weilburg: In 1806 he was given the title of Prince of Nassau, while his cousin, Prince Frederick Augustus of Nassau- Usingen, became the Duke of Nassau.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 35.457441329956055,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

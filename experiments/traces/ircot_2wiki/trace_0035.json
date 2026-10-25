@@ -1,0 +1,23 @@
+{
+  "question": "Who is the paternal grandfather of Taj Al-Dawla?",
+  "answer": "Eskandar II.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find the paternal lineage of Taj Al-Dawla.",
+      "action_name": "ircot_search",
+      "action_input": "Find the paternal lineage of Taj Al-Dawla.",
+      "observation": "[Search] Results for 'Find the paternal lineage of Taj Al-Dawla.':\n[Doc 1] Taj al-Dawla: (Arabic: تاج الدولة،, \"Crown of the Dynasty\"), was the Buyid ruler of Khuzestan during the 980s.\n\n[Doc 2] Taj al-Dawla: He was the son of 'Adud al-Dawla.\n\n[Doc 3] Heo Hwang-ok: that trace their lineage to the legendary queen.\n\n[Doc 4] Sama' al-Dawla: He was the son of Shams al- Dawla.\n\n[Doc 5] Eskandar II: He was the son and successor of Taj al- Dawla Ziyar.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 37.95187711715698,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

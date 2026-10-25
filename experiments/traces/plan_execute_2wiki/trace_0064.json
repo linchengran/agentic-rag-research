@@ -1,0 +1,53 @@
+{
+  "question": "Who is Gaston, Duke Of Orléans's paternal grandmother?",
+  "answer": "",
+  "n_steps": 4,
+  "finished": false,
+  "finish_reason": "max_steps",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for Gaston, Duke Of Orléans family tree will provide information about his lineage.",
+      "action_name": "search",
+      "action_input": "Gaston, Duke Of Orléans family tree",
+      "observation": "[Search] Results for 'Gaston, Duke Of Orléans family tree':\n[Doc 1] Gaston, Duke of Orléans: As the eldest surviving brother of King Louis XIII, he was known at court by the traditional honorific Monsieur.\n\n[Doc 2] Gaston, Duke of Orléans: He later acquired the title Duke of Orléans, by which he was generally known during his adulthood.\n\n[Doc 3] Gaston II, Count of Foix: In 1315, after the death of his father Gaston I, he became Count of Foix, and Viscount of Béarn, Marsan, Gabardan, Nébouzan and Lautrec under the regency of his mother, Jeanne of Artois.\n\n[Doc 4] Gaston of Foix, Duke of Nemours: Born in Mazères, County of Foix, he was the second child but only son of John of Foix, Viscount of Narbonne and Marie d'Orléans.\n\n[Doc 5] John of Foix, Viscount of Narbonne: His elder brother was Gaston, Prince of Viana.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "From the search results, I need to find which person Gaston, Duke of Orléans is the eldest brother of. |",
+      "action_name": "lookup",
+      "action_input": "Gaston, Duke Of Orléans eldest brother",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "Since there is no direct information on Gaston, Duke of Orléans' eldest brother, I need to search for more details about his family lineage.",
+      "action_name": "lookup",
+      "action_input": "Gaston Duke Of Orléans eldest brother",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 4,
+      "thought": "From the search results, it seems that Gaston, Duke of Orléans is the eldest brother of John of Foix, Viscount of Narbonne. Now, I need to search for more details about John of Foix' parents to find out who Gaston's paternal grandmother is.",
+      "action_name": "lookup",
+      "action_input": "John of Foix, Viscount of Narbonne parents",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 219.9628448486328,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for Gaston, Duke Of Orléans family tree",
+      "Find who Gaston, Duke Of Orléans father was",
+      "Search for father's maternal grandmother",
+      "Finish with the shortest answer."
+    ]
+  }
+}

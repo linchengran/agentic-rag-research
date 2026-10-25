@@ -1,0 +1,31 @@
+{
+  "question": "Who is Charles Bretagne Marie De La Trémoille's paternal grandfather?",
+  "answer": "Charles Armand René de La Trémoille",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: Who is the father of Charles Bretagne Marie De La Trémoille?\nObservation: Charles Bretagne is the illegitimate son of Marie De La Trémoille. His father is unknown. He was raised by his mother.",
+      "action_name": "search",
+      "action_input": "Who is the father of Charles Bretagne Marie De La Trémoille?",
+      "observation": "[Search] Results for 'Who is the father of Charles Bretagne Marie De La Trémoille?':\n[Doc 1] Charles Bretagne Marie de La Trémoille: Prince Charles Bretagne Marie de La Trémoille (24 March 1764 – 10 November 1839), 8th Duke of Thouars, 7th Duke of La Trémoïlle, 10th prince de Tarente, 14th prince de Talmond and 14th Count of Laval, was a French aristocrat and soldier; he was the son of Jean Bretagne Charles de La Trémoille and his wife Princess Marie-Maximilienne of Salm-Kyrburg.\n\n[Doc 2] Louis Charles de La Trémoille: Prince Louis Charles de La Trémoille( 26 October 1838 – 4 July 1911), 9th Duke of Thouars, 8th Duke of La Trémoïlle, 11th prince de Tarente, 15th prince de Talmond and 15th Count of Laval was a French aristocrat and the son of Charles Bretagne Marie de La Trémoille and his third wife, Valentine Eugénie Joséphine Walsh de Serrant.\n\n[Doc 3] Jean Bretagne Charles de La Trémoille: Prince Jean-Bretagne-Charles de La Trémoille (5 February 1737 – 19 May 1792), 7th Duke of Thouars, was a French soldier and the son of Charles Armand René de La Trémoille and his wife, Marie Hortense de La Tour d'Auvergne of Bouillon.\n\n[Doc 4] Charles Armand René de La Trémoille: 6th duc de Thouars, was the son of Charles Louis Bretagne de La Trémoille and his wife, Marie Madeleine Motier de la Fayette.\n\n[Doc 5] Charles Armand René de La Trémoille: Jean Bretagne Charles de La Trémoille and a daughter who died in infancy.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation: Charles Armand René de La Trémoille was the son of Charles Armand René de La Trémoille and his wife, Marie Madeleine Motier de la Fayette. \n\nFinal Answer: Charles Armand René de La Trémoille",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 15.883270025253296,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

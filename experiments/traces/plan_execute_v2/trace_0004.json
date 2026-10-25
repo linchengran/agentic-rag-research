@@ -1,0 +1,44 @@
+{
+  "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+  "answer": "New York",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for movies with the title \"Big Stone Gap\".",
+      "action_name": "search",
+      "action_input": "Big Stone Gap movies",
+      "observation": "[Search] Results for 'Big Stone Gap movies':\n[Doc 1] Big Stone Gap (film): Big Stone Gap is a 2014 American drama romantic comedy film written and directed by Adriana Trigiani and produced by Donna Gigliotti for Altar Identity Studios, a subsidiary of Media Society.\n\n[Doc 2] Big Stone Gap (film):  T...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Adriana Trigiani is the director we're looking for. Now we need to find which New York city she is based in.",
+      "action_name": "lookup",
+      "action_input": "Adriana Trigiani",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "We need to find which New York city Adriana Trigiani is based in. |",
+      "action_name": "lookup",
+      "action_input": "Adriana Trigiani",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 45.73113036155701,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for movies directed Big Stone Gap",
+      "Find the director of the movie \"Big Stone Gap\"",
+      "Finish with the shortest answer."
+    ]
+  }
+}

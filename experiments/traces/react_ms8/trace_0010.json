@@ -1,0 +1,31 @@
+{
+  "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+  "answer": "We’re From Kansas",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The fight song of the university located in Lawrence, Kansas with branches in Kansas City needs to be found.",
+      "action_name": "search",
+      "action_input": "Lawrence, Kansas university fight song",
+      "observation": "[Search] Results for 'Lawrence, Kansas university fight song':\n[Doc 1] Kansas Song: Kansas Song (We’re From Kansas) is a fight song of the University of Kansas.\n\n[Doc 2] University of Kansas:  The main campus in Lawrence, one of the largest college towns in Kansas, is on Mount Oread, the highest elevation in Lawrence.\n\n[Doc 3] University of Kansas: The University of Kansas, often referred to as KU or Kansas, is a public research university in the U.S. state of Kansas.\n\n[Doc 4] Michael Finnegan (song):  It is a popular song often sung around a campfire or during scouting events.\n\n[Doc 5] Faction Punk:  In mid-July 2017, Faction was temporarily replaced by Guns N Roses radio.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The name of the fight song of the University of Kansas is needed.",
+      "action_name": "finish",
+      "action_input": "We’re From Kansas",
+      "observation": "[Finish] Answer: We’re From Kansas",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 8.802772760391235,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

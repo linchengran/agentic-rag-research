@@ -1,0 +1,23 @@
+{
+  "question": "Ellie Goulding worked with what other writers on her third studio album, Delirium?",
+  "answer": "Love Me Like You Do",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Searching for the third studio album of Ellie Goulding",
+      "action_name": "ircot_search",
+      "action_input": "Searching for the third studio album of Ellie Goulding",
+      "observation": "[Search] Results for 'Searching for the third studio album of Ellie Goulding':\n[Doc 1] Delirium (Ellie Goulding album): Delirium is the third studio album by English singer and songwriter Ellie Goulding, released on 6 November 2015 by Polydor Records.\n\n[Doc 2] On My Mind (Ellie Goulding song): \"On My Mind\" is a song by English singer Ellie Goulding from her third studio album \"Delirium\" (2015).\n\n[Doc 3] Love Me like You Do:  The song was also included on Goulding's third studio album, \"Delirium\" (2015).\n\n[Doc 4] Delirium (Ellie Goulding album):  It debuted at number three on the UK Albums Chart and the US \"Billboard\" 200, earning Goulding her highest-charting record in the latter country and her highest first-week sales figures in both territories.\n\n[Doc 5] Delirium (Ellie Goulding album):  The album spawned three singles: \"On My Mind\", \"Army\" and \"Something in the Way You Move\".",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 20.191570043563843,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

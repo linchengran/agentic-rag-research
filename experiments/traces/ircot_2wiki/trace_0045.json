@@ -1,0 +1,23 @@
+{
+  "question": "Which film has the director who was born later, A Quiet Place In The Country or When Were You Born?",
+  "answer": "William C. McGann",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Who directed are the directors of A Quiet Place In The Country and When Were You Born?",
+      "action_name": "ircot_search",
+      "action_input": "Who directed are the directors of A Quiet Place In The Country and When Were You Born?",
+      "observation": "[Search] Results for 'Who directed are the directors of A Quiet Place In The Country and When Were You Born?':\n[Doc 1] A Quiet Place in the Country: A Quiet Place in the Country is a 1968 giallo thriller film directed by Elio Petri, and starring Franco Nero and Vanessa Redgrave.\n\n[Doc 2] When Were You Born: When Were You Born is a 1938 murder mystery film directed by William C. McGann and starring Anna May Wong as an astrologer who helps the police.\n\n[Doc 3] A Quiet Place in the Country: Based on the short story\" The Beckoning Fair One\" by Oliver Onions, its plot follows an artist who relocates to a rural villa with his girlfriend, where he begins to experience increasingly terrifying, apparently supernatural events.\n\n[Doc 4] When Were You Born: Each of the twelve principal characters was born under a different astrological sign.\n\n[Doc 5] A Quiet Place Part II: By August 2018, Krasinski was writing the film and he was hired in February 2019 to direct.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 46.420818567276,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

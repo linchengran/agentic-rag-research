@@ -1,0 +1,47 @@
+{
+  "question": "Where was the place of burial of Albert Frederick, Duke Of Prussia's mother?",
+  "answer": "Marie Eleonore of Cleves",
+  "n_steps": 4,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about Albert Frederick, Duke of Prussia's mother.",
+      "action_name": "search",
+      "action_input": "Place of burial of Albert Frederick, Duke of Prussia's mother",
+      "observation": "[Search] Results for \"Place of burial of Albert Frederick, Duke of Prussia's mother\":\n[Doc 1] Duchess Anna of Prussia: She was the daughter of Albert Frederick, Duke of Prussia, and Marie Eleonore of Cleves.\n\n[Doc 2] Albert Frederick, Duke of Prussia: He was a son of Albert of Prussia and Anna Marie of Brunswick-Lüneburg.\n\n[Doc 3] Albert Frederick, Duke of Prussia: Albert Frederick (7 May 1553 – 28 August 1618) was the Duke of Prussia, from 1568 until his death.\n\n[Doc 4] Anna Amalia, Abbess of Quedlinburg: She was one of ten surviving children of King Frederick William I of Prussia and Sophia Dorothea of Hanover.\n\n[Doc 5] Albert Frederick, Duke of Prussia: He was the second and last Prussian duke of the Ansbach branch of the Hohenzollern family.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The place of burial of Albert Frederick, Duke of Prussia's mother is not directly provided in the search results.",
+      "action_name": "lookup",
+      "action_input": "Place of burial of Albert Frederick, Duke of Prussia's mother",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The place of burial of Albert Frederick, Duke of Prussia's mother is not directly found in the search results.",
+      "action_name": "lookup",
+      "action_input": "Place of burial of Albert Frederick, Duke of Prussia's mother",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 4,
+      "thought": "The mother of Albert Frederick, Duke of Prussia was Duchess Anna of Prussia.",
+      "action_name": "finish",
+      "action_input": "Marie Eleonore of Cleves",
+      "observation": "[Finish] Answer: Marie Eleonore of Cleves",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 58.85415267944336,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

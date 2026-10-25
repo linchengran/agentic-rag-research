@@ -1,0 +1,39 @@
+{
+  "question": "What is the mouth of watercourse for the body of water where Bartram's Covered Bridge is located?",
+  "answer": "Crum Creek",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "What is the body of water where Bartram's Covered Bridge is located?",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Output the next step: Intermediate Question: Where is Bartram's Covered Bridge located?\nObservation: Bartram's Covered Bridge is located in Swarthmore, Pennsylvania.",
+      "action_name": "search",
+      "action_input": "Where is Bartram's Covered Bridge located?",
+      "observation": "[Search] Results for \"Where is Bartram's Covered Bridge located?\":\n[Doc 1] Bartram's Covered Bridge: Bartram's Covered Bridge, a historic covered bridge built in 1860, uses a Burr Truss design and carried Goshen Road over Crum Creek on the border between Delaware County and Chester County, Pennsylvania. It is long and wide and is the only covered bridge remaining of the 30 which once stood in Delaware County. The bridge has slanted planks at each entrance and is the only covered bridge in Pennsylvania with this feature. According to an on-site marker from the Newtown Square Historical Preservation Society, the bridge was built to be \"hi and wide as a load of hay\" It was built by Ferdinand Wood and named for Mordecai Bartram.\n\n[Doc 2] Hartford Bridge, Cheshire: The Hartford Bridge, or Blue Bridge, is a single-span road bridge crossing the River Weaver at Hartford, Cheshire in England. The bridge is located on the A556 as part of the Northwich bypass.\n\n[Doc 3] Kintersburg Covered Bridge: The Kintersburg Covered Bridge is a covered bridge spanning Crooked Creek in Rayne Township, Indiana County, Pennsylvania, United States. Built in 1877, it is one of four covered bridges in the county, and is the only one with a Howe truss design. It is . The Howe design is rather rare in covered bridges. The Kintersburg Bridge is one of only five in the state of Pennsylvania with that design. The other four are the McConnell's Mill Covered Bridge in Lawrence County, Mean's Ford Covered Bridge ...",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Final Answer: Crum Creek",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 64.06561231613159,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

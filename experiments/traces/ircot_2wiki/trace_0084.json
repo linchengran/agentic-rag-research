@@ -1,0 +1,23 @@
+{
+  "question": "Which song was released more recently, Go Ahead And Break My Heart or Knee Deep In My Heart?",
+  "answer": "Knee Deep In My Heart",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Which song was released more recently, GoAheadAndBreakMyHeartHeart or KneeDeepInMyHeart?",
+      "action_name": "ircot_search",
+      "action_input": "Which song was released more recently, GoAheadAndBreakMyHeartHeart or KneeDeepInMyHeart?",
+      "observation": "[Search] Results for 'Which song was released more recently, GoAheadAndBreakMyHeartHeart or KneeDeepInMyHeart?':\n[Doc 1] Knee Deep in My Heart: The song was released as a single on 29 November 2013.\n\n[Doc 2] Go Ahead and Break My Heart: The recording's release was accompanied by two live performances of the song later that day on both\" The Voice\" and at a promotional i HeartRadio concert.\n\n[Doc 3] Feel Good Hit of the Summer: Upon the album's release,\" Feel Good Hit of the Summer\" had particular attention drawn to it due to the song's focus on drugs.\n\n[Doc 4] I Could Stay: The song was written by Kreesha Turner, Erika Nuri and Greg Ogan.\n\n[Doc 5] Whiplash (Metallica song): It was released as the first single from their debut album,\" Kill' Em All\".",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 40.68591284751892,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

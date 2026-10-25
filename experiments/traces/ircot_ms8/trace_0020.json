@@ -1,0 +1,31 @@
+{
+  "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+  "answer": "no",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Was Sergio Perez born in 1990?",
+      "action_name": "ircot_search",
+      "action_input": "Was Sergio Perez born in 1990?",
+      "observation": "[Search] Results for 'Was Sergio Perez born in 1990?':\n[Doc 1] Sergio Pérez: Sergio Pérez Mendoza (    ; born 26 January 1990) also known as \"Checo\" Pérez, is a Mexican racing driver, currently driving for Force India.\n\n[Doc 2] Filming of James Bond in the 1990s: Principal photography for the film began on 16 January 1995 and continued until 6 June.\n\n[Doc 3] Café (musician):  He moved to the U.S. in 1985.\n\n[Doc 4] Chattahoochee (song):  It was released in May 1993 as the third single from his album \"A Lot About Livin' (And a Little 'bout Love)\".\n\n[Doc 5] Deadfall (1993 film):  A prequel/sequel, \"Arsenal\", starring Nicolas Cage as his character Eddie King, was released in 2017.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Has Checo Pérez won a podium with Force India?",
+      "action_name": "ircot_search",
+      "action_input": "Has Checo Pérez won a podium with Force India?",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 170.04102444648743,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "Who is the child of Sigrid Eskilsdotter's child?",
+  "answer": "Erik XIV of Sweden",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find Sigrid Eskilsdotter's child.",
+      "action_name": "ircot_search",
+      "action_input": "Find Sigrid Eskilsdotter's child.",
+      "observation": "[Search] Results for \"Find Sigrid Eskilsdotter's child.\":\n[Doc 1] Sigrid Eskilsdotter (Banér): Sigrid Eskilsdotter (Banér) (died 1527), was a Swedish noble, the mother of the Swedish regent Christina Gyllenstierna and the maternal grandmother of King Gustav Vasa of Sweden.\n\n[Doc 2] Big Little Lies (TV series): Reese Witherspoon as Madeline Martha Mackenzie Nicole Kidman as Celeste Wright Shailene Woodley as Jane Chapman Alexander Skarsgård as Perry Wright, Celeste's husband Adam Scott as Ed Mackenzie, Madeline's husband Zoë Kravitz as Bonnie Carlson, Nathan's second wife James Tupper as Nathan Carlson, Madeline's ex-husband Jeffrey Nordling as Gordon Klein, Renata's husband Laura Dern as Renata Klein Kathryn Newton as Abigail Carlson (season 2, recurring season 1), Madeline's elder daughter Sarah Sokolovic as Tori Bachman (season 2, recurring season 1) Meryl Streep as Mary Louise Wright (season 2), Perry's mother Crystal Fox as Elizabeth Howard (season 2)\n\n[Doc 3] Marshall Eriksen: Marshall Eriksen How I Met Your Mother character Jason Segel in 2011 First appearance ``Pilot ''Last appearance`` Last Forever'' Created by Carter Bays Craig Thomas Portrayed by Jason Segel Information Gender Male Occupation Lawyer (2005 -- 2018), Judge (2018 --) Family Marvin Eriksen (father, deceased) Judy Eriksen (mother) Spouse (s) Lily Aldrin (2007 -- present) Children Marvin Waitforit Eriksen Daisy Eriksen Unnamed Third Child Nationality American\n\n[Doc 4] List of As the World Turns characters...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 26.22280502319336,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

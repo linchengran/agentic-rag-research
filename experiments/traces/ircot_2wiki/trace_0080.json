@@ -1,0 +1,23 @@
+{
+  "question": "What is the place of birth of the director of film Letter To The King?",
+  "answer": "India.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: India.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: India.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: India.':\n[Doc 1] Xenoa: The film was released under the tagline\" Three siblings.\n\n[Doc 2] Allan Kroeker: He has the distinction of directing the series finales for ,  and .\n\n[Doc 3] 2001–02 UEFA Champions League second group stage: The top two teams in each group advanced to the quarter- finals.\n\n[Doc 4] Rajesh Ghodge: Rajesh Ghodge( 15 January 1975 – 13 January 2019) was an Indian cricketer who played in two first- class and eight List A matches for Goa between 1997 and 2005.\n\n[Doc 5] Eiludd Powys: It is not known which he is as there are two accounts one in the Jesus College Ms.20",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 70.41921210289001,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "What province shares a border with the province where Lago District is located?",
+  "answer": "Malaysia",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Which province does Lago District belong to?",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Which province does Lago District belong to?",
+      "observation": "[Search] Results for 'Thought 2: Which province does Lago District belong to?':\n[Doc 1] Lago District: Lago District is a district of Niassa Province in north-western Mozambique. The principal town is Metangula. Lago District is bordered to the west by Lake Nyasa, on the south by Lichinga, on the east by Sanga District. Lago shares its northern boundary with Tanzania.\n\n[Doc 2] Marilyn Dondero Loop: Marilyn Dondero Loop (born 1951, in Las Vegas, Nevada) is an American politician and a Democratic member of the Nevada Senate since November 2018, representing District 8. She was previously a member of the Nevada Assembly from 2008 to 2014, representing District 5.\n\n[Doc 3] Petition to the King: Many colonists in the Americas, however, developed a different conception of their role within the British Empire. In particular, because the colonies were not directly represented in Parliament, colonists argued that Parliament had no right to levy taxes upon them. After colonists destroyed thousands of pounds of British - taxed tea during the Boston Tea Party, Parliament passed the Coercive Acts in 1774, punishing the colonies for their actions. These punitive Acts were vehemently opposed by the colonists, leading the newly formed Continental Congress to seek redress with King George III, in an attempt to reach a common understanding.\n\n[Doc 4] Ammerud: Ammerud is a part of Grorud Borough in Oslo, Norway known for its large Le Corbusier style housing blocks. The borough administration is ...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 15.5225350856781,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

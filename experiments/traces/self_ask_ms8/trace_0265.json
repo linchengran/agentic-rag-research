@@ -1,0 +1,31 @@
+{
+  "question": "What, known as AAS, is commonly used in bodybuilding?",
+  "answer": "Anabolics (AAS)",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What is AAS known as in bodybuilding?\n\nObservation: Alternative term for a specific supplement or nutrient commonly used in bodybuilding.",
+      "action_name": "search",
+      "action_input": "What is AAS known as in bodybuilding?",
+      "observation": "[Search] Results for 'What is AAS known as in bodybuilding?':\n[Doc 1] English Setter:  The mainly white body coat is of medium length with long silky fringes on the back of the legs, under the belly and on the tail.\n\n[Doc 2] Head of mission:  Certain other titles or usages that would qualify as a head of mission or equivalent also exist.\n\n[Doc 3] Race of a Thousand Years:  The Race of a Thousand Years was intended to be run for 1000 kilometres but was stopped short due to time constraints, two hours before midnight, after completing 850 kilometres.\n\n[Doc 4] Body cavity search: A body cavity search, also known simply as a cavity search, is either a visual search or a manual internal inspection of body cavities for prohibited materials (contraband), such as illegal drugs, money, jewelry, or weapons.\n\n[Doc 5] Docking (animal):  The term tailing is also commonly used.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Anabolics (AAS)",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 5.7376909255981445,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

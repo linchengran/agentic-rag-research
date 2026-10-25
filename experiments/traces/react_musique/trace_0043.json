@@ -1,0 +1,31 @@
+{
+  "question": "Who founded the political party of Dimuthu Bandara Abayakoon?",
+  "answer": "Janatha Vimukthi Peramuna",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about Dimuthu Bandara Abayakoon's political party.",
+      "action_name": "search",
+      "action_input": "founding of Dimuthu Bandara Abayakoon's political party",
+      "observation": "[Search] Results for \"founding of Dimuthu Bandara Abayakoon's political party\":\n[Doc 1] Dimuthu Bandara Abayakoon: Dimuthu Bandara Abayakoon (born September 6, 1971) is a Sri Lankan politician, belonging to the Janatha Vimukthi Peramuna. In the 2004 election he was elected as a representative of Kandy District in the Parliament of Sri Lanka, standing as a United People's Freedom Alliance candidate. He resides in Kandy.\n\n[Doc 2] Dilipkumar Gandhi: Dilipkumar Mansukhlal Gandhi (born 9 May 1951) is an Indian politician and a member of the Bharatiya Janata Party (BJP) political party. He is a current member of the 16th Lok Sabha of India.\n\n[Doc 3] Khana Ratsadon: Khana Ratsadon (, ; meaning \"People's Party\") was a Siamese group of military and civil officers, and later a political party, which staged a bloodless coup against King Prajadhipok and transformed the country's absolute monarchy to constitutional monarchy on 24 June 1932.\n\n[Doc 4] Legality Movement Party: The Legality Movement Party (LMP) ( or PLL) is a right-wing monarchist political party in Albania, led by Shpetim Axhami. It supported the return to power of the House of Zogu under Crown Prince Leka of the Albanians. In the 2001 elections it was part of the Union for Victory (\"Bashkimi për Fitoren\") coalition which received 37.1% of the vote and 46 members of parliament.\n\n[Doc 5] Political party: Political parties, still called factions by some, especially those in the governmental apparatus, are lobbied vigorously by...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "action_name": "finish",
+      "action_input": "Janatha Vimukthi Peramuna",
+      "observation": "[Finish] Answer: Janatha Vimukthi Peramuna",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 9.605057001113892,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

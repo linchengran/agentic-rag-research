@@ -1,0 +1,23 @@
+{
+  "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+  "answer": "Kargil War",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The memorial name and the approximate number of casualties trigger the relevant historical context.",
+      "action_name": "ircot_search",
+      "action_input": "The memorial name and the approximate number of casualties trigger the relevant historical context.",
+      "observation": "[Search] Results for 'The memorial name and the approximate number of casualties trigger the relevant historical context.':\n[Doc 1] Dras War Memorial:  The memorial is in the memory of the soldiers and officers of the Indian Army who were killed during the 1999 conflict between India and Pakistan.\n\n[Doc 2] Dras War Memorial:  The memorial has a huge epitaph with names of all the officers and soldiers who died in war.\n\n[Doc 3] Portsmouth Naval Memorial:  The memorial features a central obelisk, with names of the dead on bronze plaques arranged around the memorial according to the year of death.\n\n[Doc 4] York City War Memorial:  Initial discussions focused on whether a memorial should be a monument or should take on some utilitarian purpose.\n\n[Doc 5] Military history of Mexico:  In the remainder of the 19th century, a series of conflicts began in Mexico, as the War of the Reform and the defeat of the French during their intervention in Mexico marked events in that era.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 13.682390213012695,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

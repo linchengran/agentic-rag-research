@@ -1,0 +1,44 @@
+{
+  "question": "Who is older, Annie Morton or Terry Richardson?",
+  "answer": "yes",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for birth years of Annie Morton and Terry Richardson will provide the necessary information to compare their ages.",
+      "action_name": "search",
+      "action_input": "birth years of Annie Morton and Terry Richardson",
+      "observation": "[Search] Results for 'birth years of Annie Morton and Terry Richardson':\n[Doc 1] Annie Morton: Annie Morton (born October 8, 1970) is an American model born in Pennsylvania.\n\n[Doc 2] Terry Richardson: Terrence \"Uncle Terry\" Richardson (born August 14, 1965) is an American fashion and portrait photog...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The search results provide the birth years for both Annie Morton and Terry Richardson. Now, I need to compare these birth years to determine who is older.",
+      "action_name": "lookup",
+      "action_input": "terry richardson",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "Now that both birth years are known, I can compare them to determine who is older.",
+      "action_name": "lookup",
+      "action_input": "Terry Richardson",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 48.38494682312012,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for birth years of Annie Morton and Terry Richardson",
+      "Compare the birth years to determine who is older",
+      "Finish with the shortest answer."
+    ]
+  }
+}

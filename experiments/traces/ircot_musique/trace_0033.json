@@ -1,0 +1,23 @@
+{
+  "question": "Who is the spouse of the child of Peter Andreas Heiberg?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find who Peter Andreas Heiberg's spouse is.",
+      "action_name": "ircot_search",
+      "action_input": "Find who Peter Andreas Heiberg's spouse is.",
+      "observation": "[Search] Results for \"Find who Peter Andreas Heiberg's spouse is.\":\n[Doc 1] Johan Ludvig Heiberg (poet): Johan Ludvig Heiberg (14 December 1791 – 25 August 1860), Danish poet, playwright, literary critic, literary historian son of the political writer Peter Andreas Heiberg (1758–1841), and of the novelist, afterwards the Baroness Gyllembourg-Ehrensvärd, was born in Copenhagen. He promoted Hegelian philosophy and introduced vaudeville to Denmark.\n\n[Doc 2] Peter Ostrum: Peter Gardner Ostrum (/ ˈoʊstrəm /; born November 1957) is an American veterinarian and former child actor whose only film role was as Charlie Bucket in the 1971 motion picture Willy Wonka & the Chocolate Factory.\n\n[Doc 3] Paul Walker: Paul William Walker IV (September 12, 1973 -- November 30, 2013) was an American actor best known for his role as Brian O'Conner in The Fast and Furious franchise. Walker first gained prominence in 1999 with roles in the teen films She's All That and Varsity Blues. In 2001, he gained international fame for his performance in the street racing action film The Fast and the Furious (2001), a role he reprised in five of the next six installments, but died in 2013 in the middle of filming Furious 7 (2015).\n\n[Doc 4] Steve Smith (American Dad!): Steven Anita ``Steve ''Smith is a fictional character in the animated television series American Dad!, voiced by Scott Grimes. He is Stan and Francine Smith's only son and Hayley's younger brother as well as the youngest of the series' six main c...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 5.188623666763306,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

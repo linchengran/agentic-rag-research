@@ -1,0 +1,31 @@
+{
+  "question": "Which country Audofleda's husband is from?",
+  "answer": "Theoderic",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about Audofilda and her husband.",
+      "action_name": "search",
+      "action_input": "Audofilda's husband origin",
+      "observation": "[Search] Results for \"Audofilda's husband origin\":\n[Doc 1] Audofleda: She married Theoderic the Great, King of the Ostrogoths (471–526), around 493 AD (exact date unknown).\n\n[Doc 2] Audofleda: Theoderic and Audofleda had one daughter, Amalasuntha, who ruled the Ostrogoths from 526 until 534.\n\n[Doc 3] Audofleda: This political move allied Theoderic with the Franks, and by marrying his daughters off to the kings of the Burgundians, the Vandals, and the Visigoths, he allied himself with every major 'Barbarian' kingdom in the West.\n\n[Doc 4] Audofleda: Audofleda was a Gothic queen.\n\n[Doc 5] Arnold, Duke of Guelders: Arnold was born in Egmond-Binnen, North Holland, the son of John II of Egmond and Maria van Arkel.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "I have found the information that Audofilda's husband was Theoderic, King of the Ostrogoths.",
+      "action_name": "finish",
+      "action_input": "Theoderic",
+      "observation": "[Finish] Answer: Theoderic",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 11.064737558364868,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

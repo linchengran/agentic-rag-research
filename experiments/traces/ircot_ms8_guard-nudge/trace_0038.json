@@ -1,0 +1,23 @@
+{
+  "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 3: [Search query]",
+      "action_name": "ircot_search",
+      "action_input": "Thought 3: [Search query]",
+      "observation": "[Search] Results for 'Thought 3: [Search query]':\n[Doc 1] Burt Gummer:  Although he is only the central character in \"Tremors 3\" and the TV series, his eccentric personality has made him a favorite among Tremors fans and the de facto star of the franchise, along with the vicious Graboids who oppose him.\n\n[Doc 2] Devyani Khobragade:  She was subjected to a body-cavity search commonly called a \"strip search\", presented to a judge and released the same day.\n\n[Doc 3] Walkdown:  See: slash chord.\n\n[Doc 4] Strip search phone call scam:  The incidents involved a man prank calling a restaurant or grocery store, claiming to be a police officer and then convincing managers to conduct strip searches of female employees, and to perform other bizarre acts on behalf of \"the police\".\n\n[Doc 5] Body cavity search:  Often the procedure is repeated when the person leaves the institution.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 5.2179646492004395,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Was the actress Susan Sarandon involved in Kiss and Tell?",
+      "action_name": "ircot_search",
+      "action_input": "Was the actress Susan Sarandon involved in Kiss and Tell?",
+      "observation": "[Search] Results for 'Was the actress Susan Sarandon involved in Kiss and Tell?':\n[Doc 1] Kiss and Tell (1945 film):  In the film, two teenage girls cause their respective parents much concern when they start to become interested in boys.\n\n[Doc 2] Kiss and Tell (1945 film):  The parents' bickering about which girl is the worse influence causes more problems than it solves.\n\n[Doc 3] Kiss and Tell (1945 film): Kiss and Tell is a 1945 American comedy film starring then 17-year-old Shirley Temple as Corliss Archer.\n\n[Doc 4] A Kiss for Corliss:  It is a sequel to the 1945 film \"Kiss and Tell\".\n\n[Doc 5] Kiss (Carly Rae Jepsen album):  Featuring production from a wide collection of producers including Dallas Austin, Josh Ramsay, and Redfoo, the album features a track with guest vocals from Justin Bieber.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 8.67836880683899,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

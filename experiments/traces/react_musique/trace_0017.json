@@ -1,0 +1,39 @@
+{
+  "question": "Who is the spouse of the Rabbit Hole's producer?",
+  "answer": "yes",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about The Rabbit Hole and its producer.",
+      "action_name": "search",
+      "action_input": "Rabbit Hole producer spouse",
+      "observation": "[Search] Results for 'Rabbit Hole producer spouse':\n[Doc 1] Rabbit Hole (film): Rabbit Hole is a 2010 American tragedy film starring Nicole Kidman, Aaron Eckhart, and Dianne Wiest, and directed by John Cameron Mitchell; the screenplay is an adaptation by David Lindsay-Abaire of his 2006 play of the same name. Kidman produced the project via her company, Blossom Films. The film premiered at the 2010 Toronto International Film Festival in September 2010. Lionsgate distributed the film. The plot deals with a couple struggling to heal after the death of their young son. It received a limited release in the United States on December 17, 2010 and expanded nationwide on January 14, 2011. Kidman was critically acclaimed for her performance as Becca Corbett and received Academy Award, Golden Globe Award, and Screen Actors Guild Award nominations for Best Actress. However, the film was a box office flop, grossing only $5.1 million against its $3 million budget.\n\n[Doc 2] Down the Rabbit Hole (novel): Down The Rabbit Hole is the first book in the Echo Falls mystery series by best selling crime novelist Peter Abrahams. Ingrid is in the wrong place at the wrong time. Or at least her shoes are. And getting them back will mean getting tangled up in a murder investigation as complicated as the mysteries solved by her idol, Sherlock Holmes. With soccer practice, schoolwork, and the lead role in her town's production of Alice in Wonderland, Ingrid is swamped. But as things in Echo Falls keep ge...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Look up more details about Nicole Kidman's marital status.",
+      "action_name": "lookup",
+      "action_input": "Nicole Kidman spouse",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "Based on the information provided, Nicole Kidman is likely the producer's spouse.",
+      "action_name": "finish",
+      "action_input": "yes",
+      "observation": "[Finish] Answer: yes",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 26.89456844329834,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

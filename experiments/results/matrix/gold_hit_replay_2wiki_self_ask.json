@@ -1,0 +1,1768 @@
+{
+  "n": 100,
+  "agent": {
+    "gold_hit_full": 0.18,
+    "gold_hit_partial": 0.57,
+    "gold_coverage": 0.365,
+    "first_query_coverage": 0.3225,
+    "avg_queries": 1.09
+  },
+  "baseline_single_query": {
+    "gold_hit_full": 0.25,
+    "gold_hit_partial": 0.98,
+    "gold_coverage": 0.59
+  },
+  "per_question": [
+    {
+      "id": "8813f87c0bdd11eba7f7acde48001122",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Polish-Russian War (film)",
+        "Xawery Żuławski"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "61a46987092f11ebbdaeac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "When did Blind Shaft come out? When did The Mask Of Fu Manchu come out?"
+      ],
+      "gold_titles": [
+        "Blind Shaft",
+        "The Mask of Fu Manchu"
+      ],
+      "hit_titles": [
+        "Blind Shaft",
+        "The Mask of Fu Manchu"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "e2a3bf2a0bdd11eba7f7acde48001122",
+      "n_queries": 3,
+      "queries": [
+        "What is the full name of John V, Prince Of Anhalt-Zerbst?",
+        "What is the father's name of John V, PrinceOf Anhalt-Zerbst?",
+        "When did Karl I, father of John V, Prince of Anhalt-Zerbst, die?"
+      ],
+      "gold_titles": [
+        "Ernest I, Prince of Anhalt-Dessau",
+        "John V, Prince of Anhalt-Zerbst"
+      ],
+      "hit_titles": [
+        "John V, Prince of Anhalt-Zerbst"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "0cd3bdea0bde11eba7f7acde48001122",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Wearing Velvet Slippers under a Golden Umbrella",
+        "Wunna"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "f9dcb4a60bda11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Who is the director of the film Ronnie Rocket?"
+      ],
+      "gold_titles": [
+        "David Lynch",
+        "Ronnie Rocket"
+      ],
+      "hit_titles": [
+        "Ronnie Rocket"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "8981e1ce0bb011ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Who is the father of Charles Bretagne Marie De La Trémoille?"
+      ],
+      "gold_titles": [
+        "Charles Bretagne Marie de La Trémoille",
+        "Jean Bretagne Charles de La Trémoille"
+      ],
+      "hit_titles": [
+        "Charles Bretagne Marie de La Trémoille",
+        "Jean Bretagne Charles de La Trémoille"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "019bed300bde11eba7f7acde48001122",
+      "n_queries": 2,
+      "queries": [
+        "Who was Ștefan I. Nenițescu?",
+        "When was Ștefan I. Nenițescu born?"
+      ],
+      "gold_titles": [
+        "Ioan S. Nenițescu",
+        "Ștefan I. Nenițescu"
+      ],
+      "hit_titles": [
+        "Ștefan I. Nenițescu"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "a7b9672009c311ebbdb0ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Which country does North Marion High School (Oregon) belong to?"
+      ],
+      "gold_titles": [
+        "North Marion High School (Oregon)",
+        "Seoul High School"
+      ],
+      "hit_titles": [
+        "North Marion High School (Oregon)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "298f23b8088a11ebbd6eac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Charles Saunders (director)",
+        "El extraño viaje",
+        "Fernando Fernán Gómez",
+        "Love in Pawn"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "2ec440560bb011ebab90acde48001122",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Antiochus X Eusebes",
+        "Cleopatra IV of Egypt"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "05f8a691087b11ebbd67ac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Crimen a las tres",
+        "Elio Petri",
+        "Luis Saslavsky",
+        "The Working Class Goes to Heaven"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "645c9a5a08c311ebbd8dac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "James Cruze",
+        "John Sturges",
+        "Once a Gentleman",
+        "The Girl in White"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5bec3cd408a711ebbd7fac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Franco Rossi (director)",
+        "Il seduttore",
+        "Robert Bresson",
+        "The Trial of Joan of Arc"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "464cfa460bd911eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Who is the director of the film Thomas Jefferson?"
+      ],
+      "gold_titles": [
+        "Ken Burns",
+        "Thomas Jefferson (film)"
+      ],
+      "hit_titles": [
+        "Thomas Jefferson (film)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "c05e16a40bdd11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "What was the cause of death for Grand Duke Kirill Vladimirovich Of Russia's wife?"
+      ],
+      "gold_titles": [
+        "Grand Duke Kirill Vladimirovich of Russia",
+        "Princess Victoria Melita of Saxe-Coburg and Gotha"
+      ],
+      "hit_titles": [
+        "Grand Duke Kirill Vladimirovich of Russia"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2935f1640bda11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Who is the director of the film Beat Girl?"
+      ],
+      "gold_titles": [
+        "Beat Girl",
+        "Edmond T. Gréville"
+      ],
+      "hit_titles": [
+        "Beat Girl"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "ada1b358085211ebbd58ac1f6bf848b6",
+      "n_queries": 2,
+      "queries": [
+        "When did Fleetwood Sheppard die?",
+        "When did George William Whitaker die?"
+      ],
+      "gold_titles": [
+        "Fleetwood Sheppard",
+        "George William Whitaker"
+      ],
+      "hit_titles": [
+        "Fleetwood Sheppard",
+        "George William Whitaker"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "3f857208086c11ebbd61ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "When were Souleymane Hamadou and Russellemann born?"
+      ],
+      "gold_titles": [
+        "Dani Kouyaté",
+        "Keïta! l'Héritage du griot",
+        "Markku Lehmuskallio",
+        "The Raven's Dance"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.75,
+      "em": 1.0
+    },
+    {
+      "id": "dfe93efe0bdd11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "What is the full name of Jean Martin (Singer)?"
+      ],
+      "gold_titles": [
+        "Jean Martin (singer)",
+        "William Black (businessman)"
+      ],
+      "hit_titles": [
+        "Jean Martin (singer)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "1d890623088711ebbd6dac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Frank R. Strayer",
+        "Tangled Destinies",
+        "The Daltons' Women",
+        "Thomas Carr (director)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "d8c36503097411ebbdb0ac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Moment of Danger",
+        "The Ballad of Josie"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "2207e9060bda11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Is there any information about the nationality of the director of 'World and Time Enough'?"
+      ],
+      "gold_titles": [
+        "Eric Mueller",
+        "World and Time Enough"
+      ],
+      "hit_titles": [
+        "World and Time Enough"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "7abc1e3008d511ebbd98ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "When was the film Poker in Bed released released? Observations:"
+      ],
+      "gold_titles": [
+        "Giuliano Carnimeo",
+        "Poker in Bed",
+        "Roberto Rossellini",
+        "The Machine to Kill Bad People"
+      ],
+      "hit_titles": [
+        "Poker in Bed"
+      ],
+      "coverage": 0.25,
+      "first_query_coverage": 0.25,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "ae331827088b11ebbd6fac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Heads I Win, Tails You Lose",
+        "Nanni Loy",
+        "Richard Fleischer",
+        "The Incredible Sarah"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2002bf0c0bb011ebab90acde48001122",
+      "n_queries": 3,
+      "queries": [
+        "Who was Catherine Of Pomerania, Countess Palatine Of Neumarkt?",
+        "Who was the father-in-law of Catherine Of Pomerania, Countess Palatine Of Neumarkt?",
+        "Who was the father of John, Count Palatine of Neumarkt?"
+      ],
+      "gold_titles": [
+        "Catherine of Pomerania, Countess Palatine of Neumarkt",
+        "John, Count Palatine of Neumarkt"
+      ],
+      "hit_titles": [
+        "Catherine of Pomerania, Countess Palatine of Neumarkt",
+        "John, Count Palatine of Neumarkt"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "c531e7560baf11ebab90acde48001122",
+      "n_queries": 2,
+      "queries": [
+        "What is the full name of Marie Zéphyrine Of France?",
+        "Who was the father of Marie Zéphyrine of France?"
+      ],
+      "gold_titles": [
+        "Louis, Dauphin of France (son of Louis XV)",
+        "Marie Zéphyrine of France"
+      ],
+      "hit_titles": [
+        "Marie Zéphyrine of France"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "4d982dc308c111ebbd8bac1f6bf848b6",
+      "n_queries": 2,
+      "queries": [
+        "Who directeda the film Condemned Women?",
+        "Who directeda the film Faces In The Dark?"
+      ],
+      "gold_titles": [
+        "Condemned Women",
+        "David Eady (film director)",
+        "Faces in the Dark",
+        "Lew Landers"
+      ],
+      "hit_titles": [
+        "Condemned Women",
+        "Faces in the Dark"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.25,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "a9cc5f240bdb11eba7f7acde48001122",
+      "n_queries": 2,
+      "queries": [
+        "What is the name of the film Eden And After?",
+        "Who directed the director of the film Eden And After?"
+      ],
+      "gold_titles": [
+        "Alain Robbe-Grillet",
+        "Eden and After"
+      ],
+      "hit_titles": [
+        "Eden and After"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "6ebe05740bde11eba7f7acde48001122",
+      "n_queries": 2,
+      "queries": [
+        "Who was the husband of Anastasia Of Serbia?",
+        "Where was the place of death of Constantine Petrovich, Duke of Aosta?"
+      ],
+      "gold_titles": [
+        "Anastasia of Serbia",
+        "Stefan Nemanja"
+      ],
+      "hit_titles": [
+        "Anastasia of Serbia"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "a0065fe9085f11ebbd5dac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "What country are Fire In Hell from?"
+      ],
+      "gold_titles": [
+        "Fire in Hell",
+        "The Tiger: An Old Hunter's Tale"
+      ],
+      "hit_titles": [
+        "Fire in Hell"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "7c490349090311ebbdadac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Lo Zappatore",
+        "Placer sangriento"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "8d2382e0085811ebbd5aac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "What is the birth year of Şemsettin Baş? Observation: The birth year of Şemsettin Baş is 1983."
+      ],
+      "gold_titles": [
+        "Gwenc'hlan Le Scouëzec",
+        "Şemsettin Baş"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "1a114c5e088f11ebbd71ac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Bhoomiyude Avakashikal",
+        "Julia Crawford Ivers",
+        "T. V. Chandran",
+        "The Majesty of the Law"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.25,
+      "em": 1.0
+    },
+    {
+      "id": "7a1d9d7c0bb011ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "In which story does Cornelia appear?"
+      ],
+      "gold_titles": [
+        "Cornelia (wife of Caesar)",
+        "Julia (daughter of Caesar)"
+      ],
+      "hit_titles": [
+        "Cornelia (wife of Caesar)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "0bedb7e80bdc11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "What is the full name of John Middleton Murry?"
+      ],
+      "gold_titles": [
+        "John Middleton Murry",
+        "Katherine Mansfield"
+      ],
+      "hit_titles": [
+        "John Middleton Murry"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "1869092c0bb011ebab90acde48001122",
+      "n_queries": 2,
+      "queries": [
+        "Who is the father of Taj Al-Dawla?",
+        "Who is the father of 'Adud al-Dawla?"
+      ],
+      "gold_titles": [
+        "'Adud al-Dawla",
+        "Taj al-Dawla"
+      ],
+      "hit_titles": [
+        "'Adud al-Dawla",
+        "Taj al-Dawla"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "9980b1ed089d11ebbd78ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Are the directors of Payment On Demand and My Cousin From Warsaw from the same country?"
+      ],
+      "gold_titles": [
+        "Carl Boese",
+        "Curtis Bernhardt",
+        "My Cousin from Warsaw",
+        "Payment on Demand"
+      ],
+      "hit_titles": [
+        "My Cousin from Warsaw"
+      ],
+      "coverage": 0.25,
+      "first_query_coverage": 0.25,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "c19b72520bdb11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Who directed pro directed the film And The Spring Comes?"
+      ],
+      "gold_titles": [
+        "And the Spring Comes",
+        "Gu Changwei"
+      ],
+      "hit_titles": [
+        "And the Spring Comes"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "3a84baaf088311ebbd6dac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Observation: [Error] Cannot generate intermediate question."
+      ],
+      "gold_titles": [
+        "James A. Donohoe",
+        "Madame Pasca"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "633132f008b711ebbd88ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "When was D'Arcy Coulson born?"
+      ],
+      "gold_titles": [
+        "D'Arcy Coulson",
+        "Thomas William Adams"
+      ],
+      "hit_titles": [
+        "D'Arcy Coulson"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "9aee006a09c211ebbdb0ac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Saginaw High School (Texas)",
+        "Simonds Catholic College"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "b3110a5e0bda11eba7f7acde48001122",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Prince Nikolaus Wilhelm of Nassau",
+        "Princess Pauline of Württemberg (1810–1856)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5b6b8c02089711ebbd77ac1f6bf848b6",
+      "n_queries": 2,
+      "queries": [
+        "Which year was earlier, 1997 or 2001?",
+        "Which film was released by the director born earlier, 45 Fathers or The Intended?"
+      ],
+      "gold_titles": [
+        "45 Fathers",
+        "James Tinling",
+        "Kristian Levring",
+        "The Intended"
+      ],
+      "hit_titles": [
+        "45 Fathers"
+      ],
+      "coverage": 0.25,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "3705552a0bb011ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "What is Alexandre Berthier's position in the royal family?"
+      ],
+      "gold_titles": [
+        "Alexandre Berthier, 3rd Prince of Wagram",
+        "Napoléon Alexandre Berthier, 2nd Prince of Wagram"
+      ],
+      "hit_titles": [
+        "Alexandre Berthier, 3rd Prince of Wagram",
+        "Napoléon Alexandre Berthier, 2nd Prince of Wagram"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "07e964920bde11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Who is Caterina Visconti?"
+      ],
+      "gold_titles": [
+        "Caterina Visconti",
+        "Gian Galeazzo Visconti"
+      ],
+      "hit_titles": [
+        "Caterina Visconti"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "f7c4fdf2087611ebbd67ac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "A Quiet Place in the Country",
+        "Elio Petri",
+        "When Were You Born",
+        "William C. McGann"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "db19bf4c086e11ebbd62ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "When was John Beach born?"
+      ],
+      "gold_titles": [
+        "Gordon Persons",
+        "John Beach"
+      ],
+      "hit_titles": [
+        "John Beach"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "9e6d7bdc08a111ebbd79ac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Charlie Chan in Honolulu",
+        "H. Bruce Humberstone",
+        "Lucio Fulci",
+        "The House by the Cemetery"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "c3c94d0a0bdc11eba7f7acde48001122",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Armando Bó",
+        "La Leona (film)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "96fb4aee0baf11ebab90acde48001122",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Afonso III of Portugal",
+        "Blanche of Portugal (1259–1321)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "e618b2c608c911ebbd92ac1f6bf848b6",
+      "n_queries": 3,
+      "queries": [
+        "When did Giuseppe Cesari live? When did Nicos Poulantzas live?",
+        "When did Nicos Poulantzas live?",
+        "When did Giuseppe Cesari live?"
+      ],
+      "gold_titles": [
+        "Giuseppe Cesari",
+        "Nicos Poulantzas"
+      ],
+      "hit_titles": [
+        "Giuseppe Cesari",
+        "Nicos Poulantzas"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "d71f453b085811ebbd5bac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Nights on the Road",
+        "Rudolf Jugert",
+        "Swann in Love (film)",
+        "Volker Schlöndorff"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "f7eb7e31088c11ebbd70ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Who is the director of the film \"A Simple Favor\"?"
+      ],
+      "gold_titles": [
+        "Aryeh Ben-Eliezer",
+        "Jason Pociask"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "e41c14820bd911eba7f7acde48001122",
+      "n_queries": 2,
+      "queries": [
+        "Who is the director of the film Man at Bath?",
+        "What is the full name of the director of the film Man at Bath?"
+      ],
+      "gold_titles": [
+        "Christophe Honoré",
+        "Man at Bath"
+      ],
+      "hit_titles": [
+        "Man at Bath"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "27e835ee0bb011ebab90acde48001122",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Arthur Gore, 1st Earl of Arran",
+        "Arthur Gore, 2nd Earl of Arran"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "3f635554096511ebbdafac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Is Germany and Switzerland the same country?"
+      ],
+      "gold_titles": [
+        "Kaufland",
+        "OTRAG"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "b69ad95c08ad11ebbd83ac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Aanaval Mothiram",
+        "Heroes of the Street"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "931a85420bdd11eba7f7acde48001122",
+      "n_queries": 3,
+      "queries": [
+        "What is the full name of Lord Patrick Crichton-Stuart?",
+        "What is the father's name of Lord Patrick Crichton-Stuart?",
+        "What is the father's name of John Stuart, 1st Marquess of Bute?"
+      ],
+      "gold_titles": [
+        "John Stuart, Lord Mount Stuart",
+        "Lord Patrick Crichton-Stuart"
+      ],
+      "hit_titles": [
+        "John Stuart, Lord Mount Stuart",
+        "Lord Patrick Crichton-Stuart"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "0bbded440bda11eba7f7acde48001122",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Arshad Khan (cricketer)",
+        "Daadagiri"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "258867240bdd11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Who is Douglas Leiterman?"
+      ],
+      "gold_titles": [
+        "Beryl Fox",
+        "Douglas Leiterman"
+      ],
+      "hit_titles": [
+        "Douglas Leiterman"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "3cbd107e0bde11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Where was Tracy Chapman born?"
+      ],
+      "gold_titles": [
+        "Ayumi Hamasaki",
+        "Who..."
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "5e8240ea0bdd11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Who is the director of the film Mole Men Against The Son Of Hercules?"
+      ],
+      "gold_titles": [
+        "Antonio Leonviola",
+        "Mole Men Against the Son of Hercules"
+      ],
+      "hit_titles": [
+        "Mole Men Against the Son of Hercules"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "6638110e0bdb11eba7f7acde48001122",
+      "n_queries": 3,
+      "queries": [
+        "Who is Alexandre Gaydamak?",
+        "What is the father's name of Alexandre Gaydamak?",
+        "Where was Arcadi Gaydamak born?"
+      ],
+      "gold_titles": [
+        "Alexandre Gaydamak",
+        "Arcadi Gaydamak"
+      ],
+      "hit_titles": [
+        "Alexandre Gaydamak",
+        "Arcadi Gaydamak"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "7de9188c088b11ebbd6fac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Boum sur Paris",
+        "Maurice de Canonge",
+        "Maurits Binger",
+        "Toen 't licht verdween"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "3972d2b60baf11ebab90acde48001122",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Gaston, Duke of Orléans",
+        "Henry IV of France"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "a8cbc4c40bdc11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Who directed pro the film The Half-Way Girl?"
+      ],
+      "gold_titles": [
+        "John Francis Dillon (director)",
+        "The Half-Way Girl"
+      ],
+      "hit_titles": [
+        "The Half-Way Girl"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "32e50df00bb011ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Who is the father of Maximilian Of Wittelsbach?"
+      ],
+      "gold_titles": [
+        "Hermann I, Landgrave of Thuringia",
+        "Sophia of Wittelsbach"
+      ],
+      "hit_titles": [
+        "Sophia of Wittelsbach"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "deb907f80bdd11eba7f7acde48001122",
+      "n_queries": 5,
+      "queries": [
+        "Who was the father of Lambert I, Count Of Louvain?",
+        "What is the father of Eguisheim?",
+        "What is the father of Hugh V, Count of Eguisheim?",
+        "What is the father of Selyf?",
+        "What is the father of Eiludd?"
+      ],
+      "gold_titles": [
+        "Lambert I, Count of Louvain",
+        "Reginar III, Count of Hainaut"
+      ],
+      "hit_titles": [
+        "Lambert I, Count of Louvain"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "b81fbe620bdc11eba7f7acde48001122",
+      "n_queries": 2,
+      "queries": [
+        "Who is the director of the film Highway Dragnet?",
+        "Where was Nathan Juran born?"
+      ],
+      "gold_titles": [
+        "Highway Dragnet",
+        "Nathan Juran"
+      ],
+      "hit_titles": [
+        "Highway Dragnet",
+        "Nathan Juran"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "3717c0600bde11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "What is the full name of Prince Gustav Of Thurn And Taxis?"
+      ],
+      "gold_titles": [
+        "Prince Gustav of Thurn and Taxis (1848–1914)",
+        "Princess Mathilde Sophie of Oettingen-Oettingen and Oettingen-Spielberg"
+      ],
+      "hit_titles": [
+        "Prince Gustav of Thurn and Taxis (1848–1914)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "0f1ac1a00bdb11eba7f7acde48001122",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Joe Jackson (musician)",
+        "Sunday Papers"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "f420d4a008a311ebbd7cac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Antonieta",
+        "Carlos Saura",
+        "Dodging the Dole",
+        "John E. Blakeley"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "6638a0f0084e11ebbd56ac1f6bf848b6",
+      "n_queries": 5,
+      "queries": [
+        "Is Nikolsk Airport located in Russia?",
+        "Is SvobodnAirport located in Russia?",
+        "Is Svobodin Airport part of a larger city or region?",
+        "Is Nikolsk Airport part of a larger city or region?",
+        "Is Svobodin Airport located in a country other than Russia?"
+      ],
+      "gold_titles": [
+        "Nikolsk Airport",
+        "Svobodny Airport"
+      ],
+      "hit_titles": [
+        "Nikolsk Airport",
+        "Svobodny Airport"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "07388c7c0bb011ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Who is the paternal grandfather of Amadeus Vii, Count Of Savoy?"
+      ],
+      "gold_titles": [
+        "Amadeus VII, Count of Savoy",
+        "Bonne of Bourbon"
+      ],
+      "hit_titles": [
+        "Amadeus VII, Count of Savoy"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "83ff07cd096711ebbdafac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Telus",
+        "ZTR Control Systems"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "7a57c5d2089111ebbd73ac1f6bf848b6",
+      "n_queries": 2,
+      "queries": [
+        "Who is the director of Dial M For Murder?",
+        "Who is the director of the 1931 film Marius?"
+      ],
+      "gold_titles": [
+        "Alexander Korda",
+        "Alfred Hitchcock",
+        "Dial M for Murder",
+        "Marius (1931 film)"
+      ],
+      "hit_titles": [
+        "Dial M for Murder",
+        "Marius (1931 film)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.25,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "42f6d3b208b911ebbd88ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "How old are Dyson Parody and Gene Watson?"
+      ],
+      "gold_titles": [
+        "Dyson Parody",
+        "Gene Watson"
+      ],
+      "hit_titles": [
+        "Dyson Parody",
+        "Gene Watson"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "f1ff478c089011ebbd72ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "What country is director Rob Reiner from?"
+      ],
+      "gold_titles": [
+        "Gilbert Cates",
+        "I Never Sang for My Father",
+        "Rob Reiner",
+        "The Princess Bride (film)"
+      ],
+      "hit_titles": [
+        "Rob Reiner"
+      ],
+      "coverage": 0.25,
+      "first_query_coverage": 0.25,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "6b55ac320bdb11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "What is the full name of Prince John Konstantinovich Of Russia?"
+      ],
+      "gold_titles": [
+        "Prince John Konstantinovich of Russia",
+        "Princess Elisabeth of Saxe-Altenburg (1865–1927)"
+      ],
+      "hit_titles": [
+        "Prince John Konstantinovich of Russia"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "424d56700bde11eba7f7acde48001122",
+      "n_queries": 2,
+      "queries": [
+        "What movie is \"Pan's Journey\"?",
+        "What is the nationality of the actor who played the husband in Pan's Journey?"
+      ],
+      "gold_titles": [
+        "Audofleda",
+        "Theodoric the Great"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5c0c69f80bdd11eba7f7acde48001122",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Hisham Zaman",
+        "Letter to the King"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "ac786909087411ebbd67ac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Jessamine (band)",
+        "Snowman (band)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "29427eea0bdd11eba7f7acde48001122",
+      "n_queries": 4,
+      "queries": [
+        "Who performed the performer of the song \"God\" from John Lennon's album?",
+        "Who was the performer of the song \"God\" from John Lennon's album \"John Lennon/Plastic Ono Band\"?",
+        "When was the song \"God\" from John Lennon's album \"John Lennon/Plastic Ono Band\" performed the release?",
+        "When was the performer of the song \"God\" from John Lennon's album \"John Lennon/Plastic Ono Band\" born?"
+      ],
+      "gold_titles": [
+        "God (John Lennon song)",
+        "John Lennon"
+      ],
+      "hit_titles": [
+        "God (John Lennon song)",
+        "John Lennon"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "d370f0b0085711ebbd5aac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Captain Kidd and the Slave Girl",
+        "Erik Balling",
+        "Lew Landers",
+        "Relax Freddie"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "a9f9985a09a211ebbdb0ac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Go Ahead and Break My Heart",
+        "Knee Deep in My Heart"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "53ab316c08b911ebbd88ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Who lived later, princely, princely the princely?"
+      ],
+      "gold_titles": [
+        "Cornel Wilde",
+        "Scott R. Dunlap",
+        "The Devil's Hairpin",
+        "The Fatal Mistake"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "bc633e2c0baf11ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Who is the spouse of Maria Luisa Of Savoy? Final Answer: King Juan Carlos I of Spain."
+      ],
+      "gold_titles": [
+        "Maria Luisa of Savoy",
+        "Philip V of Spain"
+      ],
+      "hit_titles": [
+        "Maria Luisa of Savoy"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2b4bd5020baf11ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Who is the father of Kujō Yoritsugu?"
+      ],
+      "gold_titles": [
+        "Kujō Yoritsugu",
+        "Kujō Yoritsune"
+      ],
+      "hit_titles": [
+        "Kujō Yoritsugu",
+        "Kujō Yoritsune"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "3647118c0bdd11eba7f7acde48001122",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Benito Perojo",
+        "Marianela (1940 film)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "d6074911090011ebbdadac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Repeated Absences",
+        "She Wore a Yellow Ribbon"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "146b7443086611ebbd5eac1f6bf848b6",
+      "n_queries": 2,
+      "queries": [
+        "How long did Edward Dearle live?",
+        "How long did Michael Doeberl live?"
+      ],
+      "gold_titles": [
+        "Edward Dearle",
+        "Michael Doeberl"
+      ],
+      "hit_titles": [
+        "Edward Dearle",
+        "Michael Doeberl"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "ea1fc06c0bda11eba7f7acde48001122",
+      "n_queries": 2,
+      "queries": [
+        "Who is Karin Stoltenberg's husband?",
+        "Who is Jens Stoltenberg?"
+      ],
+      "gold_titles": [
+        "Karin Stoltenberg",
+        "Thorvald Stoltenberg"
+      ],
+      "hit_titles": [
+        "Karin Stoltenberg",
+        "Thorvald Stoltenberg"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "00c75ffc0bde11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Who is the director of the film Lettre Ouverte?"
+      ],
+      "gold_titles": [
+        "Alex Joffé",
+        "Lettre ouverte"
+      ],
+      "hit_titles": [
+        "Lettre ouverte"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "94198d580bb011ebab90acde48001122",
+      "n_queries": 6,
+      "queries": [
+        "Who is Countess Joan of Flanders?",
+        "Who is Countess Joan of Flanders' mother?",
+        "Who is Countess Margaret I of Flanders?",
+        "Who is Countess Margaret I of Flanders' mother?",
+        "Who is Countess Philip I of Flanders?",
+        "Who is Countess Philip I of Flanders' mother?"
+      ],
+      "gold_titles": [
+        "William II of Dampierre",
+        "William II, Count of Flanders"
+      ],
+      "hit_titles": [
+        "William II, Count of Flanders"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "71d8e20e0bdb11eba7f7acde48001122",
+      "n_queries": 2,
+      "queries": [
+        "Who is Clara Novello?",
+        "Who is Mary Sabilla Hehl?"
+      ],
+      "gold_titles": [
+        "Clara Novello",
+        "Vincent Novello"
+      ],
+      "hit_titles": [
+        "Clara Novello"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "0323cdea090d11ebbdadac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "When was Indira Vizha released released? Observation: Indira Vizha was released in 2018. Intermediate Question: When was Emmy Of Stork'S Nest released? Observation: Emmy Of Stork'S Nest was released in 2017."
+      ],
+      "gold_titles": [
+        "Emmy of Stork's Nest",
+        "Indira Vizha"
+      ],
+      "hit_titles": [
+        "Emmy of Stork's Nest",
+        "Indira Vizha"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "f7c153ce092e11ebbdaeac1f6bf848b6",
+      "n_queries": 0,
+      "queries": [],
+      "gold_titles": [
+        "Celine: Through the Eyes of the World",
+        "Dilan 1991"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "0f44750808e411ebbda4ac1f6bf848b6",
+      "n_queries": 2,
+      "queries": [
+        "When was Silas Hardy born?",
+        "When was Lee Mantle born?"
+      ],
+      "gold_titles": [
+        "Lee Mantle",
+        "Silas Hardy"
+      ],
+      "hit_titles": [
+        "Lee Mantle",
+        "Silas Hardy"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "e701105e0bdd11eba7f7acde48001122",
+      "n_queries": 2,
+      "queries": [
+        "Who was the mother of Albert Frederick, Duke Of Prussia?",
+        "Who was the mother of Duchess Anna of Prussia?"
+      ],
+      "gold_titles": [
+        "Albert Frederick, Duke of Prussia",
+        "Anna Marie of Brunswick-Lüneburg"
+      ],
+      "hit_titles": [
+        "Albert Frederick, Duke of Prussia"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "b5e9ef2c0bdd11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "What is the full name of Juan Carlos Guevara's wife?"
+      ],
+      "gold_titles": [
+        "Juan Carlos Gumucio",
+        "Marie Colvin"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    }
+  ]
+}

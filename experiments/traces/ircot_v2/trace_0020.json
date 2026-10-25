@@ -1,0 +1,23 @@
+{
+  "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+  "answer": "Kimi Räikkönen",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Was Sergio Perez born in 1990?",
+      "action_name": "ircot_search",
+      "action_input": "Was Sergio Perez born in 1990?",
+      "observation": "[Search] Results for 'Was Sergio Perez born in 1990?':\n[Doc 1] Sergio Pérez: Sergio Pérez Mendoza (    ; born 26 January 1990) also known as \"Checo\" Pérez, is a Mexican racing driver, currently driving for Force India.\n\n[Doc 2] Filming of James Bond in the 1990s: Principal photography for the film b...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 17.7277090549469,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

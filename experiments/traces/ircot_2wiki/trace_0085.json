@@ -1,0 +1,23 @@
+{
+  "question": "Which film has the director who died later, The Fatal Mistake or The Devil'S Hairpin?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Who directed in Thought 2:",
+      "action_name": "ircot_search",
+      "action_input": "Who directed in Thought 2:",
+      "observation": "[Search] Results for 'Who directed in Thought 2:':\n[Doc 1] David Eady (film director): He was born in London.\n\n[Doc 2] The Fall of the Louse of Usher: The Fall of the Louse of Usher is a 2002 British arthouse horror comedy film directed by Ken Russell.\n\n[Doc 3] Young and Dangerous 4: 4( Literal Title\" 97 Wise Guys: No War Can not Be Won\") is a 1997 Hong Kong triad film directed by Andrew Lau.\n\n[Doc 4] The Man Who Knew Too Much (1956 film): The Man Who Knew Too Much is a 1956 American suspense thriller film directed and produced by Alfred Hitchcock, starring James Stewart and Doris Day.\n\n[Doc 5] The Man Who Knew Too Much (1934 film): The Man Who Knew Too Much is a 1934 British thriller film directed by Alfred Hitchcock, featuring Peter Lorre, and released by Gaumont British.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 54.42290496826172,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "Who is the paternal grandfather of Kujō Yoritsugu?",
+  "answer": "Kujō Yoritsune",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find the paternal grandfather of Kujō Yoritsugu.",
+      "action_name": "ircot_search",
+      "action_input": "Find the paternal grandfather of Kujō Yoritsugu.",
+      "observation": "[Search] Results for 'Find the paternal grandfather of Kujō Yoritsugu.':\n[Doc 1] Kujō Yoritsune: His father was \"kanpaku\" Kujō Michiie and his grandmother was a niece of Minamoto\n\n[Doc 2] Kujō Yoritsugu: His father was the 4th Kamakura \"shōgun\", Kujō Yoritsune.\n\n[Doc 3] Kujō Yoritsugu: Yoritsugu was a member of the great Fujiwara clan.\n\n[Doc 4] Kujō Yoritsugu: The Kujō family was one of the five branches of the historically powerful Fujiwara clan of courtiers.\n\n[Doc 5] Kujō Yoritsune: The Kujō family was one of the five branches of the historically powerful Fujiwara clan of courtiers.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 39.11220359802246,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

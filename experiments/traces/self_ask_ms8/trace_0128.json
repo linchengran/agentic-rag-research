@@ -1,0 +1,31 @@
+{
+  "question": "Where is the Bubblegum Alley, that is similar to Gum Wall, located in California?",
+  "answer": "San Luis Obispo",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation: What state does Bubblegum Alley, which is similar to Gum Wall, exist in? \n\nIntermediate Question: Is there a Bubblegum Alley similar to Gum Wall in California?",
+      "action_name": "search",
+      "action_input": "Is there a Bubblegum Alley similar to Gum Wall in California?",
+      "observation": "[Search] Results for 'Is there a Bubblegum Alley similar to Gum Wall in California?':\n[Doc 1] Gum Wall:  Similar to Bubblegum Alley in San Luis Obispo, California, the Market Theater Gum Wall is a local landmark.\n\n[Doc 2] Bubblegum Alley: Bubblegum Alley is a tourist attraction in downtown San Luis Obispo, California, known for its accumulation of used bubble gum on the walls of an alley.\n\n[Doc 3] Gum Wall:  Parts of the wall can be covered several inches thick, 15 feet high for 50 feet.\n\n[Doc 4] Gum Wall:  It is located in Post Alley under Pike Place Market.\n\n[Doc 5] Bubblegum Alley:  It is a 15 ft high and 70 ft long alley lined with chewed gum left by passers-by.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: San Luis Obispo",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 4.138797283172607,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

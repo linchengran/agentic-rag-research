@@ -1,0 +1,1776 @@
+{
+  "n": 100,
+  "agent": {
+    "gold_hit_full": 0.12,
+    "gold_hit_partial": 0.47,
+    "gold_coverage": 0.275,
+    "first_query_coverage": 0.26,
+    "avg_queries": 1.08
+  },
+  "baseline_single_query": {
+    "gold_hit_full": 0.25,
+    "gold_hit_partial": 0.98,
+    "gold_coverage": 0.59
+  },
+  "per_question": [
+    {
+      "id": "8813f87c0bdd11eba7f7acde48001122",
+      "n_queries": 2,
+      "queries": [
+        "Search for the director of the film Polish-Russian War",
+        "Search for Xawery Żuławski"
+      ],
+      "gold_titles": [
+        "Polish-Russian War (film)",
+        "Xawery Żuławski"
+      ],
+      "hit_titles": [
+        "Polish-Russian War (film)",
+        "Xawery Żuławski"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "61a46987092f11ebbdaeac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Blind Shaft",
+        "The Mask of Fu Manchu"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "e2a3bf2a0bdd11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Observation 1: John George, Duke of Brunswick-Lüneburg died 1730."
+      ],
+      "gold_titles": [
+        "Ernest I, Prince of Anhalt-Dessau",
+        "John V, Prince of Anhalt-Zerbst"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "0cd3bdea0bde11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "The director's full name for the film Wearing Velvet Slips Under A Golden Umbrella"
+      ],
+      "gold_titles": [
+        "Wearing Velvet Slippers under a Golden Umbrella",
+        "Wunna"
+      ],
+      "hit_titles": [
+        "Wearing Velvet Slippers under a Golden Umbrella"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "f9dcb4a60bda11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 2: Ron Howard was born in nearby Newberry Mills, South Dakota.)"
+      ],
+      "gold_titles": [
+        "David Lynch",
+        "Ronnie Rocket"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "8981e1ce0bb011ebab90acde48001122",
+      "n_queries": 2,
+      "queries": [
+        "(Observation 4: Charles Bretagne de La Trémoille was the son of Charles Bretagne de La Trémoille)",
+        "Thought 4: Final Answer: Charles Bretagne de La Trémoille"
+      ],
+      "gold_titles": [
+        "Charles Bretagne Marie de La Trémoille",
+        "Jean Bretagne Charles de La Trémoille"
+      ],
+      "hit_titles": [
+        "Charles Bretagne Marie de La Trémoille",
+        "Jean Bretagne Charles de La Trémoille"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "019bed300bde11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Find the birthplace of Ștefan I. Nenițescu's father."
+      ],
+      "gold_titles": [
+        "Ioan S. Nenițescu",
+        "Ștefan I. Nenițescu"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "a7b9672009c311ebbdb0ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 3: North Marion High School is located in the United States, and Seoul High School is located in South Korea.)"
+      ],
+      "gold_titles": [
+        "North Marion High School (Oregon)",
+        "Seoul High School"
+      ],
+      "hit_titles": [
+        "North Marion High School (Oregon)",
+        "Seoul High School"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "298f23b8088a11ebbd6eac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Who was the director of El Extraño Viaje?"
+      ],
+      "gold_titles": [
+        "Charles Saunders (director)",
+        "El extraño viaje",
+        "Fernando Fernán Gómez",
+        "Love in Pawn"
+      ],
+      "hit_titles": [
+        "El extraño viaje",
+        "Fernando Fernán Gómez"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "2ec440560bb011ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Thought 2: Who was the maternal grandfather of Antiochus X Eusebes?"
+      ],
+      "gold_titles": [
+        "Antiochus X Eusebes",
+        "Cleopatra IV of Egypt"
+      ],
+      "hit_titles": [
+        "Antiochus X Eusebes"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "05f8a691087b11ebbd67ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Is Crimen A Las Tres older than The Working Class Goes To Heaven?"
+      ],
+      "gold_titles": [
+        "Crimen a las tres",
+        "Elio Petri",
+        "Luis Saslavsky",
+        "The Working Class Goes to Heaven"
+      ],
+      "hit_titles": [
+        "Crimen a las tres",
+        "The Working Class Goes to Heaven"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.25,
+      "em": 1.0
+    },
+    {
+      "id": "645c9a5a08c311ebbd8dac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "James Cruze",
+        "John Sturges",
+        "Once a Gentleman",
+        "The Girl in White"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5bec3cd408a711ebbd7fac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Retrieving the release year of Il Seduttore."
+      ],
+      "gold_titles": [
+        "Franco Rossi (director)",
+        "Il seduttore",
+        "Robert Bresson",
+        "The Trial of Joan of Arc"
+      ],
+      "hit_titles": [
+        "Il seduttore"
+      ],
+      "coverage": 0.25,
+      "first_query_coverage": 0.25,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "464cfa460bd911eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Observation 2: Tim Blake Nelson was born in Los Angeles, California."
+      ],
+      "gold_titles": [
+        "Ken Burns",
+        "Thomas Jefferson (film)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "c05e16a40bdd11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Search for information about Grand Duke Kirill Vladimirovich's wife's death."
+      ],
+      "gold_titles": [
+        "Grand Duke Kirill Vladimirovich of Russia",
+        "Princess Victoria Melita of Saxe-Coburg and Gotha"
+      ],
+      "hit_titles": [
+        "Grand Duke Kirill Vladimirovich of Russia"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2935f1640bda11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Beat Girl",
+        "Edmond T. Gréville"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "ada1b358085211ebbd58ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Fleetwood Sheppard",
+        "George William Whitaker"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "3f857208086c11ebbd61ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Dani Kouyaté",
+        "Keïta! l'Héritage du griot",
+        "Markku Lehmuskallio",
+        "The Raven's Dance"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.75,
+      "em": 0.0
+    },
+    {
+      "id": "dfe93efe0bdd11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Jean Martin (singer)",
+        "William Black (businessman)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "1d890623088711ebbd6dac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Retrieving the director of Tangled Destinies."
+      ],
+      "gold_titles": [
+        "Frank R. Strayer",
+        "Tangled Destinies",
+        "The Daltons' Women",
+        "Thomas Carr (director)"
+      ],
+      "hit_titles": [
+        "Tangled Destinies"
+      ],
+      "coverage": 0.25,
+      "first_query_coverage": 0.25,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "d8c36503097411ebbdb0ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Moment of Danger",
+        "The Ballad of Josie"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "2207e9060bda11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Thought 2: Final Answer: French."
+      ],
+      "gold_titles": [
+        "Eric Mueller",
+        "World and Time Enough"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "7abc1e3008d511ebbd98ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Retrieving the release year of Poker in Bed."
+      ],
+      "gold_titles": [
+        "Giuliano Carnimeo",
+        "Poker in Bed",
+        "Roberto Rossellini",
+        "The Machine to Kill Bad People"
+      ],
+      "hit_titles": [
+        "Poker in Bed"
+      ],
+      "coverage": 0.25,
+      "first_query_coverage": 0.25,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "ae331827088b11ebbd6fac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Find the age of the director for \"Heads I Win\"."
+      ],
+      "gold_titles": [
+        "Heads I Win, Tails You Lose",
+        "Nanni Loy",
+        "Richard Fleischer",
+        "The Incredible Sarah"
+      ],
+      "hit_titles": [
+        "Heads I Win, Tails You Lose"
+      ],
+      "coverage": 0.25,
+      "first_query_coverage": 0.25,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2002bf0c0bb011ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Find Catherine Of Pomerania, Countess Palatine Of Neumarkt's father-in-law."
+      ],
+      "gold_titles": [
+        "Catherine of Pomerania, Countess Palatine of Neumarkt",
+        "John, Count Palatine of Neumarkt"
+      ],
+      "hit_titles": [
+        "Catherine of Pomerania, Countess Palatine of Neumarkt",
+        "John, Count Palatine of Neumarkt"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "c531e7560baf11ebab90acde48001122",
+      "n_queries": 2,
+      "queries": [
+        "princely princ princ princ princ princ princ princ princ princ princ princly system princ princly princly princly princly princly princly princly princly princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princy princ",
+        "Final Answer: Louis XIV"
+      ],
+      "gold_titles": [
+        "Louis, Dauphin of France (son of Louis XV)",
+        "Marie Zéphyrine of France"
+      ],
+      "hit_titles": [
+        "Louis, Dauphin of France (son of Louis XV)",
+        "Marie Zéphyrine of France"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "4d982dc308c111ebbd8bac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Retrieving the director of Condemned Women."
+      ],
+      "gold_titles": [
+        "Condemned Women",
+        "David Eady (film director)",
+        "Faces in the Dark",
+        "Lew Landers"
+      ],
+      "hit_titles": [
+        "Condemned Women"
+      ],
+      "coverage": 0.25,
+      "first_query_coverage": 0.25,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "a9cc5f240bdb11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Find the director of the film \"Eden and After\"."
+      ],
+      "gold_titles": [
+        "Alain Robbe-Grillet",
+        "Eden and After"
+      ],
+      "hit_titles": [
+        "Eden and After"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "6ebe05740bde11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Thought 2: Final Answer: Istanbul."
+      ],
+      "gold_titles": [
+        "Anastasia of Serbia",
+        "Stefan Nemanja"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "a0065fe9085f11ebbd5dac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: Fire In Hell is a song by American rock band Mötley Crüe, released The Tiger: An Old Hunter's Tale is a poem by British poet Ted Hughes)"
+      ],
+      "gold_titles": [
+        "Fire in Hell",
+        "The Tiger: An Old Hunter's Tale"
+      ],
+      "hit_titles": [
+        "Fire in Hell",
+        "The Tiger: An Old Hunter's Tale"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "7c490349090311ebbdadac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Retrieving the release years of Lo Zappatore and Placer Sangriento."
+      ],
+      "gold_titles": [
+        "Lo Zappatore",
+        "Placer sangriento"
+      ],
+      "hit_titles": [
+        "Lo Zappatore",
+        "Placer sangriento"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "8d2382e0085811ebbd5aac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Gwenc'hlan Le Scouëzec",
+        "Şemsettin Baş"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "1a114c5e088f11ebbd71ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Retrieving the birth years of directors for both films."
+      ],
+      "gold_titles": [
+        "Bhoomiyude Avakashikal",
+        "Julia Crawford Ivers",
+        "T. V. Chandran",
+        "The Majesty of the Law"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "7a1d9d7c0bb011ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Thought 4: Quintilia Marta's children are Quintus Caecilius Metellus Piso, Publius Cornelius Scipio Cincinnatus, and Quintus Fabius Maximus."
+      ],
+      "gold_titles": [
+        "Cornelia (wife of Caesar)",
+        "Julia (daughter of Caesar)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "0bedb7e80bdc11eba7f7acde48001122",
+      "n_queries": 2,
+      "queries": [
+        "Search for the cause of death for John Middleton Murry's wife.",
+        "Observation 10: [Doc 1] John Middleton Murry: A prominent critic, Murry is best remembered for his association with Katherine Mansfield, whom he married in 1918 as her second husband"
+      ],
+      "gold_titles": [
+        "John Middleton Murry",
+        "Katherine Mansfield"
+      ],
+      "hit_titles": [
+        "John Middleton Murry"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "1869092c0bb011ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Find the paternal lineage of Taj Al-Dawla."
+      ],
+      "gold_titles": [
+        "'Adud al-Dawla",
+        "Taj al-Dawla"
+      ],
+      "hit_titles": [
+        "Taj al-Dawla"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "9980b1ed089d11ebbd78ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Retrieving the director countries of both films."
+      ],
+      "gold_titles": [
+        "Carl Boese",
+        "Curtis Bernhardt",
+        "My Cousin from Warsaw",
+        "Payment on Demand"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "c19b72520bdb11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Retrieve the director of the film \"And The Spring Comes\"."
+      ],
+      "gold_titles": [
+        "And the Spring Comes",
+        "Gu Changwei"
+      ],
+      "hit_titles": [
+        "And the Spring Comes"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "3a84baaf088311ebbd6dac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "James A. Donohoe",
+        "Madame Pasca"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "633132f008b711ebbd88ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 3: Benji Smith (borned 1965) was born later than David Harewood (born 1958).)"
+      ],
+      "gold_titles": [
+        "D'Arcy Coulson",
+        "Thomas William Adams"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "9aee006a09c211ebbdb0ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 2: Saginaw High School is located in the United States)"
+      ],
+      "gold_titles": [
+        "Saginaw High School (Texas)",
+        "Simonds Catholic College"
+      ],
+      "hit_titles": [
+        "Saginaw High School (Texas)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "b3110a5e0bda11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Nassau is a principality within the United Kingdom of Germany)"
+      ],
+      "gold_titles": [
+        "Prince Nikolaus Wilhelm of Nassau",
+        "Princess Pauline of Württemberg (1810–1856)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5b6b8c02089711ebbd77ac1f6bf848b6",
+      "n_queries": 2,
+      "queries": [
+        "(Observation 1: )",
+        "(Observation 2: )"
+      ],
+      "gold_titles": [
+        "45 Fathers",
+        "James Tinling",
+        "Kristian Levring",
+        "The Intended"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "3705552a0bb011ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Find the father of Alexandre Berthier, 3Rd PrinceOf Wagram."
+      ],
+      "gold_titles": [
+        "Alexandre Berthier, 3rd Prince of Wagram",
+        "Napoléon Alexandre Berthier, 2nd Prince of Wagram"
+      ],
+      "hit_titles": [
+        "Alexandre Berthier, 3rd Prince of Wagram",
+        "Napoléon Alexandre Berthier, 2nd Prince of Wagram"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "07e964920bde11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Thought 2: [Observation 1: The husband of Caterina Visconti was Gian Giorgio Visconti]"
+      ],
+      "gold_titles": [
+        "Caterina Visconti",
+        "Gian Galeazzo Visconti"
+      ],
+      "hit_titles": [
+        "Caterina Visconti",
+        "Gian Galeazzo Visconti"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "f7c4fdf2087611ebbd67ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Who directed are the directors of A Quiet Place In The Country and When Were You Born?"
+      ],
+      "gold_titles": [
+        "A Quiet Place in the Country",
+        "Elio Petri",
+        "When Were You Born",
+        "William C. McGann"
+      ],
+      "hit_titles": [
+        "A Quiet Place in the Country",
+        "When Were You Born"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "db19bf4c086e11ebbd62ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Gordon Persons",
+        "John Beach"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "9e6d7bdc08a111ebbd79ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Charlie Chan in Honolulu",
+        "H. Bruce Humberstone",
+        "Lucio Fulci",
+        "The House by the Cemetery"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "c3c94d0a0bdc11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Search for the director of the film 'La Leona' in the filmography database."
+      ],
+      "gold_titles": [
+        "Armando Bó",
+        "La Leona (film)"
+      ],
+      "hit_titles": [
+        "La Leona (film)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "96fb4aee0baf11ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Find who Blanche Of Portugal's father was."
+      ],
+      "gold_titles": [
+        "Afonso III of Portugal",
+        "Blanche of Portugal (1259–1321)"
+      ],
+      "hit_titles": [
+        "Blanche of Portugal (1259–1321)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "e618b2c608c911ebbd92ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Giuseppe Cesari",
+        "Nicos Poulantzas"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "d71f453b085811ebbd5bac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Retrieving the countries of directors for both films."
+      ],
+      "gold_titles": [
+        "Nights on the Road",
+        "Rudolf Jugert",
+        "Swann in Love (film)",
+        "Volker Schlöndorff"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "f7eb7e31088c11ebbd70ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Aryeh Ben-Eliezer",
+        "Jason Pociask"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "e41c14820bd911eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Thought 2: Final Answer: London."
+      ],
+      "gold_titles": [
+        "Christophe Honoré",
+        "Man at Bath"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "27e835ee0bb011ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Observation 11: Arthur Gore, 1st Earl of Gore's father was Arthur"
+      ],
+      "gold_titles": [
+        "Arthur Gore, 1st Earl of Arran",
+        "Arthur Gore, 2nd Earl of Arran"
+      ],
+      "hit_titles": [
+        "Arthur Gore, 1st Earl of Arran"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "3f635554096511ebbdafac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Thought 2: Are there any countries where both Kaufland and Otag are located?"
+      ],
+      "gold_titles": [
+        "Kaufland",
+        "OTRAG"
+      ],
+      "hit_titles": [
+        "Kaufland"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "b69ad95c08ad11ebbd83ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Aanaval Mothiram",
+        "Heroes of the Street"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "931a85420bdd11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Thought 2: [Observation 1: retrieved facts]"
+      ],
+      "gold_titles": [
+        "John Stuart, Lord Mount Stuart",
+        "Lord Patrick Crichton-Stuart"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "0bbded440bda11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Find the director of the film Daadagiri"
+      ],
+      "gold_titles": [
+        "Arshad Khan (cricketer)",
+        "Daadagiri"
+      ],
+      "hit_titles": [
+        "Daadagiri"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "258867240bdd11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Beryl Fox",
+        "Douglas Leiterman"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "3cbd107e0bde11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: retrieved facts)"
+      ],
+      "gold_titles": [
+        "Ayumi Hamasaki",
+        "Who..."
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "5e8240ea0bdd11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Search for the director of the film \"Mole Men Against The Son Of Hercules\""
+      ],
+      "gold_titles": [
+        "Antonio Leonviola",
+        "Mole Men Against the Son of Hercules"
+      ],
+      "hit_titles": [
+        "Mole Men Against the Son of Hercules"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "6638110e0bdb11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Thought 2: Who was Alexandre Gaydamak's father?"
+      ],
+      "gold_titles": [
+        "Alexandre Gaydamak",
+        "Arcadi Gaydamak"
+      ],
+      "hit_titles": [
+        "Alexandre Gaydamak"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "7de9188c088b11ebbd6fac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Retrieving the year of release for the film \"Toen 'T Licht Verdween\""
+      ],
+      "gold_titles": [
+        "Boum sur Paris",
+        "Maurice de Canonge",
+        "Maurits Binger",
+        "Toen 't licht verdween"
+      ],
+      "hit_titles": [
+        "Toen 't licht verdween"
+      ],
+      "coverage": 0.25,
+      "first_query_coverage": 0.25,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "3972d2b60baf11ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 14: Gaston, Duke Of Orléans)"
+      ],
+      "gold_titles": [
+        "Gaston, Duke of Orléans",
+        "Henry IV of France"
+      ],
+      "hit_titles": [
+        "Gaston, Duke of Orléans"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "a8cbc4c40bdc11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "John Francis Dillon (director)",
+        "The Half-Way Girl"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "32e50df00bb011ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Thought 2: Final Answer: Ludwig II Of Bavaria."
+      ],
+      "gold_titles": [
+        "Hermann I, Landgrave of Thuringia",
+        "Sophia of Wittelsbach"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "deb907f80bdd11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Search for the place of death of Lambert I, Count of Louvain's father."
+      ],
+      "gold_titles": [
+        "Lambert I, Count of Louvain",
+        "Reginar III, Count of Hainaut"
+      ],
+      "hit_titles": [
+        "Lambert I, Count of Louvain"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "b81fbe620bdc11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Observation 2: Randal Gragg was born in San Diego, California."
+      ],
+      "gold_titles": [
+        "Highway Dragnet",
+        "Nathan Juran"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "3717c0600bde11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Find where Prince Gustav Of Thurn And Taxes' mother died died."
+      ],
+      "gold_titles": [
+        "Prince Gustav of Thurn and Taxis (1848–1914)",
+        "Princess Mathilde Sophie of Oettingen-Oettingen and Oettingen-Spielberg"
+      ],
+      "hit_titles": [
+        "Prince Gustav of Thurn and Taxis (1848–1914)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "0f1ac1a00bdb11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Thought 2: Final Answer: Grammy Award."
+      ],
+      "gold_titles": [
+        "Joe Jackson (musician)",
+        "Sunday Papers"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "f420d4a008a311ebbd7cac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Retrieving the birth years of Antonieta Ribeiro and Dodgemaster Goro."
+      ],
+      "gold_titles": [
+        "Antonieta",
+        "Carlos Saura",
+        "Dodging the Dole",
+        "John E. Blakeley"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "6638a0f0084e11ebbd56ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Are Nikolsk Airport and SvobodnAirport located in the same country?"
+      ],
+      "gold_titles": [
+        "Nikolsk Airport",
+        "Svobodny Airport"
+      ],
+      "hit_titles": [
+        "Nikolsk Airport",
+        "Svobodny Airport"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "07388c7c0bb011ebab90acde48001122",
+      "n_queries": 3,
+      "queries": [
+        "Find the lineage of Amadeus Vii, Count Of Savoy.",
+        "Find the lineage of Blanche of Savoy.",
+        "Find the lineage of Amadeus VI, Count of Savoy."
+      ],
+      "gold_titles": [
+        "Amadeus VII, Count of Savoy",
+        "Bonne of Bourbon"
+      ],
+      "hit_titles": [
+        "Amadeus VII, Count of Savoy"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "83ff07cd096711ebbdafac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Observation 3: Canada and the United States are different countries."
+      ],
+      "gold_titles": [
+        "Telus",
+        "ZTR Control Systems"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "7a57c5d2089111ebbd73ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Thought 2: Final Answer: no."
+      ],
+      "gold_titles": [
+        "Alexander Korda",
+        "Alfred Hitchcock",
+        "Dial M for Murder",
+        "Marius (1931 film)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "42f6d3b208b911ebbd88ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Dyson Parody",
+        "Gene Watson"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "f1ff478c089011ebbd72ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Retrieving the director of The Princess Bride (Film)"
+      ],
+      "gold_titles": [
+        "Gilbert Cates",
+        "I Never Sang for My Father",
+        "Rob Reiner",
+        "The Princess Bride (film)"
+      ],
+      "hit_titles": [
+        "The Princess Bride (film)"
+      ],
+      "coverage": 0.25,
+      "first_query_coverage": 0.25,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "6b55ac320bdb11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: Empress Alexandra Fevrenska died Russia died the Russian royal family. She died her death date. ) Final Answer: 1918."
+      ],
+      "gold_titles": [
+        "Prince John Konstantinovich of Russia",
+        "Princess Elisabeth of Saxe-Altenburg (1865–1927)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "424d56700bde11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Find the nationality of Audofilda's husband"
+      ],
+      "gold_titles": [
+        "Audofleda",
+        "Theodoric the Great"
+      ],
+      "hit_titles": [
+        "Audofleda"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5c0c69f80bdd11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Thought 2: Final Answer: India."
+      ],
+      "gold_titles": [
+        "Hisham Zaman",
+        "Letter to the King"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "ac786909087411ebbd67ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 2: Jessamine (Band) is from United States)"
+      ],
+      "gold_titles": [
+        "Jessamine (band)",
+        "Snowman (band)"
+      ],
+      "hit_titles": [
+        "Jessamine (band)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "29427eea0bdd11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Thought 3: [Observation 2: John Lennon was born in Liverpool]"
+      ],
+      "gold_titles": [
+        "God (John Lennon song)",
+        "John Lennon"
+      ],
+      "hit_titles": [
+        "John Lennon"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "d370f0b0085711ebbd5aac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Retrieving the director of Captain Kidd And The Slave Girl."
+      ],
+      "gold_titles": [
+        "Captain Kidd and the Slave Girl",
+        "Erik Balling",
+        "Lew Landers",
+        "Relax Freddie"
+      ],
+      "hit_titles": [
+        "Captain Kidd and the Slave Girl"
+      ],
+      "coverage": 0.25,
+      "first_query_coverage": 0.25,
+      "baseline_coverage": 0.25,
+      "em": 1.0
+    },
+    {
+      "id": "a9f9985a09a211ebbdb0ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Which song was released more recently, GoAheadAndBreakMyHeartHeart or KneeDeepInMyHeart?"
+      ],
+      "gold_titles": [
+        "Go Ahead and Break My Heart",
+        "Knee Deep in My Heart"
+      ],
+      "hit_titles": [
+        "Go Ahead and Break My Heart",
+        "Knee Deep in My Heart"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "53ab316c08b911ebbd88ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "Who directed in Thought 2:"
+      ],
+      "gold_titles": [
+        "Cornel Wilde",
+        "Scott R. Dunlap",
+        "The Devil's Hairpin",
+        "The Fatal Mistake"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.25,
+      "em": 0.0
+    },
+    {
+      "id": "bc633e2c0baf11ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Observation 3: Prince Juan Carlos Of Spain is deceased."
+      ],
+      "gold_titles": [
+        "Maria Luisa of Savoy",
+        "Philip V of Spain"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "2b4bd5020baf11ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Find the paternal grandfather of Kujō Yoritsugu."
+      ],
+      "gold_titles": [
+        "Kujō Yoritsugu",
+        "Kujō Yoritsune"
+      ],
+      "hit_titles": [
+        "Kujō Yoritsugu",
+        "Kujō Yoritsune"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "3647118c0bdd11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Search for the director of the film Marianela (1940 Film)"
+      ],
+      "gold_titles": [
+        "Benito Perojo",
+        "Marianela (1940 film)"
+      ],
+      "hit_titles": [
+        "Marianela (1940 film)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "d6074911090011ebbdadac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Repeated Absences",
+        "She Wore a Yellow Ribbon"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "146b7443086611ebbd5eac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Edward Dearle",
+        "Michael Doeberl"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "ea1fc06c0bda11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Karin Stoltenberg",
+        "Thorvald Stoltenberg"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "00c75ffc0bde11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Alex Joffé",
+        "Lettre ouverte"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "94198d580bb011ebab90acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Observation 3: Without more specific lineage details, we cannot determine the exact identity of his paternal grandmother."
+      ],
+      "gold_titles": [
+        "William II of Dampierre",
+        "William II, Count of Flanders"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "71d8e20e0bdb11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "Thought 2: Final Answer: Italy."
+      ],
+      "gold_titles": [
+        "Clara Novello",
+        "Vincent Novello"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "0323cdea090d11ebbdadac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Emmy of Stork's Nest",
+        "Indira Vizha"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "f7c153ce092e11ebbdaeac1f6bf848b6",
+      "n_queries": 2,
+      "queries": [
+        "Thought 2: Final Answer: Dilan 1991.",
+        "[Search Query] \"Dilan 1991 release year\" Final Answer: Dilan 1991."
+      ],
+      "gold_titles": [
+        "Celine: Through the Eyes of the World",
+        "Dilan 1991"
+      ],
+      "hit_titles": [
+        "Dilan 1991"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "0f44750808e411ebbda4ac1f6bf848b6",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Lee Mantle",
+        "Silas Hardy"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "e701105e0bdd11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: retrieved facts) Final Answer: Gmünd, Germany."
+      ],
+      "gold_titles": [
+        "Albert Frederick, Duke of Prussia",
+        "Anna Marie of Brunswick-Lüneburg"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "b5e9ef2c0bdd11eba7f7acde48001122",
+      "n_queries": 1,
+      "queries": [
+        "(Observation 1: )"
+      ],
+      "gold_titles": [
+        "Juan Carlos Gumucio",
+        "Marie Colvin"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    }
+  ]
+}

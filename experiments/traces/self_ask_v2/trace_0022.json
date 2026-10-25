@@ -1,0 +1,31 @@
+{
+  "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+  "answer": "Front Row",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What devices typically interact with Apple Remote?\nObservation: Apple Remote is primarily used to control Apple TV devices.",
+      "action_name": "search",
+      "action_input": "What devices typically interact with Apple Remote?",
+      "observation": "[Search] Results for 'What devices typically interact with Apple Remote?':\n[Doc 1] Apple Remote:  Prior to the Apple Remote, Apple produced several nameless IR remotes for products such as the Macintosh TV, TV tuner expansion boards, and the PowerCD drive.\n\n[Doc 2] Apple Remote:  The device was orig...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Front Row",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 110.18176054954529,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

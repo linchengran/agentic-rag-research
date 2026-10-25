@@ -1,0 +1,23 @@
+{
+  "question": "Where was the person who wrote about the rioting being a dividing factor in Birmingham educated?",
+  "answer": "Trinity College, Cambridge.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find where the person who wrote about the rioting being a dividing factor in Birmingham was educated.",
+      "action_name": "ircot_search",
+      "action_input": "Find where the person who wrote about the rioting being a dividing factor in Birmingham was educated.",
+      "observation": "[Search] Results for 'Find where the person who wrote about the rioting being a dividing factor in Birmingham was educated.':\n[Doc 1] Priestley Riots: While the riots were not initiated by Prime Minister William Pitt's administration, the national government was slow to respond to the Dissenters' pleas for help. Local Birmingham officials seem to have been involved in the planning of the riots, and they were later reluctant to prosecute any ringleaders. Industrialist James Watt wrote that the riots \"divided [Birmingham] into two parties who hate one another mortally\". Those who had been attacked gradually left, leaving Birmingham a more conservative city than it had been throughout the eighteenth century.\n\n[Doc 2] Ernest Barnes: He was educated at King Edward's School, Birmingham, and Trinity College, Cambridge. He was Master of the Temple from 1915 to 1919. He was made Bishop of Birmingham in 1924, the only bishop appointed during Ramsay MacDonald's first term in office. His modernist views, in particular objection to Reservation, led to conflict with the Anglo-Catholics in his diocese. A biography by his son, Sir John Barnes, \"Ahead of His Age: Bishop Barnes of Birmingham\", was published in 1979.\n\n[Doc 3] Albert Way: Albert Way was educated at home and at Trinity College, Cambridge. One of his Trinity contemporaries was Charles Darwin, whom Way encouraged to continue his insect collecting. Way graduated BA in 1829, and MA in 1834. In his early life, he travelled in Europe a...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 18.41244912147522,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

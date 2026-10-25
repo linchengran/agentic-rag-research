@@ -1,0 +1,47 @@
+{
+  "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+  "answer": "",
+  "n_steps": 4,
+  "finished": false,
+  "finish_reason": "max_steps",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for Guns N' Roses promo for a movie starring Arnold Schwarzenegger.",
+      "action_name": "search",
+      "action_input": "Guns N' Roses promo for a movie starring Arnold Schwarzenegger",
+      "observation": "[Search] Results for \"Guns N' Roses promo for a movie starring Arnold Schwarzenegger\":\n[Doc 1] Last Action Hero: The film stars Arnold Schwarzenegger as Jack Slater, a Los Angeles police detective within the \"Jack Slater\" action film franchise.\n\n[Doc 2] Arnold Schwarzenegger filmography:  In additio...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The promo for the movie was likely mentioned in Doc 2.",
+      "action_name": "lookup",
+      "action_input": "Guns N' Roses promo for a movie starring Arnold Schwarzenegger in Doc 2",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The promo for the movie was likely mentioned in Doc 2.",
+      "action_name": "lookup",
+      "action_input": "Guns N' Roses promo for a movie starring Arnold Schwarzenegger in Doc 2",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 4,
+      "thought": "",
+      "action_name": "parse_error",
+      "action_input": "Finish:no",
+      "observation": "[Error] Unknown action: parse_error",
+      "error": "unknown_action"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 111.03284454345703,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

@@ -1,0 +1,1849 @@
+{
+  "n": 100,
+  "agent": {
+    "gold_hit_full": 0.23,
+    "gold_hit_partial": 0.91,
+    "gold_coverage": 0.57,
+    "first_query_coverage": 0.49,
+    "avg_queries": 1.27
+  },
+  "baseline_single_query": {
+    "gold_hit_full": 0.37,
+    "gold_hit_partial": 0.93,
+    "gold_coverage": 0.65
+  },
+  "per_question": [
+    {
+      "id": "5a8b57f25542995d1e6f1371",
+      "n_queries": 2,
+      "queries": [
+        "Scott Derrickson nationality",
+        "Ed Wood nationality"
+      ],
+      "gold_titles": [
+        "Ed Wood",
+        "Scott Derrickson"
+      ],
+      "hit_titles": [
+        "Ed Wood",
+        "Scott Derrickson"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a8c7595554299585d9e36b6",
+      "n_queries": 1,
+      "queries": [
+        "actors who played Corliss Archer in Kiss and Tell"
+      ],
+      "gold_titles": [
+        "Kiss and Tell (1945 film)",
+        "Shirley Temple"
+      ],
+      "hit_titles": [
+        "Kiss and Tell (1945 film)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a85ea095542994775f606a8",
+      "n_queries": 2,
+      "queries": [
+        "science fantasy young adult first person",
+        "companion books enslaved worlds alien species"
+      ],
+      "gold_titles": [
+        "Animorphs",
+        "The Hork-Bajir Chronicles"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5adbf0a255429947ff17385a",
+      "n_queries": 1,
+      "queries": [
+        "Laleli Mosque and Esma Sultan Mansion"
+      ],
+      "gold_titles": [
+        "Esma Sultan Mansion",
+        "Laleli Mosque"
+      ],
+      "hit_titles": [
+        "Esma Sultan Mansion",
+        "Laleli Mosque"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5a8e3ea95542995a26add48d",
+      "n_queries": 1,
+      "queries": [
+        "Big Stone Gap movies"
+      ],
+      "gold_titles": [
+        "Adriana Trigiani",
+        "Big Stone Gap (film)"
+      ],
+      "hit_titles": [
+        "Big Stone Gap (film)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5abd94525542992ac4f382d2",
+      "n_queries": 1,
+      "queries": [
+        "debut albums south korean boy groups 2014"
+      ],
+      "gold_titles": [
+        "2014 S/S",
+        "Winner (band)"
+      ],
+      "hit_titles": [
+        "2014 S/S",
+        "Winner (band)"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a85b2d95542997b5ce40028",
+      "n_queries": 3,
+      "queries": [
+        "Aladin real name and theater connection",
+        "organizations improving Aladin's real name and consulting",
+        "organizations improving aladin's real name and consulting"
+      ],
+      "gold_titles": [
+        "Eenasul Fateh",
+        "Management consulting"
+      ],
+      "hit_titles": [
+        "Management consulting"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a87ab905542996e4f3088c1",
+      "n_queries": 1,
+      "queries": [
+        "Lewiston Maineiacs stadium capacity"
+      ],
+      "gold_titles": [
+        "Androscoggin Bank Colisée",
+        "Lewiston Maineiacs"
+      ],
+      "hit_titles": [
+        "Lewiston Maineiacs"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a7bbb64554299042af8f7cc",
+      "n_queries": 1,
+      "queries": [
+        "birth years of Annie Morton and Terry Richardson"
+      ],
+      "gold_titles": [
+        "Annie Morton",
+        "Terry Richardson"
+      ],
+      "hit_titles": [
+        "Annie Morton",
+        "Terry Richardson"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a8db19d5542994ba4e3dd00",
+      "n_queries": 2,
+      "queries": [
+        "Are Local H and For Against both from the United States?",
+        "For Against from the United States"
+      ],
+      "gold_titles": [
+        "For Against",
+        "Local H"
+      ],
+      "hit_titles": [
+        "For Against",
+        "Local H"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a7166395542994082a3e814",
+      "n_queries": 1,
+      "queries": [
+        "universities main campus lawrence kansas"
+      ],
+      "gold_titles": [
+        "Kansas Song",
+        "University of Kansas"
+      ],
+      "hit_titles": [
+        "University of Kansas"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a877e5d5542993e715abf7d",
+      "n_queries": 2,
+      "queries": [
+        "\"screenwriters evolution\"",
+        "\"screenwriters evolution nicolas cage téa leoni\""
+      ],
+      "gold_titles": [
+        "David Weissman",
+        "The Family Man"
+      ],
+      "hit_titles": [
+        "David Weissman"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab3b0bf5542992ade7c6e39",
+      "n_queries": 1,
+      "queries": [
+        "Guns N' Roses movie promotions"
+      ],
+      "gold_titles": [
+        "End of Days (film)",
+        "Oh My God (Guns N' Roses song)"
+      ],
+      "hit_titles": [
+        "Oh My God (Guns N' Roses song)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab56e32554299637185c594",
+      "n_queries": 1,
+      "queries": [
+        "Random House Tower"
+      ],
+      "gold_titles": [
+        "888 7th Avenue",
+        "Random House Tower"
+      ],
+      "hit_titles": [
+        "Random House Tower"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5ab6d09255429954757d337d",
+      "n_queries": 1,
+      "queries": [
+        "football managers of Manchester United"
+      ],
+      "gold_titles": [
+        "1995–96 Manchester United F.C. season",
+        "Alex Ferguson"
+      ],
+      "hit_titles": [
+        "Alex Ferguson"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a75e05c55429976ec32bc5f",
+      "n_queries": 1,
+      "queries": [
+        "countries with population over 10 million"
+      ],
+      "gold_titles": [
+        "Brown County, Kansas",
+        "Brown State Fishing Lake"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab3e45655429976abd1bcd4",
+      "n_queries": 1,
+      "queries": [
+        "current conference of Vermont Catamounts men's soccer team"
+      ],
+      "gold_titles": [
+        "America East Conference",
+        "Vermont Catamounts men's soccer"
+      ],
+      "hit_titles": [
+        "Vermont Catamounts men's soccer"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab29c24554299449642c932",
+      "n_queries": 1,
+      "queries": [
+        "Giuseppe Verdi opera composer"
+      ],
+      "gold_titles": [
+        "Ambroise Thomas",
+        "Giuseppe Verdi"
+      ],
+      "hit_titles": [
+        "Giuseppe Verdi"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5ae0d4c9554299603e418468",
+      "n_queries": 1,
+      "queries": [
+        "Roger O. Egeberg Assistant Secretary Health Scientific Affairs"
+      ],
+      "gold_titles": [
+        "Richard Nixon",
+        "Roger O. Egeberg"
+      ],
+      "hit_titles": [
+        "Roger O. Egeberg"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a8133725542995ce29dcbdb",
+      "n_queries": 2,
+      "queries": [
+        "writers from England",
+        "Henry Roth writer"
+      ],
+      "gold_titles": [
+        "Henry Roth",
+        "Robert Erskine Childers"
+      ],
+      "hit_titles": [
+        "Henry Roth"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ae7a8175542993210983ed8",
+      "n_queries": 1,
+      "queries": [
+        "Mexican Formula One race car drivers who have held the podium"
+      ],
+      "gold_titles": [
+        "Formula One drivers from Mexico",
+        "Sergio Pérez"
+      ],
+      "hit_titles": [
+        "Formula One drivers from Mexico"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ae6050f55429929b0807a5e",
+      "n_queries": 1,
+      "queries": [
+        "A Rather Blustery Day songs"
+      ],
+      "gold_titles": [
+        "A Rather Blustery Day",
+        "Jim Cummings"
+      ],
+      "hit_titles": [
+        "A Rather Blustery Day"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5adddccd5542997dc7907069",
+      "n_queries": 1,
+      "queries": [
+        "Apple Remote compatible devices"
+      ],
+      "gold_titles": [
+        "Apple Remote",
+        "Front Row (software)"
+      ],
+      "hit_titles": [
+        "Apple Remote"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae2070a5542994d89d5b313",
+      "n_queries": 1,
+      "queries": [
+        "Badly Drawn Boy instrument to person ratio"
+      ],
+      "gold_titles": [
+        "Badly Drawn Boy",
+        "Wolf Alice"
+      ],
+      "hit_titles": [
+        "Badly Drawn Boy"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae22b8d554299234fd0440f",
+      "n_queries": 1,
+      "queries": [
+        "\"IFFHS father of Kasper Schmeichel 1992\""
+      ],
+      "gold_titles": [
+        "Kasper Schmeichel",
+        "Peter Schmeichel"
+      ],
+      "hit_titles": [
+        "Kasper Schmeichel",
+        "Peter Schmeichel"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a722b8655429971e9dc9329",
+      "n_queries": 1,
+      "queries": [
+        "\"These Boots Are Made for Walkin' songwriter\""
+      ],
+      "gold_titles": [
+        "Lee Hazlewood",
+        "These Boots Are Made for Walkin'"
+      ],
+      "hit_titles": [
+        "These Boots Are Made for Walkin'"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5adf37a95542995ec70e8f97",
+      "n_queries": 1,
+      "queries": [
+        "founding year of Virginia Commonwealth University"
+      ],
+      "gold_titles": [
+        "2011–12 VCU Rams men's basketball team",
+        "Virginia Commonwealth University"
+      ],
+      "hit_titles": [
+        "Virginia Commonwealth University"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5abd259d55429924427fcf1a",
+      "n_queries": 1,
+      "queries": [
+        "\"Dictyosperma genus\" AND \"Huernia genus\""
+      ],
+      "gold_titles": [
+        "Dictyosperma",
+        "Huernia"
+      ],
+      "hit_titles": [
+        "Dictyosperma",
+        "Huernia"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a828c8355429966c78a6a50",
+      "n_queries": 1,
+      "queries": [
+        "\"father of modern American shipbuilding\""
+      ],
+      "gold_titles": [
+        "Henry J. Kaiser",
+        "Kaiser Ventures"
+      ],
+      "hit_titles": [
+        "Kaiser Ventures"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a8a3e745542996c9b8d5e70",
+      "n_queries": 1,
+      "queries": [
+        "Tunnels and Trolls game design"
+      ],
+      "gold_titles": [
+        "Arena of Khazan",
+        "Tunnels &amp; Trolls"
+      ],
+      "hit_titles": [
+        "Tunnels &amp; Trolls"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ac23ff0554299636651994d",
+      "n_queries": 1,
+      "queries": [
+        "Poison albums"
+      ],
+      "gold_titles": [
+        "Poison (American band)",
+        "Shut Up, Make Love"
+      ],
+      "hit_titles": [
+        "Poison (American band)",
+        "Shut Up, Make Love"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5ae4a3265542995ad6573de5",
+      "n_queries": 1,
+      "queries": [
+        "Buck-Tick origin"
+      ],
+      "gold_titles": [
+        "Buck-Tick",
+        "Hayden (musician)"
+      ],
+      "hit_titles": [
+        "Buck-Tick"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae0361155429925eb1afc2c",
+      "n_queries": 2,
+      "queries": [
+        "Famous French WWI pilots",
+        "Famous French WWI pilots L'Oiseau Blanc"
+      ],
+      "gold_titles": [
+        "Charles Nungesser",
+        "L'Oiseau Blanc"
+      ],
+      "hit_titles": [
+        "L'Oiseau Blanc"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5abc0a5d5542993f40c73c64",
+      "n_queries": 2,
+      "queries": [
+        "Freakonomics documentary",
+        "\"In the Realm of the Hackers documentary\""
+      ],
+      "gold_titles": [
+        "Freakonomics (film)",
+        "In the Realm of the Hackers"
+      ],
+      "hit_titles": [
+        "Freakonomics (film)",
+        "In the Realm of the Hackers"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5a7cc50e554299452d57ba3e",
+      "n_queries": 2,
+      "queries": [
+        "Letters to Cleo members",
+        "Screaming Trees members"
+      ],
+      "gold_titles": [
+        "Letters to Cleo",
+        "Screaming Trees"
+      ],
+      "hit_titles": [
+        "Letters to Cleo",
+        "Screaming Trees"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5abf63f15542997ec76fd3ea",
+      "n_queries": 1,
+      "queries": [
+        "end_of_civil_war_between_Alexander_Kerensky_and_BolshevikS"
+      ],
+      "gold_titles": [
+        "Russian Civil War",
+        "Socialist Revolutionary Party"
+      ],
+      "hit_titles": [
+        "Russian Civil War"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a8ef2a75542995a26add583",
+      "n_queries": 1,
+      "queries": [
+        "Seven Brief Lessons on Physics author"
+      ],
+      "gold_titles": [
+        "Carlo Rovelli",
+        "Seven Brief Lessons on Physics"
+      ],
+      "hit_titles": [
+        "Seven Brief Lessons on Physics"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a80721b554299485f5985ef",
+      "n_queries": 1,
+      "queries": [
+        "Livesey Hal War Memorial location"
+      ],
+      "gold_titles": [
+        "Livesey Hall War Memorial",
+        "World War II casualties"
+      ],
+      "hit_titles": [
+        "Livesey Hall War Memorial"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ab51dae5542991779162d82",
+      "n_queries": 1,
+      "queries": [
+        "locations of Elko Regional Airport and Gerald R. Ford International Airport"
+      ],
+      "gold_titles": [
+        "Elko Regional Airport",
+        "Gerald R. Ford International Airport"
+      ],
+      "hit_titles": [
+        "Elko Regional Airport",
+        "Gerald R. Ford International Airport"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5a7571135542992d0ec05f98",
+      "n_queries": 1,
+      "queries": [
+        "Ralph Hefferline psychology professor universities"
+      ],
+      "gold_titles": [
+        "Columbia University",
+        "Ralph Hefferline"
+      ],
+      "hit_titles": [
+        "Ralph Hefferline"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a7a0e1e5542990783324e1a",
+      "n_queries": 1,
+      "queries": [
+        "ancestry Manchester Terrier Scotch Collie"
+      ],
+      "gold_titles": [
+        "Manchester Terrier",
+        "Scotch Collie"
+      ],
+      "hit_titles": [
+        "Manchester Terrier",
+        "Scotch Collie"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a74106b55429979e288289e",
+      "n_queries": 2,
+      "queries": [
+        "Sachin Warrier linkedin",
+        "Sachin Warrier current employer"
+      ],
+      "gold_titles": [
+        "Sachin Warrier",
+        "Tata Consultancy Services"
+      ],
+      "hit_titles": [
+        "Sachin Warrier"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a79311755429970f5fffe67",
+      "n_queries": 1,
+      "queries": [
+        "creator of Japanese manga based on Ichitaka Seto"
+      ],
+      "gold_titles": [
+        "I&quot;s",
+        "Masakazu Katsura"
+      ],
+      "hit_titles": [
+        "I&quot;s"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab2d3df554299194fa9352c",
+      "n_queries": 1,
+      "queries": [
+        "Giuseppe Arimondi battles"
+      ],
+      "gold_titles": [
+        "Battle of Adwa",
+        "Giuseppe Arimondi"
+      ],
+      "hit_titles": [
+        "Giuseppe Arimondi"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a760ab65542994ccc918697",
+      "n_queries": 1,
+      "queries": [
+        "Alfred Balks secretary Committee Employment Minority Groups News Media"
+      ],
+      "gold_titles": [
+        "Alfred Balk",
+        "Nelson Rockefeller"
+      ],
+      "hit_titles": [
+        "Alfred Balk"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a7d54165542995f4f402256",
+      "n_queries": 1,
+      "queries": [
+        "medieval fortresses in Dirleton, East Lothian, Scotland"
+      ],
+      "gold_titles": [
+        "Dirleton Castle",
+        "Yellowcraigs"
+      ],
+      "hit_titles": [
+        "Dirleton Castle"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ab859a955429934fafe6d7b",
+      "n_queries": 1,
+      "queries": [
+        "Back to Mono box set first track songwriter"
+      ],
+      "gold_titles": [
+        "Back to Mono (1958–1969)",
+        "To Know Him Is to Love Him"
+      ],
+      "hit_titles": [
+        "Back to Mono (1958–1969)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5add61d65542995b365fab21",
+      "n_queries": 1,
+      "queries": [
+        "Mikhail Gorbachev forums"
+      ],
+      "gold_titles": [
+        "Mikhail Gorbachev",
+        "World Summit of Nobel Peace Laureates"
+      ],
+      "hit_titles": [
+        "Mikhail Gorbachev"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a8e068b5542995085b37384",
+      "n_queries": 1,
+      "queries": [
+        "definitions of Ferocactus and Silene"
+      ],
+      "gold_titles": [
+        "Ferocactus",
+        "Silene"
+      ],
+      "hit_titles": [
+        "Ferocactus",
+        "Silene"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5abbf698554299114383a0b5",
+      "n_queries": 1,
+      "queries": [
+        "British first-generation jet bombers during World War II"
+      ],
+      "gold_titles": [
+        "English Electric Canberra",
+        "No. 2 Squadron RAAF"
+      ],
+      "hit_titles": [
+        "No. 2 Squadron RAAF"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a8e1027554299653c1aa15f",
+      "n_queries": 1,
+      "queries": [
+        "Colorado Buffaloes NCAA record 14th season conference year"
+      ],
+      "gold_titles": [
+        "2009 Big 12 Conference football season",
+        "2009 Colorado Buffaloes football team"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ab84bf555429916710eb01f",
+      "n_queries": 1,
+      "queries": [
+        "companies that bought Euromarché in 1991"
+      ],
+      "gold_titles": [
+        "Carrefour",
+        "Euromarché"
+      ],
+      "hit_titles": [
+        "Euromarché"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a77724455429972597f153e",
+      "n_queries": 2,
+      "queries": [
+        "midwest major racetracks",
+        "race track 500 mile race every May"
+      ],
+      "gold_titles": [
+        "1957 Indianapolis 500",
+        "Indianapolis Motor Speedway"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a87c13f5542996e4f30890c",
+      "n_queries": 2,
+      "queries": [
+        "Prince of Tiors film",
+        "Giorgio Cantar film"
+      ],
+      "gold_titles": [
+        "Franco Corelli",
+        "Tosca (1956 film)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ab96ab755429970cfb8eacd",
+      "n_queries": 1,
+      "queries": [
+        "Ellie Goulding third studio album Delirium"
+      ],
+      "gold_titles": [
+        "Delirium (Ellie Goulding album)",
+        "On My Mind (Ellie Goulding song)"
+      ],
+      "hit_titles": [
+        "Delirium (Ellie Goulding album)",
+        "On My Mind (Ellie Goulding song)"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a8a43eb5542996c9b8d5e82",
+      "n_queries": 2,
+      "queries": [
+        "Australian cities in 1838",
+        "Australian cities containing boarding schools established by Prime Ministers of Australia in 1838"
+      ],
+      "gold_titles": [
+        "Marion, South Australia",
+        "Westminster School, Adelaide"
+      ],
+      "hit_titles": [
+        "Westminster School, Adelaide"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae73acb5542991e8301cc07",
+      "n_queries": 3,
+      "queries": [
+        "\"D1NZ series oversteering technique\"",
+        "\"oversteering technique D1NZ series\"",
+        "\"oversteering technique D1NZ drifting\""
+      ],
+      "gold_titles": [
+        "D1NZ",
+        "Drifting (motorsport)"
+      ],
+      "hit_titles": [
+        "D1NZ",
+        "Drifting (motorsport)"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a7320565542991f9a20c61d",
+      "n_queries": 2,
+      "queries": [
+        "Keith Bostic age",
+        "Jerry Glanville age"
+      ],
+      "gold_titles": [
+        "Jerry Glanville",
+        "Keith Bostic (American football)"
+      ],
+      "hit_titles": [
+        "Jerry Glanville",
+        "Keith Bostic (American football)"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ae32e125542991a06ce9946",
+      "n_queries": 2,
+      "queries": [
+        "Kirton End cities",
+        "city containing Kirton End census 2001"
+      ],
+      "gold_titles": [
+        "Boston, Lincolnshire",
+        "Kirton End"
+      ],
+      "hit_titles": [
+        "Kirton End"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "5adc53f75542996e6852530a",
+      "n_queries": 1,
+      "queries": [
+        "the definition of genus in botanical classification"
+      ],
+      "gold_titles": [
+        "Ajuga",
+        "Cypress"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a8b20335542996c9b8d5fb3",
+      "n_queries": 1,
+      "queries": [
+        "former NBA players Charlotte Hornets 1992-93"
+      ],
+      "gold_titles": [
+        "1992–93 Charlotte Hornets season",
+        "Muggsy Bogues"
+      ],
+      "hit_titles": [
+        "1992–93 Charlotte Hornets season"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a85fb085542994775f606de",
+      "n_queries": 1,
+      "queries": [
+        "films composed by Jerry Goldsmith"
+      ],
+      "gold_titles": [
+        "Alien (film)",
+        "Alien (soundtrack)"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a7be2595542997c3ec972ac",
+      "n_queries": 1,
+      "queries": [
+        "Emma Bull birth year Virginia Woolf birth year"
+      ],
+      "gold_titles": [
+        "Emma Bull",
+        "Virginia Woolf"
+      ],
+      "hit_titles": [
+        "Emma Bull",
+        "Virginia Woolf"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a77152355429966f1a36c2e",
+      "n_queries": 1,
+      "queries": [
+        "\"What Are Little Girls Made Of\""
+      ],
+      "gold_titles": [
+        "What Are Little Boys Made Of?",
+        "What Are Little Girls Made Of?"
+      ],
+      "hit_titles": [
+        "What Are Little Girls Made Of?"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a8f4c8d554299458435d5a3",
+      "n_queries": 2,
+      "queries": [
+        "Scott Parkin criticism Exxonmobil",
+        "Rising Tide NorthAmerica Mobil"
+      ],
+      "gold_titles": [
+        "Halliburton",
+        "Scott Parkin"
+      ],
+      "hit_titles": [
+        "Scott Parkin"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a80840f554299485f59863b",
+      "n_queries": 1,
+      "queries": [
+        "Jawbreaker star best-known supernatural drama series"
+      ],
+      "gold_titles": [
+        "Jawbreaker (film)",
+        "Rose McGowan"
+      ],
+      "hit_titles": [
+        "Rose McGowan"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5a8361b65542992ef85e22a0",
+      "n_queries": 1,
+      "queries": [
+        "Vince Phillips held junior welterweight title by organization recognized"
+      ],
+      "gold_titles": [
+        "International Boxing Federation",
+        "Vince Phillips"
+      ],
+      "hit_titles": [
+        "Vince Phillips"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae7ba7a5542993210983f12",
+      "n_queries": 1,
+      "queries": [
+        "the lead single from the album Confessions"
+      ],
+      "gold_titles": [
+        "I Don't Wanna Know",
+        "Yeah! (Usher song)"
+      ],
+      "hit_titles": [
+        "Yeah! (Usher song)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ac2acff55429921a00ab02b",
+      "n_queries": 1,
+      "queries": [
+        "TheHard easy episode guests"
+      ],
+      "gold_titles": [
+        "Brian Doyle-Murray",
+        "The Hard Easy (Adventure Time)"
+      ],
+      "hit_titles": [
+        "The Hard Easy (Adventure Time)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5aba7cfe554299232ef4a2fd",
+      "n_queries": 1,
+      "queries": [
+        "\"2017-18 Wigan Athletic F.C. season\""
+      ],
+      "gold_titles": [
+        "2017–18 Wigan Athletic F.C. season",
+        "EFL Cup"
+      ],
+      "hit_titles": [
+        "2017–18 Wigan Athletic F.C. season"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae5aba0554299546bf82f17",
+      "n_queries": 1,
+      "queries": [
+        "American animated television series based on DC Comics Teen Titans"
+      ],
+      "gold_titles": [
+        "Tara Strong",
+        "Teen Titans Go! (TV series)"
+      ],
+      "hit_titles": [
+        "Teen Titans Go! (TV series)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ae1f4cb554299234fd0436d",
+      "n_queries": 2,
+      "queries": [
+        "cities where 122nd SS-Standarte was formed in 2014",
+        "current population of Strasbourg"
+      ],
+      "gold_titles": [
+        "122nd SS-Standarte",
+        "Strasbourg"
+      ],
+      "hit_titles": [
+        "122nd SS-Standarte",
+        "Strasbourg"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae7e1fc55429952e35ea9cc",
+      "n_queries": 2,
+      "queries": [
+        "popular colors worn during Oranjegekte celebrations in the Netherlands",
+        "popular colors worn during Koningsdag celebrations in the Netherlands"
+      ],
+      "gold_titles": [
+        "Koningsdag",
+        "Oranjegekte"
+      ],
+      "hit_titles": [
+        "Koningsdag",
+        "Oranjegekte"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5ae37c765542992f92d822d4",
+      "n_queries": 1,
+      "queries": [
+        "\"1996 Romeo & Juliet film\""
+      ],
+      "gold_titles": [
+        "James Gunn",
+        "Tromeo and Juliet"
+      ],
+      "hit_titles": [
+        "Tromeo and Juliet"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5ae33c4d5542992f92d82262",
+      "n_queries": 1,
+      "queries": [
+        "\"Robert Suettinger national intelligence officer\""
+      ],
+      "gold_titles": [
+        "Bill Clinton",
+        "Robert Suettinger"
+      ],
+      "hit_titles": [
+        "Robert Suettinger"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a77cb335542997042120b3a",
+      "n_queries": 1,
+      "queries": [
+        "American professional Hawaiian surfers born on 18 October 1992"
+      ],
+      "gold_titles": [
+        "John John Florence",
+        "MEO Rip Curl Pro Portugal"
+      ],
+      "hit_titles": [
+        "John John Florence"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a8979f4554299669944a52e",
+      "n_queries": 1,
+      "queries": [
+        "the cast list of Suburban Madness"
+      ],
+      "gold_titles": [
+        "Bobbi Bacha",
+        "Sela Ward"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a713ea95542994082a3e6e4",
+      "n_queries": 1,
+      "queries": [
+        "Alvaro Mexia's diplomatic missions in South America"
+      ],
+      "gold_titles": [
+        "Alvaro Mexia",
+        "Indigenous peoples of Florida"
+      ],
+      "hit_titles": [
+        "Alvaro Mexia"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a78bd9b554299078472774a",
+      "n_queries": 2,
+      "queries": [
+        "Alfred Gell nationality",
+        "Edmund Leach nationality"
+      ],
+      "gold_titles": [
+        "Alfred Gell",
+        "Edmund Leach"
+      ],
+      "hit_titles": [
+        "Alfred Gell",
+        "Edmund Leach"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5a7625e8554299109176e66a",
+      "n_queries": 1,
+      "queries": [
+        "the King who made the 1925 Birthday Honours"
+      ],
+      "gold_titles": [
+        "1925 Birthday Honours",
+        "George V"
+      ],
+      "hit_titles": [
+        "1925 Birthday Honours"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae2dd2055429928c423950d",
+      "n_queries": 1,
+      "queries": [
+        "locations in New Hampshire"
+      ],
+      "gold_titles": [
+        "East Lempster, New Hampshire",
+        "Sullivan County, New Hampshire"
+      ],
+      "hit_titles": [
+        "Sullivan County, New Hampshire"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5abdf12255429976d4830a2f",
+      "n_queries": 1,
+      "queries": [
+        "rock singer born on May 6, 1945 against the wind 1987"
+      ],
+      "gold_titles": [
+        "Against the Wind (album)",
+        "Bob Seger"
+      ],
+      "hit_titles": [
+        "Against the Wind (album)"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a88658955429938390d3f47",
+      "n_queries": 1,
+      "queries": [
+        "Rostker v. Goldberg"
+      ],
+      "gold_titles": [
+        "Conscription in the United States",
+        "Rostker v. Goldberg"
+      ],
+      "hit_titles": [
+        "Rostker v. Goldberg"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a86ebac55429960ec39b6d6",
+      "n_queries": 1,
+      "queries": [
+        "American-American multinational confectionery food and beverage company based in Illinois"
+      ],
+      "gold_titles": [
+        "Handi-Snacks",
+        "Mondelez International"
+      ],
+      "hit_titles": [
+        "Mondelez International"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5aba5d2e55429901930fa799",
+      "n_queries": 1,
+      "queries": [
+        "\"Their Lives: The Women Targeted by the Clinton Machine\""
+      ],
+      "gold_titles": [
+        "Monica Lewinsky",
+        "Their Lives"
+      ],
+      "hit_titles": [
+        "Their Lives"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae5736e5542990ba0bbb2b3",
+      "n_queries": 2,
+      "queries": [
+        "American lawyer born Donald Trump",
+        "David Urban Donald Trump"
+      ],
+      "gold_titles": [
+        "Paul Manafort",
+        "Trump campaign–Russian meeting"
+      ],
+      "hit_titles": [
+        "Trump campaign–Russian meeting"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae005b555429942ec259bec",
+      "n_queries": 1,
+      "queries": [
+        "Lourenço Mutarelli's inspiration for \"Nina\""
+      ],
+      "gold_titles": [
+        "Crime and Punishment",
+        "Lourenço Mutarelli"
+      ],
+      "hit_titles": [
+        "Lourenço Mutarelli"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a7759fc5542993569682d60",
+      "n_queries": 1,
+      "queries": [
+        "locations of Teide National Park and Garajonay National Park"
+      ],
+      "gold_titles": [
+        "Garajonay National Park",
+        "Teide National Park"
+      ],
+      "hit_titles": [
+        "Garajonay National Park",
+        "Teide National Park"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 1.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a835478554299123d8c20ed",
+      "n_queries": 2,
+      "queries": [
+        "Roald Dahl books",
+        "varied Roald Dahl anecdote"
+      ],
+      "gold_titles": [
+        "Mrs. Bixby and the Colonel's Coat",
+        "Roald Dahl"
+      ],
+      "hit_titles": [
+        "Roald Dahl"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5aba749055429901930fa7d8",
+      "n_queries": 2,
+      "queries": [
+        "Chris Menges occupation",
+        "Aram Avakian occupation"
+      ],
+      "gold_titles": [
+        "Aram Avakian",
+        "Chris Menges"
+      ],
+      "hit_titles": [
+        "Aram Avakian",
+        "Chris Menges"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5abfb3425542990832d3a1c0",
+      "n_queries": 1,
+      "queries": [
+        "\"Andrew Jaspan co-founder\""
+      ],
+      "gold_titles": [
+        "Andrew Jaspan",
+        "The Conversation (website)"
+      ],
+      "hit_titles": [
+        "Andrew Jaspan"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 1.0
+    },
+    {
+      "id": "5ac3165c5542995ef918c10a",
+      "n_queries": 1,
+      "queries": [
+        "18th Independent Spirit Awards 2002"
+      ],
+      "gold_titles": [
+        "18th Independent Spirit Awards",
+        "John Waters"
+      ],
+      "hit_titles": [
+        "18th Independent Spirit Awards"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae53b545542990ba0bbb23c",
+      "n_queries": 2,
+      "queries": [
+        "Bill Cosby third album location",
+        "Bill Cosby third album details"
+      ],
+      "gold_titles": [
+        "Flamingo Las Vegas",
+        "Why Is There Air?"
+      ],
+      "hit_titles": [
+        "Why Is There Air?"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ae224da554299234fd043ee",
+      "n_queries": 2,
+      "queries": [
+        "Gibson drink ingredients",
+        "Zurracapote drink ingredients"
+      ],
+      "gold_titles": [
+        "Gibson (cocktail)",
+        "Zurracapote"
+      ],
+      "hit_titles": [
+        "Gibson (cocktail)",
+        "Zurracapote"
+      ],
+      "coverage": 1.0,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 1.0
+    },
+    {
+      "id": "5ae2b770554299495565db0f",
+      "n_queries": 1,
+      "queries": [
+        "annual documentary film festival"
+      ],
+      "gold_titles": [
+        "London International Documentary Festival",
+        "London Review of Books"
+      ],
+      "hit_titles": [
+        "London International Documentary Festival"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a80b3a9554299485f5986cc",
+      "n_queries": 1,
+      "queries": [
+        "Tysons Galleria"
+      ],
+      "gold_titles": [
+        "McLean, Virginia",
+        "Tysons Galleria"
+      ],
+      "hit_titles": [
+        "Tysons Galleria"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5a8e0a005542995085b373a1",
+      "n_queries": 1,
+      "queries": [
+        "Bordan Tkachuk CEO"
+      ],
+      "gold_titles": [
+        "Bordan Tkachuk",
+        "Viglen"
+      ],
+      "hit_titles": [
+        "Bordan Tkachuk"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 0.5,
+      "em": 0.0
+    },
+    {
+      "id": "5ac1b8ee5542994d76dccedc",
+      "n_queries": 1,
+      "queries": [
+        "filmmaker known for animation"
+      ],
+      "gold_titles": [
+        "Lev Yilmaz",
+        "Pamela B. Green"
+      ],
+      "hit_titles": [],
+      "coverage": 0.0,
+      "first_query_coverage": 0.0,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5adccd795542990d50227d2c",
+      "n_queries": 1,
+      "queries": [
+        "Rabat-Salé-Kénitra administrative region"
+      ],
+      "gold_titles": [
+        "Moroccan Ambassador to China",
+        "Rabat"
+      ],
+      "hit_titles": [
+        "Rabat"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    },
+    {
+      "id": "5a84c4135542994c784dda31",
+      "n_queries": 1,
+      "queries": [
+        "Yingkou administrative status and Fuding administrative status"
+      ],
+      "gold_titles": [
+        "Fuding",
+        "Yingkou"
+      ],
+      "hit_titles": [
+        "Yingkou"
+      ],
+      "coverage": 0.5,
+      "first_query_coverage": 0.5,
+      "baseline_coverage": 1.0,
+      "em": 0.0
+    }
+  ]
+}

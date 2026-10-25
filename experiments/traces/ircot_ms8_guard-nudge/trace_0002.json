@@ -1,0 +1,23 @@
+{
+  "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+  "answer": "The Chronicles of Nod.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: The Chronicles of Nod.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: The Chronicles of Nod.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: The Chronicles of Nod.':\n[Doc 1] Charmed:  However, following Prue's death in the third-season finale, their long-lost half sister Paige Matthews (Rose McGowan) assumes her place within the \"Power of Three\" from season four onwards.\n\n[Doc 2] Lord Byron (opera):  This was Thomson's third and final opera.\n\n[Doc 3] The Knick:  Amiel and Begler write the majority of the episodes and are executive producers.\n\n[Doc 4] The Last English King:  The story starts with Walt returning to his home at Iwerne in Dorset four years after the Battle of Hastings.\n\n[Doc 5] Struggle for Rome (board game):  Catan Histories: Struggle for Rome is no exception.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 6.564404726028442,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "question": "What is the place of birth of the director of film And The Spring Comes?",
+  "answer": "Shandong Province, China.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Retrieve the director of the film \"And The Spring Comes\".",
+      "action_name": "ircot_search",
+      "action_input": "Retrieve the director of the film \"And The Spring Comes\".",
+      "observation": "[Search] Results for 'Retrieve the director of the film \"And The Spring Comes\".':\n[Doc 1] And the Spring Comes: is a 2007 film directed by Gu Changwei, written by Li Qiang.\n\n[Doc 2] And the Spring Comes: The film premiered at the 2007 Rome Film Festival, and the lead actress Jiang Wenli, also Gu Changwei's wife, won the Best Actress award.\n\n[Doc 3] Under the Lantern: The film's art direction was by Otto Moldenhauer.\n\n[Doc 4] The Last Company: The film's art direction was overseen by Andrej Andrejew.\n\n[Doc 5] The Parts You Lose: The film is directed by Christopher Cantwell based on a screenplay by Darren Lemke.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 19.685916662216187,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

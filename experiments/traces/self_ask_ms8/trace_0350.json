@@ -1,0 +1,31 @@
+{
+  "question": "when was the album that includes the song by Dustin Lynch released to country radio on February 17, 2017?",
+  "answer": "yes",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "When did the album including Dustin Lynch's song \"Country Radio\" release?",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: yes",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 3.6855268478393555,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

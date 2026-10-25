@@ -1,0 +1,23 @@
+{
+  "question": "Which film has the director born first, Antonieta or Dodging The Dole?",
+  "answer": "Antonieta Ribeiro",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Retrieving the birth years of Antonieta Ribeiro and Dodgemaster Goro.",
+      "action_name": "ircot_search",
+      "action_input": "Retrieving the birth years of Antonieta Ribeiro and Dodgemaster Goro.",
+      "observation": "[Search] Results for 'Retrieving the birth years of Antonieta Ribeiro and Dodgemaster Goro.':\n[Doc 1] Liborius of Le Mans: The year of his birth is unknown; he died in 397, reputedly on 23 July.\n\n[Doc 2] Old Jewish cemetery, Cieszyn: The cemetery now belongs to the Jewish Community in Bielsko-Biała.\n\n[Doc 3] Rodolph Fane De Salis: He was also a sometime Lieutenant in the Surrey Volunteer Regiment.\n\n[Doc 4] Owen Lloyd George, 3rd Earl Lloyd-George of Dwyfor: He sat as a crossbencher in the House of Lords.\n\n[Doc 5] Qianlong Emperor: Born Hongli, the fourth son of the Yongzheng Emperor, he reigned officially from 11 October 1735 to 8 February 1796.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 49.886547327041626,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

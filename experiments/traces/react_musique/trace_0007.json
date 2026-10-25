@@ -1,0 +1,39 @@
+{
+  "question": "What is the goal of the group that European Movement Germany is a member of?",
+  "answer": "Promote European Integration",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The group's goal needs to be found within the information about European Movement Germany.",
+      "action_name": "search",
+      "action_input": "What is the goal of the group that European Movement Germany is a member of?",
+      "observation": "[Search] Results for 'What is the goal of the group that European Movement Germany is a member of?':\n[Doc 1] History of the euro: The euro came into existence on 1 January 1999, although it had been a goal of the European Union (EU) and its predecessors since the 1960s. After tough negotiations, particularly due to opposition from the United Kingdom, the Maastricht Treaty entered into force in 1993 with the goal of creating an economic and monetary union by 1999 for all EU states except the UK and Denmark (even though Denmark has a fixed exchange rate policy with the euro).\n\n[Doc 2] European Movement International: The European Movement International is a lobbying association that coordinates the efforts of associations and national councils with the goal of promoting European integration, and disseminating information about it.\n\n[Doc 3] Germany: The chancellor, Angela Merkel (22 November 2005–present), is the head of government and exercises executive power through their Cabinet, similar to the role of a prime minister in other parliamentary democracies. Federal legislative power is vested in the parliament consisting of the Bundestag (Federal Diet) and Bundesrat (Federal Council), which together form the legislative body. The Bundestag is elected through direct elections, by proportional representation (mixed-member). The members of the Bundesrat represent the governments of the sixteen federated states and are members of the state cabinets.Since 1949, the party system has ...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The goal of the group needs to be found within the information about European Movement Germany's membership.",
+      "action_name": "lookup",
+      "action_input": "What is the goal of the group that European Movement Germany is a member of?",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The goal of the group needs to be found within the information about European Movement Germany's membership.",
+      "action_name": "finish",
+      "action_input": "Promote European Integration",
+      "observation": "[Finish] Answer: Promote European Integration",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 50.187183141708374,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

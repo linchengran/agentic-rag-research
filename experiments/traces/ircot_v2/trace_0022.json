@@ -1,0 +1,23 @@
+{
+  "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+  "answer": "Macintosh TV, TV tuner expansion boards, and Power CD drives.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "What devices can control the program that Apple Remote was originally designed to interact with?",
+      "action_name": "ircot_search",
+      "action_input": "What devices can control the program that Apple Remote was originally designed to interact with?",
+      "observation": "[Search] Results for 'What devices can control the program that Apple Remote was originally designed to interact with?':\n[Doc 1] Apple Remote:  The device was originally designed to interact with the Front Row media program on the iSight iMac G5 and is compatible with some later desktop and portable...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 22.01817798614502,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

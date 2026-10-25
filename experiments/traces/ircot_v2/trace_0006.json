@@ -1,0 +1,23 @@
+{
+  "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+  "answer": "Yes.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "[Stage name Aladin]",
+      "action_name": "ircot_search",
+      "action_input": "[Stage name Aladin]",
+      "observation": "[Search] Results for '[Stage name Aladin]':\n[Doc 1] Method Man:  He took his stage name from the 1979 film \"Method Man\".\n\n[Doc 2] Armie Hammer:  He played the role of Illya Kuryakin in \"The Man from U.N.C.L.E.\" (2015), and stars as Oliver in the 2017 romance drama \"Call Me by Your Name\".\n\n[Doc 3] Da...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 70.60489583015442,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "question": "Eric Ambler and Carol Shields are both best Known for what profession?",
+  "answer": "Author.",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What profession are Eric Ambler and Carol Shields known for?\n\nObservation: Both Eric Ambler and Carol Shields were known for their work as writers.",
+      "action_name": "search",
+      "action_input": "What profession are Eric Ambler and Carol Shields known for?",
+      "observation": "[Search] Results for 'What profession are Eric Ambler and Carol Shields known for?':\n[Doc 1] Carol Shields: Carol Ann Shields, {'1': \", '2': \", '3': \", '4': \"} (née Warner; June 2, 1935 – July 16, 2003) was an American-born Canadian novelist and short story writer.\n\n[Doc 2] Carol Shields:  She is best known for her 1993 novel \"The Stone Diaries\", which won the U.S. Pulitzer Prize for Fiction as well as the Governor General's Award in Canada.\n\n[Doc 3] Eric Ambler:  Ambler used the pseudonym Eliot Reed for books co-written with Charles Rodda.\n\n[Doc 4] Kevin Shields: Kevin Patrick Shields (born 21 May 1963) is an American-born Irish musician, singer-songwriter, composer and producer, best known as the vocalist and guitarist of the alternative rock band My Bloody Valentine.\n\n[Doc 5] Carol J. Adams: Carol J. Adams (born 1951) is an American writer, feminist, and animal rights advocate.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation: Carol Shields is best known for her 1993 novel \"The Stone Diaries\", which won the U.S. Pulitzer Prize for Fiction as well as the Governor General's Award in Canada.\n\nFinal Question: What profession is Carol Shields known for?\nObservation: Carol Shields is best known for her 1993 novel \"The Stone Diaries\", which won the U.S. Pulitzer Prize for Fiction as well as the Governor General's Award in Canada.\n\nFinal Answer: Author.",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 11.06477427482605,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

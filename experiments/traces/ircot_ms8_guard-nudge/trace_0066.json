@@ -1,0 +1,23 @@
+{
+  "question": "Vince Phillips held a junior welterweight title by an organization recognized by what larger Hall of Fame?",
+  "answer": "IBF",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "What organization did Vince Phillips hold a junior welterweight title by?",
+      "action_name": "ircot_search",
+      "action_input": "What organization did Vince Phillips hold a junior welterweight title by?",
+      "observation": "[Search] Results for 'What organization did Vince Phillips hold a junior welterweight title by?':\n[Doc 1] Vince Phillips:  He held the IBF junior welterweight title from 1997 to 1999, notably scoring an upset victory against then-undefeated Kostya Tszyu to become champion.\n\n[Doc 2] Vince Phillips: Vincent Edwards \"Vince\" Phillips (born July 23, 1963) is an American former professional boxer who competed from 1989 to 2007.\n\n[Doc 3] Zab Judah:  He is a four-time former world champion in two weight classes, having held the IBF and WBO junior welterweight titles between 2000 and 2004; the IBF junior welterweight title again in 2011; and the undisputed welterweight title in 2005, which included a reign as the lineal champion from 2005 to 2006.\n\n[Doc 4] Jeff Malcolm:  He was also a challenger for the South Seas light welterweight title against Pat Leglise, Australian welterweight title against Wilf Gentzen, and World Boxing Organization (WBO) welterweight title against Manning Galloway.\n\n[Doc 5] Hold Me Up:  This is considered the band's true major-label debut, as previous albums were organized by the band themselves.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 11.964133739471436,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

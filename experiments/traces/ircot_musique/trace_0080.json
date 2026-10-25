@@ -1,0 +1,23 @@
+{
+  "question": "What is the mouth of watercourse for the body of water where Bartram's Covered Bridge is located?",
+  "answer": "Crum Creek",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Note: Delaware River is the river that ends at Bartram's Garden, which contains the Bartram's Covered Bridge.)",
+      "action_name": "ircot_search",
+      "action_input": "(Note: Delaware River is the river that ends at Bartram's Garden, which contains the Bartram's Covered Bridge.)",
+      "observation": "[Search] Results for \"(Note: Delaware River is the river that ends at Bartram's Garden, which contains the Bartram's Covered Bridge.)\":\n[Doc 1] Bartram's Covered Bridge: Bartram's Covered Bridge, a historic covered bridge built in 1860, uses a Burr Truss design and carried Goshen Road over Crum Creek on the border between Delaware County and Chester County, Pennsylvania. It is long and wide and is the only covered bridge remaining of the 30 which once stood in Delaware County. The bridge has slanted planks at each entrance and is the only covered bridge in Pennsylvania with this feature. According to an on-site marker from the Newtown Square Historical Preservation Society, the bridge was built to be \"hi and wide as a load of hay\" It was built by Ferdinand Wood and named for Mordecai Bartram.\n\n[Doc 2] Delaware Memorial Bridge: The Delaware Memorial Bridge is a twin suspension bridge crossing the Delaware River. The toll bridges carry Interstate 295 and U.S. Route 40 between Delaware and New Jersey. The bridge was designed by the firm known today as HNTB with consulting help from engineer Othmar Ammann, whose other designs include the Walt Whitman Bridge (which is similar in appearance, except for the fact that it is a single span) and Verrazzano-Narrows Bridge. It is also one of only two crossings of the Delaware River with both U.S. Highway and Interstate Highway designations, the other being the Benjamin Franklin Bridge.\n\n[Doc 3] Burt Henry Covered Bridge: The Burt Henry Co...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 84.36764144897461,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

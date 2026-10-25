@@ -1,0 +1,23 @@
+{
+  "question": "Which film was released more recently, Lo Zappatore or Placer Sangriento?",
+  "answer": "Placer Sangriento",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Retrieving the release years of Lo Zappatore and Placer Sangriento.",
+      "action_name": "ircot_search",
+      "action_input": "Retrieving the release years of Lo Zappatore and Placer Sangriento.",
+      "observation": "[Search] Results for 'Retrieving the release years of Lo Zappatore and Placer Sangriento.':\n[Doc 1] Placer sangriento: Placer sangriento is a 1967 Argentine film.\n\n[Doc 2] Lo Zappatore: Lo Zappatore is a 1950 Italian film directed by Rate Furlan.\n\n[Doc 3] Dirty Dancing: Havana Nights: It was mostly filmed in Old San Juan, Puerto Rico.\n\n[Doc 4] Tři chlapi v chalupě: The film starred Josef Kemr.\n\n[Doc 5] Lo que le pasó a Reynoso: It starred Floren Delbene.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 44.631484031677246,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

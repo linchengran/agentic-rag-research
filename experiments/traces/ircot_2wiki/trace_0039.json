@@ -1,0 +1,23 @@
+{
+  "question": "Who was born later, D'Arcy Coulson or Thomas William Adams?",
+  "answer": "Thomas William Adams",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Observation 3: Benji Smith (borned 1965) was born later than David Harewood (born 1958).)",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 3: Benji Smith (borned 1965) was born later than David Harewood (born 1958).)",
+      "observation": "[Search] Results for '(Observation 3: Benji Smith (borned 1965) was born later than David Harewood (born 1958).)':\n[Doc 1] Howard Hawks: Howard Winchester Hawks( May 30, 1896 December 26, 1977) was an American film director, producer and screenwriter of the classic Hollywood era.\n\n[Doc 2] Lambert Hillyer: Lambert Harwood Hillyer( July 8, 1893 – July 5, 1969) was an American film director and screenwriter.\n\n[Doc 3] John Hindley: John Hindley( born 7 August 1965) is a retired British professional wrestler best known by his ring name Johnny Smith, as the storyline relative of wrestler Davey Boy Smith.\n\n[Doc 4] Tasha Smith: Tasha Smith( born February 28, 1971) is an American actress, director and producer.\n\n[Doc 5] James B. Harris: James B. Harris( born August 3, 1928) is an American film screenwriter, producer, and director.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 61.74455213546753,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

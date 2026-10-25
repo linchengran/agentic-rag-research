@@ -1,0 +1,31 @@
+{
+  "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+  "answer": "Unknown.",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Observation 2: The Laleli Mosque and Esma Sultan Mansion are not located in the same neighborhood. Final Answer: No.",
+      "action_name": "ircot_search",
+      "action_input": "Observation 2: The Laleli Mosque and Esma Sultan Mansion are not located in the same neighborhood. Final Answer: No.",
+      "observation": "[Search] Results for 'Observation 2: The Laleli Mosque and Esma Sultan Mansion are not located in the same neighborhood. Final Answer: No.':\n[Doc 1] Esma Sultan Mansion: The Esma Sultan Mansion (Turkish: \"Esma Sultan Yalısı\" ), a historical yalı (English: waterside mansion ) located at Bosphorus in ...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation 2: There is no information provided about the location of the Laleli Mosque in relation to other buildings or neighborhoods. Final Answer: Unknown.",
+      "action_name": "ircot_search",
+      "action_input": "Observation 2: There is no information provided about the location of the Laleli Mosque in relation to other buildings or neighborhoods. Final Answer: Unknown.",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 15.771404504776001,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

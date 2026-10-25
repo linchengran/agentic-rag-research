@@ -1,0 +1,23 @@
+{
+  "question": "Where was the place of death of the director of film Beat Girl?",
+  "answer": "Iceland.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Observation 1: )",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 1: )",
+      "observation": "[Search] Results for '(Observation 1: )':\n[Doc 1] Björk: \"\n\n[Doc 2] Damn, dis-moi: Both versions were released on 17 May 2018.\n\n[Doc 3] Second Motion Records: Second Motion\n\n[Doc 4] Bon, Amur Oblast: There is 1 street.\n\n[Doc 5] 'Adud al-Dawla: An observatory was built by his orders in Isfahan where Azophi worked.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 27.51156711578369,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

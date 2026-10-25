@@ -1,0 +1,31 @@
+{
+  "question": "How many copies of Roald Dahl's variation on a popular anecdote sold?",
+  "answer": "no",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Observation 1: 38 million)",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 1: 38 million)",
+      "observation": "[Search] Results for '(Observation 1: 38 million)':\n[Doc 1] Suicide Kings:  It has a 34% approval rating on Rotten Tomatoes and grossed $1.7 million in the US.\n\n[Doc 2] Eliezer ben Jacob I:  32a, 39b; Yalḳ.\n\n[Doc 3] Arrowhead Stadium:  A $375 million renovation was completed in 2010.\n\n[Doc 4] Kaiser Shipyards:  Kaiser ranked 20th among U.S. corporations in the value of wartime production contracts.\n\n[Doc 5] VMF-222:  They were deactivated on December 31, 1949.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "action_name": "ircot_search",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 30.907150268554688,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

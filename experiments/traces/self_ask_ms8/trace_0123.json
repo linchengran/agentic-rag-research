@@ -1,0 +1,31 @@
+{
+  "question": "Maxeda has been owned since 2004 by which American multinational equity firm?",
+  "answer": "Goldman Sachs Company",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Ask the first intermediate question: Which American multinational equity firm has been Maxeda since 2004?\n\nObservation: The initial query seems to be about a company name rather than a specific timeline or ownership entity. To proceed with the correct path, we need to identify the company first. Let's find out what Maxeda is.\n\nAsk the second intermediate question: What is Maxeda?",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Goldman Sachs Company",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 5.144924163818359,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

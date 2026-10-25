@@ -1,0 +1,23 @@
+{
+  "question": "Who is the father-in-law of Sophia Of Wittelsbach?",
+  "answer": "Ferdinand, Elector Palatein.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: Ludwig II Of Bavaria.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: Ludwig II Of Bavaria.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: Ludwig II Of Bavaria.':\n[Doc 1] Maria of Brabant, Duchess of Bavaria: She married Louis II, Duke of Bavaria, being the first of three wives.\n\n[Doc 2] Sidonie of Bavaria: She was the eldest daughter of Duke Albert IV of Bavaria-Munich and his wife Kunigunde of Austria.\n\n[Doc 3] Sidonie of Bavaria: She died later as a bride of the Elector Palatine Louis V.\n\n[Doc 4] Allan Kroeker: He has the distinction of directing the series finales for ,  and .\n\n[Doc 5] Baldwin III, Count of Hainaut: He was son of Baldwin II, Count of Hainaut, and Ida of Louvain.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 30.166081190109253,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

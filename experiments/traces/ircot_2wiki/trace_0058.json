@@ -1,0 +1,23 @@
+{
+  "question": "Which country the director of film Daadagiri is from?",
+  "answer": "India",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find the director of the film Daadagiri",
+      "action_name": "ircot_search",
+      "action_input": "Find the director of the film Daadagiri",
+      "observation": "[Search] Results for 'Find the director of the film Daadagiri':\n[Doc 1] Daadagiri: Daadagiri is a 1997 Bollywood film directed by Arshad Khan starring Mithun Chakraborty, Ayub Khan, Simran, Rituparna Sengupta in lead roles and Puneet Issar, Nishigandha Wad, Shakti Kapoor and Kader Khan.\n\n[Doc 2] Semshook: The film was directed By Siddharth Anand Kumar, produced by Francisco Leria and written by Sudip Sharma and Rahul Singh.\n\n[Doc 3] Tell It to the Bees: Tell It to the Bees is 2018 British drama film directed by Annabel Jankel and starring Anna Paquin and Holliday Grainger.\n\n[Doc 4] The Parts You Lose: The film is directed by Christopher Cantwell based on a screenplay by Darren Lemke.\n\n[Doc 5] Dirty Dancing: The film was based on screenwriter Eleanor Bergstein's own childhood.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 17.1924090385437,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

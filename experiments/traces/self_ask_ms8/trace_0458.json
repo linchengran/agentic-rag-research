@@ -1,0 +1,39 @@
+{
+  "question": "What competition held in Kathmandu, Nepal did Julian Bolling compete in 1984?",
+  "answer": "Olympics and South Asian Games.",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: Who was Julian Bolling?\n\nObservation: Julian Bolling is a competitor in the 1984 competition in Kathmandu, Nepal.",
+      "action_name": "search",
+      "action_input": "Who was Julian Bolling?",
+      "observation": "[Search] Results for 'Who was Julian Bolling?':\n[Doc 1] Julian Bolling: Julian Bolling (June 19, 1966) is a Sri Lankan medal winning swimmer who has represented his country at numerous international competitions.\n\n[Doc 2] Julian Bolling:  He is the son of Tara Bolling and cousin of Dipika Chanmugam, both of whom have represented Sri Lanka internationally.\n\n[Doc 3] Julian Bolling:  His record was unbeaten until 2016 when Mathew Abeysinghe broke the record by winning 7 Golds in India.\n\n[Doc 4] Harry Bowen (actor):  Born on October 4, 1888 in Brooklyn, New York, he broke into the film industry doing film shorts during the silent era.\n\n[Doc 5] Brian Kennedy (singer): Brian Edward Patrick Kennedy (born 12 October 1966, Belfast, Northern Ireland) is an Irish singer-songwriter and author, who is known for his ballads, and has represented Ireland in the Eurovision Song Contest 2006.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation: Julian Bolling: Julian Bolling (June 19, 1966) is a Sri Lankan medal winning swimmer who has represented his country at numerous international competitions.\n\nIntermediate Question: What competition did Julian Bolling compete in 1984?",
+      "action_name": "search",
+      "action_input": "What competition did Julian Bolling compete in 1984?",
+      "observation": "[Search] Results for 'What competition did Julian Bolling compete in 1984?':\n[Doc 1] Julian Bolling:  He also represented Sri Lanka at the three Olympic games, firstly at Los Angeles (USA) in 1984, then at Seoul (South Korea) in 1988, and finally at Barcelona (Spain) in 1992.\n\n[Doc 2] Julian Bolling: Julian Bolling (June 19, 1966) is a Sri Lankan medal winning swimmer who has represented his country at numerous international competitions.\n\n[Doc 3] Julian Bolling:  He has won 15 gold medals for Sri Lanka at South Asian Games between 1984 to 1991.\n\n[Doc 4] Julian Bolling:  Bolling's best performance at an international meet was at the Colombo South Asian Games where he won six Gold medals.\n\n[Doc 5] Julian Bolling:  He is the son of Tara Bolling and cousin of Dipika Chanmugam, both of whom have represented Sri Lanka internationally.",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Final Answer: Olympics and South Asian Games.",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 10.219818115234375,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

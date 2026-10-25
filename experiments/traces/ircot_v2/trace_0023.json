@@ -1,0 +1,23 @@
+{
+  "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+  "answer": "Wolf Alice",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Retrieving the average instrument to person ratio for Badly Drawn Boy's performance act.",
+      "action_name": "ircot_search",
+      "action_input": "Retrieving the average instrument to person ratio for Badly Drawn Boy's performance act.",
+      "observation": "[Search] Results for \"Retrieving the average instrument to person ratio for Badly Drawn Boy's performance act.\":\n[Doc 1] Badly Drawn Boy: Damon Michael Gough (born 2 October 1969, in Dunstable, Bedfordshire), known by the stage name Badly Drawn Boy, is an English indie singer-songwriter and multi-in...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 21.321687936782837,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

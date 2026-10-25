@@ -1,0 +1,23 @@
+{
+  "question": "In which state is Vera Barbosa's place of birth located?",
+  "answer": "Portugal.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Vera Barbosa's place of birth is in Rio de Janeiro. Final Answer: Rio de Janeiro.",
+      "action_name": "ircot_search",
+      "action_input": "Vera Barbosa's place of birth is in Rio de Janeiro. Final Answer: Rio de Janeiro.",
+      "observation": "[Search] Results for \"Vera Barbosa's place of birth is in Rio de Janeiro. Final Answer: Rio de Janeiro.\":\n[Doc 1] Vera Barbosa: Vera Barbosa (born 13 January 1989 in Vila Franca de Xira) is a Portuguese track and field athlete. She initially competed for Cape Verde, switching to represent Portugal after 2008. At the 400 metres hurdles event at the 2012 Summer Olympics, in the heats she set a new national record with 55.22 seconds.\n\n[Doc 2] Vera Begić: Vera Begić (born March 17, 1982 in Rijeka, SR Croatia, SFR Yugoslavia) is Croatian athlete specialized in discus throwing discipline. Since Vera's mother Jadranka Antunović also was a successful athlete and member of the national team in Yugoslavia (long jump, pentathlon), Vera has been connected to athletics from the early childhood. At the age of 12 she decided to take the discus throwing for her preferred athletic discipline, and soon achieved very good results in the junior level of competition.\n\n[Doc 3] Vera Drake: Vera Drake (Imelda Staunton) is devoted to her family, looking after her husband and children, her elderly mother, and a sick neighbour. Her shy daughter, Ethel (Alex Kelly), works in a lightbulb factory, and her son, Sid (Daniel Mays), tailors men's suits. Her husband, Stanley (Phil Davis), is a car mechanic. Although Vera and her family are poor, their strong family bonds hold them together. During her working day as a house cleaner, Vera performs constant small acts of kindness for the many people she encounte...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 15.753842830657959,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

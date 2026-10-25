@@ -1,0 +1,23 @@
+{
+  "question": "who is younger Keith Bostic or Jerry Glanville ?",
+  "answer": "no",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "(Observation 1: )",
+      "action_name": "ircot_search",
+      "action_input": "(Observation 1: )",
+      "observation": "[Search] Results for '(Observation 1: )':\n[Doc 1] Participant observation: Participant observation is one type of data collection method typically used in qualitative research.\n\n[Doc 2] VMAQT-1:  Its motto is “Tairngreacht Bas,” Gaelic for “Death Foretold.”\n\n[Doc 3] The Five Obstructions: The Five Obstructions is a 2003 Danish documentary film directed by Lars von Trier and Jørgen Leth.\n\n[Doc 4] VMAQT-1: Marine Tactical Electronic Warfare Training Squadron 1 (VMAQT-1) is a United States Marine Corps electronic warfare training squadron consisting of EA-6B Prowler jets.\n\n[Doc 5] VMAQT-1:  The VMAQT-1 logo is the Banshee, an Irish mythological figure foretelling death.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 2.0451877117156982,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

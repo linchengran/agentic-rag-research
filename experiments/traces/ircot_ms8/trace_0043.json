@@ -1,0 +1,23 @@
+{
+  "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+  "answer": "Battle of Adwa.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The battle where Giuseppe Arimondi lost his life for Ethiopia.",
+      "action_name": "ircot_search",
+      "action_input": "The battle where Giuseppe Arimondi lost his life for Ethiopia.",
+      "observation": "[Search] Results for 'The battle where Giuseppe Arimondi lost his life for Ethiopia.':\n[Doc 1] Giuseppe Arimondi: Giuseppe Edoardo Arimondi, OSML, OMS, OCI (Savigliano, 26 April 1846 – Adwa, 1 March 1896) was an Italian general, mostly known for his role during the First Italo-Ethiopian War.\n\n[Doc 2] Battle of Belleau Wood:  The battle has become a key component of the lore of the United States Marine Corps.\n\n[Doc 3] Battle of the Blue:  Beginning in 2007, the annual Delaware–Villanova game became known as Battle of the Blue.\n\n[Doc 4] Battle of Belleau Wood: The Battle of Belleau Wood (1–26 June 1918) occurred during the German Spring Offensive in World War I, near the Marne River in France.\n\n[Doc 5] Battle of Clitheroe:  It took place in the course of an invasion of England by King David I of Scotland.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 18.00774908065796,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

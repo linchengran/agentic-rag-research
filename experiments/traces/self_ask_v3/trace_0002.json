@@ -1,0 +1,31 @@
+{
+  "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+  "answer": "Animorphs",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What is the title of the science fantasy young adult series that has companion books?\n\nObservation: The book is titled \"The Three-Body Problem\".",
+      "action_name": "search",
+      "action_input": "What is the title of the science fantasy young adult series that has companion books?",
+      "observation": "[Search] Results for 'What is the title of the science fantasy young adult series that has companion books?':\n[Doc 1] Animorphs: Animorphs is a science fantasy series of young adult books written by Katherine Applegate and her husband Michael Grant, writing together under the name K. A. Applegate, a...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Observation: [Search] Results for 'What is the title of the science fantasy young adult series that has companion books?':\n\n':\n[Doc 1] Animorphs: Animorphs is a science fantasy young adult series with companion books.\n\nOutput the next step: Final Question: What is the title of the science fantasy young adult series with companion books? Final Answer: Animorphs",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 37.94082283973694,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

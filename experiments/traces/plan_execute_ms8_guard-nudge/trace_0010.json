@@ -1,0 +1,44 @@
+{
+  "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+  "answer": "University of Kansas",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for universities in Lawrence, Kansas with main campus.",
+      "action_name": "search",
+      "action_input": "universities main campus lawrence kansas",
+      "observation": "[Search] Results for 'universities main campus lawrence kansas':\n[Doc 1] University of Kansas:  The main campus in Lawrence, one of the largest college towns in Kansas, is on Mount Oread, the highest elevation in Lawrence.\n\n[Doc 2] University of Missouri–Kansas City:  UMKC is spread across multiple locales; the main Volker Campus, home to the majority of university operations, is located in Kansas City's Rockhill neighborhood, east of the Country Club Plaza, and adjacent to both the Stowers Institute for Medical Research and the world-renowned Linda Hall Library.\n\n[Doc 3] University of Kansas:  Two branch campuses are in the Kansas City metropolitan area: the Edwards Campus in Overland Park, and the university's medical school and hospital in Kansas City.\n\n[Doc 4] University of Kansas: The University of Kansas, often referred to as KU or Kansas, is a public research university in the U.S. state of Kansas.\n\n[Doc 5] University of Kansas:  There are also educational and research sites in Parsons, Topeka, Garden City, Hays, and Leavenworth, and branches of the medical school in Wichita and Salina.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "action_name": "lookup",
+      "action_input": "University of Kansas",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The official fight song of the University of Kansas is \"Fight for Kansas\".",
+      "action_name": "lookup",
+      "action_input": "University of Kansas",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 102.1861162185669,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for universities in Lawrence, Kansas with main campus",
+      "Search for universities with branch campuses in Kansas City metropolitan area",
+      "Finish with the shortest answer."
+    ]
+  }
+}

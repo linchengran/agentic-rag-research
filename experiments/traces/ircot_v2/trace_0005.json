@@ -1,0 +1,23 @@
+{
+  "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+  "answer": "YG Entertainment",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Searching for the South Korean boy group that debuted with 2014 S/S.",
+      "action_name": "ircot_search",
+      "action_input": "Searching for the South Korean boy group that debuted with 2014 S/S.",
+      "observation": "[Search] Results for 'Searching for the South Korean boy group that debuted with 2014 S/S.':\n[Doc 1] 2014 S/S: 2014 S/S is the debut album of South Korean group WINNER.\n\n[Doc 2] Winner (band): Winner (Hangul: 위너), often stylized as WINNER, is a South Korean boy group formed in 2013 by YG Entertainme...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 10.839935541152954,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

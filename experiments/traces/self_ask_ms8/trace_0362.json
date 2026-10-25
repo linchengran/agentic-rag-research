@@ -1,0 +1,31 @@
+{
+  "question": "The 37th Disney animated feature film Tarzan features You'll be in my heart by which artist?",
+  "answer": "Phil Collins",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Ask the first intermediate question: Who is the artist behind the song \"You'll Be in My Heart\"?\n\nObservation: You'll Be in My Heart is a well-known Disney song. To find the artist, I would need to search for information about this specific song and its recording credits. \n\nIntermediate Question: How can I find the artist of the song \"You'll Be in My Heart\"?",
+      "action_name": "search",
+      "action_input": "How can I find the artist of the song \"You'll Be in My Heart\"?",
+      "observation": "[Search] Results for 'How can I find the artist of the song \"You\\'ll Be in My Heart\"?':\n[Doc 1] You'll Be in My Heart: \"You'll Be in My Heart\" is a song by Phil Collins, from the 1999 Disney animated feature \"Tarzan\".\n\n[Doc 2] You'll Be in My Heart:  A version of the single performed by Glenn Close also appears on the soundtrack.\n\n[Doc 3] On My Mind (Ellie Goulding song): \"On My Mind\" is a song by English singer Ellie Goulding from her third studio album \"Delirium\" (2015).\n\n[Doc 4] I Don't Wanna Know: \"I Don't Wanna Know\" is a song by American R&B artist Mario Winans, featuring a rap by P. Diddy, re-recorded background vocals by Enya and sampling the synthesizer riff from Enya's song \"Boadicea\".\n\n[Doc 5] Who Can See It: \"Who Can See It\" is a song by English musician George Harrison, released on his 1973 album \"Living in the Material World\".",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Phil Collins",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 7.419801235198975,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "5a8e1027554299653c1aa15f",
+    "question": "Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
+    "gold_answer": "2009 Big 12 Conference",
+    "pred_answer": "",
+    "n_steps": 8,
+    "finish_reason": "max_steps",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "decision_correct": false,
+    "over_retrieved": true,
+    "under_retrieved": false,
+    "n_retrievals": 6,
+    "n_needed": 2,
+    "final_answer_correct": false,
+    "guard_events": [
+      {
+        "event": "duplicate_query",
+        "query": "14th season pac-12 conference"
+      },
+      {
+        "event": "duplicate_query",
+        "query": "14th season pac-12 conference colorado buffaloes"
+      },
+      {
+        "event": "stop_triggered",
+        "query": "14th season pac-12 conference colorado buffaloes"
+      },
+      {
+        "event": "stop_ignored",
+        "query": "14th season pac-12 conference colorado buffaloes"
+      }
+    ]
+  },
+  {
+    "id": "5ab84bf555429916710eb01f",
+    "question": "In 1991 Euromarché was bought by a chain that operated how any hypermarkets at the end of 2016?",
+    "gold_answer": "1,462",
+    "pred_answer": "no",
+    "n_steps": 4,
+    "finish_reason": "finish_action",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "decision_correct": false,
+    "over_retrieved": false,
+    "under_retrieved": true,
+    "n_retrievals": 1,
+    "n_needed": 2,
+    "final_answer_correct": false,
+    "guard_events": []
+  },
+  {
+    "id": "5a77724455429972597f153e",
+    "question": "What race track in the midwest hosts a 500 mile race eavery May?",
+    "gold_answer": "Indianapolis Motor Speedway",
+    "pred_answer": "Carolina Dodge Dealers 400",
+    "n_steps": 5,
+    "finish_reason": "finish_action",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "decision_correct": false,
+    "over_retrieved": true,
+    "under_retrieved": false,
+    "n_retrievals": 4,
+    "n_needed": 2,
+    "final_answer_correct": false,
+    "guard_events": [
+      {
+        "event": "zero_new_docs",
+        "query": "Midwest 500 mile race every May track"
+      },
+      {
+        "event": "duplicate_query",
+        "query": "Midwest 500 mile race every May track"
+      },
+      {
+        "event": "stop_triggered",
+        "query": "Midwest 500 mile race every May track"
+      }
+    ]
+  },
+  {
+    "id": "5a87c13f5542996e4f30890c",
+    "question": "In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
+    "gold_answer": "Rome",
+    "pred_answer": "New York City",
+    "n_steps": 3,
+    "finish_reason": "finish_action",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "decision_correct": false,
+    "over_retrieved": false,
+    "under_retrieved": true,
+    "n_retrievals": 1,
+    "n_needed": 2,
+    "final_answer_correct": false,
+    "guard_events": []
+  },
+  {
+    "id": "5ab96ab755429970cfb8eacd",
+    "question": "Ellie Goulding worked with what other writers on her third studio album, Delirium?",
+    "gold_answer": "Max Martin, Savan Kotecha and Ilya Salmanzadeh",
+    "pred_answer": "yes",
+    "n_steps": 3,
+    "finish_reason": "finish_action",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "decision_correct": false,
+    "over_retrieved": false,
+    "under_retrieved": true,
+    "n_retrievals": 1,
+    "n_needed": 2,
+    "final_answer_correct": false,
+    "guard_events": []
+  },
+  {
+    "id": "5a8a43eb5542996c9b8d5e82",
+    "question": "Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.",
+    "gold_answer": "Marion, South Australia",
+    "pred_answer": "Westminster School, Adelaide",
+    "n_steps": 3,
+    "finish_reason": "finish_action",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "decision_correct": false,
+    "over_retrieved": false,
+    "under_retrieved": false,
+    "n_retrievals": 2,
+    "n_needed": 2,
+    "final_answer_correct": false,
+    "guard_events": []
+  },
+  {
+    "id": "5ae73acb5542991e8301cc07",
+    "question": "D1NZ is a series based on what oversteering technique?",
+    "gold_answer": "Drifting",
+    "pred_answer": "no oversteering technique mentioned",
+    "n_steps": 3,
+    "finish_reason": "finish_action",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "decision_correct": false,
+    "over_retrieved": false,
+    "under_retrieved": true,
+    "n_retrievals": 1,
+    "n_needed": 2,
+    "final_answer_correct": false,
+    "guard_events": []
+  },
+  {
+    "id": "5a7320565542991f9a20c61d",
+    "question": "who is younger Keith Bostic or Jerry Glanville ?",
+    "gold_answer": "Keith Bostic",
+    "pred_answer": "no",
+    "n_steps": 2,
+    "finish_reason": "finish_action",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "decision_correct": false,
+    "over_retrieved": false,
+    "under_retrieved": true,
+    "n_retrievals": 1,
+    "n_needed": 2,
+    "final_answer_correct": false,
+    "guard_events": []
+  },
+  {
+    "id": "5ae32e125542991a06ce9946",
+    "question": "According to the 2001 census, what was the population of the city in which Kirton End is located?",
+    "gold_answer": "35,124",
+    "pred_answer": "no",
+    "n_steps": 4,
+    "finish_reason": "finish_action",
+    "em": 0.0,
+    "relaxed_em": 0.0,
+    "answer_f1": 0.0,
+    "decision_correct": false,
+    "over_retrieved": false,
+    "under_retrieved": false,
+    "n_retrievals": 3,
+    "n_needed": 2,
+    "final_answer_correct": false,
+    "guard_events": []
+  },
+  {
+    "id": "5adc53f75542996e6852530a",
+    "question": "Are both Cypress and Ajuga genera?",
+    "gold_answer": "no",
+    "pred_answer": "no",
+    "n_steps": 2,
+    "finish_reason": "finish_action",
+    "em": 1.0,
+    "relaxed_em": 1.0,
+    "answer_f1": 1.0,
+    "decision_correct": true,
+    "over_retrieved": false,
+    "under_retrieved": false,
+    "n_retrievals": 1,
+    "n_needed": 2,
+    "final_answer_correct": true,
+    "guard_events": []
+  }
+]

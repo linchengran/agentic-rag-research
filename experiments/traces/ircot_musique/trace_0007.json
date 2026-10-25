@@ -1,0 +1,23 @@
+{
+  "question": "What is the goal of the group that European Movement Germany is a member of?",
+  "answer": "United Nations Parliamentary Assembly.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: United Nations Parliamentary Assembly.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: United Nations Parliamentary Assembly.",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: United Nations Parliamentary Assembly.':\n[Doc 1] 115th United States Congress: The One Hundred Fifteenth United States Congress is the current meeting of the legislative branch of the United States federal government, composed of the Senate and the House of Representatives. It meets in Washington, D.C. from January 3, 2017, to January 3, 2019, during the final weeks of the Obama presidency and the first two years of Donald Trump's presidency. The November 2016 elections maintained Republican control of both the House and Senate.\n\n[Doc 2] 114th United States Congress: The One Hundred Fourteenth United States Congress was a meeting of the legislative branch of the United States federal government, composed of the United States Senate and the United States House of Representatives. It met in Washington, D.C. from January 3, 2015, to January 3, 2017, during the final two full years of Barack Obama's presidency. The 2014 elections gave the Republicans control of the Senate (and control of both houses of Congress) for the first time since the 109th Congress. With 248 seats in the House of Representatives and 54 seats in the Senate, this Congress began with the largest Republican majority since the 71st Congress of 1929 -- 1931.\n\n[Doc 3] Pakistan and the United Nations: Pakistan officially joined the United Nations (UN) on 30 September 1947 just over a month after its independence from the British Empire. Today, it is a charter member a...",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 6.411202430725098,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

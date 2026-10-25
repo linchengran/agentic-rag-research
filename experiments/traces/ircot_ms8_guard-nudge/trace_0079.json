@@ -1,0 +1,23 @@
+{
+  "question": "In which year was the King who made the 1925 Birthday Honours born?",
+  "answer": "1865",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Find the King who made the 1925 Birthday Honours.",
+      "action_name": "ircot_search",
+      "action_input": "Find the King who made the 1925 Birthday Honours.",
+      "observation": "[Search] Results for 'Find the King who made the 1925 Birthday Honours.':\n[Doc 1] 1925 Birthday Honours: The 1925 Birthday Honours were appointments by King George V to various orders and honours to reward and highlight good works by citizens of the British Empire.\n\n[Doc 2] 1925 Birthday Honours:  The appointments were made to celebrate the official birthday of The King, and were published in \"The London Gazette\" on 3 June 1925.\n\n[Doc 3] Queen's Day (disambiguation):  It has since been renamed King's Day or \"Koningsdag\" to honor the birthday of King Willem-Alexander.\n\n[Doc 4] Birthday Honours: King's/Queen's Birthday Honours is, in some Commonwealth realms, the marking of the reigning monarch's official birthday by granting various individuals appointment into national or dynastic orders or the award of decorations and medals.\n\n[Doc 5] 1951 Birthday Honours: The King's Birthday Honours 1951 were appointments in many of the Commonwealth realms of King George VI to various orders and honours to reward and highlight good works by citizens of those countries.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 18.736390113830566,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+  "answer": "",
+  "n_steps": 3,
+  "finished": false,
+  "finish_reason": "max_steps",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for \"Tunnels and Trolls game design\" will yield documents related to the game and its adventure.",
+      "action_name": "search",
+      "action_input": "Tunnels and Trolls game design",
+      "observation": "[Search] Results for 'Tunnels and Trolls game design':\n[Doc 1] Tunnels &amp; Trolls: Tunnels & Trolls (abbreviated \"T&T\") is a fantasy role-playing game designed by Ken St. Andre and first published in 1975 by Flying Buffalo.\n\n[Doc 2] Tunnels &amp; Trolls: Crusaders of Khazan: Crusaders of Khazan is a computer adaptation of the tabletop role-playing game \"Tunnels and Trolls\", developed and published by New World Computing in 1990 for the PC, FM Towns, PC-88 and PC-98.\n\n[Doc 3] Tunnels &amp; Trolls:  The second modern role-playing game published, it was written by Ken St. Andre to be a more accessible alternative to \"Dungeons & Dragons\" and is suitable for solitaire, group, and play-by-mail gameplay.\n\n[Doc 4] Tunnels &amp; Trolls: Crusaders of Khazan:  The game is available from Flying Buffalo and in Fiery Dragon's \"Tunnels and Trolls 30th Anniversary Edition\".\n\n[Doc 5] Portal (video game):  The game has since been ported to other systems, including OS X, Linux, and Android.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "",
+      "action_name": "lookup",
+      "action_input": "Tunnels and Trolls game design",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The adventure name is likely mentioned in the description of the game or the designer's information. I need to look up specific terms in the documents found.",
+      "action_name": "lookup",
+      "action_input": "Tunnels and Trolls game design",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 54.492599964141846,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for \"Tunnels and Trolls game design\"",
+      "Find the adventure name in the game's description or creator's information",
+      "Finish with the shortest answer."
+    ]
+  }
+}

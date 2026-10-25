@@ -1,0 +1,39 @@
+{
+  "question": "What studio album did Kanye West record with Roc-A-Fella Records and soul singer Dwele?",
+  "answer": "My Beautiful Dark Twisted Fantasy",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What is the name of the album Kanye West recorded with Roc-A-Fella Records and soul singer Dwele?\n\nObservation: The album is titled \"College Class\".",
+      "action_name": "search",
+      "action_input": "What is the name of the album Kanye West recorded with Roc-A-Fella Records and soul singer Dwele?",
+      "observation": "[Search] Results for 'What is the name of the album Kanye West recorded with Roc-A-Fella Records and soul singer Dwele?':\n[Doc 1] Power (Kanye West song):  The song features additional vocals by soul singer Dwele and is co-produced by West and Symbolyc One.\n\n[Doc 2] My Beautiful Dark Twisted Fantasy: My Beautiful Dark Twisted Fantasy is the fifth studio album by American rapper Kanye West, released, November 22, 2010, by Roc-A-Fella Records.\n\n[Doc 3] Watch the Throne: Watch the Throne is a collaborative studio album by American rappers Jay-Z and Kanye West, released on August 8, 2011, by Roc-A-Fella Records, Roc Nation, and Def Jam Recordings.\n\n[Doc 4] The College Dropout: The College Dropout is the debut studio album by American rapper Kanye West.\n\n[Doc 5] Late Registration: Late Registration is the second studio album by American rapper Kanye West.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Intermediate Question: What is the name of the album Kanye West recorded with Roc-A-Fella Records and soul singer Dwele?\nObservation: My Beautiful Dark Twisted Fantasy is the fifth studio album by American rapper Kanye West, November 22, 2010, by Roc-A-Fella Records.",
+      "action_name": "search",
+      "action_input": "What is the name of the album Kanye West recorded with Roc-A-Fella Records and soul singer Dwele?",
+      "observation": "[Search] Results for 'What is the name of the album Kanye West recorded with Roc-A-Fella Records and soul singer Dwele?':\n[Doc 1] Power (Kanye West song):  The song features additional vocals by soul singer Dwele and is co-produced by West and Symbolyc One.\n\n[Doc 2] My Beautiful Dark Twisted Fantasy: My Beautiful Dark Twisted Fantasy is the fifth studio album by American rapper Kanye West, released, November 22, 2010, by Roc-A-Fella Records.\n\n[Doc 3] Watch the Throne: Watch the Throne is a collaborative studio album by American rappers Jay-Z and Kanye West, released on August 8, 2011, by Roc-A-Fella Records, Roc Nation, and Def Jam Recordings.\n\n[Doc 4] The College Dropout: The College Dropout is the debut studio album by American rapper Kanye West.\n\n[Doc 5] Late Registration: Late Registration is the second studio album by American rapper Kanye West.",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "Final Answer: My Beautiful Dark Twisted Fantasy",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 20.904316425323486,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

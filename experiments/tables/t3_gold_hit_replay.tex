@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering
+\caption{重放式命中率:把轨迹中每个检索 query 喂回同一检索器取完整 top-5 再算,确定性、不跑 LLM}
+\begin{tabular}{llllc}
+\toprule
+范式 & 金标覆盖率 & full 命中(两篇全中) & 首 query 覆盖 & 唯一 query/题 \\
+\midrule
+ReAct & 65.5 & 38.0 & 61.5 & 1.29 \\
+Plan-and-Execute & 57.0 & 23.0 & 49.0 & 1.27 \\
+Self-Ask & 37.0 & 18.0 & 32.0 & 1.09 \\
+IRCoT & 29.5 & 14.0 & 28.5 & 1.04 \\
+Baseline(原问题单查) & 65.0 & 37.0 & — & 1 \\
+\bottomrule
+\end{tabular}
+\end{table}

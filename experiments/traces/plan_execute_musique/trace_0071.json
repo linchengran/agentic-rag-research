@@ -1,0 +1,44 @@
+{
+  "question": "When did the spacecraft that detected storms on Neptune leave our solar system?",
+  "answer": "1989",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The search for missions launched by the Voyager program should start now.",
+      "action_name": "search",
+      "action_input": "missions launched by voyager program",
+      "observation": "[Search] Results for 'missions launched by voyager program':\n[Doc 1] Exploration of Neptune: The exploration of Neptune has only begun with one spacecraft, Voyager 2 in 1989. Currently there are no approved future missions to visit the Neptunian system. NASA, ESA and also independent academic groups have proposed future scientific missions to visit Neptune. Some mission plans are still active, while others have been abandoned or put on hold.\n\n[Doc 2] Voyager 2: Following a mid-course correction in 1987, Voyager 2's closest approach to Neptune occurred on August 25, 1989. Through repeated computerized test simulations of trajectories through the Neptunian system conducted in advance, flight controllers determined the best way to route Voyager 2 through the Neptune-Triton system. Since the plane of the orbit of Triton is tilted significantly with respect to the plane of the ecliptic, through mid-course corrections, Voyager 2 was directed into a path about 4950 kilometers (3000 mi) above the north pole of Neptune. Five hours after Voyager 2 made its closest approach to Neptune, it performed a close fly-by of Triton, the larger of Neptune's two originally known moons, passing within about 40,000 kilometers (25,000 mi).Voyager 2 discovered previously unknown Neptunian rings, and confirmed six new moons: Despina, Galatea, Larissa, Proteus, Naiad and Thalassa. While in the neighborhood of Neptune, Voyager 2 discovered the \"Great Dark Spot\", which has since disappeared, according to ...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The lookup step is needed to find the specific mission that flew by Neptune based on the search results.",
+      "action_name": "lookup",
+      "action_input": "Neptune",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "The lookup step is needed to find the specific mission that flew by Neptune based on the search results. |",
+      "action_name": "lookup",
+      "action_input": "Neptune",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 53.17110848426819,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for missions launched by Voyager program",
+      "Find the mission that flew by Neptune",
+      "Finish with the shortest answer."
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "question": "\"Kapitän zur See\" Ernst Lindemann was the commander of which one of two battleships built for Nazi Germany's \"Kriegsmarine\"?",
+  "answer": "no",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Which two battleships were built for Nazi Germany's \"Kriegsmarine\"?\n\nObservation: The two battleships built for Nazi Germany's \"Kriegsmarine\" were \"Tirpitz\" and \"Bismarck\".",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: no",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 4.475746154785156,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

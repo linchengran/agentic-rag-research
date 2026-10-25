@@ -1,0 +1,23 @@
+{
+  "question": "Alvaro Mexia had a diplomatic mission with which tribe of indigenous people?",
+  "answer": "Inuktsuk:",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Final Answer: Inuktsuk",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Final Answer: Inuktsuk",
+      "observation": "[Search] Results for 'Thought 2: Final Answer: Inuktsuk':\n[Doc 1] Shrek Forever After (video game):  It is the fourth and final video game based on the movie series of \"Shrek\".\n\n[Doc 2] Naruto: Shippuden (season 21): The episodes for the twenty-first and final season of the anime series \"\" are based on Part II for Masashi Kishimoto's manga series.\n\n[Doc 3] Battle of Yao (Japan):  Though Takatora won the battle, his two sons were died in combat.\n\n[Doc 4] The Hunger Games: Mockingjay – Part 2:  Hoffman died in February 2014, making \"Mockingjay – Part 2\" his final film role.\n\n[Doc 5] Live in Japan (John Coltrane album):  2\" (same as \"Second Night In Tokyo\").",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 40.308112382888794,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+  "answer": "",
+  "n_steps": 0,
+  "finished": false,
+  "finish_reason": "plan_error",
+  "steps": [],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 2.749035596847534,
+  "metadata": {}
+}

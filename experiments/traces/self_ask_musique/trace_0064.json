@@ -1,0 +1,31 @@
+{
+  "question": "Who founded the publisher of The Final Testament of the Holy Bible?",
+  "answer": "James Frey",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What is The Final Testament of the Holy? published title?\n\nObservation: The Final Testament of the Holy Bible is a work of fiction written by Tim LaHay.",
+      "action_name": "search",
+      "action_input": "What is The Final Testament of the Holy? published title?",
+      "observation": "[Search] Results for 'What is The Final Testament of the Holy? published title?':\n[Doc 1] The Final Testament of the Holy Bible: The Final Testament of the Holy Bible is a novel written by James Frey, published by Gagosian Gallery in 2011. The book is published in the UK by John Murray with the shortened title \"The Final Testament\".\n\n[Doc 2] The Seventh Sign: The Seventh Sign is a 1988 American apocalyptic drama  horror film written by Clifford and Ellen Green and directed by Carl Schultz. The title and plot reference the seven seals described in the Book of Revelation, the final book of the New Testament of the Bible. The film received negative reviews and grossed $18.8 million at the box office.\n\n[Doc 3] New Testament: The New Testament is a collection of Christian works written in the common (Koine) Greek language of the first century, at different times by various writers, and the modern consensus is that it also provides important evidence regarding Judaism in the first century AD. In almost all Christian traditions today, the New Testament consists of 27 books. The original texts were written in the first and perhaps the second centuries of the Christian Era, in Greek, which was the common language of the Eastern Mediterranean from the Conquests of Alexander the Great (335 -- 323 BC) until the Muslim conquests in the 7th century AD. All the works that eventually became incorporated into the New Testament are believed to have been written no later than around 120 AD,. Jo...",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: James Frey",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 4.720854997634888,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "question": "Who was born later, D'Arcy Coulson or Thomas William Adams?",
+  "answer": "no",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for information about D'Arcy Coulson and Thomas William Adams.",
+      "action_name": "search",
+      "action_input": "Who was D'Arcy Coulson? Who was Thomas William Adams?",
+      "observation": "[Search] Results for \"Who was D'Arcy Coulson? Who was Thomas William Adams?\":\n[Doc 1] Thomas William Adams: Alfred Albert Thomas William Adams( 24 June 1842 – 1 June 1919), known as Thomas William Adams, was a New Zealand farmer, forester, churchman and educationalist.\n\n[Doc 2] D'Arcy Coulson: John D' Arcy Coulson( February 17, 1908 – April 13, 1996) was a Canadian professional ice hockey defenceman who played one season in the National Hockey League for the Philadelphia Quakers.\n\n[Doc 3] Thomas William Adams: He was the first secretary of the Canterbury Baptist Association, and later its president.\n\n[Doc 4] Thomas William Adams: He was born in Graveley, Cambridgeshire, England on 24 June 1842.\n\n[Doc 5] Thomas William Adams: In 1913 he was a member of the Royal Commission on Forestry, and in 1918 he became a lifetime member of the New Zealand Forestry League.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Look up the birth years of D'Arcy Coulson and Thomas William Adams.",
+      "action_name": "lookup",
+      "action_input": "Thomas William Adams",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 3,
+      "thought": "Finish[no]",
+      "action_name": "finish",
+      "action_input": "no",
+      "observation": "[Finish] Answer: no",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 43.09078550338745,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

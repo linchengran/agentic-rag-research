@@ -1,0 +1,39 @@
+{
+  "question": "What is the mouth of watercourse for the body of water where Bartram's Covered Bridge is located?",
+  "answer": "Crum Creek",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "The location of Bartram's Covered Bridge needs to be found.",
+      "action_name": "lookup",
+      "action_input": "Bartram's Covered Bridge",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    },
+    {
+      "step": 2,
+      "thought": "The mouth of the watercourse for the location of Bartram's Covered Bridge needs to be found.",
+      "action_name": "search",
+      "action_input": "What is the mouth of watercourse for the body of water where Bartram's Covered Bridge is located",
+      "observation": "[Search] Results for \"What is the mouth of watercourse for the body of water where Bartram's Covered Bridge is located\":\n[Doc 1] Bartram's Covered Bridge: Bartram's Covered Bridge, a historic covered bridge built in 1860, uses a Burr Truss design and carried Goshen Road over Crum Creek on the border between Delaware County and Chester County, Pennsylvania. It is long and wide and is the only covered bridge remaining of the 30 which once stood in Delaware County. The bridge has slanted planks at each entrance and is the only covered bridge in Pennsylvania with this feature. According to an on-site marker from the Newtown Square Historical Preservation Society, the bridge was built to be \"hi and wide as a load of hay\" It was built by Ferdinand Wood and named for Mordecai Bartram.\n\n[Doc 2] Burt Henry Covered Bridge: The Burt Henry Covered Bridge, also known as the Henry Covered Bridge or just the Henry Bridge, is a covered bridge that spans the Walloomsac River near Bennington, Vermont. A Town lattice truss bridge, it carries River Road, just south of the village of North Bennington. Originally built about 1840, it was listed on the National Register of Historic Places in 1973 as Bennington County's oldest covered bridge. It was rebuilt in 1989 by the Vermont Agency of Transportation.\n\n[Doc 3] Petite Creuse: The Petite Creuse (, the small Creuse) is a long river in Allier and Creuse departments, in central France. Its source is at Treignat, southeast of the village. It is a left...",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "The exact mouth of the watercourse for the location of Bartram's Covered Bridge needs to be found.",
+      "action_name": "finish",
+      "action_input": "Crum Creek",
+      "observation": "[Finish] Answer: Crum Creek",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 140.12720227241516,
+  "metadata": {
+    "paradigm": "react"
+  }
+}

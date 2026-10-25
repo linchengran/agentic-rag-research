@@ -1,0 +1,31 @@
+{
+  "question": "What is the full name of the viral respiratory disease in which Yi Guan's research helped to prevent the outbreak of?",
+  "answer": "Severe acute respiratory syndrome (SARS)",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Intermediate Question: What is the full name of the viral respiratory disease?\n\nObservation: The full name of the viral respiratory disease is severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).",
+      "action_name": "search",
+      "action_input": "What is the full name of the viral respiratory disease?",
+      "observation": "[Search] Results for 'What is the full name of the viral respiratory disease?':\n[Doc 1] Severe acute respiratory syndrome: Severe acute respiratory syndrome (SARS) is a viral respiratory disease of zoonotic origin caused by the SARS coronavirus (SARS-CoV).\n\n[Doc 2] Asthma-related microbes:  These viral respiratory infections are mostly caused by respiratory syncytial virus (RSV) and human rhinovirus (HRV).\n\n[Doc 3] Feline viral rhinotracheitis:  Viral respiratory diseases in cats can be serious, especially in catteries and kennels. Causing one-half of the respiratory diseases in cats, FVR is the most important of these diseases and is found worldwide.\n\n[Doc 4] Chronic Respiratory Disease: Chronic Respiratory Disease is a quarterly peer-reviewed medical journal that covers research in the field of respiratory disease, including chronic obstructive pulmonary disease, respiratory failure, and obstructive sleep apnea.\n\n[Doc 5] Feline viral rhinotracheitis:  The other important cause of feline respiratory disease is \"feline calicivirus\".",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: Severe acute respiratory syndrome (SARS)",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 8.300623178482056,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

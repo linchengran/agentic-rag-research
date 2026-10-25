@@ -1,0 +1,31 @@
+{
+  "question": "What distinction is held by the former NBA player who was a member of the Charlotte Hornets during their 1992-93 season and was head coach for the WNBA team Charlotte Sting?",
+  "answer": "NBA Hall of Fame Member",
+  "n_steps": 2,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "What year did the Charlotte Hornets play during which included the former NBA player who was a member of the Charlotte Hornets during their 1992-93 season?\n\nObservation: The Charlotte Hornets played during the 1992-93 season.",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "[Error] Cannot generate intermediate question.",
+      "error": "no_intermediate_question"
+    },
+    {
+      "step": 2,
+      "thought": "Final Answer: NBA Hall of Fame Member",
+      "action_name": "self_ask_query",
+      "action_input": "",
+      "observation": "直接给出最终答案",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 3.805908441543579,
+  "metadata": {
+    "paradigm": "self_ask"
+  }
+}

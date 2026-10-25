@@ -1,0 +1,23 @@
+{
+  "question": "Who is Cornelia (Wife Of Caesar)'s child-in-law?",
+  "answer": "Publius Cornelius Sc",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 4: Quintilia Marta's children are Quintus Caecilius Metellus Piso, Publius Cornelius Scipio Cincinnatus, and Quintus Fabius Maximus.",
+      "action_name": "ircot_search",
+      "action_input": "Thought 4: Quintilia Marta's children are Quintus Caecilius Metellus Piso, Publius Cornelius Scipio Cincinnatus, and Quintus Fabius Maximus.",
+      "observation": "[Search] Results for \"Thought 4: Quintilia Marta's children are Quintus Caecilius Metellus Piso, Publius Cornelius Scipio Cincinnatus, and Quintus Fabius Maximus.\":\n[Doc 1] Caligula: The son of the popular Roman general Germanicus and Augustus's granddaughter Agrippina the Elder, Caligula was born into the first ruling family of the Roman Empire, conventionally known as the Julio-Claudian dynasty.\n\n[Doc 2] Caligula: Germanicus's uncle and adoptive father, Tiberius, succeeded Augustus as emperor of Rome in 14 AD.\n\n[Doc 3] Sigramnus, Count of Hesbaye: They had three children:\nPrevious histories have portrayed Sigramnus as the husband of the daughter of Charles Martel, but this has been largely discredited.\n\n[Doc 4] Guy of Ibelin, seneschal of Cyprus: They had three children:\n\n[Doc 5] Grand Duchess Xenia Alexandrovna of Russia: She married a cousin, Grand Duke Alexander Mikhailovich of Russia, with whom she had seven children.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 96.1058030128479,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

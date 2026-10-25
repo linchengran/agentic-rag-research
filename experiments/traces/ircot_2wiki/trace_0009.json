@@ -1,0 +1,23 @@
+{
+  "question": "Who is the maternal grandfather of Antiochus X Eusebes?",
+  "answer": "a Roman historian named Tigranes II, the Armenian king.",
+  "n_steps": 1,
+  "finished": true,
+  "finish_reason": "final_answer",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Thought 2: Who was the maternal grandfather of Antiochus X Eusebes?",
+      "action_name": "ircot_search",
+      "action_input": "Thought 2: Who was the maternal grandfather of Antiochus X Eusebes?",
+      "observation": "[Search] Results for 'Thought 2: Who was the maternal grandfather of Antiochus X Eusebes?':\n[Doc 1] Antiochus X Eusebes: He was the son of Antiochus IX and perhaps his Egyptian wife Cleopatra IV.\n\n[Doc 2] Antiochus X Eusebes: AntiochusX married his stepmother, Antiochus IX's widow Cleopatra Selene, and had several children with her, including a future king Antiochus XIII.\n\n[Doc 3] Antiochus X Eusebes: Antiochus X Eusebes Philopator (–92 or 88 BC) was a Hellenistic Seleucid monarch who reigned as the King of Syria between 95 BC and 92 BC or 89/88 BC (224 SE (Seleucid year)).\n\n[Doc 4] Antiochus X Eusebes: the ancient Greek historian Appian has AntiochusX defeated by the Armenian king Tigranes II and losing his kingdom; the third century historian Eusebius wrote that AntiochusX was defeated by his cousins and escaped to the Parthians before asking the Romans for help in having him reinstated on the throne.\n\n[Doc 5] Antiochus X Eusebes: Modern scholars prefer the account of Josephus and question practically every aspect of the versions presented by other ancient historians.",
+      "error": ""
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 10.263973236083984,
+  "metadata": {
+    "paradigm": "ircot"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "question": "Where did Prince Gustav Of Thurn And Taxis (1848–1914)'s mother die?",
+  "answer": "Princess Eulalia of Thurn and Taxis",
+  "n_steps": 3,
+  "finished": true,
+  "finish_reason": "finish_action",
+  "steps": [
+    {
+      "step": 1,
+      "thought": "Search for Prince Gustav Of Thurn And Taxes' mother's name will yield the correct information.",
+      "action_name": "search",
+      "action_input": "Prince Gustav Of Thurn And Taxes mother",
+      "observation": "[Search] Results for 'Prince Gustav Of Thurn And Taxes mother':\n[Doc 1] Prince Gustav of Thurn and Taxis (1848–1914): Gustav Otto Maximilian Lamoral Prinz von Thurn und Taxis\", was the sixth child of Maximilian Karl, 6th Prince of Thurn and Taxis and his second wife Princess Mathilde Sophie of Oettingen-Oettingen and Oettingen-Spielberg.\n\n[Doc 2] Prince Gustav of Thurn and Taxis (1848–1914): He was born on 2 February 1848 in Regensburg, Kingdom of Bavaria.\n\n[Doc 3] Princess Eulalia of Thurn and Taxis: She belonged to the Czech branch of the House of Thurn and Taxis.\n\n[Doc 4] Prince Gustav of Thurn and Taxis (1848–1914): Prince \"Gustav\" Otto Maximilian Lamoral of Thurn and Taxis (1848–1914), full German name: \"\n\n[Doc 5] Prince Max Emanuel of Thurn and Taxis: Maria Siegfried Joseph Antonius Ignatius Lamoral of Thurn and Taxis( 1 March 1902, Regensburg, Kingdom of Bavaria – 3 October 1994, Regensburg, Bavaria, Germany) was a German Benedictine and member of the Princely House of Thurn and Taxis.",
+      "error": ""
+    },
+    {
+      "step": 2,
+      "thought": "The mother's name is needed to find her death location. |",
+      "action_name": "search",
+      "action_input": "Princess Eulalia of Thurn and Taxis mother",
+      "observation": "[Search] Results for 'Princess Eulalia of Thurn and Taxis mother':\n[Doc 1] Princess Eulalia of Thurn and Taxis: Princess Eulalia Maria Antoine Eleonore of Thurn and Taxis, also known as Illa, (21 December 1908 - 30 December 1993) was the eldest child of Prince Friedrich Lamoral of Thurn and Taxis and his wife, Princess Eleonore de Ligne.\n\n[Doc 2] Princess Eulalia of Thurn and Taxis: She belonged to the Czech branch of the House of Thurn and Taxis.\n\n[Doc 3] Prince Max Emanuel of Thurn and Taxis: Maria Siegfried Joseph Antonius Ignatius Lamoral of Thurn and Taxis( 1 March 1902, Regensburg, Kingdom of Bavaria – 3 October 1994, Regensburg, Bavaria, Germany) was a German Benedictine and member of the Princely House of Thurn and Taxis.\n\n[Doc 4] Princess Lida of Thurn and Taxis: Lida, Princess Victor of Thurn and Taxis( née Lida Eleanor Nicolls; July 28, 1875 – December 6, 1965), also styled as Princess Lida of Thurn and Taxis, was an American millionairess, socialite, and the wife of Prince Victor of Thurn and Taxis.\n\n[Doc 5] Princess Mathilde Sophie of Oettingen-Oettingen and Oettingen-Spielberg: Through her marriage to Maximilian Karl, 6th Prince of Thurn and Taxis, Mathilde Sophie was also a member of the Princely House of Thurn and Taxis and Princess consort of Thurn and Taxis.",
+      "error": ""
+    },
+    {
+      "step": 3,
+      "thought": "The mother's name is needed to find her death location. |",
+      "action_name": "lookup",
+      "action_input": "Princess Eulalia of Thurn and Taxis mother",
+      "observation": "[Lookup] No previous retrieval context.",
+      "error": "no_context"
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "latency_seconds": 58.64389896392822,
+  "metadata": {
+    "paradigm": "plan_execute",
+    "plan": [
+      "Search for Prince Gustav Of Thurn And Taxes' mother's name",
+      "Search for her death location",
+      "Finish with the shortest answer."
+    ]
+  }
+}
